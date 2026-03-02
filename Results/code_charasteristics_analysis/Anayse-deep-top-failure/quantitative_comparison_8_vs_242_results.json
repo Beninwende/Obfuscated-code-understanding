@@ -1,0 +1,139 @@
+{
+  "methodology_8v242": "Top 8 success (\u226550% consensus) vs all 242 failure (<50% consensus). Mann-Whitney U, two-sided.",
+  "n_success": 8,
+  "n_failure": 242,
+  "metric_comparison": [
+    {
+      "metric": "lines_of_code",
+      "success_mean": 118.25,
+      "success_median": 109.5,
+      "success_std": 58.9425,
+      "failure_mean": 98.7355,
+      "failure_median": 87.5,
+      "failure_std": 58.0437,
+      "U": 1174.5,
+      "p_value": 0.30595542407767395
+    },
+    {
+      "metric": "cyclomatic_complexity_total",
+      "success_mean": 34.25,
+      "success_median": 33.0,
+      "success_std": 10.306,
+      "failure_mean": 33.2355,
+      "failure_median": 32.0,
+      "failure_std": 16.1571,
+      "U": 1043.0,
+      "p_value": 0.7111114409517267
+    },
+    {
+      "metric": "cyclomatic_complexity_max",
+      "success_mean": 15.375,
+      "success_median": 13.0,
+      "success_std": 5.3968,
+      "failure_mean": 17.2893,
+      "failure_median": 15.0,
+      "failure_std": 9.7064,
+      "U": 870.5,
+      "p_value": 0.6261134619019617
+    },
+    {
+      "metric": "density",
+      "success_mean": 0.3244,
+      "success_median": 0.298,
+      "success_std": 0.1164,
+      "failure_mean": 0.3834,
+      "failure_median": 0.3247,
+      "failure_std": 0.1716,
+      "U": 703.5,
+      "p_value": 0.1895444140427368
+    },
+    {
+      "metric": "shannon_entropy",
+      "success_mean": 3.9686,
+      "success_median": 4.0398,
+      "success_std": 0.5644,
+      "failure_mean": 4.2831,
+      "failure_median": 4.3851,
+      "failure_std": 0.5699,
+      "U": 684.0,
+      "p_value": 0.16173287985280047
+    },
+    {
+      "metric": "function_count",
+      "success_mean": 8,
+      "success_median": 9.5,
+      "success_std": 4.504,
+      "failure_mean": 7.2521,
+      "failure_median": 8.0,
+      "failure_std": 6.5164,
+      "U": 1054.5,
+      "p_value": 0.6574884664068847
+    },
+    {
+      "metric": "max_nesting_depth",
+      "success_mean": 4.875,
+      "success_median": 5.0,
+      "success_std": 1.2464,
+      "failure_mean": 5.0041,
+      "failure_median": 5.0,
+      "failure_std": 1.3311,
+      "U": 927.0,
+      "p_value": 0.8339515506107942
+    },
+    {
+      "metric": "has_recursion",
+      "success_mean": 0.75,
+      "success_median": 1.0,
+      "success_std": 0.4629,
+      "failure_mean": 0.5455,
+      "failure_median": 1.0,
+      "failure_std": 0.499,
+      "U": 1166.0,
+      "p_value": 0.2545152212341357
+    },
+    {
+      "metric": "magic_number_count",
+      "success_mean": 3.875,
+      "success_median": 4.0,
+      "success_std": 1.9594,
+      "failure_mean": 6.3512,
+      "failure_median": 4.0,
+      "failure_std": 11.9089,
+      "U": 967.0,
+      "p_value": 0.9979950669676011
+    },
+    {
+      "metric": "has_custom_io",
+      "success_mean": 0.75,
+      "success_median": 1.0,
+      "success_std": 0.4629,
+      "failure_mean": 0.4421,
+      "failure_median": 0.0,
+      "failure_std": 0.4977,
+      "U": 1266.0,
+      "p_value": 0.08634498576950135
+    },
+    {
+      "metric": "non_ascii_identifier_count",
+      "success_mean": 0,
+      "success_median": 0.0,
+      "success_std": 0.0,
+      "failure_mean": 0,
+      "failure_median": 0.0,
+      "failure_std": 0.0,
+      "U": 968.0,
+      "p_value": 1.0
+    },
+    {
+      "metric": "static_field_count",
+      "success_mean": 0.875,
+      "success_median": 1.0,
+      "success_std": 0.991,
+      "failure_mean": 0.6612,
+      "failure_median": 0.0,
+      "failure_std": 1.1345,
+      "U": 1165.0,
+      "p_value": 0.26322878662743454
+    }
+  ]
+}

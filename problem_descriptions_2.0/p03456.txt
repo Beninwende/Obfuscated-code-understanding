@@ -1,0 +1,15 @@
+**Exercise Title: Check for Perfect Square Concatenation**
+
+**Problem Statement:**
+
+You are given two positive integers, represented as strings. Your task is to check if the concatenation of these two integers results in a perfect square number. A perfect square is an integer that is the square of an integer. The concatenation of the two integers should be treated as a single integer.
+
+**Requirements:**
+
+1. Write a function that takes two string inputs, representing non-negative integers, and concatenates them in the given order.
+2. Convert the concatenated string into an integer.
+3. Determine if the resulting integer is a perfect square.
+4. If it is a perfect square, return "Yes". Otherwise, return "No".
+5. Ensure that the program handles numbers within the range of typical integer limits securely.
+
+Focus on understanding and implementing string manipulation, type conversion, and basic mathematical operations to solve this problem.

@@ -1,0 +1,26 @@
+{
+  "methodology": "HL = task_type in {sort, count, unique, tree}. LL = task_type in {digit, string, replace, compare}. Other excluded from HL vs LL test.",
+  "n_HL": 80,
+  "n_LL": 49,
+  "n_Other": 121,
+  "mu_HL": 0.35,
+  "mu_LL": 0.3263,
+  "mu_Other": 0.3195,
+  "delta_success": 0.0237,
+  "U": 2208.5,
+  "p_value_one_sided": 0.11437045705073057,
+  "p_value_two_sided": 0.22874091410146113,
+  "cohens_d": 0.2367,
+  "HL_task_types": [
+    "sort",
+    "tree",
+    "unique",
+    "count"
+  ],
+  "LL_task_types": [
+    "digit",
+    "replace",
+    "string",
+    "compare"
+  ]
+}

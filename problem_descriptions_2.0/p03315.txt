@@ -1,0 +1,23 @@
+**Exercise Title: Counting Changes in a Sequence**
+
+**Problem Statement:**
+
+You are given a sequence of operations represented by a string of characters. Each operation either increases or decreases a counter, initially set to zero. Your task is to determine the final value of the counter after performing all the operations in the sequence.
+
+**Instructions:**
+
+1. The string representing the sequence of operations will be composed of only the characters '+' and '-'. These represent operations on the counter as follows:
+   - A '+' sign indicates an increment operation, increasing the counter by 1.
+   - A '-' sign indicates a decrement operation, decreasing the counter by 1.
+
+2. You need to process each character in the given string sequentially, starting from the first character to the last.
+
+3. Your task is to compute and print the final integer value of the counter after applying all operations specified in the input string.
+
+**Requirements:**
+
+- The length of the string can be any positive integer.
+- The input will contain only valid characters ('+' and '-') with no spaces or other characters.
+- Implement a function that reads the input string and outputs the final value of the counter.
+
+Remember, the initial value of the counter is zero, and you will adjust it based on each character in the sequence. Consider efficient ways to traverse the string and update the counter based on the operations encountered.

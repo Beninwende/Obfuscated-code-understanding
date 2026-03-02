@@ -1,0 +1,20 @@
+**Exercise Title: Basic Integer Division and Remainder Calculator**
+
+**Problem Statement:**
+
+Create a program that takes two positive integers and performs the following calculations:
+
+1. Calculate the result of dividing the first integer by the second integer as an integer (quotient).
+2. Calculate the remainder when the first integer is divided by the second integer.
+3. Calculate the division of the two integers as a floating-point number with a precision of up to five decimal places.
+
+The program should read two integers from the input and output the results for each calculation. Ensure the floating-point division result maintains a precision such that the absolute error does not exceed 10^-5.
+
+**Requirements:**
+
+- The program must accept two positive integers as input.
+- Output the integer division result, the remainder, and the floating-point division result on a single line, separated by spaces.
+- Keep the floating-point result formatted to exactly five decimal places.
+- Ensure that the input values will not cause division by zero (i.e., the second integer will always be non-zero).
+
+This exercise helps in understanding basic arithmetic operations, type casting, and string formatting in output. Focus on ensuring correctness in calculations and precision in floating-point operations.

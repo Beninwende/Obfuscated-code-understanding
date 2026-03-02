@@ -1,0 +1,15 @@
+**Title: Calculate Total Weight of Packages Delivered**
+
+**Problem Statement:**
+
+You are working with a delivery company that uses a system to track the total weight of packages delivered. Every package has a specific weight, and deliveries are made at specific regular intervals. Your task is to determine the total weight of all packages delivered within a certain period after the delivery process begins.
+
+The delivery system processes packages as follows:
+1. A package of weight `W` is delivered at regular intervals of `I` minutes after the delivery process is activated.
+2. The delivery happens at I minutes, 2I minutes, 3I minutes, and so on.
+3. Find the total weight of all packages delivered within the first `D` minutes after the delivery process starts.
+
+**Requirements:**
+- Your function should calculate the sum of the weights of all packages delivered within the specified `D` minutes period.
+- Consider deliveries that happen exactly at the `D` minute mark.
+- Input values are positive integers.

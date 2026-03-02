@@ -1,0 +1,15 @@
+### Finding the Maximum Difference in a List
+
+#### Problem Statement
+
+You are given a list of integers representing different values at various points in time. Your task is to determine the maximum difference between any two values in the list, such that the smaller value occurs before the larger value in the list. This difference indicates the most significant increase between two points while maintaining the order of appearance.
+
+#### Requirements
+
+1. Write a function that accepts a list of integers. The list will have at least two integers and can have up to 200,000 elements. Each element will be a positive integer up to 1 billion.
+
+2. Your function should efficiently compute and return the maximum possible difference between two values in the list, ensuring that the smaller value appears earlier than the larger value in the list.
+
+3. If no positive difference exists (i.e., if the list is strictly decreasing), your function should return -1, indicating that no valid increase can be found.
+
+4. Ensure your function performs efficiently to handle the upper limit constraints of input size.

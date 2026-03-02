@@ -1,0 +1,26 @@
+### Exercise Title: Determine the Format of a 4-Digit String
+
+#### Problem Statement
+
+You have a string `d1d2d3d4` representing four digits. Your task is to determine the possible formats that this sequence of digits could represent. The sequence must satisfy one of the following conditions:
+
+1. **Format A**: 
+   - `d1d2` represents a year suffix.
+   - `d3d4` represents a valid month (01 to 12).
+
+2. **Format B**:
+   - `d3d4` represents a year suffix.
+   - `d1d2` represents a valid month (01 to 12).
+
+Your goal is to identify if the sequence is valid in **Format A** only, **Format B** only, both formats, or neither. Return the following strings based on the scenarios:
+- Return "Format A" if only the first format is valid.
+- Return "Format B" if only the second format is valid.
+- Return "Both" if both formats are valid.
+- Return "None" if neither format is valid.
+
+#### Requirements
+- Implement a function that takes a single string argument of length four.
+- The function should output one of the strings: "Format A", "Format B", "Both", or "None".
+- Ensure the solution handles all possible cases appropriately based on the constraints given.
+
+Focus on understanding string manipulation, conditional logic, and numeric evaluation within the constraints of a 4-character string.

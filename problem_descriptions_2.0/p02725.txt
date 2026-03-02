@@ -1,0 +1,28 @@
+### Exercise Title: Calculate Minimum Travel Distance
+
+#### Problem Statement:
+
+You are given a list of locations positioned on a circular track. The circular track has a constant perimeter. Each location is defined by its distance from a fixed starting point on the track, measured in a clockwise direction. Your task is to determine the minimum total travel distance required to visit all given locations, starting and ending at any location.
+
+To clarify:
+- The track is circular, which means if you travel beyond the perimeter, you continue from the starting point.
+- The travel path should cover all locations in any sequence, starting and ending at any one of the locations.
+- You must consider the shortest possible travel path due to the circular nature of the track.
+
+#### Requirements:
+
+1. Implement a function that accepts two arguments:
+   - An integer representing the perimeter of the circular track.
+   - A list of integers representing distances from the starting point for each location on the track.
+   
+2. The function should calculate and return the minimum travel distance required to cover all the locations once, accounting for the circular nature of the track.
+
+3. Ensure that the function efficiently handles input constraints, considering the potentially large size of input values.
+
+4. Assume all inputs are integers and the distances for each location are distinct and sorted in ascending order, ranging from zero to less than the perimeter value.
+
+Key aspects to consider:
+- Optimize for the shortest travel distance.
+- Consider boundary conditions and the circular property in your calculation.
+
+Implement the solution focusing on clear logic and handling circular properties of the track efficiently.

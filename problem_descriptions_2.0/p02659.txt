@@ -1,0 +1,21 @@
+**Exercise Title: Basic Arithmetic Operations with Type Conversion**
+
+**Problem Statement:**
+
+Create a function that takes two inputs: an integer and a floating-point number with two decimal places. The function should multiply these two numbers, remove the fractional part of the result, and return the result as an integer.
+
+**Requirements:**
+
+1. Implement a function that accepts an integer and a floating-point number with exactly two decimal digits.
+
+2. Multiply the integer by the floating-point number.
+
+3. Truncate the fractional part of the resulting product.
+
+4. Return the integer part of the truncated result.
+
+5. Ensure that the inputs and result adhere to valid data types, specifically converting between floating-point and integer formats where necessary.
+
+6. Assume that the integer should be within the range of typical integer values, and the floating-point number should be a positive number less than 10.
+
+7. Focus on handling the conversion and truncation process correctly without utilizing any pre-defined rounding functions. Your solution should manually handle the removal of the fractional component after multiplication.

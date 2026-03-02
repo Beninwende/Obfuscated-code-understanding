@@ -1,0 +1,1235 @@
+{
+  "by_failure_type_and_subtype": [
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 26
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Empty_or_template",
+      "count": 5
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Functional_inaccuracy",
+      "count": 3
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Hallucination_unrelated",
+      "count": 22
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Minimal_code_understanding",
+      "count": 1
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Refusal_or_meta",
+      "count": 1
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "failure_type": "Comment_Dependency",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 5
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 52
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Empty_or_template",
+      "count": 29
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 52
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 121
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 5
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 24
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Refusal_or_meta",
+      "count": 1
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Semantic_drift",
+      "count": 20
+    },
+    {
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 25
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 4
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 23
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Empty_or_template",
+      "count": 30
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 6
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 97
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 4
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 801
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Semantic_drift",
+      "count": 3
+    },
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 8
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 5
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 101
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Creative_or_offtask",
+      "count": 1
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Empty_or_template",
+      "count": 31
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 38
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 109
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 5
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 7
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Semantic_drift",
+      "count": 11
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 42
+    }
+  ],
+  "by_model_failure_type_and_subtype": [
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 2
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 2
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Semantic_drift",
+      "count": 2
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 4
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 86
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 6
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 7
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 4
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 9
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 4
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Semantic_drift",
+      "count": 2
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 4
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 7
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 4
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 97
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 2
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 8
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 6
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 9
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT3.5",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 11
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 3
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 78
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 7
+    },
+    {
+      "model": "Dataset_GPT4o",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 5
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 2
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 3
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 3
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 41
+    },
+    {
+      "model": "Dataset_Gemini",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Hallucination_unrelated",
+      "count": 12
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 25
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 23
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 2
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_LlamaVL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 22
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 1
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 44
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_O4-mini",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 3
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 13
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Hallucination_unrelated",
+      "count": 2
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Refusal_or_meta",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 14
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 10
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 32
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 16
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Refusal_or_meta",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 7
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Empty_or_template",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 6
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 99
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 15
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Empty_or_template",
+      "count": 5
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 23
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 6
+    },
+    {
+      "model": "Dataset_Qwen3VL",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 8
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Empty_or_template",
+      "count": 5
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Hallucination_unrelated",
+      "count": 6
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Minimal_code_understanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 4
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Empty_or_template",
+      "count": 28
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 4
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 13
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Empty_or_template",
+      "count": 29
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 15
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 19
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 7
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Empty_or_template",
+      "count": 24
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 12
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 1
+    },
+    {
+      "model": "Dataset_codellama",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 2
+    },
+    {
+      "model": "Dataset_deepseek-r1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 1
+    },
+    {
+      "model": "Dataset_deepseek-r1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 51
+    },
+    {
+      "model": "Dataset_deepseek-r1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 2
+    },
+    {
+      "model": "Dataset_deepseek-r1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_deepseek-r1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 5
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 15
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 3
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 4
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 8
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 15
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 80
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 24
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 7
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 7
+    },
+    {
+      "model": "Dataset_mistral",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 1
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 3
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 73
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 7
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 2
+    },
+    {
+      "model": "Dataset_qwencoder32B",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 6
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 5
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Empty_or_template",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 24
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 23
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 3
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Semantic_drift",
+      "count": 15
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 4
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 9
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 126
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Semantic_drift",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_confusion",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 20
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Creative_or_offtask",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Functional_inaccuracy",
+      "count": 13
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 21
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Minimal_code_understanding",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Semantic_drift",
+      "count": 10
+    },
+    {
+      "model": "Dataset_starchat",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 10
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Hallucination_unrelated",
+      "count": 2
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Comment_Dependency",
+      "subtype": "Structural_description_only",
+      "count": 1
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 11
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Dead_Code_Failure",
+      "subtype": "Structural_description_only",
+      "count": 4
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 10
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 5
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Empty_or_template",
+      "count": 2
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Hallucination_unrelated",
+      "count": 10
+    },
+    {
+      "model": "Dataset_starcoder",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Structural_description_only",
+      "count": 3
+    }
+  ]
+}

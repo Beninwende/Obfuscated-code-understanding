@@ -1,0 +1,16 @@
+### Exercise: Character Case Toggler
+
+**Objective:**  
+Create a program that alternates the case of each alphabetical character in a given string. Uppercase letters should be converted to lowercase, and lowercase letters should be converted to uppercase. Non-alphabetical characters should remain unchanged.
+
+**Problem Statement:**  
+You need to write a function which takes a string as input and returns the string with toggled cases for each alphabetical character. This means converting uppercase letters to their respective lowercase counterparts and vice versa. The functionality should only affect alphabetical characters, leaving all numbers, punctuation marks, spaces, and other symbols unchanged. 
+
+**Requirements:**  
+1. Define a function that accepts a single string parameter.
+2. Identify each character to determine if it is an uppercase or lowercase alphabetical character.
+3. Convert uppercase characters to lowercase, and lowercase characters to uppercase.
+4. Leave all non-alphabetical characters unmodified.
+5. Return the modified string. 
+
+The function should efficiently handle strings up to a maximum length of 1200 characters. Ensure your solution is optimized for performance, considering the constraints and character operations involved.

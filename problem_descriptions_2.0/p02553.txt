@@ -1,0 +1,19 @@
+**Title: Find the Largest Product**
+
+**Problem Statement:**
+
+You are given four integer values: `p`, `q`, `r`, and `s` that define two ranges. Your task is to determine the largest possible product `A * B` where `A` is an integer from the first range `[p, q]` and `B` is an integer from the second range `[r, s]`. You need to find and return this maximum product.
+
+**Constraints:**
+
+- The values of `p`, `q`, `r`, and `s` are integers and they will satisfy the conditions `-10^9 ≤ p ≤ q ≤ 10^9` and `-10^9 ≤ r ≤ s ≤ 10^9`.
+- All calculations must account for potentially high positive and negative range boundaries that may lead to significant product values.
+
+**Requirements:**
+
+- Implement a function that accepts four integer inputs representing the bounds of the two ranges.
+- Compute the highest possible product of integers selected from each range using any permissible value in the defined range.
+- The function should efficiently determine the greatest product and output this maximum value.
+- Ensure that your function handles large integer arithmetic seamlessly, given the constraints provided.
+
+**Note:** Focus on logical thinking and computational efficiency to solve this problem, considering all potential combinations of numbers from each range that might lead to different product values.

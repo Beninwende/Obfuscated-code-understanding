@@ -1,0 +1,23 @@
+**Exercise Title: Validating String Pattern**
+
+**Problem Statement:**
+
+You need to write a function that determines if a given string follows a particular pattern. The pattern consists of a combination of two parts. The format of the pattern is defined by two integers, representing the lengths of the two parts, and an additional character separating them.
+
+Your task is to verify whether a given string adheres to this pattern by ensuring the separation and length constraints are satisfied. 
+
+**Requirements:**
+
+1. Create a function that receives three parameters: two integers representing the lengths of the two parts (`part1Length` and `part2Length`), and a string `inputString`.
+
+2. The input string should follow the following conditions:
+   - The total length of the string should be equal to `part1Length + part2Length + 1`.
+   - There must be a specific separator character located between the two parts.
+   - The separator character is always at the `(part1Length + 1)`-th position in the string.
+   - All other characters in the string, excluding the separator, should be digits ('0'-'9').
+
+3. Output should be a boolean value:
+   - Return `True` if the string follows the given pattern.
+   - Return `False` if the string does not follow the pattern.
+
+Keep in mind to handle possible edge cases that might arise from the constraints provided. Implement this in a simple and clear manner to adhere to a beginner-friendly approach.

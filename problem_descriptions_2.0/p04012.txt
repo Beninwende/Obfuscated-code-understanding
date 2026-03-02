@@ -1,0 +1,18 @@
+**Exercise Title: Checking Even Frequency in a Set of Characters**
+
+**Problem Statement:**
+
+You are given a string consisting of lowercase letters. Your task is to write a function that determines whether each distinct character in the string appears an even number of times. This is useful for basic string manipulation and understanding how to work with character frequencies.
+
+More formally, we say that a string has an "even frequency" if every character present in the string occurs an even number of times. Note that a character that does not appear in the string is also considered to have an even frequency (specifically, zero, which is even).
+
+**Requirements:**
+
+1. Implement a function that accepts a single string as input.
+2. Analyze the frequency of each character in the string.
+3. Determine whether the frequency of each character is even.
+4. If every character appears an even number of times, the function should return a specified result indicating that the string meets the condition. Otherwise, the function should return a different specified result indicating that it does not.
+5. Focus on efficient character counting technique and how to handle conditions for checking even frequencies.
+6. Ensure the solution handles all lowercase letters and does not include assumptions about non-alphabetic inputs.
+
+This exercise aims to reinforce understanding of basic iteration, array usage, and logic application in programming.

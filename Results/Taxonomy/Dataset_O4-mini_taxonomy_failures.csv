@@ -1,0 +1,400 @@
+"problem_id","failure_type","pattern","original_with_comments_score","with_without_comments_score","without_var_renaming_score","without_dead_code_score","without_encryption_score","score_drop","example_1_label","example_1_text","example_2_label","example_2_text"
+"p02640","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.7,0.4,0.5,"without_comments",":Title: Heads and Legs Problem Solver  
+Main Goal: Reads the total count of animals and total legs, computes how many 2-legged and 4-legged creatures would be needed, checks that these counts are non-negative integers matching the inputs, and prints ""Yes"" if valid or ""No"" otherwise.:","encryption","Title: Encrypted Animal-Leg Solver
+
+Main goal: This obfuscated Java program reads two integers X (number of animals) and Y (total legs), then solves the classic system:
+  C + T = X  
+  2·C + 4·T = Y  
+for C (chickens) and T (rabbits). It uses a small integer array to store constants (2 and 4) and an encrypted string array for output messages. Based on whether the solution is valid, negative or non-integer, it prints one of several hidden messages that were decrypted at startup using DES, Blowfish or XOR routines."
+"p02682","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.8,0.9,0.25,0.9,0.9,0.65,"without_comments","Title: Maximum Sum Selection from Counts of 1, 0, and –1  
+Main goal: Read the available counts of 1s, 0s, and –1s and a selection size k, then compute and print the highest possible sum by choosing up to k elements—prioritizing all 1s, then 0s, and finally –1s.","variable_renaming","Title: Calculating the Difference Between “A” and “C” Task Solvers
+
+Main Goal:  
+Read four non-negative integers A, B, C, and K (with 1 ≤ K ≤ A+B+C and A+B+C ≤ 2·10⁹). Imagine K participants who each attempt tasks in the order A, then B, then C: the first min(A,K) participants solve A, the next min(B, K−A) solve B, and the remaining min(C, K−A−B) solve C. Output the number of A-solvers minus the number of C-solvers."
+"p03371","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.5,0.6499999999999999,0.3,0.3,0.6499999999999999,0.3499999999999999,"without_comments","Title: Maximizing Profit from Selling Red and Blue Items with a Bundle Discount  
+Main goal: Given unit prices a (red), b (blue), a bundle price c per item when sold in red-blue pairs, and quantities x (red), y (blue), compute the maximum revenue by choosing optimally between selling items individually or as discounted pairs.  
+The program reads a, b, c, x, y; determines the number of pairs (min(x,y)) and leftover items; compares 2·c against a+b to decide whether to use the bundle price or individual prices for both pairs and leftovers; then outputs the total optimal revenue.","variable_renaming","Title: Calculation of Total Work Output or Cost for Two Concurrent Processes
+
+Main goal: This code reads five integers—two processing rates (a and b), a threshold rate (c), and two time points (t1 and t2)—and computes the total “work” (or cost) produced by the faster of the two processes over the interval from min(t1,t2) to max(t1,t2). It splits the interval into two phases: one where both processes may contribute up to twice the threshold, and another where only the faster process contributes up to the threshold limit. The final result is the sum of work done in both phases, printed as an integer."
+"p03371","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.5,0.6499999999999999,0.3,0.3,0.6499999999999999,0.3499999999999999,"without_comments","Title: Maximizing Profit from Selling Red and Blue Items with a Bundle Discount  
+Main goal: Given unit prices a (red), b (blue), a bundle price c per item when sold in red-blue pairs, and quantities x (red), y (blue), compute the maximum revenue by choosing optimally between selling items individually or as discounted pairs.  
+The program reads a, b, c, x, y; determines the number of pairs (min(x,y)) and leftover items; compares 2·c against a+b to decide whether to use the bundle price or individual prices for both pairs and leftovers; then outputs the total optimal revenue.","dead_code","Title: One-Dimensional Travel Cost Calculator  
+Main goal: Computes the minimal total cost to go from position x to y (on a number line or building floors), given step‐costs a (forward) and b (backward) and a fixed “teleport/elevator” cost c. The code splits the trip into two segments—0 to the nearer of x and y, and then between x and y—and for each unit chooses the cheaper of walking versus teleporting."
+"p02910","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.75,0.8,0.9,0.3,0.45,"without_comments","Title: Alternating Direction String Validator with Fast I/O  
+Main goal: Read a string consisting of 'L' and 'R' using a custom fast reader, then check that at every even index the character is not 'L' (i.e., it must be 'R') and at every odd index it is not 'R' (i.e., it must be 'L'). Print ""Yes"" if the string strictly alternates starting with 'R', otherwise print ""No"".","encryption","Title: Parity-Based Character Detector with Encrypted Messages  
+Main goal: This obfuscated program reads a single string from standard input, scans its characters at even (0-based) positions for 'L' and at odd positions for 'R', and, upon the first match, decrypts and prints a corresponding hidden message (using MD5-keyed Blowfish or DES). If neither pattern is found, it decrypts and prints a default fallback message."
+"p02723","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.8,0.45,0.45,"without_comments","Title: Check Matching Character Pairs in a String  
+Goal: This Java program reads a single string from standard input, then checks whether its 3rd and 4th characters are the same and its 5th and 6th characters are the same. It prints ""Yes"" if both conditions hold, otherwise ""No"", using custom fast I/O helper classes.","encryption","Title: Obfuscated Conditional String Checker with Encrypted Outputs  
+Main goal: Reads a single input string, tests whether the first two characters are equal and simultaneously the third and fourth characters are equal, then prints one of two hard-coded messages that are stored in the code as Blowfish-encrypted, Base64-encoded strings."
+"p02848","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8500000000000001,0.9,0.3,0.6000000000000001,"without_comments","Title: Caesar Cipher for Uppercase Strings
+Main goal: Reads an integer shift value n and an uppercase string, converts each letter to its alphabet index (A=0…Z=25), adds the shift modulo 26, then converts back to letters—effectively performing a Caesar cipher encryption.","encryption","Title: Obfuscated Caesar Cipher Implementation
+
+Main Goal:
+This code implements a Caesar‐style shift cipher over a custom, 26‐symbol alphabet that is stored in an obfuscated form. It reads an integer shift value n and a text string s, maps each character of s to its index in the hidden alphabet, adds the shift (mod 26), and then prints the resulting shifted characters.
+
+Key Components:
+1. IIl(): Builds the integer array l[] via a series of XOR/bitwise operations to hide literal constants (e.g. 0,1,…,26).  
+2. ll(): Fills the string array I[] by decrypting hard‐coded Base64 blobs using three helper methods:  
+   - l(obj,key): Simple XOR cipher after Base64 decode.  
+   - I(obj,key): DES decryption with an MD5‐derived key.  
+   - Il(obj,key): Blowfish decryption with an MD5‐derived key.  
+3. main():  
+   a. Reads the shift amount n and input string s.  
+   b. For each character in s, finds its index by comparing to every I[i] entry.  
+   c. Adds the shift n modulo 26.  
+   d. Outputs the encrypted character by indexing back into I[]."
+"p03360","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.9,0.9,0.9,0.3,0.6000000000000001,"without_comments","Title: Repeatedly Doubling the Largest of Three Numbers and Summing
+
+Main Goal: The program reads three integers (each from 1 to 50) and a repetition count K (1 to 10). It then performs K iterations in which it identifies the largest of the three values, doubles it, and finally outputs the sum of the three resulting numbers.","encryption","Title: Obfuscated Input‐Validation and Doubling Routine
+
+Main Goal: The code reads two integers X and K (checking 1≤X≤50 and 1≤K≤10), then multiplies X by 2 exactly (K–2) times (no multiplication if K<2), adds 2, and prints the result. Internally it uses an obfuscated int[] l for all constants and a “kokuban” array of length 3 to store and update X."
+"p02687","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.9,0.8,0.7,0.3,0.6000000000000001,"without_comments","Title: ABC/ARC String Toggle
+Main goal: Reads a single string from standard input and prints ""ARC"" if the input equals ""ABC""; otherwise prints ""ABC"". It uses a custom fast InputReader class for token parsing.","encryption","Title: Obfuscated CLI Password Checker
+
+Main Goal: Read a string from standard input, compare it with a hidden secret token, and print either a success message or a failure message—both of which are stored in encrypted form and decrypted at runtime.
+
+Description: 
+1. The static initializer sets up three encrypted strings in array `l`:
+   - `l[0]`: the secret token (DES-encrypted, then Base64-encoded, keyed by “Ftpsf”).
+   - `l[1]`: the success response (also DES-encrypted/Base64, keyed by “AnuXn”).
+   - `l[2]`: the failure response (Base64-encoded then XOR-encrypted with “zGoze”).
+2. Two decryption methods:
+   - `I(String, String)`: performs DES decryption using an MD5–derived key.
+   - `Il(String, String)`: Base64-decodes and then XORs with the provided key.
+3. A custom `InputReader` reads tokens from standard input.
+4. In `main()`, the program reads one string, checks `if (input.equals(l[0]))`, and prints `l[1]` on match, otherwise prints `l[2]`.
+
+Effectively, it’s a simple password check with all sensitive strings hidden via lightweight obfuscation."
+"p02731","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.2,0.75,0.8,0.3,0.6499999999999999,0.45,"without_comments","Title: Java Grid-Processing Utility with Cube-Volume Calculation
+
+Main Goal: The class defines utility methods to read input and a function kMarsh() that, given an n×m character grid with ‘x’ as blocked cells, computes the maximum perimeter of an empty-axis-aligned rectangle that can be formed without touching any ‘x’. However, the actual main() method currently ignores kMarsh() and simply reads a double l from input, divides it by 3, cubes the result, and prints that value.
+
+Key Functions:
+• cin() and split() – buffered integer readers.  
+• kMarsh(String[] grid) – transforms the grid to a char matrix, precomputes the next obstacle row for each column and row, builds a 3D boolean table to test empty horizontal spans, then searches all pairs of empty cells (i,j)→(i,k) to find the largest unobstructed rectangle’s perimeter.  
+• main() – reads a double l, computes (l/3)^3, and prints it; it does not invoke kMarsh().","dead_code","Title: Cube Volume Calculator
+
+Main goal: This program reads a single real number l from standard input, computes (l/3)³, and prints the result. All other methods (cin, split, kMarsh, etc.) are unused remnants and do not affect the output."
+"p03474","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.9,0.9,0.35,0.45000000000000007,"without_comments","Title: Hyphenated Number Format Validator  
+Main Goal: Reads two integers A and B and a string S, then checks if S consists of exactly A digits, followed by a hyphen, followed by B digits. Prints “Yes” if the format is correct, otherwise prints “No.”","encryption","Title: Obfuscated String Pattern Validator with Encrypted Messages  
+Main Goal: Decrypt two hidden messages at startup, then read integers A, B and a string S, verify that S[A] matches a target character and that both the A-prefix and the B-suffix of S contain only allowed characters. Finally, print one of the two decrypted messages based on whether both checks pass."
+"p02420","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.45,0.7,0.35,0.7,0.5,0.35,"without_comments","Title: Sequential Card-Cut Shuffler
+
+Main Goal:
+This program reads an initial sequence of “cards” (represented as characters) and applies a series of cut (“rotate”) operations to it. Each cut is defined by an integer offset, and the code alternates between two arrays to perform the rotations without overwriting data. After all specified cuts, it outputs the final card order.","variable_renaming","Title: Cyclic String Rotation Processor
+
+Main goal: Continuously read input strings (terminating on “–”), then for each string apply a user-specified number of left-cyclic rotations by successive shift values, and finally output the rotated result."
+"p02958","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.7,0.8,0.8,0.3,0.39999999999999997,"without_comments",":Title: Check Sortability with a Single Subarray Reversal  
+Main goal: Determine whether an integer sequence can be made non-decreasing by reversing at most one contiguous segment. The code reads N and the array, finds up to two “descent” positions where p[i] > p[i+1], and then applies boundary checks for 0, 1, or 2 descents to decide if a single reversal suffices, outputting “YES” or “NO.”:","encryption","Title: Obfuscated Array Descent Analyzer
+
+Main goal: This program reads an integer N and a sequence of N numbers, counts the “descents” (positions where an element is greater than its successor), and based on that count (zero, one, two, or more) and the relative positions of the descents, selects and prints one of several pre-defined messages. Those messages are stored in encrypted/obfuscated form in static arrays and decrypted at class initialization time using XOR-with-key, DES, and Blowfish routines."
+"p02409","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.7,0.8,0.75,0.25,0.44999999999999996,"without_comments","Title: Elevator Usage Log Aggregator
+
+Main Goal: To read a series of usage records for four elevators—each record specifying elevator number, floor, time slot, and passenger count—and to accumulate and display a matrix of total passengers for each elevator by floor (3 floors) and time slot (10 slots).
+
+Description: 
+1. Reads an integer a indicating the number of records.
+2. For each record, parses elevator ID (1–4), floor index (1–3), time slot index (1–10), and passenger count.
+3. Validates indices and adds the passenger count into one of four 3×10 matrices (b1–b4), each matrix representing an elevator.
+4. After processing all records, prints each elevator’s 3×10 grid of accumulated counts, separating elevators with a line of “####################”.","encryption","Title: Obfuscated Java Program for Aggregating and Printing 2D Tables
+
+Main Goal:
+This code reads an integer N and then N lines, each containing four numbers (table ID, row index, column index, value) separated by an obfuscated delimiter. It maintains four separate 3×10 integer matrices (b1 through b4). For each input line, it decrements the row and column indices by one, selects the proper matrix based on the table ID (1–4), and adds the given value to that cell. After processing all entries, it prints out the first three matrices row by row, using further obfuscated separator strings between them.
+
+Key Functions:
+• ll(): Builds an integer array of constants (dimensions, offsets, loop bounds) via bitwise tricks.  
+• l(String, String): Base64-decodes its first argument then XOR-decrypts it with the second argument’s characters.  
+• I(String, String): Base64-decodes its first argument then DES-decrypts it under an MD5-derived key from the second argument.  
+• Il(): Uses l(…) and I(…) to populate a string array I[] with runtime‐decoded delimiters and separators.  
+• main():  
+  – Reads N.  
+  – For each of N lines: splits on I[0], parses four integers, adjusts indices, and updates one of b1–b4.  
+  – Iterates through tables 1 to 3, printing each 3×10 matrix with spaces and using I[1..3] as separators."
+"p03059","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.25,0.8,0.45,0.6,0.7,0.35000000000000003,"without_comments","Title: Interval-Based Accumulation Calculator
+
+Main goal: This program reads three integers—a (interval length), b (value per interval), and t (total time)—then counts how many a-length intervals fit within t (using a small float buffer), multiplies that count by b, and prints the resulting sum.","variable_renaming","Title: Fast Input and Stepwise Summation
+
+Main goal: This code uses a custom FastScanner to read three integers a, b, and c. It then simulates stepping by adding a repeatedly (as floats) until the sum exceeds c + 0.5, adding b to a running total on each step. Finally, it prints the accumulated total."
+"p02582","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.8,0.8,0.5,0.25,0.55,"without_comments","Title: Counting 'R' Occurrences in a Three-Character String  
+Main Goal: Read a three-letter input of 'R' and 'S' characters, count how many times 'R' appears (0–3), and print that count.","encryption","Title: Obfuscated Character‐Pattern Inspector
+
+Main goal: This code reads a single word from standard input, then—using a set of very obfuscated constants—checks the characters at indices 8, 1, and 2 to see whether each is 'R' (ASCII 82) or 'Q' (ASCII 81). Depending on which combination of R’s and Q’s appears, it prints one of four integers (1, 2, 3, or 8)."
+"p02392","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.9,0.15000000000000002,0.75,"without_comments","Title: Three-Number Order Checker  
+Main goal: Read three integers and output ""Yes"" if they form a strictly increasing sequence (a < b < c), otherwise output ""No"".","encryption","Title: Comparison-Based Message Printer with Encrypted Messages
+
+Main Goal: This Java program reads three integers from standard input, compares them in nine possible ways (e.g., ab=c, a==b==c, etc.), and prints one of nine secret messages. The messages are stored in Base64‐encoded form and encrypted either via a simple XOR routine, DES, or Blowfish. At startup it initializes index constants (method IIl), decrypts all nine messages into a string array (method ll), and then the main method selects and prints the correct decrypted message based on the input comparison.
+
+Key Functions:
+- l(obj, key): Base64‐decode then XOR‐decrypts the string with the given key.  
+- I(obj, key): DES‐decrypts the Base64‐decoded data using an MD5‐derived key.  
+- Il(obj, key): Blowfish‐decrypts the Base64‐decoded data using an MD5‐derived key.  
+- IIl(): Sets up integer constants used as array indices and cipher modes.  
+- ll(): Calls the three decryption routines to populate the array of nine hidden messages.  
+- main(): Reads inputs a, b, c, evaluates their relationships, and prints the corresponding decrypted message."
+"p02621","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.9,0.75,0.6,0.3,0.6000000000000001,"without_comments","Title: AtCoder Beginner Contest Solutions  
+Main goal: Implements four methods to solve distinct AtCoder problems—calculating a + a² + a³, finding change mod 1000, counting submission verdicts, and enumerating black‐cell subsets on a grid—using simple input parsing and bit‐masking techniques.","encryption","Title: Obfuscated Java Solution Dispatcher for AtCoder ABC Problems
+
+Main Goal: This code provides encrypted, de-obfuscated implementations of several AtCoder Beginner Contest tasks (ABC172_A, ABC173_A, ABC173_B stub, and ABC173_C), hiding all literals and constants behind runtime MD5/DES/Blowfish and XOR decryption routines. The `main` method invokes the ABC172_A solution, which reads an integer and outputs a + a² + a³. Other methods hold the logic for ABC173_A (modulo arithmetic), ABC173_C (bit-mask enumeration of black squares), and a failed ABC173_B stub, all protected by dynamic decryption of strings and integers."
+"p02396","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.8,0.8,0.8,0.3,0.5,"without_comments","Title: Case-Numbered Line Echoer
+Main goal: Reads lines from standard input until a line equals ""0"", then outputs each entered line prefixed with “Case n:” where n is the line’s sequence number.","encryption","Title: Obfuscated Java Line‐Reader with Encrypted Sentinels
+
+Main Goal:
+This program uses DES+MD5 to decrypt two Base64‐encoded strings at startup, which it employs as end‐of‐input markers. It then reads lines from standard input until the first sentinel value appears, and afterward prints each of those lines prefixed by “Case n:” until it encounters the second sentinel.  
+
+Key Functions:
+• Il() – constructs an int array “l” holding index and mode constants via bitwise tricks.  
+• I(String, String) – decrypts a Base64+DES payload using an MD5-derived key.  
+• l() – populates the String array “I” by decrypting two hard‐coded constants.  
+• main() – loops to read input lines, stops at I[0], then loops to print “Case i: ” until I[1]."
+"p03315","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.5,0.8,0.15000000000000002,0.75,"without_comments","Title: Four-Sign Score Calculator  
+Main goal: Reads a 4-character string of '+' and '-' and outputs the sum treating '+' as +1 and '-' as –1.","encryption","Title: Obfuscated Command‐to‐Code Mapper
+
+Main goal: This Java program hides a set of valid commands as encrypted Base64 strings (using DES, Blowfish and a simple XOR cipher with MD5‐derived keys). At startup it decrypts them into an array. In the main method it reads a line of user input, checks which of the decrypted commands it matches, and then prints out the corresponding integer code for that command."
+"p02753","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.8,0.6499999999999999,0.8,0.3,0.5,"without_comments","Title: Largest Empty-Rectangle Perimeter Calculation and Simple 3-Character Vote Check  
+Main goal: The `kMarsh` function finds the maximum perimeter of an axis-aligned rectangle in a grid that contains no 'x' cells. The `main` method reads a three-character string of 'A' and 'B', and prints ""Yes"" if not all characters are identical, otherwise ""No"".","encryption","Title: Obfuscated Prefix Checker with Encrypted Responses
+
+Main Goal: This Java program reads a single input string, tests whether its first three characters are all ‘I’ or all ‘J’, and then prints one of two secret messages. The code uses obfuscated integer constants and two decryption routines (an XOR-based method and a DES-based method) to hide the target characters (‘I’ and ‘J’) and the success/failure outputs."
+"p02627","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.9,0.9,0.95,0.7,0.1,0.8,"without_comments","This Java program reads a single character from input and checks if it’s an uppercase (A–Z) or lowercase (a–z) letter. If uppercase, it prints “A”; if lowercase, it prints “a”.","encryption","Title: String Obfuscation and Decryption Loader  
+Main goal: Initialize an array of string constants by decrypting or de-obfuscating Base64-encoded data at runtime (using DES, Blowfish with MD5-derived keys, and simple XOR) to hide literal values in the compiled code."
+"p02394","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.5,0.6,0.4,0.4,"without_comments","Title: Checking Square Containment Within a Rectangle  
+Main goal: Read integers a, b, c, d, e and determine whether the axis-aligned square of “radius” e centered at (c, d) lies entirely inside the rectangle with opposite corners at (0, 0) and (a, b). Prints ""Yes"" if it fits, otherwise ""No"".","encryption","Title: Obfuscated Quadrant Classifier
+
+Main goal: This program first de-obfuscates its string literals using a mix of Blowfish, DES and simple XOR routines, then reads five integers (a, b, c, d, e) from standard input. It treats (0,0) to (a,b) as a bounding rectangle and (c,d) with margin e as a smaller rectangle, checks which of the four quadrants (NE, NW, SW, SE) the small rectangle lies completely within, prints the corresponding direction code, and if none of the four fits, prints a default message."
+"p02801","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.8,0.2,0.7,"without_comments","Title: Next Letter Printer  
+Main Goal: Reads a single lowercase letter from standard input and outputs the following letter in the English alphabet (no output for ‘z’).","encryption","Title: Obfuscated String Decryption Loader  
+Main Goal: This class hides a library of constant strings by storing them in encrypted or encoded form (Blowfish, DES and simple XOR) and Base64. On class initialization it (1) builds an index array of integer constants, (2) defines decryption methods for each cipher, and (3) decodes each encoded string into plaintext and stores them in a string array for later use. The actual main method throws an exception because this snippet only sets up the obfuscated data, not the runtime logic."
+"p03469","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.8,0.9,0.9,0.3,0.5,"without_comments","Title: Fast Buffered Input Scanner with Year Replacement
+Main goal: This code defines a custom fast‐input reader (class hayami) to read tokens (strings, ints, longs, doubles) from standard input, then in main() it reads one string token, replaces every occurrence of ""2017"" with ""2018"", and prints the result.","encryption","Title: Obfuscated Fast-I/O Scanner and Encrypted String Replacement
+
+Main Goal:
+ This program defines an obfuscated “hayami” class that implements a fast token reader (methods to read next token, next integer, next long, next double) from System.in. In the Main class, it reads exactly one token from standard input, decrypts two Base64‐encoded strings via DES (using MD5 of fixed keys) to obtain a regex pattern and a replacement string, applies s.replaceAll(pattern, replacement), then prints the result.
+
+Summary of Functions:
+ 1. hayami class
+    - Maintains a 1024-byte buffer, reads from System.in.
+    - Methods:
+      • nextHayami()   – returns the next non-whitespace token as a String.
+      • saorihayami()  – parses and returns the next long.
+      • saori_hayami() – same but returns as int.
+      • Hayamin()      – parses and returns the next double.
+    - Internally skips non-printable bytes, handles signs and digits.
+    - Implements Closeable to close the input.
+
+ 2. Main class
+    - Statically builds two integer constants INF and MAX (unused here).
+    - Decrypts two Base64 literals (“ruBC1dDmoJw=” and “hBsEeqSeRys=”) with DES/ECB/PKCS5Padding:
+        • Key 1 = MD5(“RdohK”)[0..7], used to decrypt the first string → regex pattern.
+        • Key 2 = MD5(“wnqAc”)[0..7], used to decrypt the second string → replacement text.
+    - In main():
+        • Instantiate hayami scanner, read one token s.
+        • s = s.replaceAll(decryptedPattern, decryptedReplacement);
+        • Print s and close the scanner.
+
+In short, this is a heavily obfuscated template that reads one word, performs an encrypted-pattern search-and-replace on it, and prints the transformed result."
+"p02777","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.25,0.8,0.3,0.6,0.3,0.5,"without_comments","Title: Two-Player Life Counter
+
+Main goal: This Java program reads two distinct lowercase names (S, T), validates them along with two integer life counts (A, B between 1–10), then reads a chosen name U (either S or T). It decrements the corresponding player’s life by one and prints the updated scores “A B”.","variable_renaming","Title: Two-Player Grid Move Validator and Updater
+
+Main goal: Read and validate two distinct lowercase player names (1–10 chars) and two positive integer coordinates (1–10). Then, given the name of the current player, output the updated position by decrementing X if it’s the first player’s turn or Y if it’s the second player’s turn."
+"p02777","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.8,0.3,0.6,0.3,0.5,"without_comments","Title: Two-Player Life Counter
+
+Main goal: This Java program reads two distinct lowercase names (S, T), validates them along with two integer life counts (A, B between 1–10), then reads a chosen name U (either S or T). It decrements the corresponding player’s life by one and prints the updated scores “A B”.","encryption","Title: Secure Input Validator and Coordinate Adjuster
+
+Main Goal: This code reads two distinct string identifiers (S and T), two integer parameters (A and B), and a chosen identifier U. It decrypts obfuscated validation rules and error messages at startup, enforces length and regex constraints on each input, ensures U matches one of the identifiers, and then outputs a pair of coordinates by decrementing either the first or second integer based on which identifier was selected."
+"p03455","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.3,0.6000000000000001,"without_comments","Title: Odd Pair Checker with Fast Input
+Main Goal: This Java program uses a custom fast‐scanner (FS) to read two integers from standard input and prints ""Odd"" if both numbers are odd; otherwise it prints ""Even"".","encryption","Title: Obfuscated Blowfish-Encrypted Conditional Printer
+
+Main Goal:
+The code reads two integers from standard input, checks whether both are odd, and then prints one of two secret messages. The messages themselves are stored as Base64-encoded, Blowfish-encrypted strings and are only decrypted at runtime.
+
+Key Components:
+1. Static Initialization (ll and Il methods)
+   - ll(): Builds three integer constants (2, 1, and 0) via string-length hacks and bitwise operations.
+   - Il(): Allocates a string array of length 2 and fills its two slots by decrypting two hard-coded Base64 strings with Blowfish/MD5 keys.
+
+2. Decryption Method (I)
+   - Takes a Base64-encoded ciphertext and a key string.
+   - Derives a 128-bit MD5 hash of the key.
+   - Uses that hash as a Blowfish key to decrypt the ciphertext and returns the plaintext.
+
+3. Main Logic
+   - Reads two integers a and b via a custom fast scanner (class FS).
+   - Tests if a % 2 == 1 and b % 2 == 1.
+   - If both are odd, prints I[0]; otherwise prints I[1].
+
+4. Fast Input Scanner (FS)
+   - Implements buffered byte-level reading from System.in.
+   - Provides nextInt(), nextLong(), and next() with manual skip-whitespace logic.
+   - Uses its own obfuscated constants for buffer size and parsing.
+
+Overall, this is an obfuscated template that hides two short messages in encrypted form and reveals exactly one of them based on a simple parity check."
+"p02987","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8500000000000001,1.0,1.0,0.2,0.6500000000000001,"without_comments","Title: “Checking for Two Pairs of Identical Characters”
+
+Main Goal:
+This code reads a 4-character string and prints “Yes” if it can be split into exactly two pairs of identical characters (with the two characters in one pair different from those in the other), otherwise it prints “No”.
+
+
+Checks whether a 4‐character input contains exactly two distinct characters, each appearing exactly twice; prints “Yes” if so, “No” otherwise.","encryption","Title: Obfuscated Conditional Message Decrypter  
+Main goal: At startup it decrypts a list of hidden strings (using DES, Blowfish or XOR routines), then reads a 4-character input, examines various equality/inequality patterns among those four chars in a decision tree, and finally prints the corresponding decrypted message."
+"p02401","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.8,0.75,0.8,0.25,0.55,"without_comments","Title: Simple Command-Line Arithmetic Processor
+
+Main Goal: Continuously read expressions of the form “a op b” from standard input (where a and b are integers between 0 and 20000), perform the specified operation (+, -, *, or integer division when b≠0), collect each valid result, stop processing when the operator is “?”, and finally print all computed results.","encryption","Title: Obfuscated Command‐Line Calculator
+
+Main goal: This code implements a simple, obfuscated arithmetic processor. It first builds an array of operator strings (plus, minus, multiply, divide, separator, exit) by decoding/encrypting literals with XOR, Blowfish and DES. In main(), it reads lines of the form “ab”, splits them using the decoded separator, parses two integers and an operator, checks for valid range and exit condition, performs the requested operation (+, – , *, /) and collects the results. Finally, it prints each result in order."
+"p02399","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8,0.8500000000000001,0.8500000000000001,0.4,0.4,"without_comments","Title: Integer Division, Remainder, and Floating-Point Output
+
+Main Goal: This code reads two positive integers a and b (each between 1 and 10^9) from standard input, then computes and prints their integer quotient (a/b), remainder (a%b), and floating-point quotient ((double)a/b).","encryption","Title: Obfuscated Division Utility with Formatted Output
+
+Main goal: This code hides a space‐delimiter and a printf format string via DES/MD5 obfuscation, then at runtime reads two integers a and b, validates they lie in [1,10^9], prints the integer quotient and remainder (“a/b a%b”), and finally prints the floating‐point quotient using the decrypted format string."
+"p03324","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.2,0.75,0.25,0.25,0.2,0.5,"without_comments","Title: D-th Number with Exactly n Trailing Zero-Pairs
+
+Main goal: Given integers n and d, the code computes the d-th positive integer that is divisible by 100^n but not by 100^(n+1)—in other words, it finds the d-th smallest number whose decimal representation ends with exactly n groups of two zeros.","variable_renaming","Title: Multiply by Powers of 100
+
+Main goal: Read two integers N and M, compute 100^N, multiply it by M, and print the result.
+
+Summary: This Java program uses a custom fast InputReader to read N (the exponent) and M (the multiplier) from standard input. It calculates 100^N by calling Math.pow, then (through a loop that effectively adds the 100^N block M times) computes M * 100^N, and outputs the final value. The howMany function, intended to count factors of 100, never alters the logic for N≥0, so the loop simply performs the multiplication."
+"p03324","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.2,0.75,0.25,0.25,0.2,0.5,"without_comments","Title: D-th Number with Exactly n Trailing Zero-Pairs
+
+Main goal: Given integers n and d, the code computes the d-th positive integer that is divisible by 100^n but not by 100^(n+1)—in other words, it finds the d-th smallest number whose decimal representation ends with exactly n groups of two zeros.","dead_code","Title: “Bonus Increment Calculator”
+
+Main Goal:
+Given two integers n and d, the code computes the value  
+   ans = 100ⁿ × (d + ⌊d/100⌋)  
+by simulating d additions of 100ⁿ and granting an extra 100ⁿ each time the running count of additions reaches a multiple of 100. It then prints that final total.
+
+Key Components:
+- temp = 100ⁿ, ans initialized to 0.
+- Loop runs d times: each iteration adds temp; if the total becomes divisible by 100^(n+1) (i.e. howMany(ans) > n), it adds temp once more.
+- howMany(x) counts how many times x is divisible by 100 (number of trailing “00” pairs).
+- Oddly named boolean methods (ll, IIl, l) are simple comparisons.
+- InputReader: custom fast reader for integers, longs, strings, etc."
+"p03324","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.75,0.25,0.25,0.2,0.55,"without_comments","Title: D-th Number with Exactly n Trailing Zero-Pairs
+
+Main goal: Given integers n and d, the code computes the d-th positive integer that is divisible by 100^n but not by 100^(n+1)—in other words, it finds the d-th smallest number whose decimal representation ends with exactly n groups of two zeros.","encryption","Title: Obfuscated Sequence Calculator
+
+Main goal:  
+Read two integers n and d, then starting from 16 repeatedly add 100^n exactly d times—but each time you check how many times the current total is divisible by 92 (counting an initial bias of 16) and if that count exceeds n, you add an extra 100^n. Finally, print the resulting integer."
+"p02416","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.8,0.9,0.5,0.2,0.6000000000000001,"without_comments","Title: Digit Summation Program  
+Main goal: Continuously read lines of digits from standard input until a line with ""0"" is entered, compute the sum of the digits in each line (ignoring non-digits and zeros), and print the result.","encryption","Title: Obfuscated Character-Weighted Sum Loop  
+Main goal: This program continuously reads lines of input, computes and prints a weighted sum based on specific characters in each line (digits ‘1’–‘8’ and ‘=’), and stops only when the user enters a secret termination string that is decrypted at runtime using Blowfish with an MD5-derived key."
+"p02629","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8,0.5,0.5,0.3,0.5,"without_comments","Title: Lexicographic Lowercase String Generator  
+Main Goal: Reads a number N and outputs the Nth string in the ordered sequence of all lowercase-letter strings (first by increasing length, then alphabetically).","encryption","Title: N-th Lexicographic Word Generator
+
+Main goal: This obfuscated Java program takes a positive integer N from standard input and produces the N-th non-empty string over the lowercase English alphabet {a,…,z}, ordered first by length (shorter strings come before longer ones) and then lexicographically. Internally it:
+• Decrypts a hidden table of 27 one-character tokens via simple XOR/Base64, DES, and Blowfish routines.  
+• Determines the length k of the target string by finding which “block” of 26^1 + 26^2 + … + 26^k contains N.  
+• Computes the zero-based index within the block, converts it to a base-26 representation (using Java’s Long.toString with radix 26), and left-pads it with zeros.  
+• Maps each base-26 digit (‘0’–‘9’,’a’–’p’) through the decrypted table to the letters ‘a’–‘z’.  
+• Outputs the resulting word."
+"p00002","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.9,0.5,0.3,0.5,"without_comments","Title: Digit Count Printer of Sum
+
+Main Goal: Continuously read pairs of integers, compute their sum, and print how many decimal digits the sum has (handling sums from 1 up to 7 digits).","encryption","Title: Obfuscated Range-Based Message Selector
+
+Main goal: At startup, the code decrypts a set of hidden messages (stored as Base64 and encrypted with DES/Blowfish using MD5-derived keys) into an array. In the main loop, it reads two integers, sums them, and prints one of those decrypted messages depending on which numeric range the sum falls into."
+"p02577","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8,0.7,0.8,0.3,0.5,"without_comments","Title: Divisibility by 9 Checker  
+Main goal: Reads a large number as a string, computes the sum of its digits, and prints “Yes” if the sum is divisible by 9 (otherwise “No”). It uses a custom fast InputReader for efficient input handling.","encryption","Title: Obfuscated Divisibility‐by‐9 Checker
+
+Main goal: This program reads a string, computes the sum of each character’s ASCII value minus 52, tests whether that sum is divisible by 9, and prints one of two secret messages (decrypted at runtime via DES).
+
+Key functions:
+- lIl(): initializes integer constants in an obfuscated way.
+- ll(): decrypts two Base64+DES‐encrypted strings into the messages to print.
+- l(): DES decryption helper using an MD5‐derived key.
+- InputReader: a fast, obfuscated I/O utility for reading tokens from stdin.
+In main(), the code sums `(char - 52)` over the input, checks `sum % 9 == 0`, and prints the first or second decrypted message accordingly."
+"p02771","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.5,0.3,0.6000000000000001,"without_comments","Title: Checking for Exactly Two Equal Integers  
+Main Goal: Reads three integers from input and prints ""Yes"" if exactly two of them match, otherwise prints ""No"".","encryption","Title: Obfuscated Conditional Message Printer
+
+Main Goal: This Java program reads three integers from standard input, compares them for equality, and prints one of five hidden messages depending on whether none, exactly one pair, or all three numbers match. 
+
+The code uses two obfuscation layers to hide its messages:
+1. ll() initializes several integer constants in an array via bitwise and string-length tricks.
+2. Il() populates a string array by decoding Base64‐encoded text that is either XOR‐decrypted (I method) or DES‐decrypted with an MD5‐derived key (l method).
+
+Finally, main() uses the constants to index into the decoded messages and print the appropriate one based on the comparison results."
+"p02407","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.9,0.9,0.8,0.45,0.45,"without_comments","Title: Sequence Reverser  
+Main goal: Reads from standard input in pairs of lines—first an integer N, then a line with N space-separated numbers—and outputs those N numbers in reverse order.","encryption","Title: Obfuscated Java Program for Reversing Integer Sequences  
+Main goal: Read an initial count N from standard input, then for each of the following lines split out N integer values, store them, and print them back in reverse order. The code employs runtime decryption (DES, Blowfish, XOR) to hide its string constants and delimiters."
+"p03042","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.25,0.65,"without_comments","Title: Date Format Identifier
+Main goal: Reads a four‐digit string, treats its first two and last two characters as month values (01–12), and determines whether the input is a valid MMYY date, a valid YYMM date, both (AMBIGUOUS), or neither (NA).","encryption","Title: Obfuscated Numeric Code Validator  
+Main goal: This code hides a list of allowed numeric tokens by encrypting them (DES, Blowfish, XOR/Base64) and decrypting at runtime, then reads a user‐supplied string, splits it into two numeric parts, checks each part against its respective allowed list, and prints one of four messages depending on which parts match."
+"p03644","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.8,0.8,0.4,0.4,"without_comments","Title: Largest Power-of-Two Finder  
+Main goal: Reads an integer N from input and prints the greatest power of two less than or equal to N (printing 0 for N=0), implemented with conditional range checks up to N=100.","encryption","Title: Largest Power of Two Finder
+
+Main goal: The code reads an integer N and prints the greatest power of two that is less than or equal to N (with 0 for N = 0). It achieves this by initializing a hidden array of threshold values via bitwise and arithmetic obfuscation, then checking N against those thresholds to output the corresponding power-of-two."
+"p03136","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.8,0.75,0.9,0.4,0.4,"without_comments","Title: Polygon Inequality Checker  
+Main goal: Reads an integer n and then n side lengths, sorts them, and checks if the sum of the smallest n–1 segments is greater than the largest segment; prints ""Yes"" if they can form a non-degenerate polygon (i.e., satisfy the generalized triangle inequality), otherwise ""No"".","encryption","Title: Sum Comparison with Encrypted Messages
+
+Main Goal: This Java program reads an integer n and then n integers from standard input, sorts them, and compares the sum of the smallest n−1 numbers to the largest number. Depending on the result, it prints one of two messages (“Win” or “Lose”), which are stored in the code in encrypted form and decrypted at runtime using Blowfish and DES."
+"p02612","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.9,0.9,0.8500000000000001,0.3,0.6000000000000001,"without_comments","Title: Next 1000 Milestone Calculator
+
+Main goal: Reads an integer N (0 ≤ N ≤ 10000) and outputs how many more units are needed to reach the next multiple of 1000 (e.g., if N=2300, prints 300 to reach 3000).","encryption","Title: Next Threshold Difference Calculator
+Main Goal: Initialize a predefined increasing sequence of 10 integer thresholds using bitwise operations, then read an input N and print how much must be added to reach the next higher threshold in that sequence."
+"p02411","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.8,0.6,0.7,0.2,0.6000000000000001,"without_comments","Title: Exam Grade Evaluator  
+Main goal: Continuously reads sets of three integers representing midterm (m), final (f), and re-exam (r) scores until a triple of –1s is entered, then assigns and prints a letter grade (A, B, C, D, or F) based on the sum of m+f with special handling using r for borderline cases.","encryption","Title: Obfuscated Score Classifier with Runtime Decryption
+
+Main Goal:
+This Java program reads triples of integers (m, f, r) representing two primary scores (m, f) and an optional retest score (r). It continues until all three inputs are zero, then exits. Depending on the sum of m+f and various threshold checks—also considering whether any score is zero or if r meets certain criteria—it prints one of several outcome messages (e.g., different grade or status strings).
+
+Key Components:
+1. Static Initialization (IIl): Builds an integer array `l` of 14 obfuscated constants (thresholds, sentinel values, array indices).
+2. String Loader (ll): Allocates a String array `I` and fills it by decrypting Base64‐encoded, encrypted literals at startup.
+3. XOR Decryption (I): Decodes very short messages by Base64 → XOR with a key string.
+4. Blowfish Decryption (l): Decrypts longer messages using Blowfish with an MD5‐derived key.
+5. DES Decryption (Il): Decrypts messages using DES with an MD5‐derived key truncated to 8 bytes.
+6. Main Loop: Reads inputs, evaluates conditions in order, and selects the proper decrypted message from `I` to print.
+
+The overall result is a stealthily obfuscated decision engine that classifies input scores into one of several predefined categories, printing human‐readable results decrypted at runtime."
+"p03243","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.7,0.5,0.7,0.2,0.49999999999999994,"without_comments",":Title: Next 111-Unit Threshold Selector  
+Main goal: Reads an integer n and prints the smallest milestone among 111, 222, …, 999 that is ≥ n (printing “out” on invalid input) :","encryption","Title: Obfuscated Range Threshold Printer
+
+Main Goal: This code defines a series of hidden integer thresholds via bitwise and arithmetic tricks, reads an integer from standard input, determines which threshold range it falls into, and prints the corresponding upper bound. If parsing fails or an unexpected error occurs, it decrypts and displays a concealed message using Blowfish."
+"p03109","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.95,0.8500000000000001,0.8500000000000001,0.25,0.7,"without_comments","Title: Heisei Era Date Checker  
+Main goal: Reads a date in YYYY/MM/DD format from standard input and determines whether it falls within Japan’s Heisei era (on or before April 30, 2019). If it does, it prints “Heisei”; otherwise it prints “TBD.”","encryption","Title: Obfuscated Integer‐Threshold Event Notifier
+
+Main Goal:
+This Java program reads one line of input, splits it using a secretly stored delimiter, parses each token as an integer, and watches for values exceeding a hidden threshold. It counts how many times this threshold is crossed (first, second, third)—provided no smaller values appeared before the first crossing—and, at the moment of the 1st, 2nd, or 3rd crossing, prints one of three secret messages. If the threshold is never reached (or if smaller values appeared first), it prints a default message. All delimiters and messages are stored in an obfuscated form and decrypted at runtime via XOR, DES, or Blowfish."
+"p02700","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.5,0.7,0.2,0.6000000000000001,"without_comments","Title: Turn-Based Duel Outcome Checker  
+Main Goal: Read two combatants’ health (A and C) and their attack damages (B and D), simulate alternating attacks until one health drops to zero or below, and print “Yes” if the first combatant (A) wins or “No” otherwise.","encryption","Title: DES‐secured Message Chooser  
+Main goal: The code sets up integer bounds, decrypts three hidden messages via DES with MD5‐derived keys, then reads four integers, validates they fall within those bounds, runs a subtraction loop, and finally prints one of the decrypted messages based on the loop’s outcome."
+"p03378","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.3,0.7,0.3,0.5,0.5,0.39999999999999997,"without_comments","Title: Minimal Blocked Steps to Staircase Exit
+Main goal: Given a staircase of N steps, M of which are blocked, and a starting position X, determine which direction (toward step 0 or toward step N–1) has fewer blocked steps and output that minimum count.","variable_renaming","Title: Count Elements on Either Side of a Pivot and Return the Minimum
+
+Main goal: The program reads three integers N (1–100), M (1–100), and K (1–N−1), then reads M additional integers (each between 1 and N−1, none equal to K). It counts how many of these values are less than or equal to K and how many are greater than or equal to K, and finally prints the smaller of the two counts."
+"p02847","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.8,0.7,0.2,0.7,"without_comments","Title: Days Until Sunday Calculator
+Main goal: This code reads a three‐letter weekday abbreviation from standard input (e.g., “MON”) and outputs how many days remain until Sunday.","encryption","Title: Obfuscated String List Lookup
+
+Goal: This code decrypts a fixed array of seven hidden strings at startup (using DES and Blowfish), reads one input token, searches for it in that array, and prints the result of (array length – found index), producing a number in the range 0…7."
+"p03998","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.7,0.8,0.9,0.3,0.39999999999999997,"without_comments","Title: Three-player pass-the-ball simulator  
+Main goal: Simulate a token passing game among players A, B, and C, where each has an input string of moves ('a'→A, 'b'→B, 'c'→C). Starting from A, the code follows each string’s next character to pass the token, and prints the first player whose string is exhausted (i.e., who cannot make a move).","encryption","Title: Obfuscated String Decryption and State-Machine Runner
+
+Main goal: This program first reconstructs all its literal text by decrypting and base64-decoding hidden byte arrays via DES, Blowfish and simple XOR routines. It then reads three user inputs and drives a finite state machine—comparing each input’s characters, in turn, against a secret pattern—and prints one of three decrypted messages as soon as one of the inputs “wins” (i.e., finishes its sequence of comparisons)."
+"p04012","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.5,1.0,0.9,0.3,0.2,"without_comments","Title: Even Letter Frequency Checker  
+Main goal: Reads a single lowercase string, counts occurrences of each letter a–z, and prints “Yes” if every letter appears an even number of times (including zero), otherwise prints “No”.","encryption","Title: Character Frequency Parity Validator
+
+Main Goal: The program reads a single input string, counts the occurrences of 26 specific characters, checks if each count is evenly divisible by 2, and then prints one of two decrypted messages (success or failure) that are stored in the code as Base64-encoded Blowfish-encrypted strings."
+"p02675","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.8,0.8,0.2,0.7,"without_comments","Title: Japanese Counter Suffix Selector  
+Main Goal: Reads a positive integer (1–999), examines its last digit, and prints the corresponding Japanese counter suffix (“hon”, “bon” or “pon”).","encryption","Title: Obfuscated input‐driven message displayer
+
+Main goal: This code reads a user‐supplied numeric string, classifies it into one of three obfuscated numeric ranges, inspects specific characters of the input, and then prints out one of several hidden messages. The messages themselves are stored as Base64‐encoded blobs which are decrypted at runtime via two routines (one using DES with an MD5‐derived key, the other using Blowfish with an MD5 key), all hidden behind confusing variable names and computed integer arrays to foil reverse engineering."
+"p02712","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.75,0.8,0.8500000000000001,0.4,0.35,"without_comments","Title: Sum of Integers Not Divisible by 3 or 5 up to N  
+Main Goal: Given an integer a, the code computes the sum of all positive integers from 1 to a that are not multiples of 3 or 5. It does this by dividing the range into complete 15-number blocks (since numbers not divisible by 3 or 5 recur every 15 integers) and summing those blocks via a closed-form formula, then handling the remaining partial block with a small lookup.","encryption","Title: Cycle-Based Summation Using a Predefined 15-Unit Pattern
+
+Main goal: Given an integer input a, the code divides it into full 15-unit “cycles” and a remainder, then computes a total sum (ans) that consists of a quadratic term in the number of full cycles plus a piecewise sum over the first c elements of a fixed offset list.
+
+Functions:
+1. I(): statically initializes an array l with a single element = 0x1C ^ 0x13 = 15, defining the cycle length.
+2. main(): 
+   - Reads integer a.
+   - Computes b = a/15 (full cycles) and c = a%15 (remainder).
+   - Calculates ans = 60·b² (sum contribution of full cycles).
+   - Adds a remainder-dependent sum by selecting the first c offsets from the list [1,2,4,7,8,11,13,…] each shifted by 15·b.
+   - Prints the final ans."
+"p02909","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.8500000000000001,0.9,0.45,0.45,"without_comments","Title: Weather State Cycler  
+Main goal: Reads a single weather condition (Sunny, Cloudy, or Rainy) from standard input and prints the next state in the cycle (Sunny→Cloudy→Rainy→Sunny). The code also provides fast input routines and simple utility methods for printing, copying strings, and computing min/max.","encryption","Title: Obfuscated String-Based Command Handler
+
+Main goal: This Java program hides its command names and responses in encrypted or XOR-obfuscated form, decrypts them at startup, then reads a single input string from the user (via a FastScanner) and prints one of two secret responses if the input matches one of the hidden commands, or a default message otherwise. It also includes some utility methods for string copying and computing min/max."
+"p02880","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.9,0.8,0.9,0.2,0.7,"without_comments","Title: Range-and-Divisibility Checker
+
+Main goal: Reads an integer N and prints ""Yes"" if N is between 1 and 9 inclusive or if there exists a divisor k (2 ≤ k ≤ 9) such that N is divisible by k and k ≤ N ≤ 9·k; otherwise prints ""No"".","encryption","Title: Obfuscated Divisibility Message Printer  
+Main goal: This program reads an integer N, decrypts a set of pre-encrypted strings (using simple XOR, DES and Blowfish), and then selects and prints one of those messages according to which divisor from 1 through 9 evenly divides N (and lies within its configured range)."

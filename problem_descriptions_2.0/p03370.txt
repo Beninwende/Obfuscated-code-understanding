@@ -1,0 +1,27 @@
+**Title: Find Maximum Widgets Produced**
+
+**Problem Statement:**
+
+You are tasked with determining the optimal production strategy for a factory that produces different types of widgets. The factory utilizes a limited stock of material to produce these widgets. Given several types of widgets, each requiring a specific amount of material, your goal is to find the maximum number of widgets that can be produced while ensuring at least one of each type is made.
+
+Here's the detailed situation:
+
+- The factory produces `T` different kinds of widgets: Widget 1, Widget 2, ..., Widget T.
+- For each Widget `i` (1 ≤ `i` ≤ T), a certain number of units of material `u_i` is required to produce one widget.
+- The factory has a supply of `M` units of material available.
+- The factory policy demands that at least one widget of each type must be produced.
+
+Your task is to compute the maximum number of widgets that can be produced, complying with the factory policy. It is not mandatory to use all the material available.
+
+**Requirements:**
+
+1. Determine the total number of widgets that can be produced given the constraints.
+2. Ensure that at least one of every type of widget is manufactured.
+3. Use the available material efficiently without violating the constraints mentioned.
+
+**Constraints:**
+
+- The number of widget types `T` is such that 2 ≤ `T` ≤ 100.
+- The material units required `u_i` for each widget type satisfies 1 ≤ `u_i` ≤ 1000.
+- The sum of material units `u_1 + u_2 + ... + u_T` required to produce one widget of each type is less than or equal to the total material available `M` (i.e., `u_1 + u_2 + ... + u_T ≤ M ≤ 10^5`).
+- All inputs are integers.

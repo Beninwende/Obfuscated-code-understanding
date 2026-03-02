@@ -1,0 +1,17 @@
+**Exercise Title: Calculate Number of Digits in a Sum**
+
+**Problem Statement:**
+
+Design a program that takes pairs of non-negative integers and calculates the number of digits in their sum for each pair. You need to process each pair until the end of the input, calculating how many digits are in the resulting sum of each pair.
+
+**Requirements:**
+
+1. Implement a function to process multiple pairs of integers. Each pair should be provided one per line.
+2. Read pairs of integers until there are no more pairs left to process.
+3. For each pair:
+   - Identify and extract the two integers.
+   - Calculate the sum of the two integers.
+   - Determine the number of digits in the sum.
+4. Output the number of digits of the sum for each pair on a new line.
+5. Consider edge cases such as the sum being a single-digit or a very large number.
+6. Ensure that the program handles up to 200 pairs efficiently.

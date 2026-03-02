@@ -1,0 +1,28 @@
+### Exercise: Basic Calculations with Shapes
+
+#### Problem Statement
+
+Create a program that calculates the area and the perimeter of a rectangle based on provided dimensions. The goal is to practice basic arithmetic operations and handling user input in a program.
+
+#### Requirements
+
+1. **Input Handling**: 
+   - Accept two integers that represent the dimensions of a rectangle: length and breadth. These integers will be entered in a single line, separated by a space.
+
+2. **Calculation**:
+   - Calculate the area of the rectangle using the formula: 
+     \[
+     \text{Area} = \text{length} \times \text{breadth}
+     \]
+   - Calculate the perimeter of the rectangle using the formula:
+     \[
+     \text{Perimeter} = 2 \times (\text{length} + \text{breadth})
+     \]
+
+3. **Output Format**:
+   - Print the computed area and perimeter on a single line. The two values should be integers and separated by a space.
+   
+4. **Constraints**:
+   - The values for both length and breadth will be between 1 and 100, inclusive.
+
+The purpose of this exercise is to familiarize with basic input/output operations and arithmetic calculations, emphasizing the fundamental steps in taking input, processing data, and producing output.

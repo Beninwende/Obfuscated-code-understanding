@@ -1,0 +1,20 @@
+**Exercise Title: Basic List Reversal**
+
+**Problem Statement:**
+
+Write a function that receives a list of numbers and returns a new list with the elements in reverse order. This exercise is aimed at practicing basic list manipulation and indexing. 
+
+**Requirements:**
+
+1. Define a function that takes a single parameter:
+    - A list `numbers` containing `n` integers. The list may contain zero or more elements.
+
+2. The function should return a new list that contains all the elements from the original list, but in reverse order.
+
+3. The original list should remain unchanged after the operation.
+
+4. Assume the list can include numbers in any integer range.
+
+5. Do not use built-in functions or libraries that directly perform the reversal for you. Focus on using loops or any other manual technique to achieve the reversal.
+
+Focus on practicing list indexing and iteration techniques.

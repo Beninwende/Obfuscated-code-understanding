@@ -1,0 +1,13 @@
+**Exercise Title: Find the Missing Item**
+
+**Problem Statement:**
+
+You are given a list of five items, each originally labeled with a unique value from 1 to 5. One of these items is replaced with a special marker, represented by the number 0. Your task is to determine the original label of the item that has been replaced by the 0 marker.
+
+**Requirements:**
+
+1. You will receive five integers as input, each indicating either the original label of an item or the special marker (0). The original labels are distinct integers from 1 to 5.
+2. Your task is to find the missing original label that was replaced with the value 0.
+3. The function should return the integer value of the original label that was replaced by 0.
+
+This exercise focuses on the concepts of array manipulation, iteration, and basic arithmetic in identifying missing elements from a predefined range.

@@ -1,0 +1,21 @@
+**Title: Counting Odd Numbers with a Specific Condition**
+
+**Problem Statement:**
+
+You are tasked with writing a function that processes a sequence of integer numbers from 1 up to a given number \( N \). For each number in this sequence, you need to determine if it meets a specific condition. The condition is that the number must be odd and must have a precise characteristic related to its divisors. Your objective is to count how many numbers fulfill this condition.
+
+**Requirements:**
+
+1. Implement a function that takes a single integer input \( N \).
+
+2. The sequence of numbers to be examined ranges from 1 to \( N \) (inclusive).
+
+3. A number is considered to satisfy the condition if it:
+   - Is an odd number.
+   - Has a specific requirement regarding its divisors.
+
+4. Calculate and return the count of numbers within this sequence that meet the stated condition.
+
+5. Your function must consider constraints to handle input efficiently.
+
+Write a neat and efficient solution to count these numbers. The function should handle a range of input values and focus on fundamental programming practices, allowing relational analysis of numbers based on their properties.

@@ -1,0 +1,22 @@
+**Exercise Title: Sum of Smallest Elements**
+
+**Problem Statement:**
+
+You are given a list of integers representing the values associated with various entities. Your task is to select a specified number of these entities and calculate the minimum possible total of these selected values. To achieve this, you must choose the smallest possible values from the list.
+
+Your task is to write a function that determines the smallest possible sum for the given number of selections.
+
+**Requirements:**
+
+1. Write a function that accepts two inputs:
+   - An integer `N` representing the number of entities.
+   - An integer `K` representing the number of selections you need to make.
+   - A list of integers `values` of length `N` where each element represents the value of an entity.
+
+2. Your function should output a single integer representing the smallest possible total of `K` selected values.
+
+3. Ensure your function handles the following constraints:
+   - \(1 \leq K \leq N \leq 1000\)
+   - \(1 \leq values[i] \leq 1000\) for all valid \(i\).
+  
+Focus on efficiently determining which values to sum to achieve the desired outcome. Leverage sorting or other suitable techniques to solve the problem effectively within these constraints.

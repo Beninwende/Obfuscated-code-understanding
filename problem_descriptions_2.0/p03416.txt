@@ -1,0 +1,15 @@
+**Title: Check for Symmetry in List Elements**
+
+**Problem Statement:**
+Write a function that checks if the elements in a given list of integers are symmetric. A list element is considered symmetric if the sequence of digits that make up the number reads the same in reverse order. Your task is to determine how many symmetric numbers exist within the list.
+
+**Requirements:**
+1. Create a function that takes a list of integers as input.
+2. Iterate through each integer in the list to determine if it is symmetric.
+3. An integer is symmetric if reversing the order of its digits yields the same integer.
+4. Return the total count of symmetric numbers found in the list.
+5. Ensure that the function handles large numbers efficiently and correctly.
+6. Do not assume leading zeros in the integers; consider them in their natural numerical form.
+7. Your solution should efficiently handle typical list sizes encountered in practice.
+
+Consider this exercise as a way to practice looping through lists, handling numbers as strings for easy reversal, and using basic conditional logic to solve the problem.

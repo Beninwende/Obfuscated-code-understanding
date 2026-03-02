@@ -1,0 +1,23 @@
+### Exercise: Consecutive Platform Jumps
+
+**Problem Statement:**
+
+Imagine a row of platforms, each with a designated height. You wish to jump from one platform to another consecutively, moving only to the adjacent right platform, as long as the height of the next platform is equal to or less than your current platform. Your goal is to determine the maximum number of consecutive jumps you can make starting from any platform.
+
+**Requirements:**
+
+1. You will start on any platform of your choosing.
+2. You can jump to the right only if the next platform's height is less than or equal to the current platform's height.
+3. Calculate and return the maximum number of consecutive jumps possible from a single starting platform when considering any possible starting position.
+
+Focus on implementing:
+- Input processing to handle a dynamic range of platforms and heights.
+- An efficient algorithm to determine the maximum jumps possible, given potentially large input sizes.
+
+**Constraints:**
+
+- The number of platforms and their heights will be provided as input, with the following limits:
+  - \( 1 \leq N \leq 100,000 \) (where \( N \) is the number of platforms)
+  - \( 1 \leq H_i \leq 1,000,000,000 \) (where \( H_i \) is the height of the i-th platform)
+
+Ensure your solution efficiently handles large datasets within these constraints.

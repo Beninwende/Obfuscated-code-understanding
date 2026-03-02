@@ -1,0 +1,15 @@
+**Exercise Title: Find the Next Character**
+
+**Problem Statement:**
+
+Create a program that takes a single lowercase English letter as input and outputs the letter that immediately follows it in the alphabet. Your program should handle any lowercase letter from 'a' to 'y'. Ensure your solution is concise and efficient.
+
+**Requirements:**
+
+1. The input will be a single character which is a lowercase English letter ranging from 'a' to 'y'.
+2. Output the character that immediately follows the given input letter in alphabetical order.
+3. The program should not handle the case where the input is 'z'.
+4. Use basic input and output functions to read the input and print the result.
+5. Avoid any unnecessary library imports; rely only on fundamental programming constructs to solve the problem.
+
+Focus on practicing character manipulation and working with ASCII values or character operations available in your chosen programming language.

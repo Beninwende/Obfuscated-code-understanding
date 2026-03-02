@@ -1,0 +1,25 @@
+### Exercise Title: Monster Battle Simulator
+
+#### Problem Statement
+
+You are tasked with simulating a battle between two game characters, each possessing specific health and strength attributes. The two characters will engage in combat, taking turns to attack one another. The goal is to determine which character will emerge victorious based on the sequential attack process until one character's health falls to zero or below.
+
+Character 1 has attributes represented as `health1` and `strength1`, while Character 2 possesses attributes `health2` and `strength2`. The battle proceeds as follows:
+1. Character 1 attacks Character 2, reducing Character 2's health by Character 1's strength.
+2. If Character 2's health is greater than zero, Character 2 attacks Character 1, diminishing Character 1's health by Character 2's strength.
+
+The battle continues in this alternating turn-based manner until the health of one of the characters reaches zero or below. 
+
+Your task is to simulate this battle sequence and determine the winner:
+- If Character 1's health reaches zero or below first, Character 2 wins.
+- If Character 2's health reaches zero or below first, Character 1 wins.
+
+#### Requirements
+
+1. Read four integers from standard input: `health1`, `strength1`, `health2`, and `strength2`. These integers represent the starting health and strength of Character 1 and Character 2, respectively.
+2. Implement the battle simulation, alternating attacks between the two characters starting with Character 1.
+3. If Character 1 wins the battle, print "Character 1 Wins".
+4. If Character 2 wins, print "Character 2 Wins".
+5. Ensure your solution accounts for all edge cases within the given constraints.
+
+Focus on implementing a straightforward loop structure to alternate the attack sequence, utilizing basic conditional statements to check health statuses after each attack. This exercise helps practice fundamental looping constructs and condition handling in programming.

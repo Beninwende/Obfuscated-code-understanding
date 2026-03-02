@@ -1,0 +1,22 @@
+**Exercise Title: Counting Multiples in a Range**
+
+**Problem Statement:**
+
+Write a program that determines how many integers within a specified range are multiples of a particular number. You will be provided with three integers: `start`, `end`, and `multiple`. Your task is to identify how many numbers within the range from `start` to `end` (inclusive) are divisible by `multiple` without leaving a remainder.
+
+**Requirements:**
+
+1. Develop a function that accepts three integer inputs:
+   - `start`: the beginning of the range.
+   - `end`: the end of the range.
+   - `multiple`: the number you need to check for divisibility against numbers in the range.
+   
+2. The function should return a single integer, representing the count of numbers within the range `[start, end]` that are divisible by `multiple`.
+
+3. The input values will always satisfy the following conditions:
+   - \(1 \leq start, end, multiple \leq 10,000\)
+   - \(start \leq end\)
+
+4. Make sure your program efficiently handles the upper limits of the constraints.
+
+Focus on building a solution that iterates through the range and checks divisibility, practicing iteration and conditional logic evaluation.

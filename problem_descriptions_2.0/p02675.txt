@@ -1,0 +1,22 @@
+**Title: Number Suffix Formatter**
+
+**Problem Statement:**
+
+In various languages and scenarios, numbers are often followed by specific suffixes based on certain rules. For this exercise, you need to implement a function that assigns a suffix to a given positive integer based on its last digit.
+
+You are tasked to create a function called `get_number_suffix` that follows these rules:
+
+- For numbers ending in 0, 1, 6, or 8, the suffix should be “-A”.
+- For numbers ending in 2, 4, 5, 7, or 9, the suffix should be “-B”.
+- For numbers ending in 3, the suffix should be “-C”.
+
+Given a positive integer, determine its suffix according to these rules.
+
+**Requirements:**
+
+1. Implement the function `get_number_suffix(n: int) -> str` where `n` is a positive integer between 1 and 999. The function should return a string representing the number followed by its appropriate suffix.
+2. The output should be in the format "N-S" where N is the provided number and S is the calculated suffix.
+3. Ensure your solution handles the entire specified range of numbers correctly.
+4. The function should not directly print the result; it should return the string instead.
+
+This task focuses on utilizing conditional statements and basic mathematical operations to extract and analyze the last digit of a given number.

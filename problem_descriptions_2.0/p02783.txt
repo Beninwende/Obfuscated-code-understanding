@@ -1,0 +1,23 @@
+**Exercise Title: Dividing Items into Groups**
+
+**Problem Statement:**
+
+Imagine you have a collection of items that you want to distribute evenly into groups. Each group should ideally have the same number of items. If there are any leftover items that cannot fit evenly into these groups, they should be placed into an additional group. Your task is to determine the minimum number of groups required to hold all the items.
+
+**Requirements:**
+
+1. Write a function that takes two integer inputs:
+   - `total_items`: the total number of items you have.
+   - `group_size`: the number of items each group can ideally hold.
+
+2. The function should calculate and return the minimum number of groups required to accommodate all the items. If `group_size` is greater than or equal to `total_items`, the answer should be 1, since all items will fit into a single group.
+
+3. Assume:
+   - `1 ≤ total_items ≤ 10,000`
+   - `1 ≤ group_size ≤ 10,000`
+
+4. The function should handle inputs where items do not perfectly divide into groups and efficiently compute the smallest number of groups needed.
+
+5. Pay attention to integer division and rounding to ensure that any remaining items create an additional group, instead of fractional groups.
+
+This exercise will help you practice fundamental concepts such as arithmetic operations, conditional statements, and integer manipulation.

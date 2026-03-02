@@ -1,0 +1,15 @@
+### Exercise Title: Calculating Net Profit from Item Selections
+
+### Problem Statement:
+You are given a list of items, each with a specific profit and an associated cost. You can choose to select any combination of these items, including selecting none or all of them. Your goal is to maximize the total net profit from your selections.
+
+For each selected item, the net profit is calculated as the difference between its profit and its cost. Sum the net profits of all selected items to get the total net profit. Determine the maximum possible total net profit you can achieve.
+
+### Requirements:
+- Implement a function that maximizes the total net profit based on the items' profits and costs.
+- If selecting an item results in a negative profit, it should be avoided to maximize the total net profit.
+- Your solution should consider all possible combinations of item selections to find the optimal solution.
+
+Keep in mind:
+- The number of items is limited to make calculating all combinations feasible.
+- Aim for a solution that efficiently handles this constraint and produces the maximum total net profit.

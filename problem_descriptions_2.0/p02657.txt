@@ -1,0 +1,23 @@
+**Exercise Title: Writing a Simple Multiplier Function**
+
+**Problem Statement:**
+
+Create a simple function that calculates and returns the product of two given integer values. This exercise will help you practice basic operations in programming, especially multiplication and handling of user input.
+
+**Requirements:**
+
+1. Define a function that takes two integer parameters, representing the numbers to be multiplied.
+2. Ensure the function calculates the product of these two numbers.
+3. Return the result of the multiplication as an integer.
+4. Consider that the input values will be integers.
+5. Aim to write clean and efficient code that accurately performs the required operation.
+6. Ensure that the function has a clear and understandable name that reflects its purpose. 
+
+**Guidelines:**
+
+- Do not include any input or output operations in the function. The function should only be responsible for performing the multiplication.
+- Focus on creating a function that is reusable and can be called multiple times with different inputs. 
+- Document your code adequately to ensure its readability for others reviewing your work. 
+- Maintain simplicity in your code to reinforce core concepts of defining function, parameter usage, and return statements. 
+
+This exercise is targeted at beginners to help reinforce understanding of functions, returning values, and simple arithmetic operations.

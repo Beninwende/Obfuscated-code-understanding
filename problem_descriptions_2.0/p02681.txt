@@ -1,0 +1,21 @@
+**Exercise Title:** Check Appended String
+
+**Problem Statement:**
+
+In this exercise, you'll create a function that checks if one string is derived from another string by appending exactly one character to its end. Given two strings, `original` and `derived`, determine whether the `derived` string can be obtained by adding a single character at the end of the `original` string.
+
+**Requirements:**
+
+1. Write a function `isAppended(original, derived)` that takes two arguments:
+   - `original`: a string consisting of lowercase English letters.
+   - `derived`: a string consisting of lowercase English letters.
+
+2. Ensure the length of `derived` is exactly one more than the length of `original`.
+
+3. The function should return a boolean value:
+   - Return `True` if `derived` can be formed by appending one character to the end of `original`.
+   - Return `False` otherwise.
+
+4. The solution should focus on basic string manipulation techniques and comparisons.
+
+5. The strings should be evaluated using efficient methods to ensure a beginner-friendly approach while adhering to the constraints provided.

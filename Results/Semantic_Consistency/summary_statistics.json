@@ -1,0 +1,11 @@
+{
+  "total_models": 13,
+  "threshold": 0.5,
+  "model_statistics": {
+    "mean_consistency": 0.5108102564102563,
+    "std_consistency": 0.27756895152196476,
+    "min_consistency": 0.036533333333333334,
+    "max_consistency": 0.8026666666666666,
+    "mean_stability_rate": 0.5636923076923076
+  }
+}

@@ -1,0 +1,19 @@
+**Exercise Title: Create a Pattern of Characters**
+
+**Problem Statement:**
+
+Create a text pattern using two specified characters, `charA` and `charB`, based on given height and width dimensions. This pattern should form a distinct boundary or border with `charA`, while filling the inner area with `charB`.
+
+You are given input values indicating the number of rows (height) and columns (width) to structure the pattern. Your task is to generate and output this pattern.
+
+**Requirements:**
+
+1. Define a function that accepts four parameters: `height`, `width`, `charA`, and `charB`.
+2. Construct a rectangle of dimensions `height x width`.
+3. Use `charA` to build the outermost border of the rectangle.
+4. Fill the inside of the rectangle with `charB`.
+5. Ensure the entire pattern is output as a well-structured block of text.
+6. Account for constraints ensuring that height and width are sufficient to form a complete outer border (minimum size of 3x3).
+7. The function should be called repeatedly for any set of inputs.
+
+Apply fundamental programming concepts such as loops, conditionals, and character manipulation to achieve the desired pattern output. Focus on structuring your code to handle multiple sets of input parameters efficiently.

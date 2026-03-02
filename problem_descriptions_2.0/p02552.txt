@@ -1,0 +1,18 @@
+**Exercise Title: Basic Conditional Logic**
+
+**Problem Statement:**
+
+Develop a program that takes a single integer input and evaluates it according to a simple conditional statement. The integer will always be either 0 or 1. Based on the value of this integer, the program should produce a specific output according to the following conditions:
+
+- If the input integer is 0, the program should output 1.
+- If the input integer is 1, the program should output 0.
+
+Your task is to implement this logic using fundamental programming concepts such as input handling and conditional statements.
+
+**Requirements:**
+
+1. Implement a function that accepts an integer input.
+2. Ensure that the function evaluates the integer using a conditional statement.
+3. Output the result based on the given conditions.
+4. The function should handle integer values only within the specified range of 0 and 1.
+5. Your implementation should not rely on any external libraries other than standard input/output handling methods provided by your programming environment.

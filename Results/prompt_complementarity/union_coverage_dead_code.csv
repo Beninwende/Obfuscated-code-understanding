@@ -1,0 +1,6 @@
+,Description_Detailed,Description_Fewshot,Description_Reason,Description_Simple,Description_Vague
+Description_Detailed,0.028,0.088,0.08,0.092,0.084
+Description_Fewshot,0.088,0.06,0.104,0.092,0.104
+Description_Reason,0.08,0.104,0.064,0.112,0.1
+Description_Simple,0.092,0.092,0.112,0.064,0.104
+Description_Vague,0.084,0.104,0.1,0.104,0.06

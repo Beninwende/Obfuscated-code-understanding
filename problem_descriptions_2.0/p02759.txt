@@ -1,0 +1,14 @@
+**Exercise Title: Calculating Minimum Items Needed**
+
+**Problem Statement:**
+
+You have a collection task where you need to gather a certain number of items. Each container you use can hold a specific number of these items. Given the total number of items you need to collect, determine the minimum number of containers required to hold all the items.
+
+**Requirements:**
+
+1. Define a function that calculates the minimum number of containers needed.
+2. Your function should take two inputs:
+   - The total number of items to collect, which is a positive integer.
+   - The capacity of each container, which is also a positive integer.
+3. Ensure the function returns an integer representing the minimum number of containers needed.
+4. Consider that each container must be fully or partially filled, but all items must be allocated to a container.

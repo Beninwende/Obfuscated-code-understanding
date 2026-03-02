@@ -1,0 +1,23 @@
+**Exercise Title: Determining Number of Days to the Start of a New Week**
+
+**Problem Statement**
+
+Write a function that determines how many days are left until the start of a new week, given the current day. Assume the week starts on a designated first day, and you are given a string indicating the current day. The days of the week are represented by strings in an unordered list provided to you.
+
+Create a function that receives two arguments:
+1. A list of strings representing the days of the week in order, starting from the designated first day.
+2. A string representing the current day.
+
+Your goal is to calculate and return the number of days left until the designated first day of the week. If the current day is the designated first day, the result should be the total number of days in the week (since the first day counts as the start of the next complete week). 
+
+**Requirements**
+
+1. Implement a function that takes two arguments:
+   - A list of strings, `days`, which contains the ordered days of the week, starting from the designated first day.
+   - A string, `currentDay`, which represents the current day.
+
+2. The function should return an integer indicating the number of days left until the next occurrence of the designated first day.
+
+3. Ensure that your solution iterates effectively over the list and makes use of basic control structures.
+
+This exercise reinforces fundamental concepts such as list iteration, string comparison, and modular arithmetic.

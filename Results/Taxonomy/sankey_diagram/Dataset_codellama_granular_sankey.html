@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <title>Dataset_codellama: Failure Type → Subtype</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #fafafa; }
+    #sankey { width: 100%; }
+    .title { padding: 12px 20px; font-size: 18px; font-weight: 600; color: #333; }
+  </style>
+</head>
+<body>
+  <div class="title">Dataset_codellama: Failure Type → Subtype</div>
+  <div id="sankey" style="width:100%;height:920px;"></div>
+  <script>
+    var data = {"node_labels": ["Comment_Dependency", "Variable_Renaming_Failure", "Dead_Code_Failure", "Encryption_Failure", "Algorithm_misunderstanding", "Minimal_code_understanding", "Functional_inaccuracy", "Hallucination_unrelated", "Obfuscation_narrative", "Structural_description_only"], "link_sources": [0, 0, 0, 0, 0, 2, 2, 2, 2, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1], "link_targets": [4, 5, 6, 7, 5, 4, 5, 6, 7, 4, 5, 7, 8, 4, 5, 6, 7, 8, 9], "link_values": [2, 5, 1, 6, 1, 4, 28, 4, 13, 1, 29, 15, 19, 7, 24, 2, 12, 1, 2], "n_ft": 4};
+    var trace = {
+      type: "sankey",
+      orientation: "h",
+      node: {
+        pad: 18,
+        thickness: 22,
+        line: { color: "rgba(0,0,0,0.4)", width: 1 },
+        label: data.node_labels,
+        color: ["rgba(27,158,119,0.92)", "rgba(217,95,2,0.92)", "rgba(117,112,179,0.92)", "rgba(231,41,138,0.92)", "rgba(102,194,165,0.92)", "rgba(252,141,98,0.92)", "rgba(141,160,203,0.92)", "rgba(231,138,195,0.92)", "rgba(166,216,84,0.92)", "rgba(255,217,47,0.92)"]
+      },
+      link: {
+        source: data.link_sources,
+        target: data.link_targets,
+        value: data.link_values,
+        line: { color: "rgba(0,0,0,0.15)", width: 0 }
+      }
+    };
+    var layout = {
+      font: { size: 11, family: "Inter, system-ui, sans-serif" },
+      height: 920,
+      margin: { l: 24, r: 24, t: 12, b: 24 },
+      paper_bgcolor: "rgba(250,250,250,0)",
+      plot_bgcolor: "rgba(250,250,250,0)"
+    };
+    Plotly.newPlot("sankey", [trace], layout);
+  </script>
+</body>
+</html>

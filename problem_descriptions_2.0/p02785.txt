@@ -1,0 +1,28 @@
+# Coding Exercise: Array Reduction with Operations
+
+## Problem Statement
+
+You are given an array of integers representing the initial values of several elements. Your task is to reduce the values of these elements to zero using two types of operations:
+
+1. **Decrease Operation**: Decrease the value of a chosen element by 1.
+2. **Reset Operation**: Set the value of a chosen element to 0.
+
+You can use the Reset Operation a limited number of times. Calculate the minimum number of Decrease Operations required to reduce all element values to zero when you can perform the Reset Operation a specified number of times. 
+
+## Requirements
+
+1. A function should determine the minimum number of Decrease Operations needed to reduce all the elements' values to zero given the ability to perform the Reset Operation a limited number of times.
+
+2. The function must accept the following inputs:
+   - An integer, `n`, representing the number of elements in the array.
+   - An integer, `k`, representing the maximum number of times the Reset Operation can be used.
+   - An array of integers, `values`, of length `n`, where each integer represents the initial value of the corresponding element.
+
+3. The function should compute and return a single integer, representing the minimum number of Decrease Operations required to set all element values to zero.
+
+4. Constraints:
+   - The number of elements, `n`, must be a positive integer.
+   - The maximum number of Reset Operations, `k`, is a non-negative integer.
+   - All integers in the `values` array are non-negative.
+
+Your task is to find the optimal strategy for utilizing the Reset Operations, in such a way that the total Decrease Operations are minimized. Implement the solution while considering edge cases such as when no Reset Operations are allowed or when Reset Operations might be insufficient to minimize the Decrease Operations significantly.

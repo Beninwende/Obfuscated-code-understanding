@@ -1,0 +1,14 @@
+Title: Maximize Monster Defeat
+
+Problem Statement:
+You are given a list of towns, each being attacked by a number of monsters. There are also a group of heroes available to help defeat these monsters. Each hero has a certain capacity to defeat monsters, and they can choose to fight the monsters in a given town or the following town. Your task is to determine the maximum number of monsters that the heroes can defeat by optimally distributing their efforts.
+
+Requirements:
+1. Implement a function to calculate the maximum number of monsters the heroes can defeat. 
+2. You will receive:
+   - An integer N, representing the number of heroes and one additional town.
+   - A list `A` of length N+1, where A[i] represents the number of monsters attacking the i-th town.
+   - A list `B` of length N, where B[i] represents the maximum number of monsters the i-th hero can defeat.
+3. A hero i can defeat monsters in the i-th town or (i+1)-th town, but cannot exceed their maximum capacity `B[i]`.
+4. Utilize a greedy approach to iteratively decide how each hero should be deployed to maximize the total number of defeated monsters across all towns.
+5. Ensure that the solution is efficient and can handle the upper limits of the input constraints.

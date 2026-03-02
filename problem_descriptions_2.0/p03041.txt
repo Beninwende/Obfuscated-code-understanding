@@ -1,0 +1,22 @@
+**Exercise Title: Extracting and Replacing Character in a String**
+
+**Problem Statement:**
+
+You are tasked with manipulating a given string based on a specific position within it. You will receive a string consisting of uppercase letters from the English alphabet and a particular position indicator. You are given a string S of length N consisting of A, B and C, and an integer K which is between 1 and N (inclusive). Your objective is to replace the character at this specified position with a specified known lowercase character.
+
+**Requirements:**
+
+1. Implement a function that takes a string and an integer as inputs. The integer value corresponds to the position of the character in the string that needs to be replaced.
+   
+2. The function should return the original string after replacing the character at the specified position with a traditional lowercase letter. 
+
+3. Assume the position is 1-based, meaning, the first character of the string is indicated with position 1.
+
+4. Constraints:
+   - The string can have a length of up to 50 characters.
+   - All letters in the string are uppercase alphabets.
+   - All positions provided will be valid within the string length.
+
+5. Your solution should output a new string reflecting this change.
+
+Focus on utilizing basic string manipulation techniques to address the problem thoroughly.

@@ -1,0 +1,23 @@
+**Exercise Title: Simple Array Modification**
+
+**Problem Statement:**
+
+You are given an array of integers representing initial values. Your task is to modify this array using a sequence of operations. Each operation allows you to increase the value of all elements within a specified index range by 1. Your goal is to transform the initial array into a target array with the least number of operations.
+
+**Requirements:**
+
+1. Write a function that takes two arguments:
+   - An integer `n` representing the size of the array.
+   - Two arrays of integers `initial` and `target`, each of size `n`, where `initial[i]` is the initial value at index `i` and `target[i]` is the desired value at index `i`.
+
+2. The function should determine the minimum number of operations required to change each element of the `initial` array to its corresponding value in the `target` array.
+
+3. Each operation consists of specifying a start index `l` and an end index `r` (0 ≤ l ≤ r < n), and then incrementing each element in the sub-array `initial[l]` through `initial[r]` by 1.
+
+4. The function should return an integer indicating the minimum number of operations needed to transform the `initial` array into the `target` array.
+
+5. Consider edge cases where:
+   - The `initial` array may already match the `target` array.
+   - Any value in the `target` array could be equal to or greater than its corresponding value in the `initial` array.
+
+Focus on implementing an efficient algorithm that minimizes the number of operations, taking into account the given constraints and edge cases.

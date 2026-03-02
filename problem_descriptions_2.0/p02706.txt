@@ -1,0 +1,19 @@
+# Calculate Remaining Days
+
+## Problem Statement
+
+You are tasked with creating a simple tool to calculate how many days remain for an event after scheduling multiple tasks. This exercise will help you understand basic input handling, loops, and arithmetic operations.
+
+You have a total number of days `T` to complete your tasks. Each task `i` requires `D_i` days to complete. Tasks must be completed on separate, individual days. After scheduling all tasks, your goal is to determine the number of days left for other activities. If the total number of days required for all tasks exceeds the available days `T`, indicate that it is not possible to fit all tasks.
+
+## Requirements
+
+1. **Function Signature**: Create a function named `remaining_days` that takes two arguments - an integer `T` and a list of integers `tasks`, where each integer in `tasks` represents the number of days required for each task.
+
+2. **Calculate Total Days**: Use a loop to calculate the sum of the days required for the tasks.
+
+3. **Determine Remaining Days**:
+   - If the total days required for the tasks is less than or equal to `T`, return the number of remaining days (i.e., `T - sum of days for tasks`).
+   - If the total days required exceeds `T`, return `-1` to indicate that all tasks cannot be completed within the available days.
+
+This exercise focuses on using loops, basic arithmetic operations, and conditional statements to manage resource constraints.

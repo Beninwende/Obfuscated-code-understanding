@@ -1,0 +1,14 @@
+**Exercise Title: Counting Character Pairs**
+
+**Problem Statement:**
+
+You are given a string composed exclusively of two distinct characters, 'A' and 'B'. Your task is to count how many pairs of 'A' and 'B' can be formed. A pair can consist of any 'A' and any 'B', regardless of their positions in the string. Each character can only be used once in a pair. The goal is to determine the maximum number of pairs that can be formed from the characters in the string.
+
+**Requirements:**
+
+- Implement a function that takes a string as input.
+- The function should return an integer representing the maximum number of pairs that can be formed from 'A's and 'B's.
+- Assume the input string has at least one character and consists only of the characters 'A' and 'B'.
+- Consider edge cases where the string consists entirely of one character (either all 'A's or all 'B's), or where the string alternates between 'A' and 'B'.
+
+This exercise will help you practice counting characters within a string and using this information to perform simple calculations.

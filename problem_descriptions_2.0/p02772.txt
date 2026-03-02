@@ -1,0 +1,24 @@
+**Even Number Divisibility Checker**
+
+**Problem Statement:**
+
+Create a program that checks a list of numbers to determine if all the even numbers conform to specific divisibility criteria.
+
+You are provided with a certain number of integers. You need to evaluate all the even integers from this list to verify if they satisfy the following condition:
+
+Each even integer must be divisible by either 3 or 5.
+
+If all even integers meet this condition, the program should output "VALID". If at least one even integer fails to meet the condition, the program should output "INVALID".
+
+**Requirements:**
+
+1. Implement a function that accepts an integer list as input.
+2. Check each integer in the list:
+   - If the integer is even, confirm it is divisible by either 3 or 5.
+3. Output "VALID" if all even integers meet the condition; otherwise, output "INVALID".
+
+**Constraints:**
+
+- All integers provided are positive.
+- The list will contain at least one integer and at most 100 integers.
+- Integer values will be between 1 and 1000 inclusive.

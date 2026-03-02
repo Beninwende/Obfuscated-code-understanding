@@ -1,0 +1,19 @@
+**Title: Determine Eligible Riders for an Attraction**
+
+**Problem Statement:**
+
+You are tasked with creating a program that evaluates a list of individuals and determines how many meet a specific criterion for participation in an event or activity. Each individual has a unique attribute measured numerically, and the activity has a minimum threshold for this attribute. Your goal is to count and report how many individuals meet or exceed this minimum threshold.
+
+**Requirements:**
+
+1. Write a function that takes two inputs:
+   - An integer, `M`, representing the number of individuals.
+   - An integer, `X`, representing the minimum required attribute value for participation.
+
+2. Followed by a list of `M` integers, each integer represents an individual's attribute value.
+
+3. Develop the logic to determine how many individuals have an attribute value that is equal to or greater than `X`.
+
+4. The function should return a single integer, representing the number of individuals who are eligible for participation based on their attribute values.
+
+This exercise focuses on understanding how to iterate over a list, apply conditional checks, and count elements that satisfy specific conditions.

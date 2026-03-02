@@ -1,0 +1,23 @@
+**Exercise Title: Validate Non-Decreasing Heights through Simple Operations**
+
+**Problem Statement:**
+
+Imagine a sequence of blocks, each having a certain height. Your task is to determine if it's possible to arrange the heights of these blocks in non-decreasing order (meaning each block is as tall or taller than the one before it) by performing a specific type of operation at most once on each block.
+
+For each block's height in the sequence, you may choose one of the following operations:
+1. Decrease the height of the block by 1 unit.
+2. Leave the height of the block unchanged.
+
+You are required to decide if, by using these operations, it is possible to ensure that the heights of the blocks form a non-decreasing sequence from left to right.
+
+**Requirements:**
+
+1. You will be given an integer `N`, representing the number of blocks in the sequence.
+
+2. You will also be provided with an array of integers `H` where `H[i]` denotes the height of the `i-th` block.
+
+3. Your program should output "Yes" if it's possible to modify the heights using the allowed operations to achieve a non-decreasing sequence. Otherwise, output "No".
+
+Focus on carefully iterating over the block heights and applying the allowable operations to make the sequence non-decreasing. Consider edge cases, like when heights are already in non-decreasing order or when only minimal changes are needed.
+
+Your solution should be efficient enough to handle up to the maximum constraints smoothly.

@@ -1,0 +1,17 @@
+**Title: Single Swap Sort Check**
+
+**Problem Statement:**
+
+Given a list of integers, determine if it is possible to sort the list in ascending order by swapping at most one pair of elements. You are allowed to perform this swap operation at most once. However, you may also choose not to perform any swap if the list is already sorted. Your task is to write a function that decides whether the list can be sorted under these conditions.
+
+**Requirements:**
+
+1. Implement a function that takes an integer `N` (the number of elements in the list) and a list of `N` integers as inputs. The list elements are distinct integers with no specific range given.
+
+2. Your function should determine if the list can be sorted in ascending order by swapping at most one pair of elements. If it is possible, the function should output "YES"; otherwise, it should output "NO".
+
+3. Ensure your solution efficiently checks whether swapping any two elements in the list can result in a sorted order.
+
+4. You can assume that the input list has at least two elements (`N >= 2`).
+
+5. Your solution should correctly handle edge cases, such as already sorted lists and lists where sorting is not possible with a single swap.

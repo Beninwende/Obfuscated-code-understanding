@@ -1,0 +1,20 @@
+**Exercise Title: String Rotation Comparison**
+
+**Problem Statement:**
+
+You are tasked with creating a function that determines whether two given strings can be made identical by rotating one of them. A rotation involves moving the first character of the string to the end, effectively shifting all other characters one position to the left. This function should assess if performing such a rotation any number of times can make the strings equal.
+
+**Requirements:**
+
+1. Write a function `isRotatedVersion` that takes two strings as inputs: `string1` and `string2`.
+2. Both `string1` and `string2` will be non-empty and have the same length.
+3. The function should return a boolean value: 
+   - Return `True` if `string1` can be transformed into `string2` by rotating it any number of times.
+   - Return `False` if it is not possible.
+
+**Constraints:**
+
+- Both strings will consist only of lowercase English letters.
+- The length of both strings will be between 2 and 100 characters, inclusive.
+
+Your task is to ensure that the function correctly identifies whether one string can be transformed into the other through the described rotation process. Consider the efficiency and clarity of your implementation as it may need to handle up to 100 rotations.

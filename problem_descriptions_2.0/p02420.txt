@@ -1,0 +1,21 @@
+## Exercise: Rotate List Elements
+
+### Problem Statement:
+Your task is to develop a function that rotates elements in a list of characters. Given a list of characters and a sequence of rotation positions, the function should repeatedly perform a rotation operation. A rotation operation is defined as taking a specified number of characters from the beginning of the list and moving them to the end.
+
+### Requirements:
+1. Implement a function that accepts the following inputs:
+   - A list of characters representing the initial sequence.
+   - An integer `n` that specifies the number of rotations to be performed.
+   - A list of integers where each integer represents how many characters to rotate in each subsequent operation.
+
+2. The function should perform exactly `n` rotations in the order they are provided in the input list of integers.
+
+3. After processing all rotations, the function should return the final arrangement of characters as a list.
+
+4. Constraints are as follows:
+   - The length of the character list is guaranteed to be at least 1 and at most 100.
+   - The number of rotations (`n`) is between 1 and 100.
+   - Each rotation number is a positive integer that is less than the length of the character list.
+
+Focus on implementing the rotations in an efficient manner. The function should handle each rotation and resultant configuration updates suitably within the constraints provided.

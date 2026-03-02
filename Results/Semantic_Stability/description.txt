@@ -1,0 +1,60 @@
+Methodology
+
+\subsubsection{Semantic Stability}
+\label{sec:metrics:stability}
+
+We define \textbf{semantic stability} as the degree to which a model produces semantically consistent descriptions when given functionally equivalent but syntactically different variants of the same program. This metric is used to evaluate and compare models on robustness of semantic interpretation.
+
+\textbf{Definition and assumption.} Semantic stability for a model is the average pairwise semantic similarity of the descriptions it generates for all pairs of code variants of the same problem. We assume that if a model gives semantically similar descriptions for functionally identical code under different surface forms (with or without comments, renamed variables, dead code, or encrypted literals), it is relying on underlying semantics rather than superficial cues. Thus higher stability indicates more robust, semantics-oriented understanding; lower stability indicates sensitivity to surface form.
+
+\textbf{Setup.} For each problem $P$ we use the five variants defined in Section~\ref{sec:dataset}: with comments ($E_c$), without comments ($E_{wc}$), variable renaming ($s_{ren}$), dead code ($s_{dead}$), and literal encryption ($s_{enc}$). Each variant is functionally equivalent. For each variant $c_i$, model $M$ produces a description $\mathcal{D}_M(c_i)$. Similarity between two descriptions is given by the LLM-as-judge function $\mathrm{Sim}$ (Section~\ref{sec:metrics}). There are $\binom{5}{2}=10$ unique pairs of variants per problem.
+
+\textbf{Formulas.} Per-problem stability (model $M$, problem $P$):
+\begin{equation}
+\mathrm{Stability}_M(P) = \frac{1}{10} \sum_{i<j} \mathrm{Sim}\bigl(\mathcal{D}_M(c_i), \mathcal{D}_M(c_j)\bigr)
+\end{equation}
+where the sum runs over all 10 unordered pairs of the five variants, and $\mathrm{Sim}$ is the LLM-as-judge semantic similarity in $[0,1]$. Overall stability for model $M$ (over the set of problems $\mathcal{P}$):
+\begin{equation}
+\mathrm{Stability}_M = \frac{1}{|\mathcal{P}|} \sum_{P \in \mathcal{P}} \mathrm{Stability}_M(P)
+\end{equation}
+with $|\mathcal{P}|=250$. Thus each model receives a single aggregate stability score in $[0,1]$. This coincides with the overall consistency score $\mathrm{Consistency}_M$ defined above; we use the term \emph{semantic stability} to emphasize interpretation as robustness of semantic interpretation.
+
+\textbf{Computation.} Stability is computed from the pairwise similarity data in \texttt{Semantic\_Consistency/pairwise\_similarity.json}. For each (model, problem), the pairwise scores use the \texttt{avg\_llm\_score} field as $\mathrm{Sim}(\mathcal{D}_M(c_i), \mathcal{D}_M(c_j))$. Per-problem stability is the mean of these scores over the available pairs; overall stability is the mean of per-problem stabilities across problems. Missing scores for a pair are omitted (the denominator is the number of available pairs for that problem).
+
+\textbf{Interpretation.} $\mathrm{Stability}_M(P)$ close to 1: the model's descriptions are highly consistent across the five variants of problem $P$. $\mathrm{Stability}_M(P)$ close to 0: descriptions differ substantially across variants, suggesting sensitivity to surface form. $\mathrm{Stability}_M$ summarizes this behavior over the full benchmark and is used to rank or compare models (Section~\ref{sec:results:stability}).
+
+Results:
+
+\subsection{Semantic Stability}
+\label{sec:results:stability}
+
+We report each model's semantic stability (Section~\ref{sec:metrics:stability}): the mean pairwise LLM-as-judge similarity of the descriptions it generates across the five code variants (with/without comments, variable renaming, dead code, literal encryption) for each of the 250 problems, then averaged over problems. A score close to 1 indicates that the model produces semantically consistent descriptions across syntactic variants; a score close to 0 indicates strong sensitivity to surface form. Table~\ref{tab:semantic_stability} gives overall stability and the proportion of problems for which the model's per-problem stability is above the 0.5 threshold (stable problems).
+
+\begin{table}[htbp]
+\centering
+\caption{Semantic stability by model. Overall stability is mean pairwise similarity across variants and problems; stability rate is the proportion of problems with per-problem stability $> 0.5$.}
+\label{tab:semantic_stability}
+\begin{adjustbox}{width=.55\columnwidth,center}
+\begin{tabular}{l|c|c}
+\toprule
+\textbf{Model} & \textbf{Stability} & \textbf{Stable (\%)} \\
+\midrule
+O4-mini & 0.803 & 94.8 \\
+Gemini & 0.795 & 95.6 \\
+DeepSeek-R1 & 0.787 & 97.2 \\
+DeepSeek-V3.1 & 0.741 & 92.0 \\
+QwenCoder-32B & 0.698 & 92.0 \\
+GPT-4o & 0.675 & 86.8 \\
+GPT-3.5-turbo & 0.591 & 70.4 \\
+Mistral-7B & 0.502 & 50.0 \\
+StarChat-15B & 0.389 & 25.6 \\
+Qwen3-VL & 0.379 & 24.0 \\
+CodeLlama-7B & 0.153 & 4.4 \\
+Llama3.2-VL & 0.092 & 0.0 \\
+StarCoder-15B & 0.037 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+DeepSeek-R1, O4-mini, and Gemini achieve the highest stability (0.79--0.80) and label over 94\% of problems as stable. DeepSeek-V3.1, QwenCoder-32B, and GPT-4o follow (0.67--0.74). GPT-3.5-turbo and Mistral-7B are mid-tier (0.50--0.59). Code-specialized and vision-language models (StarChat-15B, Qwen3-VL, CodeLlama-7B, Llama3.2-VL, StarCoder-15B) have the lowest stability (0.04--0.39) and few or no stable problems. This ordering aligns with the transformation-level results: models that maintain high correct rates across variants also have high semantic stability.

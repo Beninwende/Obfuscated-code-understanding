@@ -1,0 +1,26 @@
+**Title: Overlapping Time Intervals**
+
+**Problem Statement:**
+
+Your task is to identify the duration of overlap between two given time intervals. Each interval is defined by a start time and an end time. Using these intervals, determine how long (in units of time) both intervals overlap.
+
+- The first interval starts at time `X` and ends at time `Y`.
+- The second interval starts at time `P` and ends at time `Q`.
+
+Intervals are inclusive of their start and exclusive of their end.
+
+**Requirements:**
+
+Create a program that accomplishes the following:
+
+1. Accept four integer inputs: `X`, `Y`, `P`, and `Q`.
+2. These inputs define the start and end of two intervals: `[X, Y)` and `[P, Q)`.
+3. Compute the duration of overlap between the two intervals in units of time.
+4. If there is no overlap, the output should be `0`. 
+
+Ensure that the input adheres to the following constraints:
+- `0 ≤ X < Y ≤ 100`
+- `0 ≤ P < Q ≤ 100`
+- All inputs are integers.
+
+Implement logic to determine the overlapping duration by considering the intersection of the intervals.

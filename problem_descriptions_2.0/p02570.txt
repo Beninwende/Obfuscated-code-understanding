@@ -1,0 +1,28 @@
+### Exercise: Journey Time Calculation
+
+#### Problem Statement
+
+You are planning to travel a certain distance and need to determine if you can reach your destination within a specified time limit. You must write a function that calculates whether or not your journey will be completed in the allotted time based on your constant speed.
+
+#### Task
+
+You need to create a function named `willArriveInTime()` that takes three parameters:  
+- `distance`: the total distance in meters you need to travel.
+- `timeLimit`: the maximum time in minutes in which you need to complete the journey.
+- `speed`: your constant speed in meters per minute.
+
+The function should determine if you can complete your journey within the given time limit. 
+
+#### Requirements
+
+1. Your function must calculate the total time it will take you to travel the given distance at the given speed.
+2. If the calculated travel time is less than or equal to the time limit, the function should return "Yes".
+3. If the calculated travel time exceeds the time limit, the function should return "No".
+4. The function should handle the computation using integer arithmetic for simplicity.
+5. The constraints are as follows:
+
+   - 1 ≤ `distance` ≤ 10,000
+   - 1 ≤ `timeLimit` ≤ 10,000
+   - 1 ≤ `speed` ≤ 10,000
+
+By focusing on implementing this logic, you'll practice fundamental concepts in programming such as conditional statements, arithmetic operations, and function creation.

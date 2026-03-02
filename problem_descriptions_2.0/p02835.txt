@@ -1,0 +1,15 @@
+### Exercise Title: Sum Evaluation and Conditional Output
+
+### Problem Statement
+Write a program that takes three integers as input. Your task is to evaluate the sum of these integers. If the sum of the three integers is greater than or equal to a specific threshold value, return a designated message. Otherwise, return a different message. This exercise will help you practice basic input handling, arithmetic operations, and conditional statements in programming.
+
+### Requirements
+1. Read three integers from input. Ensure the input values are within a specified range.
+2. Calculate the sum of the three integers.
+3. Compare the calculated sum to a defined threshold:
+   - If the sum is greater than or equal to the threshold, return a specific message.
+   - If the sum is less than the threshold, return a different message.
+4. The integer constraints and specific messages should be clearly defined within the problem context. 
+5. Use standard input to capture the values and standard output to display the result. 
+
+This exercise emphasizes reading inputs, performing calculations, and using conditional statements to decide and output the correct message based on calculations.

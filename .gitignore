@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Optional: uncomment to avoid committing large data if you copy it in
+# Data/
+# GENERATION_Datasets/

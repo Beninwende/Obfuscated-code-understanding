@@ -1,0 +1,17 @@
+**Exercise Title: Simple Multiplication with Constraints**
+
+**Problem Statement:**
+
+Create a function that attempts to multiply two given integers, but with specific constraints on the possible values of these integers. The limitation is based on a learned multiplication table, which only allows multiplication of integers within a particular range. Your task is to implement a function that takes two integers as input and checks if their multiplication can be calculated based on this constraint. If it can be calculated, the function should return the result of their multiplication. If not, the function must return a specific error value.
+
+**Requirements:**
+
+1. Write a function `multiply_with_constraints(a, b)` that receives two integer inputs, `a` and `b`.
+
+2. The function should only perform the multiplication if both integers are within the inclusive range of 1 to 9. 
+
+3. If both integers are within the valid range, calculate and return the product of `a` and `b`.
+
+4. If either integer is outside the valid range, return `-1` to indicate that the multiplication cannot be performed according to the given constraints.
+
+5. Ensure that the function is robust and handles any integer inputs by evaluating whether they fall within the permissible range before attempting any calculation.

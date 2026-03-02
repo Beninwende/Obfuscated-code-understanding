@@ -1,0 +1,970 @@
+[
+  {
+    "Sub Directory": "p00001",
+    "Description_Simple": "Title: Top Three Maximum Integers Finder\n\nMain goal: This program reads up to 10 non-negative integers (each < 10000) from standard input, ignores invalid lines, and then identifies and prints the three largest values in descending order, each on its own line."
+  },
+  {
+    "Sub Directory": "p00002",
+    "Description_Simple": "Title: Obfuscated Sum‐Based Message Dispatcher\n\nMain goal: This program reads pairs of integers from standard input, computes their sum, and then—based on which numeric range the sum falls into—prints one of several hidden messages. All the output strings are stored in encrypted or XOR‐obfuscated form and are decrypted at runtime using MD5‐derived DES/Blowfish keys and simple XOR routines. The result is a highly obfuscated dispatcher that maps input‐sum ranges to specific textual responses."
+  },
+  {
+    "Sub Directory": "p00003",
+    "Description_Simple": "Title: Obfuscated Right-Triangle Classifier\n\nMain goal: This program reads an integer N from standard input, then processes N lines each containing three integer side‐lengths. For each triple it:\n1. Checks that all sides are within the valid range [2,1000]; if not, outputs “invalid.”\n2. Otherwise identifies the largest side as the hypotenuse candidate and tests the Pythagorean condition (largest² == sum of squares of the other two). If it holds, outputs “right,” otherwise outputs “wrong.”\n\nInternally, all literal strings (“invalid”, “right”, “wrong”, and the tokenizer) are stored in an encrypted form and decrypted at runtime."
+  },
+  {
+    "Sub Directory": "p00005",
+    "Description_Simple": "Title: GCD and LCM Calculator\nMain goal: Reads pairs of integers and for each pair computes and prints their greatest common divisor (GCD) followed by their least common multiple (LCM)."
+  },
+  {
+    "Sub Directory": "p00006",
+    "Description_Simple": "This code is an obfuscated Java program that reads input lines one by one, reverses the characters of each line by swapping pairs up to the middle, and then prints out the reversed line. Supporting methods provide integer and object comparisons, and a Base64‐based string decoder is used only to initialize an empty string for newline output."
+  },
+  {
+    "Sub Directory": "p00007",
+    "Description_Simple": "Title: Price Growth Simulator\n\nMain Goal: \nThis code reads an integer N from the input, then starting from an initial value of 100 000, it applies N rounds of a 5% increase. After each increase it rounds the result up to the nearest 1 000. Finally, it prints the resulting amount as an integer."
+  },
+  {
+    "Sub Directory": "p00011",
+    "Description_Simple": "Title: Applying Pairwise Swaps to an Integer Sequence and Printing the Inverse Permutation  \nMain Goal: Read two integers n and m, then m comma-separated swap instructions. Start with the identity array [1…n], apply each swap (transposition) in order to that array, and finally for each value 1…n print the position at which it ends up (i.e. the inverse of the resulting permutation). The rest of the code is just obfuscated helpers for string decryption and basic utilities."
+  },
+  {
+    "Sub Directory": "p02255",
+    "Description_Simple": "Title: Obfuscated Insertion Sort with Stepwise Output\n\nMain goal: This program reads an integer N (1 ≤ N < 100), then reads N values (each 0 ≤ value < 1000), sorts them using insertion sort, and prints the entire array before each insertion pass (including the initial state) and once more at the end."
+  },
+  {
+    "Sub Directory": "p02256",
+    "Description_Simple": "Title: Obfuscated Greatest Common Divisor (GCD) Calculator\n\nMain goal: This code reads two integers (separated by a space) from standard input, computes their greatest common divisor by enumerating divisors of the smaller number and the remainder from the Euclidean step, and prints the largest common divisor."
+  },
+  {
+    "Sub Directory": "p02257",
+    "Description_Simple": "Title: Non-Ugly Number Counter\n\nMain goal: Read a sequence of integers from standard input and count how many of them are not composed solely of the prime factors 2, 3, 5, and 7 (i.e. are not “ugly” numbers).\n\nSummary: The code first builds the list of all “ugly” numbers ≤ 9999 by sieving out any number divisible by primes ≥ 11 (and composites co-prime with 2,3,5,7). It then reads each input integer, skips it if it is in the ugly‐number list, and otherwise increments a counter. Finally, it prints the count of non-ugly numbers."
+  },
+  {
+    "Sub Directory": "p02258",
+    "Description_Simple": "Title: Maximum Difference Calculator\n\nMain goal:\nThis code reads an integer N from standard input, then reads N more integers into an array, and finally computes and prints the maximum difference arr[j]−arr[i] over all pairs with j>i (i.e. the largest “profit” you could get by buying at one position and selling later). If all later values are smaller than earlier ones, it prints the least negative difference (the smallest “loss”)."
+  },
+  {
+    "Sub Directory": "p02259",
+    "Description_Simple": "Title: Bubble Sort with Swap Counting and Custom Delimiter\n\nMain Goal:\nThis program reads an integer N and then N integers from standard input, sorts them in ascending order using the bubble-sort algorithm while counting the total number of swaps performed, and finally prints the sorted list (using a decrypted delimiter) followed by the swap count.\n\nKey Components:\n1. FastScanner: A highly obfuscated fast input reader for tokens, integers, longs, etc.\n2. llIlIlIIlIIl / IIllIlIIlIIl / lIllIlIIlIIl: Simple helper methods that check “<”, “!= 0” (boolean), and “>” respectively to drive loops and comparisons.\n3. IIlllIIIlIIl (and related cryptographic setup):\n   - Uses MD5 of a key string (“VnMaG”) to create a Blowfish key.\n   - Decrypts a Base64-encoded cipher text (“II1Xn/OvUcs=”) to obtain the delimiter string (e.g. “, ”) stored in lIllIIIlIl[0].\n4. Main Sorting Logic:\n   a. Read N and the array of N integers.\n   b. Perform bubble sort:\n      – Repeatedly scan the array, swapping adjacent out‐of‐order elements.\n      – Keep a running count of how many swaps occur.\n      – Stop once a full pass makes no swaps.\n   c. Print the sorted numbers separated by the decrypted delimiter.\n   d. Print the total swap count on a new line."
+  },
+  {
+    "Sub Directory": "p02260",
+    "Description_Simple": "Title: Selection Sort with Swap Counting\n\nMain goal: The program reads an integer n and an array of n integers from standard input, sorts the array in ascending order using a straightforward selection-sort algorithm while counting how many swaps are performed, and then prints the sorted array followed by the total swap count."
+  },
+  {
+    "Sub Directory": "p02263",
+    "Description_Simple": "Title: Reverse Polish Notation (Postfix) Calculator\n\nMain goal: This program reads a single line from standard input containing a whitespace-separated or contiguous postfix (Reverse Polish) arithmetic expression, uses a simple integer stack to parse multi-digit numbers and apply the operators +, -, *, and / in the proper order, and then prints the computed integer result."
+  },
+  {
+    "Sub Directory": "p02264",
+    "Description_Simple": "Simulates a round-robin scheduler: it reads the number of processes and a time‐slice quantum, then reads each process’s name and required CPU time. It repeatedly cycles through the process queue, giving each process up to one quantum of time; when a process finishes, it prints the process’s name and its completion time."
+  },
+  {
+    "Sub Directory": "p02268",
+    "Description_Simple": "Title: Obfuscated Integer‐Array Intersection Counter\n\nMain Goal:\nThis heavily obfuscated Java snippet reads two integer sequences (first the length, then the list, twice), assumes each list is sorted, and counts how many values appear in both lists.  Under the hood it swaps so the larger array is the “search space” and then, for each element of the smaller array, locates it in the bigger array via a custom multi‐pivot search. The final count of common elements is printed."
+  },
+  {
+    "Sub Directory": "p02381",
+    "Description_Simple": "Title: Standard Deviation Calculator\n\nMain goal: The code reads successive data-sets from standard input. Each data-set begins with an integer N (1 ≤ N ≤ 1000) specifying how many values follow on the next line. It then reads N space-separated integers, computes the population standard deviation of those N values, and stores the result. The sequence of data-sets ends when N=0. Finally, it prints each computed standard deviation on its own line formatted to two decimal places."
+  },
+  {
+    "Sub Directory": "p02388",
+    "Description_Simple": "This Java program reads a line from standard input, parses it as an integer N, and checks that 1 ≤ N ≤ 100 using two helper methods. If N is out of range or not a valid integer, it throws and logs an exception. Otherwise, it computes N³ via Math.pow and prints the result. The static initializer and bitwise expressions are simply an obfuscation to set the lower bound to 1 and the upper bound to 100."
+  },
+  {
+    "Sub Directory": "p02389",
+    "Description_Simple": "Title: Obfuscated Integer Parser and Calculator\n\nMain Goal: This program reads up to four space-separated integers from the first line of standard input, reconstructs them from their digit characters, and then computes and prints two values: the product of the first and third integers, and twice the sum of the first and third integers."
+  },
+  {
+    "Sub Directory": "p02390",
+    "Description_Simple": "Title: Find the Largest Square-Free Number ≤ N\n\nMain goal:  \nThis program first builds a sieve of smallest prime factors for all integers up to a fixed limit (1000). It then reads an input N and searches downward from N to 1, testing each candidate k by factoring it (using the precomputed smallest‐factor array) and checking whether any prime appears more than once. The first k encountered with no repeated prime factors (i.e., k is square-free) is printed and the program exits. If no such k > 1 is found, it prints 1."
+  },
+  {
+    "Sub Directory": "p02391",
+    "Description_Simple": "Title: Obfuscated Integer Comparator\n\nMain Goal: This code reads two integers from standard input, verifies they lie within a predefined range, compares them, and prints one of three messages (“less than”, “equal to”, or “greater than”) or an out-of-range error. The messages and numeric limits are stored in encrypted form and are decoded at class‐load time.\n\nKey Functions:\n- llIlllIlIIl(): Initializes an array of integer constants used for bounds and control flow.\n- IlIlllIlIIl(): Decrypts and populates the output strings using three helper routines:\n  • lllIllIlIIl(): Base64 + XOR decryption.\n  • IIIlllIlIIl(): Blowfish decryption with an MD5‐derived key.\n  • lIIlllIlIIl(): DES decryption with an MD5‐derived key.\n- IIllllIlIIl, lIllllIlIIl, IlllllIlIIl, llllllIlIIl, IIIIIIllIIl: Simple comparison helpers (<=, <, >, ==, >=).\n- main(): Reads inputs, checks bounds, selects the proper comparison result, and prints the corresponding decrypted message."
+  },
+  {
+    "Sub Directory": "p02392",
+    "Description_Simple": "Title: “ABC” Substring Counter\n\nMain Goal:\nThis program reads an integer N and then a string of length N, and counts how many times the substring “ABC” appears (possibly overlapping) in that string. It finally prints the total count.\n\nKey Parts:\n- A tiny array of integer constants is initialized to {0,3,65,1,66,2,67} (after de-obfuscation these map to 0, 3, 'A', 1, 'B', 2, 'C').\n- In main(), it reads N and the character array of the input string.\n- It slides a window from i=0 to i≤N−3 and checks if characters at positions i,i+1,i+2 are 'A','B','C'.\n- Each match increments a counter.\n- The counter is printed at the end.\n- The rest of the code is an obfuscated fast input/output utility (FastScanner and FastWriter)."
+  },
+  {
+    "Sub Directory": "p02393",
+    "Description_Simple": "Title: Three-Number Sorting and Printing\n\nMain Goal:\nThis obfuscated Java program reads three integers from standard input, compares them in every possible ordering (including equalities), and prints them out arranged in non-decreasing order.\n\nExplanation of Key Parts:\n1. Static Initialization  \n   - A single-element int array is created and set to zero via bitwise operations. It is only used to initialize three local ints to zero.\n\n2. Input Parsing  \n   - Reads three tokens with Scanner.next(), parses them into integers a, b, c.\n\n3. Comparison Methods  \n   - lIIIllIlIll(int n, int n2): returns true if n == n2  \n   - IIIIllIlIll(int n, int n2): returns true if n < n2  \n   - IlIIllIlIll(int n, int n2): returns true if n > n2  \n\n4. Sorting Logic  \n   - A long chain of if/else-if conditions tests every combination of a < b < c, a < c < b, b < a < c, etc., plus cases where any two (or all three) are equal.  \n   - In each branch it prints the three numbers in ascending (or non-decreasing) order.\n\n5. Obfuscation Noise  \n   - Dead code like `\"\".length()` and bitwise expressions in the conditionals have no effect on the actual sorting logic; they are only there to confuse a reader or decompiler."
+  },
+  {
+    "Sub Directory": "p02394",
+    "Description_Simple": "Title: Obfuscated Java Program That Reads Five Integers and Prints Hidden Messages Based on Comparisons\n\nMain Goal: The code reads five integers from standard input, evaluates a fixed set of “≤” and “≥” constraints among them, and prints a corresponding hidden message for each satisfied condition. If none of the checks pass, it prints a default fallback message.\n\nKey Points:\n1. Static Initialization  \n   - Builds an index array (IlIllIIlll) holding the integers 0 through 7 via obfuscated bit-twiddling and calls two setup methods.  \n   - Constructs a string array (lIIllIIlll) of length 6, filling it with encrypted Base64 literals, each decrypted by one of three routines.\n\n2. Decryption Routines  \n   - IIIIlllIlIll: Uses DES with an MD5-derived key to decrypt a Base64 input.  \n   - IlIIlllIlIll: Uses Blowfish with an MD5-derived key for Base64 decryption.  \n   - lIIIlllIlIll: Decodes Base64 then applies a reversible XOR loop against a password.\n\n3. Comparison Helpers  \n   - IllIlllIlIll(a,b) returns (a ≥ b).  \n   - lIlIlllIlIll(a,b) returns (a ≤ b).  \n   - IIIllllIlIll(x) returns (x == 0).  \n   - lllIlllIlIll(x) returns (x ≤ 0).\n\n4. main() Workflow  \n   - Reads one line, splits into five integers: a, b, c, d, e.  \n   - Initializes a counter to zero.  \n   - Executes four hard-coded if-blocks, each combining multiple calls to ≤/≥ on different pairs (and sums/differences) of the inputs.  \n   - For each block whose condition is true, it prints the matching decrypted string and increments the counter.  \n   - After all checks, if the counter is still zero, it prints a final fallback string.\n\nIn short, this is an obfuscated conditional dispatcher: it hides its messages behind DES, Blowfish, or XOR ciphers and only reveals them when certain numeric relationships among the five inputs hold."
+  },
+  {
+    "Sub Directory": "p02396",
+    "Description_Simple": "Title: Obfuscated Line‐Reader and Case‐Printer\n\nMain Goal: This program reads up to 10 000 lines of standard‐input into an array, stopping early if it encounters a hidden “start” marker. It then walks through the stored lines and prints each one as  \n Case 1: <line>  \n Case 2: <line>  \n…  \nuntil it finds a second hidden “end” marker.  \n\nThe two sentinel strings are stored in encrypted form and are decrypted at class‐load time using a small DES+MD5 routine."
+  },
+  {
+    "Sub Directory": "p02397",
+    "Description_Simple": "Title: Pair Integer Sorter with Sentinel Termination\n\nMain Goal: This program reads lines from standard input, each containing two integers separated by a space. For each pair (a, b), it prints them in non-decreasing order (smaller first). It stops processing (without printing) when one of these sentinel conditions is met:\n  • The pair is “0 0”  \n  • The first integer is negative and the second exceeds 10000  \n  • More than 3000 pairs have been read  \n\nAll of the obfuscation (bit tricks, DES decryption, confusing method names) serves only to hide these simple behaviors."
+  },
+  {
+    "Sub Directory": "p02398",
+    "Description_Simple": "Title: Obfuscated Solution for Counting Ways to Sum to S Using K Parts\n\nMain goal:\nThis heavily obfuscated Java program reads two integers K and S from standard input and then computes how many ways you can write the integer S as a sum of K non‐negative integers. In other words, it solves the classic “stars and bars” or integer‐composition counting problem (the number of K-tuples (x₁,…,x_K) of non‐negative integers with x₁+…+x_K=S). The result is printed to standard output.\n\nSummary description:\n- The entry point `main` reads K and S, calls `g(S, K)`, and prints the result.\n- Internally, `g(total, parts)` and its helper `f(remaining, parts)` implement a dynamic-programming recurrence that builds up the count of compositions by summing over valid last‐part choices.\n- All array accesses, constants and control structures have been hidden behind layers of bit‐twiddling, encrypted string lookups, reflection of string‐lengths and tiny helper methods returning boolean tests, but at its core it is just a DP on sums of length K.\n- The DP uses a rolling buffer (`IlllllIIll` array) of size K to store intermediate counts, starting with DP[0]=1, and then aggregates contributions until it recovers the final count for sum S.\n- The rest of the code is devoted to decrypting embedded string constants (via AES/DES/Blowfish ciphers, Base64, MD5/SHA digests) and initializing obfuscated integer constants for indexes and lengths.\n- Despite the obfuscation, the heart of the algorithm is simply counting integer compositions (combinatorial partition) with dynamic programming."
+  },
+  {
+    "Sub Directory": "p02399",
+    "Description_Simple": "Title: Obfuscated Integer Division and Formatted Floating-Point Output\n\nMain Goal:  \nThis program reads two positive integers `a` and `b` (both in the range [1, 10^9]) from standard input (using an obfuscated delimiter), computes and prints the integer quotient (`a/b`) and remainder (`a%b`) if they lie in the allowed range, and then always prints the floating-point result of `a/b` using an obfuscated printf format. All string literals (the tokenizer delimiter and the printf format) are stored in encrypted form and decrypted at runtime using Blowfish and DES helper methods. Helper functions also perform simple numeric comparisons and emulate the ternary comparison of doubles."
+  },
+  {
+    "Sub Directory": "p02400",
+    "Description_Simple": "Title: Circle Area and Circumference Formatter\n\nMain goal: To read radius values from standard input, compute each circle’s area and circumference, format them to two decimal places, and print the results.\n\nThis obfuscated Java program:\n1. Decodes two format strings at startup using Blowfish and DES decryption routines.\n2. Enters a loop reading one radius per line.\n3. Calculates area = π·r² and circumference = 2·π·r.\n4. Applies the decrypted format patterns to produce nicely formatted output.\n5. Prints the formatted area and circumference side by side for each input radius."
+  },
+  {
+    "Sub Directory": "p02401",
+    "Description_Simple": "Title: Obfuscated Arithmetic Expression Processor\n\nMain Goal:\nThis Java program reads input lines containing two non-negative integers and an arithmetic operator (addition, subtraction, multiplication or division) separated by a fixed delimiter. It stops if a special “quit” operator is seen, otherwise for each valid line it computes the requested operation (provided the numbers are within allowed bounds and division by zero is avoided), collects the numeric results, and finally prints them one per line."
+  },
+  {
+    "Sub Directory": "p02402",
+    "Description_Simple": "Title: Obfuscated Java Sequence Analyzer\n\nMain goal:\nThis heavily obfuscated Java program reads an integer N and then a line of N space-separated integers from standard input. It scans the array to locate the last adjacent pair where the second element exceeds the first, then builds a second array of length N + 2 whose entries at index i (for i≥2) equal the sum of the element two positions earlier in the input and the corresponding entry two positions earlier in the new array. Finally, it prints:\n 1. The element at the identified index of the last ascending adjacent pair  \n 2. The element immediately following that in the array  \n 3. The computed value at index N of the new “every-other” cumulative-sum array  \n\nIn addition to the main logic, the code contains numerous decryption routines (using DES, Blowfish, Base64, MD5, etc.) that are solely used to reconstruct obfuscated string constants at runtime. These routines are never exercised in the main algorithm beyond initializing hidden messages and separators."
+  },
+  {
+    "Sub Directory": "p02403",
+    "Description_Simple": "Title: Encrypted‐Symbol Rectangle Printer\n\nMain Goal: This Java program reads pairs of positive integers (height and width) from standard input until it encounters the pair 0 0. Each valid pair (both values between 1 and an upper limit) is stored. After input ends, the program decrypts a single display character from a hard-coded Base64/DES payload and then, for each stored pair, prints a filled rectangle of that decrypted character with the specified height and width.\n\nKey Functions:\n1. lllllIlIlIIl(): Performs DES decryption (key derived from MD5 of a string) on a Base64 literal to recover the print symbol.\n2. main(): Reads and validates input pairs, stops on (0,0) or invalid range, then iterates through the stored dimensions and prints the corresponding rectangles line by line."
+  },
+  {
+    "Sub Directory": "p02404",
+    "Description_Simple": "The program reads pairs of integers (width, height) until both are zero. It enforces bounds (width≥3, 1≤height≤300), stops on invalid input, and otherwise draws for each pair a hollow rectangle of the given dimensions. Three printable symbols used for top/bottom edges, left/right edges, and the interior are stored in obfuscated form—two via a simple Base64 + XOR routine and one via Blowfish decryption—and are revealed at runtime to render the ASCII art."
+  },
+  {
+    "Sub Directory": "p02405",
+    "Description_Simple": "Title: Obfuscated ASCII Block‐Pattern Generator\n\nMain Goal:\nThis code reads pairs of integers (height H and width W) from standard input until it encounters “0 0,” and for each nonzero pair it prints an H×W ASCII art pattern that alternates two block designs in a checkerboard‐like fashion. The actual characters used in the pattern are stored in an encrypted string array and decrypted at runtime.\n\nKey Components:\n1. Initialization:\n   • lllIllIlIll(): Fills an integer array IIlIIllll with small constants (0,1,2,…).\n   • IllIllIlIll(): Builds the string array llIIIllll by decrypting Base64 blobs via three methods:\n     – llIIllIlIll: MD5+DES decryption\n     – IIlIllIlIll: MD5+Blowfish decryption\n     – lIlIllIlIll: Base64 decode + simple XOR cipher\n\n2. Main Loop (main()):\n   • Repeatedly reads two ints H and W.\n   • If both are zero, exits.\n   • Otherwise, divides H and W into 2×2 “tile” blocks:\n     – Uses nested loops over tile rows (H/2) and tile columns (W/2).\n     – For each tile, tests parity of its row and column index to select one of four decrypted strings and prints it (either as one or two characters wide).\n     – Handles the case when H or W is odd by printing the remaining last row or column in the correct pattern.\n   • After each pattern, prints a newline (also decrypted).\n\n3. Utility Methods:\n   • llIlllIlIll, lIIlllIlIll, IIIlllIlIll, IlIlllIlIll: simple numeric comparisons (==, !=, >=, <=).\n\nIn essence, it’s an intentionally obfuscated program that generates a checkerboard‐style ASCII art of a user‐specified size, using encrypted constants to hide the actual characters."
+  },
+  {
+    "Sub Directory": "p02406",
+    "Description_Simple": "This program scans an integer N and then iterates from 3 up to N (stopping at 10000). For each number, it checks if it’s divisible by 3 or if any decimal digit equals 3 (units, tens, hundreds, or thousands place) and prints those that match."
+  },
+  {
+    "Sub Directory": "p02407",
+    "Description_Simple": "Title: Fast I/O Utility Wrapper for a Competitive Programming Solver\n\nMain Goal:\nThis code provides a highly optimized, byte‐level FastScanner for reading input (tokens, ints, longs, doubles, arrays) and sets up a PrintWriter for output. Its purpose is to supply ultra-fast input/output routines and then invoke a (not shown) Solver class’s run() method to process the problem’s logic.\n\nSummary Description:\nThe `Main` class’s `main` method creates an instance of `FastScanner` (reading from `System.in`) and a `PrintWriter` (writing to `System.out`). It then constructs and runs `Solver`, passing in these I/O objects and ensuring output is flushed and closed, with exception handling.\n\nNested inside `Main`, the `FastScanner` class reads raw bytes into a buffer and exposes methods:\n- `hasNext()`, `next()`: check for and return the next token as a String\n- `nextInt()`, `nextLong()`, `nextDouble()`: parse the next token into primitive types\n- `nextIntArray(n)`, `nextLongArray(n)`: read an array of length n of ints or longs\n\nAll comparisons and constants are obfuscated via bitwise operations, but the core I/O logic mirrors a typical competitive‐programming fast reader."
+  },
+  {
+    "Sub Directory": "p02408",
+    "Description_Simple": "Title: Obfuscated “Missing Cards” Finder\n\nMain goal: This program reads N card descriptions (each given by a suit name and a rank), marks those cards as “present,” and then prints out every card in a standard 52-card deck (13 ranks × 4 suits) that was *not* listed in the input.  \n\nSummary_description  \n- The code begins by building a 4×13 “default” matrix of card ranks 1–13 for each of the four suits.  \n- It then reads an integer N and N lines of (suitString, rank) pairs.  \n- Based on the decrypted suit names (“Spade”, “Heart”, “Club”, “Diamond”), it sets entries in a second matrix to mark which cards appeared in the input.  \n- Finally it walks through all 4×13 positions; whenever the default rank (j+1) does not match the entry in the “seen” matrix (i.e. the card was missing), it prints out the suit initial (S/H/C/D) and the rank.  \n- To foil static analysis, suit‐name constants are stored encrypted and decrypted at runtime via DES and Blowfish routines, and the whole thing is packed with meaningless loops, bit-twiddling constants, and dummy string‐length checks."
+  },
+  {
+    "Sub Directory": "p02409",
+    "Description_Simple": "Title: Traffic Flow Aggregator on a Fixed Grid\n\nMain Goal:\nThis obfuscated program reads a number of records from standard input, each specifying a direction code (1–4), a quantity, and grid coordinates (row and column). It maintains four separate 3×10 integer matrices—one per direction—and, for each record, adds the specified quantity into the appropriate cell of the matrix matching its direction. After processing all input, it prints out each direction’s matrix in turn (in the order of codes 1 through 4), separating the blocks with decrypted header labels. Utility methods implement simple comparisons, base-64/XOR and DES/MD5 decryption to conceal the direction headers."
+  },
+  {
+    "Sub Directory": "p02410",
+    "Description_Simple": "Title: Matrix-Vector Multiplication\n\nMain Goal: The code reads two integers n and m (separated by “$”), then an n×m integer matrix (rows split by spaces), then an m-element integer vector (one per line). It validates dimensions and element ranges (0–1000), computes the product of the matrix by the vector, and prints the resulting n-element vector."
+  },
+  {
+    "Sub Directory": "p02411",
+    "Description_Simple": "Title: Obfuscated Student Grade Classifier\n\nMain goal:\nThis program repeatedly reads three integers (two theory marks and one practical mark) until a triple of zeros is entered. For each input:\n- If either theory mark is zero, it prints an “Invalid Marks” message.\n- Otherwise, it computes the sum of the two theory marks and, together with the practical mark, classifies the student’s result into one of several categories:\n  • Sum ≥ 80: “Distinction”  \n  • 65 ≤ Sum < 80: “First Class”  \n  • 50 ≤ Sum < 65: “Second Class”  \n  • 30 ≤ Sum < 50 and practical ≥ 50: “Pass”  \n  • 30 ≤ Sum < 50 and practical < 50: “Supplementary”  \n  • Sum < 30: “Fail”\n\nKey functions:\n- IIlIIIIlIIl(): initializes all the numeric constants used for comparison.\n- llIIIIIlIIl() and IlIIIIIlIIl(): decrypt hard-coded, encrypted message strings at startup using DES and Blowfish.\n- Helper methods (IllIIIIlIIl, IIIlIIIlIIl, lIIlIIIlIIl, lIlIIIIlIIl, lllIIIIlIIl) perform simple integer comparison operations."
+  },
+  {
+    "Sub Directory": "p02412",
+    "Description_Simple": "Title: Greedy Triple-Packing Counter\n\nMain Goal:\nThis program reads multiple test cases (pairs of integers N and S) from standard input until it encounters “0 0.” For each case it counts, using a simple greedy algorithm, how many distinct triples (i, j, k) with 1 ≤ i < j < k ≤ N and i+j+k = S can be selected so that no two chosen triples share any pair of numbers. It then prints one count per line for all test cases.\n\nKey Steps:\n1. Decrypts a single hidden string (“ ”) via a Blowfish/MD5 routine to use as the input‐split delimiter.\n2. Reads lines, splits on space, parses N and S.\n3. If (N, S) = (0, 0) → stop and output accumulated results.\n4. If S < 3 → record 0 (no triples possible).\n5. Otherwise, enumerate all i<j<k ≤ N with sum S;\n   – in lex order, add a triple only if it shares at most one element (i.e. no pair) with any already chosen triple.\n   – maintain a running list of accepted triples.\n   – after scanning, record the size of that list.\n6. After all cases, print each recorded count on its own line."
+  },
+  {
+    "Sub Directory": "p02413",
+    "Description_Simple": "Title: Matrix Summation with Row, Column, and Total Totals\n\nMain Goal: This program reads an M×N matrix from standard input, computes the sum of each row and appends it as a new last column, computes the sum of each column and prints it as a new last row, and finally fills the bottom-right corner with the overall sum of all elements. It then outputs the resulting (M+1)×(N+1) augmented matrix."
+  },
+  {
+    "Sub Directory": "p02414",
+    "Description_Simple": "Title: Obfuscated Matrix Multiplication Program  \nMain Goal: This heavily obfuscated Java code reads three integers (n, m, p), then reads an n×m matrix and an m×p matrix from standard input, validates the dimensions, computes their matrix product, and prints each resulting row either as concatenated numbers or space-separated entries depending on a flag."
+  },
+  {
+    "Sub Directory": "p02415",
+    "Description_Simple": "Title: Encrypted String Initializer and Custom Text Decoder\n\nMain Goal: This Java program first decrypts and initializes a small set of hidden strings (using Base64+DES, Base64+Blowfish, and a custom XOR routine). It then reads a line of user input, splits it on a secret delimiter, and for each character of each segment decides—based on its presence in one of three secret alphabets—which alphabet to copy it from. The result is a reconstructed output string that is only printed if its length stays under a predefined threshold."
+  },
+  {
+    "Sub Directory": "p02416",
+    "Description_Simple": "This heavily obfuscated Java program defines helper methods to build an array of integer constants (ASCII codes for '1'–'9', plus some others) and to decrypt a single Base64-encoded DES block to recover a secret sentinel string. In main(), it reads lines from standard input in a loop, checks each line against the decrypted sentinel, and breaks if they match. Otherwise it walks through each character of the line, and whenever it encounters the characters '1' through '9' (using the obfuscated ASCII constants), it adds the corresponding numeric value (1–9) to an accumulator. After scanning the whole line it prints the total sum of those digits. The program terminates only when the special secret keyword is entered."
+  },
+  {
+    "Sub Directory": "p02417",
+    "Description_Simple": "Title: Obfuscated Input Checker with Encrypted Messages\n\nMain goal: This heavily-obfuscated Java program reads a single integer from standard input, compares it to a hidden “key” value, and then prints one of two secret messages (decrypted at runtime) depending on whether the input matches that key. All of the array indices, arithmetic and Boolean tests have been scrambled with bogus branches, bit twiddling and dummy string-length checks. The actual functionality in `main` boils down to:\n\n1. Read an integer `x`.\n2. If `x` equals a built-in constant:\n     – Print the “success” message.\n3. Otherwise:\n     – Print the “failure” message.\n\nAll of the messages themselves are stored encrypted in string tables and are decrypted by small AES/Blowfish/DES helper routines. There is also an unused `sort` method for long arrays and lots of anti-decompilation cruft."
+  },
+  {
+    "Sub Directory": "p02418",
+    "Description_Simple": "This program reads a source and a pattern string, checks if the pattern occurs in the source (with wrap‐around for lengths >1), and prints one of two decrypted messages (“found” or “not found”)."
+  },
+  {
+    "Sub Directory": "p02419",
+    "Description_Simple": "Title: Case-Insensitive Whole‐Word Occurrence Counter\n\nMain goal:\nThis program reads a search word (pattern) from standard input, then reads subsequent lines until it encounters the sentinel string “end” (case‐insensitive). It converts everything to lowercase and counts how many times the pattern appears as a standalone word (i.e. delimited by non-letter characters or line boundaries) in all input lines. Finally it prints the total count."
+  },
+  {
+    "Sub Directory": "p02420",
+    "Description_Simple": "Title: Obfuscated Cyclic‐Shift Message Processor\n\nMain goal:\nThis code reads lines of tokenized input (until a sentinel “–” is entered), applies a series of user‐provided cyclic shifts to the token array—alternating between two buffers on every step—and finally reconstructs and prints out the transformed message.\n\nKey components:\n1. Static initializers (lllIllIIIl, IllIllIIIl):\n   - Set up small integer constants (0, 1, 2, 4).\n   - Decode two hidden strings (the loop sentinel “–” and the token delimiter) via:\n     • IIlIllIIIl: Base64 + XOR deobfuscation.\n     • lIlIllIIIl: DES decryption with an MD5‐derived key.\n\n2. main loop:\n   - Continuously read a line; if it matches the sentinel, exit.\n   - Split the line into tokens using the secret delimiter.\n   - Read one control integer, then read a number of shift values equal to the length of the input string.\n   - For each shift value, rotate the token array by that amount:\n     • On even steps, copy tokens→temporary buffer with the shift.\n     • On odd steps, copy temporary buffer→tokens with the shift.\n   - After all shifts, depending on the parity of the control integer, join either the final tokens or the temporary buffer into a single output string and print it.\n\nUtility methods:\n- llIlllIIIl, IIllllIIIl, lIIlllIIIl, IIIlllIIIl, IlIlllIIIl: tiny wrappers around common integer comparisons.\n- IIlIllIIIl: deobfuscates a Base64–encoded string by XORing with a key.\n- lIlIllIIIl: decrypts a Base64–encoded string under DES with an MD5‐based key.\n\nIn short, this is an obfuscated implementation of a multi‐round cyclic token shifter/decoder driven by runtime input."
+  },
+  {
+    "Sub Directory": "p02421",
+    "Description_Simple": "Title: Greedy Weighted Edit‐Distance Accumulator\n\nMain goal: Read an integer N, then N pairs of tokens (strings). For each pair, walk through the characters in one pass and, using a simple greedy rule, assign a “shift” (insertion/deletion) cost of 1 when the next character of one string matches the current character of the other, or a “substitution” cost of 3 otherwise. The routine does two parallel tallies—one treating the first string as source and the second as target, the other vice-versa—and finally prints the two accumulated costs."
+  },
+  {
+    "Sub Directory": "p02547",
+    "Description_Simple": "Title: Last Peak and Valley Finder with Total Sum\n\nMain goal:\n  Read an integer N and a sequence of N integers from standard input, identify the last “valley” (where a number is immediately followed by a smaller number) and the last “peak” (where a number is immediately followed by a larger number), compute the total sum of the sequence, and print three values: the valley element, the peak element, and the total sum.\n\nSummary of operation:\n1. Static initialization decrypts two Base64‐encoded strings (via DES with an MD5‐derived key): one serves as the delimiter for splitting the input line (e.g. a space), the other is an error message for malformed input.\n2. In main():\n   a. Read N.\n   b. Read the next line, split it by the decrypted delimiter into N tokens, parse them as integers into an array.\n   c. Scan once forward to record the index of the last adjacent drop (arr[i] > arr[i+1]), marking arr[i+1] as the last valley.\n   d. Scan once forward to record the index of the last adjacent rise (arr[i] < arr[i+1]), marking arr[i+1] as the last peak.\n   e. Build a prefix‐sum array to compute the sum of all N elements.\n3. Output three numbers in one line: value at the last valley index, value at the last peak index, and the total sum.\n4. IOException or NumberFormatException triggers printing of the exception or the decrypted error message, respectively."
+  },
+  {
+    "Sub Directory": "p02552",
+    "Description_Simple": "Title: Obfuscated Competitive‐Programming Template with Conditional Output\n\nMain goal: This heavily decompiled and obfuscated Java program provides a custom fast I/O class (Foster) plus various utility routines (sorting, modular exponentiation, debugging, etc.), but in its entry point it simply reads one integer from standard input and, if that integer equals 1, prints one pre‐loaded string; otherwise it prints an alternate pre‐loaded string."
+  },
+  {
+    "Sub Directory": "p02553",
+    "Description_Simple": "Title: Obfuscated Endpoint Product Calculator\n\nMain goal: This decompiled and heavily obfuscated Java program reads one test case consisting of four long integers (a, b, c, d) and computes a single product based on the signs of those numbers. It treats (a, c) and (b, d) as two candidate pairs and, by checking whether each element is non-negative or negative, chooses which pair to multiply—or, in a final fallback branch, takes the maximum of the two products. The result is printed to standard output.\n\nKey components:\n- main(): sets up a single test iteration, initializes fast I/O.\n- solve(): reads four longs, uses a sequence of if/else sign tests (with helper methods llIIIIIlIl, IIlIIIIlIl, lIlIIIIlIl, IlIIIIIlIl) to decide whether to output b*d, a*c, or Math.max(a*c, b*d).\n- sign-comparison helpers:\n  • llIIIIIlIl(long x, long y): compares x to y, returns –1/0/1.\n  • IIlIIIIlIl(int cmp): true if cmp ≥ 0 (x ≥ y).\n  • lIlIIIIlIl(int cmp): true if cmp < 0 (x < y).\n  • IlIIIIIlIl(int cmp): true if cmp > 0 (x > y).\n- FastScanner: an obfuscated custom fast reader (with its own encrypted string constants and needless decryption stubs), used to tokenize input efficiently.\n- Static initialization: sets up arrays and constants used by the sign checks and by FastScanner’s decryption routines.\n\nIn short, the code’s core logic is to pick one of two fixed pairs—(a, c) or (b, d)—and print their product, choosing the “best” pair by testing the signs of the inputs. It ignores any mixed-pair products (e.g. a*d or b*c) entirely."
+  },
+  {
+    "Sub Directory": "p02570",
+    "Description_Simple": "Title: Obfuscated Strong Anagram Checker in Java\n\nMain Goal:  \nThis program reads a single word from standard input, determines whether it qualifies as a “strong anagram” according to a bespoke stack‐based matching algorithm, and prints “YES” if it passes or “NO” otherwise.\n\nSummary of key components:  \n1. Static initialization (IlIIIIIIllIl, IlIlllllIlIl, IIIIllllIlIl)  \n   - Builds two arrays: one of integer constants used throughout the code, and one of two decrypted response strings (“YES”/“NO”).  \n   - The strings are stored in obfuscated form and decoded at runtime via:  \n     • llIIIlllIlIl(): a simple XOR-with-key on Base64 data  \n     • IIlIIlllIlIl(): DES decryption with an MD5-derived key  \n\n2. isStrongAnagram(String s)  \n   - Computes split indices based on even/odd length.  \n   - Uses two stacks to push characters from the first half and, under certain conditions, also from the second quarter of the string.  \n   - As it continues through the middle and latter portions, it pops from one or both stacks and compares to the current character.  \n   - If any comparison fails or stack emptiness doesn’t match expectations, it returns false; otherwise it returns true.  \n\n3. main(String[])  \n   - Reads the input token via Scanner.  \n   - Calls isStrongAnagram(...).  \n   - Prints the pre-decoded “YES” or “NO” string via PrintWriter."
+  },
+  {
+    "Sub Directory": "p02571",
+    "Description_Simple": "Title: Align Two Strings to Minimize Hamming Distance\n\nMain Goal:  \nGiven two input strings S and T with |S| ≥ |T|, the code “shifts” T across S (by virtually prepending ‘?’ characters to T) so that T lines up with every possible substring of S of length |T|. For each alignment it counts how many characters match at corresponding positions, takes the maximum match count, and then prints the minimum number of mismatches, i.e. |T| minus that maximum.\n\nKey Functions:  \nmatched(a, b) – returns the number of positions i for which a[i] == b[i], assuming a and b have equal length.  \nmain() – reads S and T, repeatedly prepends “?” to T to simulate all left-shifts within S, tracks the best match count, and finally outputs |T| – bestMatch."
+  },
+  {
+    "Sub Directory": "p02576",
+    "Description_Simple": "Title: Batch Cost Calculator\n\nMain Goal:\nThis program reads three integers N, X, and Y from standard input, where N is the total number of items to process, X is the capacity per batch, and Y is the cost of one batch. It computes the minimum number of batches needed (using ceiling division of N by X) and then prints the total cost (number of batches × Y)."
+  },
+  {
+    "Sub Directory": "p02577",
+    "Description_Simple": "Title: Divisibility-by-9 Checker\n\nMain goal: This program reads a string of digits, computes the sum of its digits, then tests whether that sum is divisible by 9. It prints “YES” if it is divisible, and “NO” otherwise. The code is heavily obfuscated—especially around the hard-coded “YES”/“NO” strings (which are decrypted or XOR-decoded at runtime)—but its core logic is simply a sum-of-digits mod 9 check."
+  },
+  {
+    "Sub Directory": "p02578",
+    "Description_Simple": "Title: Minimum Total Increments to Make an Array Non-Decreasing\n\nMain goal: This program reads an integer n and then an array of n integers. It computes the running (prefix) maximum of the array and then sums, for each position, the difference between that running maximum and the original value. The result printed is the total number of increments needed to transform the input array into a non-decreasing sequence by only increasing elements."
+  },
+  {
+    "Sub Directory": "p02582",
+    "Description_Simple": "Title: Odd-One-Out Position Finder\n\nMain goal: This program reads an input string, examines the characters at three specific positions (indices 0, 2 and 3), each of which must be either the letter 'R' or 'S', and identifies which of the three characters differs from the other two (i.e. the “odd one out”). It then prints a 0-based index (0 for the first character, 1 for the second examined character, 2 for the third). If all three are identical, it falls back to a default index."
+  },
+  {
+    "Sub Directory": "p02595",
+    "Description_Simple": "Title: Points-Inside-Circle Counter\n\nMain Goal: The program reads an integer n and a radius R, then reads n pairs of long integers (x, y). It counts and outputs how many of those points satisfy x² + y² ≤ R², i.e., lie inside or on the circle of radius R centered at the origin."
+  },
+  {
+    "Sub Directory": "p02613",
+    "Description_Simple": "Title: Obfuscated Verdict Frequency Counter\n\nMain goal:\nThis program reads an integer N and then N input strings (verdicts), counts how many times each of four preset verdict labels appears, and finally prints each label alongside its count in the format\n  VERDICT x count\n\nThe four verdict labels (“AC”, “WA”, “TLE”, “RE”) are stored in the code in encrypted form and are decrypted at runtime using Blowfish and DES (with MD5-derived keys) to hide them from static analysis. The core logic simply tallies how many times each of these four strings occurs in the input and prints the results."
+  },
+  {
+    "Sub Directory": "p02621",
+    "Description_Simple": "<Title: Decompiled AtCoder ABC Solutions  \nMain Goal: This class implements four separate contest‐style problems—abc172_a, abc173_a, abc173_b, and abc173_c—each reading from standard input, performing simple arithmetic or counting tasks, and printing the result:  \n  • abc172_a computes n + n² + n³  \n  • abc173_a outputs (A – B) mod B  \n  • abc173_b tallies four directional commands and prints counts  \n  • abc173_c parses a binary matrix and counts subpatterns by bit‐testing>"
+  },
+  {
+    "Sub Directory": "p02627",
+    "Description_Simple": "Title: Obfuscated Case Detector\n\nMain goal:\nThis heavily-obfuscated program reads a single-character string from standard input, determines whether it is one of the uppercase letters ‘A’–‘Z’ or one of the lowercase letters ‘a’–‘z’, and then prints a canonical representative (‘A’ if the input was uppercase, ‘a’ if it was lowercase).\n\nHow it works:\n1. Static initialization builds two arrays:\n   - An integer array of fixed indices (0 through 55) using bitwise and arithmetic tricks.\n   - A string array of length 55, where each entry is “decrypted” at startup via three different routines:\n     • XOR-based decoding of Base64 data,\n     • Blowfish decryption (with an MD5-derived key),\n     • DES decryption (with an MD5-derived key).\n   These routines reconstruct the 26 uppercase letters, the 26 lowercase letters, and two single-character outputs (one for uppercase matches, one for lowercase matches).\n\n2. In `main()`, the code reads one token from `System.in`. It first runs through a giant `switch`/`if` tree to compare the input against each of the stored uppercase strings. If any match, it prints the pre-decoded “uppercase result” string (which turns out to be `\"A\"`).\n\n3. It then does the same for lowercase, and if a match is found, prints the pre-decoded “lowercase result” string (which is `\"a\"`).\n\nEffectively, it’s an over-engineered “is this an uppercase letter or a lowercase letter?” check that outputs `A` or `a` accordingly."
+  },
+  {
+    "Sub Directory": "p02628",
+    "Description_Simple": "Title: Sum of the K Smallest Elements\n\nMain goal: Read two integers N and K, then read an array of N integers, sort it in ascending order, and compute + output the sum of the smallest K elements."
+  },
+  {
+    "Sub Directory": "p02629",
+    "Description_Simple": "Title: Obfuscated Java Converter – Numeric to Alphabetical “Column” String\n\nMain Goal: This program reads a single long integer from standard input and converts it into a bijective base-26 string (just like Excel column names or a→z, aa→ab, etc.). Internally it:\n1. Determines how many letters (digits) are needed to represent the given value.\n2. Offsets the value by subtracting the total counts of shorter codes.\n3. Converts the remainder into a base-26 representation.\n4. Maps each base-26 “digit” (0–25) to letters ‘a’ through ‘z’.\nObfuscated helper methods decrypt string constants (mapping values to characters) using XOR, DES, and Blowfish, and a set of tiny comparison routines manage the loops."
+  },
+  {
+    "Sub Directory": "p02639",
+    "Description_Simple": "This program defines a static array [1,2,3,4,5], reads five long values, then for i from 1 to 5 checks if the i-th input differs from i. It prints i and exits as soon as it finds the first mismatch. A custom FastScanner class is used for efficient input parsing."
+  },
+  {
+    "Sub Directory": "p02640",
+    "Description_Simple": "This obfuscated Java program reads two integers, calculates three derived values, and then uses a chain of conditional checks on those values to decide which of several pre-encrypted messages to print. The messages are stored in Base64 and decrypted at startup using DES, Blowfish, or a simple XOR algorithm."
+  },
+  {
+    "Sub Directory": "p02641",
+    "Description_Simple": "Title: Obfuscated Java code to find the nearest missing neighbor around a target value\n\nMain Goal:  \nThis program reads a target integer `n` and a list of `k` distinct integers, then looks “outward” from `n` (checking `n`, then `n±1`, `n±2`, …) to find the closest integer not present in the list. Once it locates that gap—whether it lies immediately above, below, or symmetrically around `n`—it computes and prints the corresponding minimal shift or offset needed to reach a missing integer.\n\nHow it works, at a high level:  \n1. It reads two integers: `n` (the target) and `k` (the number of supplied values).  \n2. It then reads the `k` values into an array and marks if `n` itself appears in that array.  \n3. The array is sorted, and the code begins scanning increasing distances `d = 0,1,2…` from `n`, looking for occurrences of `n + d` and `n – d` in the sorted array.  \n4. Depending on whether it finds a gap only on the “left” side, only on the “right,” or on both sides first, it applies one of several arithmetic formulas and prints out the result—the minimum number of steps needed to reach a missing integer relative to `n`.  \n\nThe numerous small helper methods (`IllIl`, `lIlIl`, `lIIll`, etc.) and the integer array `lIl` are simply artifacts of aggressive decompilation/obfuscation. They boil down to basic comparisons and constants `0`, `1`, and `2`."
+  },
+  {
+    "Sub Directory": "p02657",
+    "Description_Simple": "Title: Simple Integer Multiplication with Fast I/O\n\nMain goal: This program reads two integers from standard input and prints their product. It includes an obfuscated, high-performance `FastScanner` class for quickly parsing integers, longs, doubles, and arrays from the input stream."
+  },
+  {
+    "Sub Directory": "p02658",
+    "Description_Simple": "Title: Bounded Product Computation with Overflow and Zero Handling\n\nMain Goal:  \nCompute the product of an array of N non‐negative integers, but if any element is zero print 0, and if the full product would exceed 10^18 print −1; otherwise print the exact product.\n\nSummary:  \n1. Read N and an array A of N longs.  \n2. Sort A.  \n3. If the smallest element is 0, output 0 (because the product will be 0).  \n4. Otherwise, initialize `prod = A[0]` and iterate through the remaining elements. Before multiplying by the next element Ai, check whether `prod * Ai` would exceed the limit 10^18 by testing `Ai ≤ 10^18 / prod`.  \n5. If at any step the multiplication would overflow, stop and output −1.  \n6. If all multiplications succeed without overflow, output the final product `prod`."
+  },
+  {
+    "Sub Directory": "p02659",
+    "Description_Simple": "Title: Percentage Calculator\n\nMain Goal:\nThis program reads two inputs: a base integer and a percentage (given as a string with a “%” suffix). It removes the “%”, parses the percentage value, computes (base × percentage) / 100, and prints the result.\n\nFunctions:\n- Static initializers decode obfuscated string literals (such as “%” and the empty string) via Blowfish.\n- FastScanner: an obfuscated custom fast input reader (nextLong, nextStr, etc.).\n- solve(): reads the base number and percentage string, strips the “%”, converts to a long, performs the percentage calculation, and outputs the result.\n- main/m(): boilerplate to run solve() and handle I/O."
+  },
+  {
+    "Sub Directory": "p02675",
+    "Description_Simple": "Title: Obfuscated Input‐Based Message Dispatcher\n\nMain Goal:\nThis Java program reads a single token from the console, treats it both as a String and as an integer, and then—based purely on the numerical value—prints one of several pre-encrypted messages. All of the human-readable output strings are stored in encrypted form (using Blowfish, DES or a simple XOR cipher) and are decrypted at class‐load time. The program’s logic consists of three main “length” (i.e. numeric value) ranges and, within each range, a few special-case equality tests that select exactly which decrypted message to display.\n\nHow it works:\n\n1. Static Initialization  \n   • lIIllIllIlIl() builds an int[] of constant values (0 through 22) by obscure bitwise expressions.  \n   • IIIllIllIlIl() allocates a String[9] and fills it by decrypting several Base64 literals:  \n     – lIlIlIllIlIl(…,\"…\") uses Blowfish with an MD5-derived key  \n     – IllIlIllIlIl(…,\"…\") uses DES with an MD5-derived key  \n     – lllIlIllIlIl(…,\"…\") applies a repeated-key XOR  \n\n2. Comparison Helpers  \n   • IlIllIllIlIl(a,b): returns a < b  \n   • lIlllIllIlIl(a,b): a ≤ b  \n   • IllllIllIlIl(a,b): a ≥ b  \n   • llIllIllIlIl(a,b): a ≠ b  \n   • IIlllIllIlIl(a,b): a == b  \n\n3. main()  \n   • Reads one token (`String s = scanner.next()`), then parses it as an integer (`int n = Integer.parseInt(s)`).  \n   • First branch if 0 < n < 446:  \n     – If n equals any of {2,4,6,7,8} → print decryptedMessage[0]  \n     – If n equals any of {1,2,8} → print decryptedMessage[7]  \n     – If n == 3 → print decryptedMessage[2]  \n   • The next two branches (for 446 ≤ n < 100 and 100 ≤ n < 1000) contain analogous special‐case checks that would print other entries in the same decryptedMessage array, but the 446–100 range is logically empty so only the 100–999 branch is ever reachable for large inputs.\n\nIn short, it is an obfuscated “switch‐on‐numeric‐value” that decrypts its response strings at runtime and prints one message depending on the exact integer entered."
+  },
+  {
+    "Sub Directory": "p02676",
+    "Description_Simple": "Title: String Truncation with Ellipsis\n\nMain Goal: Read an integer N and a string S from standard input, then if the length of S is at most N, print S unchanged; otherwise, print the first N characters of S followed by “...”. A custom FastScanner is used for fast I/O."
+  },
+  {
+    "Sub Directory": "p02677",
+    "Description_Simple": "Title: Distance Between Clock Hand Tips\n\nMain Goal: This code reads the lengths of two clock hands and the current time (hours and minutes), computes the precise angles of the hour and minute hands, determines the Cartesian coordinates of each hand’s tip, and then outputs the Euclidean distance between those two endpoints."
+  },
+  {
+    "Sub Directory": "p02681",
+    "Description_Simple": "Title: String Suffix Validator with Encrypted Messages\n\nMain Goal: This program reads two space-separated strings and enforces four rules: \n1) The first string’s length is between 1 and 10.  \n2) The second string’s length is exactly the first string’s length plus one.  \n3) The second string begins with the first string (all corresponding characters match).  \n4) Neither string contains uppercase letters.\n\nIf all checks pass, it decrypts and prints a “success” message; otherwise it decrypts and prints a “failure” message. The two messages are stored in encrypted form—one via a simple XOR cipher and the other via DES—and are decrypted at runtime."
+  },
+  {
+    "Sub Directory": "p02682",
+    "Description_Simple": "Title: Net Elevation After D Steps on a Segmented Path\n\nMain Goal:\nThis program reads four non-negative integers a, b, c, d (with a + b + c ≥ d ≥ 1) representing a path made of three consecutive segments—an ascent of length a, a plateau of length b, and a descent of length c. It then computes how far above (or below) the start point you end up after taking d steps along this path. Each of the first a steps increases your elevation by 1, the next b steps leave it unchanged, and the final c steps decrease it by 1. The result printed is:\n\n    min(a, d) − max(0, d − a − b)\n\ni.e. the total “up” steps minus the total “down” steps you actually take in your d-step journey."
+  },
+  {
+    "Sub Directory": "p02687",
+    "Description_Simple": "Title: Obfuscated String Equality Checker\n\nMain Goal:  \nThis program hides three literal strings (a secret key, a success message, and a failure message) inside static, encrypted byte-arrays and decrypts them at class-load time using three different routines. In the main method it reads a single token from standard input, compares it to the decrypted “secret” string, and then prints either the decrypted “success” message if they match or the decrypted “failure” message otherwise.\n\nKey Components:  \n• Static initializer (lllIlIIlIIIl / lIIlIIIlIIIl) that sets up small integer constants and decrypts three hard-coded strings.  \n• Three decryption routines (llIlIllIIIIl, IlllIllIIIIl, llIIIIIlIIIl) using simple ciphers/Base64 to recover the real text.  \n• A custom InputReader class for fast tokenized input (String(), Int(), etc.), though only String() is actually used in main.  \n• A trivial equality check (with an obfuscated boolean helper) and two print branches with PrintWriter."
+  },
+  {
+    "Sub Directory": "p02688",
+    "Description_Simple": "Title: Missing Element Counter\n\nMain Goal: This program reads two integers N and M, then processes M lists of numbers (each list prefixed by its length). It tracks how often each integer from 1 to N appears across all lists, and finally outputs the count of those integers that never appeared in any list."
+  },
+  {
+    "Sub Directory": "p02693",
+    "Description_Simple": "Title: Multiple Ceiling Fit Checker\n\nMain Goal: Read three integers N, K, M; compute the smallest multiple of N that is ≥ K (i.e. ceil(K/N)·N); then print “OK” if that multiple is ≤ M, otherwise print “NG”."
+  },
+  {
+    "Sub Directory": "p02694",
+    "Description_Simple": "Title: Calculating Days for a 100‐Unit Deposit to Reach a Target with 1% Daily Growth\n\nMain Goal: Read a target value N from input and compute how many whole days it takes for an initial deposit of 100 to grow to at least N when it gains 1% interest each day and is then floored (rounded down to an integer) after each day’s growth.\n\nSummary:\n1. Initialize current amount to 100.0 and day counter to 0.\n2. While the floored current amount is less than the target N:\n   a. Multiply the amount by 1.01 (add 1%).\n   b. Floor the result to drop any fractional part.\n   c. Increment the day counter.\n3. After reaching or exceeding N, print the total number of days."
+  },
+  {
+    "Sub Directory": "p02699",
+    "Description_Simple": "Title: String Truncation with Ellipsis\n\nMain Goal:\nThis program reads an integer N and a string S from input. If the length of S is less than or equal to N, it prints S unchanged. Otherwise it prints the first N characters of S followed by \"...\" to indicate truncation. All the other code (obfuscated arrays, decryption routines, dummy checks) serves only to obscure this simple behavior."
+  },
+  {
+    "Sub Directory": "p02700",
+    "Description_Simple": "Title: Subtraction Game Simulator with Encrypted Messages\n\nMain goal: This obfuscated Java program reads four integers a, b, c, d (each must lie between 1 and 84). It then plays a simple “take-away” game — repeatedly subtracting b from c and, if c remains positive, subtracting d from a — until either c or a drops to zero or below. If c runs out first, it prints one decrypted message; if a runs out first, it prints the other. If any input is out of range, it throws an exception with a third decrypted error message."
+  },
+  {
+    "Sub Directory": "p02701",
+    "Description_Simple": "Title: Unique String Counter\n\nMain Goal:\nRead an integer N, then read N strings from standard input and print the number of distinct strings among them.\n\nDescription:\n- The `main` method uses a custom, obfuscated `FastScanner` to read:\n  1. An integer `lllIIlllIllIl` (N), the number of input strings.\n  2. N strings into an array.\n- It then adds each string to a `HashSet<String>`, which automatically filters out duplicates.\n- Finally, it prints the size of the `HashSet`, i.e. the count of unique input strings.\n\nSupporting Functions:\n- `IlIlIIlllll` and `llIlIIlllll` in `Main` set up and compare integer constants.\n- The `FastScanner` class provides fast, low-level methods (`nextInt()`, `next()`, `nextLong()`, etc.) for reading tokens from `System.in`, using an internal byte buffer and obfuscated boolean helpers for character classification."
+  },
+  {
+    "Sub Directory": "p02705",
+    "Description_Simple": "Title: Obfuscated Circle Circumference Calculator\n\nMain goal:\nThis code reads an integer N from standard input (interpreted as the radius of a circle) and prints out the value of the circumference computed as 2 × N × π (with π approximated as 3.141592).\n\nKey components:\n- A static int array IllIIlll[0] initialized to 2 (via the obfuscated expression \" \".length() << \" \".length()).\n- main(): uses a custom FastScanner to read an integer radius, then outputs (double)(radius * 2) * 3.141592.\n- FastScanner: an obfuscated but functional fast I/O utility for reading tokens (int, long, double, String).\n- gcd(): a decompiled greatest common divisor method that is never called."
+  },
+  {
+    "Sub Directory": "p02706",
+    "Description_Simple": "Title: Remaining Budget Calculator\n\nMain Goal:\nThis program reads two integers N (the initial budget) and M (the number of expenses), then reads M expense amounts, computes their total, and\n- if the total exceeds N, prints -1\n- otherwise, prints the remaining budget (N − total).\n\nAll the extra methods implement obfuscated fast input routines (and even a small DES-based string decryption stub) typical of decompiled/obfuscated competitive-programming code."
+  },
+  {
+    "Sub Directory": "p02707",
+    "Description_Simple": "Title: Obfuscated Java Competitive‐Programming Template  \nMain Goal: This decompiled and obfuscated Java snippet defines a contest-style template—with fast I/O (FastScanner/PrintWriter), two integer constants (1 and 2), a modular constant MOD=1 000 000 007 (computed via bit shifts and arithmetic), and a large INF value—to provide a framework in which a user can implement their problem’s solve() method."
+  },
+  {
+    "Sub Directory": "p02711",
+    "Description_Simple": "Title: Obfuscated Input Substring Checker\n\nMain goal: This program reads a single token from standard input, determines whether that token contains a secret keyword (both the keyword and the two possible output messages are stored in encrypted/obfuscated form), and then prints one of two decoded messages based on the presence or absence of the keyword. It uses Base64+DES and Base64+XOR routines for string decryption and an obfuscated FastScanner for input."
+  },
+  {
+    "Sub Directory": "p02712",
+    "Description_Simple": "Title: “N-Task Cumulative Time Calculator”\n\nMain Goal:\nThis code reads an integer N, partitions it into full groups of 15 and a leftover remainder, and then computes a single total (in seconds) by summing up individual “task” times. Each task’s time grows linearly with its position in a 15-task cycle: tasks 1–15 take 1–15 seconds, tasks 16–30 take 16–30 seconds, and so on. The program first uses a closed‐form formula to add up the time for all completed 15-task groups, then adds the remaining tasks one by one in a series of conditional checks, and finally prints the grand total."
+  },
+  {
+    "Sub Directory": "p02713",
+    "Description_Simple": "Title: Sum of GCDs Over All Triplets  \nMain Goal: Read an integer N and compute the sum of gcd(i, j, k) for all ordered triples (i, j, k) with 1 ≤ i, j, k ≤ N. The code iterates only over sorted combinations (i ≤ j ≤ k), finds their greatest common divisor by scanning downward, multiplies by the number of permutations for that combination (1 if all equal, 3 if two equal, 6 if all distinct), and outputs the total."
+  },
+  {
+    "Sub Directory": "p02717",
+    "Description_Simple": "Title: Rotating Three Integers\n\nMain Goal: This obfuscated program reads three integers from standard input and simply outputs them in a rotated order (third, first, second). All other code (cipher routines, static init, complex FastScanner) is just decompiled/obfuscated boilerplate and is not used in the core logic."
+  },
+  {
+    "Sub Directory": "p02718",
+    "Description_Simple": "1. Reads N, M and an integer array A of length N.  \n2. Computes the total sum S = ΣA[i].  \n3. Calculates threshold T = ⌈S / (4·M)⌉ using a custom ceil function.  \n4. Iterates through A to count how many elements are below T.  \n5. If the count of “too small” elements is less than M, prints the first decrypted message; otherwise, prints the second.  \n6. Uses Blowfish-based decryption (via MD5-derived key) to store the two output strings in an obfuscated form.  \n7. FastScanner handles input parsing and the solve() method drives the logic."
+  },
+  {
+    "Sub Directory": "p02719",
+    "Description_Simple": "Title: Minimal Distance to Nearest Multiple\n\nMain Goal:\nThis program reads two long integers, N and K, and computes the smallest non-negative distance from N to the nearest multiple of K. Concretely:\n- If the closest multiple is 0 (i.e. N ≤ |N−K|), it prints N.\n- If N is already a multiple of K, it prints 0.\n- Otherwise it prints min(N mod K, K − (N mod K)).\n\nThe rest of the code (InputReader, OutputWriter, encryption routines, static initializers) exists solely to obfuscate simple constant setup and I/O; the core logic is as described above."
+  },
+  {
+    "Sub Directory": "p02723",
+    "Description_Simple": "Title: Obfuscated String Pair Comparator\n\nMain Goal:  \nThis decompiled, heavily obfuscated Java program reads a single input string, decrypts two result messages at startup, then checks whether two specific pairs of characters in the input are equal. If both pairs match, it prints the first decrypted message; otherwise it prints the second. All of the surrounding classes and methods implement obfuscated fast input reading, decryption utilities (using DES/Blowfish and simple XOR), and an output writer, but the core functionality is simply a two‐pair character equality test driving a 2‐choice output."
+  },
+  {
+    "Sub Directory": "p02724",
+    "Description_Simple": "Title: Points Conversion Calculator\n\nMain goal: This program reads an integer N and maximizes “points” by converting N as follows:\n1. For each full 500‐unit chunk in N, add 1000 points.\n2. With the remaining amount, for each full 5‐unit chunk add 5 points.\nFinally, it outputs the total points, i.e. (N/500)*1000 + ((N%500)/5)*5."
+  },
+  {
+    "Sub Directory": "p02725",
+    "Description_Simple": "Title: Minimal Circular Distance Finder\n\nMain goal: The code reads a circle length n and k point positions, sorts the positions, and computes the smallest arc distance between any two consecutive points around the circle (including the wrap-around from the last point back to the first)."
+  },
+  {
+    "Sub Directory": "p02729",
+    "Description_Simple": "Title: Computing Pair Counts from Two Sets\n\nMain Goal:\nGiven two input integers m and n, the code calculates and prints the total number of distinct unordered pairs that can be formed separately within the first set of size m and the second set of size n. In formula terms, it computes m*(m−1)/2 + n*(n−1)/2.\n\nDescription:\n- Reads two integers m and n from standard input.\n- Uses nested loops (obfuscated by decompiler artifacts) to sum up:\n    • For i from 1 to m−1, count all j from i to m−1  → yields m*(m−1)/2.\n    • For i from 1 to n−1, count all j from i to n−1  → yields n*(n−1)/2.\n- Handles edge cases where m or n ≤ 1 by skipping the corresponding loop (resulting in zero pairs).\n- Prints the final sum of both pair counts."
+  },
+  {
+    "Sub Directory": "p02730",
+    "Description_Simple": "Title: Obfuscated Strong Anagram Checker\n\nMain Goal: This program reads a single input string, runs a heavily obfuscated `isStrongAnagram` routine that splits the string into two parts, uses two stacks to compare corresponding characters under specific modular arithmetic rules, and determines whether the string qualifies as a “strong anagram.” Depending on the result, it decrypts one of two hidden messages (using DES/MD5 or XOR+Base64) and prints either a success or failure message."
+  },
+  {
+    "Sub Directory": "p02731",
+    "Description_Simple": "The provided Java class is heavily obfuscated, but its sole active logic in `main` is straightforward: it reads a double from the console, computes (input / 3)³, and outputs the result. All other methods and static initializers are junk/decompiler artifacts that are never actually invoked by the `main` routine."
+  },
+  {
+    "Sub Directory": "p02753",
+    "Description_Simple": "Title: Encrypted Message Display Based on String Prefix\n\nMain goal: On startup the code decrypts four hidden messages. It then reads a user-supplied string, inspects the first three characters, and—if they are all 'A' or all 'B'—prints one of the decrypted messages; otherwise it prints the other. The class also contains an unused method (kMarsh) that implements a largest-empty-rectangle algorithm on a character grid marked by 'x'."
+  },
+  {
+    "Sub Directory": "p02754",
+    "Description_Simple": "Title: Maximizing Active Units in Work‐Rest Cycles\n\nMain goal: Read three integers X, A and B, then compute \n  result = (X / (A + B)) * A + min(A, X % (A + B)), \ni.e. the maximum “active” (A-length) units you can fit into a total of X units when each cycle consists of A active units followed by B rest units. FastScanner is just a fast input utility."
+  },
+  {
+    "Sub Directory": "p02755",
+    "Description_Simple": "The code reads two integers N and M.  It then translates each into an integer range of possible k values via  \n    N ≤ 0.08·k ≤ N+1   ⇒   k ∈ [ceil(N/0.08), floor((N+1)/0.08)]  \n    M ≤ 0.1·k  ≤ M+1   ⇒   k ∈ [ceil(M/0.1),  floor((M+1)/0.1)]  \nThose bounds are carefully computed in floating‐point then adjusted to account for exact integers.  Finally, it checks for an overlapping k in the two ranges.  If a common k exists it prints that k, otherwise it prints “-1” (decoded via a Base64+XOR obfuscation routine).  Helper methods perform safe double–int comparisons, and static initializers set up constants and the error string."
+  },
+  {
+    "Sub Directory": "p02759",
+    "Description_Simple": "Title: Duplex Printing Page Calculator\n\nMain goal: This program reads an integer N (number of pages to print) and computes the minimum number of sheets required when printing double-sided (duplex), i.e. it outputs ceil(N/2). It uses an obfuscated Scanner class for fast input and the ADuplexPrinting.solve method to perform the calculation and print the result."
+  },
+  {
+    "Sub Directory": "p02766",
+    "Description_Simple": "Title: Arbitrary-Base Digit Counter\n\nMain Goal: This program reads two integers N and B from standard input and computes how many digits are needed to represent the number N in base B.  \n\nBrief Explanation:\n1. A custom fast Scanner class reads two long values, N and B.\n2. The BDigits.solve method invokes convert(N, B).\n3. convert repeatedly divides N by B, counting the number of divisions (i.e. the digit slots) until N becomes zero.\n4. The result (the digit count) is printed to standard output."
+  },
+  {
+    "Sub Directory": "p02767",
+    "Description_Simple": "Title: Brute-Force Minimization of Sum of Squared Deviations\n\nMain Goal:\nGiven an integer array of size n (with values assumed to lie in [1,100]), the code finds an integer c between 1 and 100 that minimizes the sum of squared differences ∑₁ⁿ (a[i]–c)², and prints that minimum sum.\n\nHow It Works:\n1. FastScanner / I/O setup – An obfuscated but conventional fast input reader and output writer.\n2. solve():\n   - Read n (number of elements).\n   - Read an array a[] of n integers.\n   - Initialize a running best cost to Long.MAX_VALUE.\n   - For each candidate c from 1 to 100:\n       • Compute cost(c) = ∑₁ⁿ (a[i]–c)².\n       • Update the best cost if cost(c) is smaller.\n   - Print the best cost found.\n3. Unused utilities – The class also contains generic methods for gcd, lcm, and ceil, but these are not invoked by solve().\n\nIn essence, the program brute-forces the optimal integer “mean” in the range 1..100 to minimize squared error against the input data."
+  },
+  {
+    "Sub Directory": "p02772",
+    "Description_Simple": "Title: Obfuscated “BPapersPlease” Number Checker\n\nMain goal:  \nThis Java program reads a sequence of integers from standard input, checks whether any number is divisible by 2 but not by 3 or 5, and then prints one of two hidden messages (which are stored in encrypted form and decrypted at runtime).\n\nHow it works in brief:  \n1. An obfuscated Scanner implementation reads all ints from stdin.  \n2. The BPapersPlease.solve(…) method decrypts two strings (using DES with an MD5‐derived key) into `messages[0]` and `messages[1]`.  \n3. It iterates over every input integer; if it finds a value `v` such that  \n   – `v % 2 == 0`  \n   – `v % 3 != 0`  \n   – `v % 5 != 0`  \n   then it switches its output to `messages[1]`. Otherwise it keeps `messages[0]`.  \n4. Finally it prints the selected decrypted message."
+  },
+  {
+    "Sub Directory": "p02773",
+    "Description_Simple": "Title: Most Frequent Strings Finder\n\nMain goal: This program reads an integer N, then reads N strings, sorts them lexicographically, counts how many times each distinct string appears, and finally prints the string(s) with the highest frequency. If all strings are unique (no repeats), it simply prints all input strings in sorted order."
+  },
+  {
+    "Sub Directory": "p02777",
+    "Description_Simple": "Title: Obfuscated Direction-Based Coordinate Shifter\n\nMain goal: This code reads two distinct command keywords, validates them (length 1–10, allowed characters, not identical), then reads two integers X and Y (each 1–10) along with a chosen command string. Depending on which of the two keywords matches the chosen command, it decrements either X or Y by one and prints the resulting coordinates. All invalid inputs trigger custom exceptions with obfuscated error messages."
+  },
+  {
+    "Sub Directory": "p02778",
+    "Description_Simple": "Title: Obfuscated Java Program with Encrypted Output and Custom FastScanner\n\nMain Goal: This code reads a single token from standard input using a hand-rolled FastScanner, then creates a same-length string of backspace characters (to erase the user’s input from the console). It decrypts a Base64-encoded, DES-encrypted format string (with a key derived from the MD5 hash of a fixed password) and finally calls printf with that decrypted format and the backspace string. In other words, it hides the user’s input by backspacing it away and then prints a secret message whose format was stored in encrypted form."
+  },
+  {
+    "Sub Directory": "p02779",
+    "Description_Simple": "Title: Duplicate Detector\n\nMain goal:\nThis obfuscated Java program reads an integer N followed by N more integers from standard input. It uses a HashSet to track seen values and prints “YES” immediately upon detecting a repeated number; if no duplicates are found after reading all N values, it prints “NO.”\n\nSupporting components:\n- FastScanner: a highly obfuscated and encrypted utility for fast input parsing.\n- String‐decryption methods: routines using DES, Blowfish and bitwise XOR to hide literal strings.\n- MOD class: arithmetic utilities for modular operations (unused in the main logic).\n- Solver class: contains the core run() method that implements the duplicate detection."
+  },
+  {
+    "Sub Directory": "p02783",
+    "Description_Simple": "This Java program reads two floating‐point numbers H (health) and A (attack power) from standard input, then calculates the minimum number of attacks needed to bring the health down to zero or below by computing ceil(H/A) and prints the result as an integer. It uses a decompiled, obfuscated FastScanner class for fast input handling and a PrintWriter for output. The Main class sets up these utilities and calls AtCoder.solve() to perform the calculation and output."
+  },
+  {
+    "Sub Directory": "p02784",
+    "Description_Simple": "Title: Hero’s Survival Checker\n\nMain goal: The program reads an initial health value H and a sequence of N damage amounts, subtracts each damage from H in order, and immediately prints “Yes” if H ever drops to zero or below (i.e. the hero dies). If the hero survives all N attacks (H remains positive), it prints “No”."
+  },
+  {
+    "Sub Directory": "p02785",
+    "Description_Simple": "Title: Sum of the Smallest n–k Elements\n\nMain Goal: The code reads two integers n and k, then an array of n integers. It sorts the array in non-decreasing order and computes the sum of the smallest n–k elements (i.e., it discards the k largest values and sums the rest). \n\nKey Functionality:\n- FastScanner: custom input reader for integers, longs, doubles, etc.\n- solve(): reads n, k, the array; sorts it; sums elements at indices 0 through n–k–1; prints the result.\n- Unused helpers: gcd, lcm, ceil, and various decryption routines appear in decompiled boilerplate but are not invoked in solve()."
+  },
+  {
+    "Sub Directory": "p02786",
+    "Description_Simple": "Title: Computing the Smallest Mersenne Number ≥ N\n\nMain Goal:\nThis program reads a single long integer N from standard input and computes the smallest integer of the form (2^k – 1) that is greater than or equal to N. It then prints that value.\n\nHow it works:\n1. It stores a memoization map with the base case f(1)=1.\n2. Defines a recursive function dfs(x):\n   - If x is already in the map, return its value.\n   - Otherwise compute dfs(x/2), double it, add 1, store in the map, and return it.\n3. Because dfs(x)=2·dfs(⌊x/2⌋)+1 with dfs(1)=1, one can show by induction that dfs(N)=2^{⌊log₂N⌋+1}–1.\n4. In solve(), it reads N, initializes the map, and prints dfs(N).\n\nAll other methods (gcd, lcm, scanner utilities, cryptographic imports) are boilerplate or unused in the core logic."
+  },
+  {
+    "Sub Directory": "p02790",
+    "Description_Simple": "Title: Repeat Smaller Number String by Larger Count\n\nMain Goal: This program reads two integer values (as strings), compares their numeric values, and then builds and outputs a new string consisting of the smaller-number token repeated as many times as the larger-number value."
+  },
+  {
+    "Sub Directory": "p02791",
+    "Description_Simple": "Title: Counting Record-Low Elements in an Integer Sequence\n\nMain Goal: This program reads an integer n and then n integers from standard input, and counts how many times an element is less than or equal to all previous elements (i.e. how many “record lows” occur). It then prints that count."
+  },
+  {
+    "Sub Directory": "p02801",
+    "Description_Simple": "Title: Obfuscated Java Program with Conditional Output and Utilities\n\nMain Goal:  \nThe code reads a single integer from standard input, compares it to a hidden constant, and prints one of two secret messages (AES-encrypted and Base64-encoded in the class) depending on whether the input matches that constant.\n\nKey Functions and Structure:\n1. Main.main(...)  \n   - Uses a custom InputReader (“Foster”) to read an integer.  \n   - Compares the input to a static threshold value.  \n   - Decrypts and prints one of two strings stored in the IIIIIl array.\n\n2. Encryption Helpers (IIIlIll)  \n   - Performs AES decryption of Base64-encoded strings using a key derived from an MD5 hash.\n\n3. sort(long[])  \n   - Converts a primitive long array into an ArrayList<Long>, sorts it with Collections.sort, and writes the sorted values back.\n\n4. InputReader & OutputWriter  \n   - BufferedReader/StringTokenizer based fast I/O for tokens, ints, longs.  \n   - OutputWriter extends PrintWriter with no extra behavior.\n\n5. Point Class  \n   - Simple container for (i,j) coordinates with getters.\n\nOverall, this is decompiled, heavily obfuscated code combining a small conditional output program (printing one of two hidden messages) with generic utility routines for sorting and I/O."
+  },
+  {
+    "Sub Directory": "p02802",
+    "Description_Simple": "Title: Obfuscated Java Program for Longest “Allowed” Substring\n\nMain goal:\nThis program first decodes a hidden 4‐character string (via Base64 + XOR) which defines a set of “forbidden” characters. It then reads one token from standard input and scans all substrings to find the maximum length of a substring that contains none of those forbidden characters. It prints the length (or prints 1 if every character is forbidden but at least one character is “allowed” by adjusted logic, or 0 if no allowed characters ever appear). The snippet also includes an unrelated Pair class with custom equals, hashCode, and toString methods."
+  },
+  {
+    "Sub Directory": "p02812",
+    "Description_Simple": "Title: Obfuscated Password Verification\n\nMain Goal: This Java program reads a single line of input, decrypts three strings at startup (the secret password, the “access granted” message, and the “access denied” message) using XOR, DES, and Blowfish, then compares the input against the hidden password and prints either the success or failure message."
+  },
+  {
+    "Sub Directory": "p02818",
+    "Description_Simple": "Title:\nPile Consumption Simulator\n\nMain goal of the code:\nThe program reads three long integers a, b and c from standard input, treats a and b as two “piles” of items, and “removes” a total of c items by first taking as many as possible from pile a, then, if c exceeds what was in a, taking the rest from pile b (down to zero). It finally outputs the remaining quantities in pile a and pile b.\n\nKey components:\n1. Obfuscated I/O classes (FastScanner and FastWriter) for fast reading and writing.\n2. Utility comparison methods (lIIlIIIIIIll, llIlIIIIIIll, IlIlIIIIIIll, IIllIIIIIIll) and a custom max(long, long).\n3. Core logic in main():\n   - Read a, b, c.\n   - If a >= c: a -= c.\n   - Else: c -= a; a = 0; b = max(0, b - c).\n   - Print the final a and b."
+  },
+  {
+    "Sub Directory": "p02819",
+    "Description_Simple": "Title: Next Prime Finder via Sieve of Atkin\n\nMain goal: Precompute all prime numbers up to 100003 using the Sieve of Atkin (storing them in a BitSet) and then, given an integer input N, output the smallest prime number greater than or equal to N."
+  },
+  {
+    "Sub Directory": "p02829",
+    "Description_Simple": "This obfuscated Java program initializes an array IIlllllll = {1,2,3}. It reads two integers from standard input (each in {1,2,3}), then compares them against all ordered pairs of distinct array values. For each matching case it prints the array element not equal to either input. In effect, given two distinct numbers among 1, 2, and 3, it outputs the “third” number that wasn’t entered."
+  },
+  {
+    "Sub Directory": "p02830",
+    "Description_Simple": "This Java code uses a custom FastScanner to read an integer n and two strings of equal length. It then iterates from 0 to n–1, printing in sequence the i-th character of the first string followed by the i-th character of the second string, effectively interleaving their characters into a single output."
+  },
+  {
+    "Sub Directory": "p02831",
+    "Description_Simple": "Title: Obfuscated Prime‐Merge LCM Calculator\n\nMain Goal: This code reads two positive integers, performs a limited prime factorization on each, and then merges their prime‐power decompositions by taking the maximum exponent for each prime. The final product of these highest powers is the least common multiple (LCM) of the two inputs, which the program prints."
+  },
+  {
+    "Sub Directory": "p02832",
+    "Description_Simple": "Title: Obfuscated Threshold Counter on an Integer Sequence\n\nMain Goal:  \nRead an integer n and then n more integers into an array. Maintain a running threshold k (initialized to 1). For each element x in the array, if x > k then increment k by one. After processing all elements, if k was never incremented (i.e. remains 1), print –1; otherwise print n – k + 1.\n\nKey Components:  \n• Static block & lIIIIlllIIIl(): build an obfuscated constants array for offsets (0, 1, –1)  \n• main():  \n  – Uses FastReader to read n and the array  \n  – Iterates over each input, updates the threshold counter k  \n  – Computes and prints the final result (n – k + 1 or –1)  \n  – Employs tiny comparison helpers (IlIIIlllIIIl, llIIIlllIIIl, IIlIIlllIIIl) for <, ==, >  \n• FastReader class: a heavily obfuscated fast I/O utility providing nextInt, nextLong, nextDouble, next(), etc., with its own byte buffer, whitespace checks, and even a DES-based string deobfuscator (unused in main)."
+  },
+  {
+    "Sub Directory": "p02835",
+    "Description_Simple": "Title: Three-Number Sum Validator\n\nMain Goal: Read three integers, compute their sum, and print “Yes” if the sum is at most 13; otherwise print “No.”\n\nSummary_description\nThis Java program consists of:\n\n1. Main class  \n   - Sets up a FastScanner for input and a PrintWriter for output.  \n   - Instantiates the AtCoder solver and calls its solve() method.\n\n2. FastScanner  \n   - A custom, high-performance scanner that reads tokens, ints, longs, doubles, and strings from standard input.\n\n3. AtCoder class  \n   - In its constructor, reads exactly three integers into an array.  \n   - In solve(PrintWriter), adds those three integers.  \n   - If the sum is ≤ 13, prints “Yes”; otherwise prints “No.”  \n\nStrings “Yes” and “No” are stored in an obfuscated form and decrypted at class load time via Blowfish and simple XOR/Base64 routines."
+  },
+  {
+    "Sub Directory": "p02836",
+    "Description_Simple": "Title: Palindrome Mismatch Counter\n\nMain goal:\nThis obfuscated Java program reads a single line of input, splits the string into two halves (ignoring the center character if the length is odd), and then compares characters in mirrored positions to count how many character‐pairs differ. It finally prints the (minimum) number of mismatched pairs—that is, the minimum number of one‐character changes needed to turn the input into a palindrome.\n\nKey components:\n• Static initializer (lIllllIIIl) sets up three constants: 2 (the divisor for splitting), 0 (start index), and 1 (offset for odd‐length strings).  \n• llllllIIIl(n, m): returns true if n < m.  \n• IlllllIIIl(n): returns true if n == 0.  \n• IIIIIIlIIl(n, m): returns true if n != m.  \n• main():  \n  – Reads the input string.  \n  – Determines if its length is even or odd.  \n  – Extracts the first half and the second half (skipping the middle character if odd).  \n  – Reverses both halves into ArrayLists.  \n  – Compares each character in the original first half with the corresponding character in the reversed second half, counting mismatches.  \n  – Compares each character in the original second half with the corresponding character in the reversed first half, counting mismatches.  \n  – Prints the smaller of the two mismatch counts."
+  },
+  {
+    "Sub Directory": "p02847",
+    "Description_Simple": "This Java program first reconstructs an array of seven secret words by decoding and decrypting embedded Base64 strings. It then reads a single input string, scans the secret-word list to find a match, and outputs the count of remaining words after the match (i.e. 7 minus the matching index). If the input isn’t found, it prints 0. The heavy obfuscation (weird names, encrypted literals and bit-twiddling constants) conceals these two core steps: list reconstruction and index calculation."
+  },
+  {
+    "Sub Directory": "p02848",
+    "Description_Simple": "Title: Obfuscated Caesar Cipher Implementation\n\nMain Goal: This code reads an integer shift and a text string from standard input, then applies a classic Caesar (rotational) cipher to the string by shifting each letter by the given amount (modulo 26) and prints the resulting encrypted text.\n\nSummary Description:\n1. Static Initialization  \n   - Builds an `int[] IIllIIlll` of constant numeric values via bit-twiddling.  \n   - Builds a `String[] llIlIIlll` of constant string tokens (the 26 letters and their output counterparts) by decrypting hard-coded Base64-encoded literals using three helper routines:  \n     • lllllIlIIll(): Base64 decode + XOR with a key string  \n     • lIIIIllIIll(): Base64 decode + DES decryption with an MD5-derived key  \n     • IIIIIllIIll(): Base64 decode + Blowfish decryption with an MD5-derived key  \n\n2. Helper Comparison Methods  \n   - IIlIIllIIll(n,m): returns n < m  \n   - lIlIIllIIll(n): returns n != 0  \n   - IllIIllIIll(n): returns n == 0  \n   - lllIIllIIll(n,m): returns n == m  \n\n3. main(String[] args)  \n   - Reads an integer shift `k` and a single word `input` from `Scanner`.  \n   - Splits `input` into one-character substrings and, for each character, finds its index `i` in the decrypted alphabet array `llIlIIlll`.  \n   - Records that index in `lIllIlIlllIIIl[i]`.  \n   - In a second pass, adds the shift `k` modulo 26 to each index.  \n   - In a final pass, maps each shifted index back to the corresponding encrypted letter (via `llIlIIlll[26]` … `llIlIIlll[51]`) and prints it.  \n\nAll of the confusing bit-operations, empty `\"\" .length()` calls and encrypted string literals serve solely to hide the simple Caesar cipher logic from casual inspection."
+  },
+  {
+    "Sub Directory": "p02860",
+    "Description_Simple": "Title: Square String Validator\n\nMain goal:\nThis program reads an integer n and a string s from standard input, and then determines whether s is a “square string” (i.e. its first half exactly matches its second half). It handles three cases:\n 1. If n is odd, it prints a specific “odd length” message.\n 2. If n is even but the two halves differ, it prints a “halves mismatch” message.\n 3. If n is even and the halves are identical, it prints a “success” message.\n\nKey components:\n - Obfuscated static arrays holding three encrypted messages.\n - Three decryption routines (DES‐based, Blowfish‐based, XOR‐based) that initialize those messages at class loading.\n - A custom fast input reader (class FS) for parsing integers and tokens.\n - Simple boolean helpers (e.g. equal, not equal, less than) to hide direct comparisons in main().\n - The main logic in main() applies the above three checks and prints the corresponding decrypted output."
+  },
+  {
+    "Sub Directory": "p02879",
+    "Description_Simple": "Title: Bounded Product Calculator\n\nMain Goal: Read two integers from standard input using a fast scanner. If both values are strictly less than 10, print their product; otherwise print –1.  \n\nThis code also contains unused helper methods for computing the minimum and maximum of three numbers, and a custom FastScanner class for efficient token parsing."
+  },
+  {
+    "Sub Directory": "p02880",
+    "Description_Simple": "Title: Obfuscated Numeric Classifier\n\nMain goal:\nThis program reads a single integer N from standard input and prints out one of several hard-coded messages based on which of the integers 1 through 9 divides N (or if N itself lies between 1 and 9).  All of the messages are stored in encrypted form (using Blowfish, DES or simple XOR+Base64) and are decrypted at class‐load time.  The solve() method walks through these checks in order:\n 1. If 1 ≤ N ≤ 9, return the message at index “1.”\n 2. Else if N % 2 == 0 and 2 ≤ N ≤ 18, return the message at index “3.”\n 3. Else if N % 3 == 0 and 3 ≤ N ≤ 27, return the message at index “5.”\n 4. … and so on for divisors 4, 5, 6, 7, 8, 9 (each with its own upper bound).\nIt always picks the first matching divisor‐rule and prints the corresponding decrypted string. The supporting methods handle decryption (Blowfish, DES, XOR) and simple range tests."
+  },
+  {
+    "Sub Directory": "p02881",
+    "Description_Simple": "Title: Minimal Sum of Divisor Pair Offsets\n\nMain Goal: For a given positive integer N, the code finds two positive integers a and b such that a·b = N and the quantity (a−1)+(b−1) is as small as possible, then prints that minimum value.\n\nSummary Description:\n The program reads a single long integer N from standard input. It initializes the best answer to N−1 (which corresponds to the trivial factor pair 1 and N). Then it loops i from 1 up to ⌊√N⌋. Whenever i divides N exactly, it computes the complementary factor j = N/i and considers the value (i−1)+(j−1). If this is smaller than the current best, it updates the best. After the loop it prints the minimum found, which equals min_{a·b=N}(a+b−2). A custom FastReader handles input efficiently, and several tiny comparison helper methods hide the straightforward divisor-search logic."
+  },
+  {
+    "Sub Directory": "p02886",
+    "Description_Simple": "Title: Sum of All Pairwise Products\n\nMain Goal: Efficiently compute the sum of products of all distinct pairs in a given list of integers.\n\nDescription:  \nThe code reads an integer N, then reads N integer values into an array. It accumulates the total sum S and the sum of squares SS of these values. Using the mathematical identity  \n (sum of all elements)² – (sum of squares)  \ndivided by 2, it outputs  \n (S² – SS) / 2,  \nwhich equals the sum of A[i] * A[j] over all 0 ≤ i < j < N. The rest of the code provides a fast input reader and some decompiled boilerplate."
+  },
+  {
+    "Sub Directory": "p02887",
+    "Description_Simple": "Title: Count Consecutive Character Changes\n\nMain goal:\nThis code reads an integer N and a string of length N, then scans the string to count how many times two neighboring characters are different (i.e., the number of transitions between consecutive characters). It finally outputs that count."
+  },
+  {
+    "Sub Directory": "p02898",
+    "Description_Simple": "Title: Counting Values Meeting a Threshold\n\nMain Goal: This program reads two integers N (the number of values) and X (a threshold), then reads an array of N integers and counts how many of them are greater than or equal to X. It finally prints that count. A heavily obfuscated FastReader inner class is used solely to handle fast input parsing; the cryptographic and decompiled code artifacts are not used in the core logic."
+  },
+  {
+    "Sub Directory": "p02899",
+    "Description_Simple": "Title: Inverse Permutation\n\nMain goal: Given a size-n permutation p (values 1 through n), compute and print its inverse permutation q so that q[p[i]–1] = i+1 for each i.\n\nDescription:\n- The program reads an integer n.\n- It then reads n integers p[0],…,p[n–1].\n- It constructs an array q of length n: for each index i (0-based) it sets q[p[i]–1] = i+1.\n- Finally, it prints the elements of q separated by spaces.\n- A nested FastReader class is used for efficient input parsing."
+  },
+  {
+    "Sub Directory": "p02909",
+    "Description_Simple": "### Title  \nObfuscated Command‐Driven Message Printer with Encrypted Strings  \n\n### Main Goal  \nThis Java program embeds five secret strings in encrypted form, decrypts them at startup using Blowfish, DES and simple XOR routines, then reads a single token from standard input and compares it to two hidden commands. If the token matches the first command, it prints the first hidden response; if it matches the second command, it prints the second response; otherwise it prints a default message.  \n\n### How It Works  \n1. Static Initialization  \n   - Builds an integer array `IlIllll` with values 0,1,2,… for indexing.  \n   - Allocates a `String[] lIIllll` of length 5.  \n   - Populates `lIIllll` by decrypting five Base64‐encoded literals with three different methods:  \n     • `lllllIIll(...)` decrypts via Blowfish using the MD5 of a given key string.  \n     • `lIIIIlIll(...)` decrypts via DES with an MD5‐derived key.  \n     • `IIIIIlIll(...)` applies an XOR cipher after Base64 decoding.  \n\n2. Main Logic  \n   - Uses `FastScanner` (a custom fast I/O class) to read one token from standard input.  \n   - Compares it to `lIIllll[0]` (first decrypted command).  \n     • If equal, prints `lIIllll[1]` (first decrypted response).  \n   - Else compares it to `lIIllll[2]` (second decrypted command).  \n     • If equal, prints `lIIllll[3]` (second decrypted response).  \n   - Otherwise prints `lIIllll[4]` (default message).  \n\n3. Utility Methods  \n   - `p(T)` and `pp(T)` wrap `System.out.println/print`.  \n   - `stringCopy` builds a new copy of a string’s characters (unused).  \n   - `min` and `max` compute the minimum/maximum of three integers.  \n   - `FastScanner` reads bytes from `System.in`, skips non‐printable characters, and parses tokens, ints, longs, and doubles.  \n\nIn essence, this is an obfuscated CLI that recognizes two secret commands and prints back two secret messages, all of which are stored encrypted in the code."
+  },
+  {
+    "Sub Directory": "p02910",
+    "Description_Simple": "Title: Obfuscated Java String Scanner with Conditional Output\n\nMain goal: The program reads a single token (string) from standard input and scans its characters by index. If it ever finds the character ‘L’ at an even (0‐based) position, it prints a first secret message; otherwise, if it finds ‘V’ at an odd position, it prints a second secret message; if neither condition ever occurs, it prints a default secret message. Those three output strings are stored in encrypted form and are decrypted at class‐load time via DES+MD5. The rest of the code provides unused gcd/lcm utilities and a custom FastReader for efficient input parsing."
+  },
+  {
+    "Sub Directory": "p02911",
+    "Description_Simple": "Title: “Decompiled Java Main Class Skeleton”\nMain Goal: Defines a bare-bones Java application stub—an empty constructor and an empty main method—produced by a decompiler to show the class structure without any actual functionality."
+  },
+  {
+    "Sub Directory": "p02916",
+    "Description_Simple": "Title: Consecutive‐Event Bonus Summation\n\nMain goal: This program reads an integer N, then three arrays of lengths N, N, and N−1. The first array S (length N) is a sequence of “event codes” (1…N), the second A (length N) gives a base score for each code, and the third B (length N−1) gives a bonus score for every consecutive pair where S[i] = S[i−1]+1. The code walks through S, accumulates A[S[i]−1] for each position, and whenever the current code follows its predecessor by exactly +1, it adds the corresponding bonus B[S[i]−2]. Finally it prints the total score."
+  },
+  {
+    "Sub Directory": "p02917",
+    "Description_Simple": "Title: Adjacent Minima Summation\n\nMain goal:  \nRead an integer N and then N–1 numbers A₁…Aₙ₋₁. Construct a new array B of length N where  \n • B₁ = A₁  \n • Bᵢ = min(Aᵢ₋₁, Aᵢ) for 2 ≤ i ≤ N–1  \n • Bₙ = Aₙ₋₁  \nFinally, compute and print the sum of all Bᵢ."
+  },
+  {
+    "Sub Directory": "p02921",
+    "Description_Simple": "Title: Character Position Matcher  \nMain goal: This obfuscated Java program reads two 3‐character strings from standard input, compares them index by index, and prints how many of the three positions have the same character (output is “0”, “1”, “2” or “3”)."
+  },
+  {
+    "Sub Directory": "p02922",
+    "Description_Simple": "Title: Step Increment Counter\n\nMain Goal: This program reads two integers N and K, then starting from 1 repeatedly adds (N–1) until the running total reaches or exceeds K, counting how many additions (steps) are needed. It prints that count.\n\nKey Components:\n- A custom FastScanner class for efficient input parsing (nextInt, nextLong, etc.).\n- A static initializer that sets up a helper array used to seed the starting value (1) and initial count (0).\n- The main loop compares the current total to K and increments both the total and the step counter each iteration.\n- Upon reaching or exceeding K, the final step count is output."
+  },
+  {
+    "Sub Directory": "p02923",
+    "Description_Simple": "Title: Longest Non-Increasing Contiguous Run Finder  \nMain goal: This program reads an integer N and an array h of length N, then scans through the array to determine the maximum number of consecutive adjacent pairs satisfying h[i] >= h[i+1]. It outputs the length of the longest contiguous non-increasing segment (counted in terms of adjacent “drops”)."
+  },
+  {
+    "Sub Directory": "p02934",
+    "Description_Simple": "This Java program uses a custom fast I/O template to read two long integers, \\(x\\) and \\(y\\). It then determines the fewest increments or decrements (by 1) required to make \\(x\\) divisible by \\(y\\). Concretely, it computes the remainder \\(r = x \\bmod y\\) and prints \\(\\min(r,\\,y - r)\\). If \\(x\\) is already divisible by \\(y\\), it prints 0. The code handles the edge case \\(x<y\\) seamlessly since then \\(r=x\\) and the result is \\(\\min(x,\\,y-x)=x\\)."
+  },
+  {
+    "Sub Directory": "p02935",
+    "Description_Simple": "Title: CAlchemist – Iterative Averaging of Sorted Values\n\nMain Goal:\nRead an integer n and n floating-point numbers, sort them, then compute a combined value by starting with the average of the two smallest numbers and iteratively averaging that result with each next number in ascending order. Finally, print the resulting value.\n\nDescription:\nThe program uses custom fast I/O classes (InputReader and OutputWriter). The CAlchemist.solve method:\n1. Reads n.\n2. Reads an array of n doubles.\n3. Sorts the array.\n4. Initializes result = (a[0] + a[1]) / 2.\n5. For i from 2 to n–1, updates result = (result + a[i]) / 2.\n6. Prints the final result."
+  },
+  {
+    "Sub Directory": "p02945",
+    "Description_Simple": "Title: Median of Arithmetic Operations\n\nMain goal: This decompiled, obfuscated Java program reads two integers A and B, computes A+B, A−B, and A×B, then uses a series of comparisons to determine and print the middle (median) value of those three results. Although the class contains many extra helper methods (gcd, lcm, prime check, factorial, base conversion), they are never used in the main execution flow."
+  },
+  {
+    "Sub Directory": "p02946",
+    "Description_Simple": "Title: Obfuscated Range Printer\n\nMain Goal:\nThis code reads two integers from standard input and then outputs every integer in the inclusive range between them, printing each value followed by a space and ending with a newline. All of this is buried under heavy name‐and‐flow obfuscation (encrypted space/newline strings, confusingly named methods and variables, etc.), but at its core it simply implements:\n\n1. Read integers a and b.\n2. For i from min(a,b) to max(a,b):  \n     print(i + \" \").  \n3. Print a final newline."
+  },
+  {
+    "Sub Directory": "p02947",
+    "Description_Simple": "Title: Anagrammatic Pair Counter\n\nMain goal: This program reads an integer n followed by n lowercase words, computes a 26‐element letter‐frequency signature for each word, groups words by identical signatures (i.e. anagram groups), and then outputs the total number of unordered pairs of words that are anagrams (sum over each group of size v of v choose 2)."
+  },
+  {
+    "Sub Directory": "p02951",
+    "Description_Simple": "Title: Difference Threshold Calculator\n\nMain goal:\nThis program reads three integers N, M, and K from standard input. It computes D = N – M. If D ≥ K, it prints 0; otherwise it prints the shortage K – D. The code uses a low-level, decompiled FastScanner class for rapid input parsing."
+  },
+  {
+    "Sub Directory": "p02952",
+    "Description_Simple": "Title: Counting Integers Up to N with an Odd Number of Digits\n\nMain goal: Read an integer N from standard input, then count and print how many numbers in the range 1…N have an odd number of decimal digits (e.g. 1–9, 100–999, 10000–99999, etc.).\n\nSummary:\n1. Static initialization builds a small constant array IlIIIll = {unused, 0, 1, 2} and decodes a couple of obfuscated strings (used only in an unused printlnYN method).\n2. The FastScanner inner class (heavily obfuscated) handles fast input parsing.\n3. In solve():\n   – Read N (nextInt()).  \n   – Initialize a counter cnt = 0 and a loop variable i = 1.  \n   – For each i from 1 to N:\n     • Convert i to a String and check if its length mod 2 == 1.  \n     • If yes, increment cnt.  \n   – After the loop, print cnt.\n4. The rest of the code (MOD field, printlnYN, string‐decoding routines) is either unused or only serves obfuscation."
+  },
+  {
+    "Sub Directory": "p02953",
+    "Description_Simple": "Title: Sequence Smoothing and Non-decreasing Check\n\nMain goal:\nThis obfuscated Java program reads an integer N and then a sequence of N integers. If N == 1 it immediately prints the “single-element” message. For N > 1, it makes a single pass through the array: every element that is strictly greater than its preceding neighbor (for the first element, its “neighbor” is the second element) is decremented by 1. After this transformation it checks whether the resulting sequence is non-decreasing (each element ≥ its predecessor). It then prints one of two messages: the “success” message if the sequence became non-decreasing, or the “failure” message otherwise."
+  },
+  {
+    "Sub Directory": "p02957",
+    "Description_Simple": "Title: Midpoint or “IMPOSSIBLE” Finder\n\nMain Goal: This program reads two integers a and b from standard input (using an obfuscated fast‐I/O class named hayami), ensures a≤b, and checks whether their sum is even.  \n• If (a+b) is even, it computes and prints the integer midpoint (a+b)/2.  \n• If (a+b) is odd, it decrypts and prints a hard-coded Blowfish‐encrypted message (which evaluates to “IMPOSSIBLE”).\n\nSupporting Routines:\n– An obfuscated decryption method (using MD5 and Blowfish) to decode the error string at runtime.  \n– A custom input reader (hayami) that implements methods for reading characters, tokens, integers, longs, and doubles.  \n– A series of tiny boolean and integer‐initialization helpers generated by the decompiler to hide constants."
+  },
+  {
+    "Sub Directory": "p02958",
+    "Description_Simple": "Title: Two-Step Inversion Analyzer\n\nMain Goal:\nThis program reads an integer N and then an array p of N integers. It scans the array for all “two-step inversions,” i.e. positions i where p[i] > p[i+2]. Depending on how many such inversions it finds (zero, one, two, or more) and on some local neighbor-value comparisons, it prints one of several pre-encrypted status messages describing whether the array is already “good,” can be fixed by a single local swap, has ambiguous swap options, or is unsalvageable.\n\nKey Components:\n1. String Decryption Routines  \n   - `lllIIIIIIIl`, `IIIlIIIIIIl`, `lIIlIIIIIIl` decrypt hard-coded Base64 strings using Blowfish, DES, or simple XOR, respectively.  \n   - These routines populate the `IlIIllIIl` array with human-readable messages at startup.\n\n2. exec() Method  \n   - Reads N and then N integers into `p`.  \n   - Finds all indices `i` (up to two) where `p[i] > p[i+2]`.  \n   - Switches on the count of these indices:  \n     • 0 inversions: prints message 0.  \n     • 1 inversion: checks boundary‐adjacent values to choose one of three messages (indexes 2, 3, or 1).  \n     • 2 inversions: performs a small decision tree comparing the two inversion sites and their neighbors to pick one of five messages (indexes 4,5,6,7,8).  \n     • More than 2: prints a final “too many inversions” message (index 9).\n\n3. main()  \n   - Instantiates `Main` and calls `exec()`.  \n\nIn short, it’s an obfuscated checker that classifies a nearly-sorted integer sequence by its “two-step” misorderings and prints an appropriate decrypted message."
+  },
+  {
+    "Sub Directory": "p02959",
+    "Description_Simple": "The program reads an integer N, then an array A of length N+1 (daily supplies) and an array B of length N (daily demands). For each i from 0 to N−1 it sells to the i-th customer up to B[i] units by first depleting A[i], then using A[i+1] for any remaining demand. It accumulates and prints the total sold units. Two helper scanner classes handle fast input parsing."
+  },
+  {
+    "Sub Directory": "p02970",
+    "Description_Simple": "Title: Calculating the Minimum Number of Intervals to Cover a Line\n\nMain goal:\nGiven two numbers N (total length) and D (coverage radius), the code computes the smallest integer k such that k⋅(2D+1) ≥ N. In other words, it determines the minimum number of segments of length (2D+1) needed to cover an entire length N.\n\nStructure and key functions:\n- Main: sets up the FastScanner for input and PrintWriter for output, then invokes the AtCoder solver.\n- AtCoder constructor: reads two doubles, N and D.\n- AtCoder.solve(): computes (int)ceil(N / (2D + 1)) and prints the result.\n- FastScanner: a custom, high-performance input reader for tokens, ints, longs, and doubles, used to parse the input values quickly."
+  },
+  {
+    "Sub Directory": "p02971",
+    "Description_Simple": "Title: Compute and Print the Maximum of the Array Excluding Each Element\n\nMain goal:  \nGiven an integer N and a list of N integers, for each position i the code prints the maximum value among all the other N−1 elements (i.e. the maximum of the array with element i removed). It does this by first finding the global maximum and counting how many times it occurs.  \n- If the maximum occurs more than once, removing any one element still leaves the same maximum, so it prints the global maximum N times.  \n- If the maximum is unique, it identifies its index and computes the second-largest value. It then prints the global maximum for every index except at the unique-maximum’s index, where it prints the second-largest value.  \nThis produces an output of N lines, each giving the “maximum of all others” for the corresponding input element."
+  },
+  {
+    "Sub Directory": "p02981",
+    "Description_Simple": "Title: Bounded Product Calculator\n\nMain goal: This program reads three integers n, m, and k, then computes the product n*m and prints the smaller of that product and k—that is, it outputs min(n*m, k). Although the class contains methods to initialize and compute binomial coefficients modulo 1e9+7, those combinatorics routines are never invoked in the main routine. Input is handled by a custom FastScanner implementation, and output is printed via PrintWriter."
+  },
+  {
+    "Sub Directory": "p02982",
+    "Description_Simple": "Title: Counting Integer-Distance Pairs among High-Dimensional Points\n\nMain Goal:\nGiven N points in an M-dimensional integer grid, the code counts how many unordered pairs of points have an exact integer Euclidean distance between them.\n\nSummary:\n1. It reads two integers N (number of points) and M (dimension).\n2. It reads an N×M matrix of integer coordinates.\n3. For every pair i<j of points, it computes the squared Euclidean distance:\n     dist² = Σₖ (xᵢₖ – xⱼₖ)².\n4. It takes the square root of dist² and checks whether that root is an exact integer (i.e. dist² is a perfect square).\n5. It increments a counter whenever the distance is integer.\n6. Finally, it prints the total count of such pairs.\n\nKey Functions:\n- solve(): orchestrates input, pairwise loops, perfect‐square check, and output.\n- calc(int[] a, int[] b): returns the squared distance between two M-dimensional points.\n- FastScanner: a helper class for fast reading of ints, longs, doubles, and arrays from standard input."
+  },
+  {
+    "Sub Directory": "p02983",
+    "Description_Simple": "Title: Minimum Remainder of Products Modulo 2019\n\nMain Goal:  \nThis code reads two long integers L and R, and computes the smallest value of (i * j) mod 2019 over all pairs L ≤ i < j ≤ R. If R−L+1 ≥ 2019, it immediately prints “0” (since by the pigeonhole principle one of the remainders must be zero), otherwise it brute-forces all pairs and tracks the minimum. It includes an obfuscated fast I/O implementation and a tiny DES-based decryption routine to hide the literal “0” in the source."
+  },
+  {
+    "Sub Directory": "p02987",
+    "Description_Simple": "Title: Obfuscated Four-Character Comparator with Encrypted Responses  \n\nMain Goal:  \nThis program reads a single line of input, extracts the first four characters, then uses nested comparisons (equality and “greater‐than or equal”) among those characters to select and print one of several hidden messages.  \n\nSummary:  \nAll output strings are stored in an array in encrypted form (using DES, Blowfish, or a simple XOR cipher with MD5-derived keys). At startup the code decrypts these strings into memory. The `main` method then performs a decision tree of `if`/`else if` checks on the four input characters and prints the corresponding decrypted message."
+  },
+  {
+    "Sub Directory": "p02988",
+    "Description_Simple": "Title: Counting Triplet-Middle Occurrences\n\nMain Goal: This program reads an integer N and then an array of N integers. It slides a window of size three across the array and counts how many times the third element of each window is the median (i.e., lies between or equals the other two). Finally, it prints that count."
+  },
+  {
+    "Sub Directory": "p02989",
+    "Description_Simple": "Title: Random Conditional Message Printer with Encrypted Strings\n\nMain Goal: This code decrypts two hidden messages at startup, generates three pseudorandom long values via a custom Foster RNG, compares the product of the first two to the third, and then prints one of the decrypted messages based on that comparison.\n\nKey Components:\n1. Static Initialization:\n   - Defines two integer constants and a string array.\n   - Fills the array with two encrypted Base64 strings.\n\n2. Decryption Methods:\n   - lllllIllIlIl(): Uses MD5 to derive a Blowfish key, decrypts a Base64‐encoded string.\n   - IIIIIIIIllIl(): Decodes a Base64 string then XORs each byte with a repeating key.\n\n3. main():\n   - Instantiates the Foster random generator.\n   - Retrieves three random long values.\n   - Calls lIIlIIIIllIl to compare (value1 * value2) vs value3.\n   - Prints the first decrypted string if the result is ≥0; otherwise prints the second.\n\nOverall, the program conceals its output messages by encryption and reveals one of them based on a random numeric test."
+  },
+  {
+    "Sub Directory": "p02993",
+    "Description_Simple": "Title: Adjacent Duplicate Checker\n\nMain goal: This obfuscated Java program reads a single input string and checks for any two identical characters in a row. If it finds a repeated character pair, it prints “Bad” and exits; otherwise it prints “Good.”"
+  },
+  {
+    "Sub Directory": "p02994",
+    "Description_Simple": "Title: Maximum Sum of an Arithmetic Sequence Excluding the Smallest Absolute Value Element\n\nMain Goal: Given two integers n and k, the code constructs the arithmetic sequence k, k+1, …, k+n–1 and computes the sum of all its elements except the one with the smallest absolute value. This effectively maximizes the total sum by omitting the term closest to zero (or zero itself, if present).\n\nKey Steps and Functions:\n1. Read pairs of integers (n, k) until end of input.\n2. Build the array arr[i] = k + i for i = 0…n–1.\n3. Determine the sign distribution of the sequence’s endpoints:\n   - If all terms are negative: sum elements from index 0 to n–2.\n   - If all terms are positive or start at zero: sum elements from index 1 to n–1.\n   - If the sequence crosses zero: sum all nonzero elements (skipping the single zero).\n4. Print the resulting sum for each input pair.\n\nHelper Boolean Methods:\n- llIIIIIllll(n, m): returns n < m\n- IlIIIIIllll(n): returns n != 0\n- lIlIIIIllll(n): returns n == 0\n- IIlIIIIllll(n): returns n < 0\n- IllIIIIllll(n): returns n <= 0\n- lllIIIIllll(n): returns n > 0"
+  },
+  {
+    "Sub Directory": "p02995",
+    "Description_Simple": "Title: Counting Numbers in a Range Excluding Multiples of Two Divisors\n\nMain Goal:\nGiven four long integers A, B, X, Y, the code computes how many integers in the inclusive interval [A, B] are not divisible by X or by Y.\n\nDescription:\n1. Reads A, B, X, Y from standard input.\n2. Computes L = lcm(X, Y) via gcd.\n3. Uses inclusion–exclusion:\n   - Total numbers = B–A+1\n   - Subtract count of multiples of X in [A,B]\n   - Subtract count of multiples of Y in [A,B]\n   - Add back count of multiples of L in [A,B]\n4. Prints the result."
+  },
+  {
+    "Sub Directory": "p03000",
+    "Description_Simple": "This Java program reads two integers n and m, then reads an array of n integers. It keeps a running sum from the first element onward and counts how many elements are needed before that sum becomes greater than m. Once the running total exceeds m, it prints the count of elements processed. The code uses an obfuscated FastScanner class for fast input parsing."
+  },
+  {
+    "Sub Directory": "p03001",
+    "Description_Simple": "Title: Obfuscated Java Program for Computing Half‐Product and Validation\n\nMain Goal:\nThis code reads two double values a and b, and two integers c and d, computes the “area” defined as a*b/2, and then checks whether a and b are exactly twice c and d, respectively (i.e. 2*c==a and 2*d==b). It prints the computed half‐product followed by one of two hidden strings (decrypted at runtime, effectively “YES” or “NO”) depending on that equality test. The rest of the code consists of an obfuscated FastScanner for input and encrypted string constants that are decrypted with Blowfish/DES."
+  },
+  {
+    "Sub Directory": "p03011",
+    "Description_Simple": "This decompiled and heavily obfuscated Java code defines a Main class that, on startup, decrypts a set of string constants (using Blowfish, XOR-based Base64, DES and AES with MD5‐derived keys). In its main method it reads exactly one integer, checks whether it equals a secret threshold (stored in an encrypted integer array), and then prints one of two secret messages (also decrypted at startup). Beyond this central input–compare–print flow, it provides:\n • A static sort(long[]) method that wraps a long[] in an ArrayList, calls Collections.sort, and writes back the sorted values.\n • Cryptographic helper methods (lllIlll, Illllll, llIlIIIl, IIIlIll) that implement Blowfish, XOR‐Base64, DES and AES decryption.\n • A decompiled InputReader for reading tokens, ints, and longs.\n • A trivial Point class that holds two integers.\nAll constant values and control‐flow (comparisons, array indices) have been buried under layers of bitwise and length‐of‐string checks to foil straightforward analysis."
+  },
+  {
+    "Sub Directory": "p03012",
+    "Description_Simple": "Title: Obfuscated Matrix Multiplication with Input Validation\n\nMain Goal: This Java program reads three integers n, m, k (all in the range 1…100), then reads two matrices A (n×m) and B (m×k) with non-negative entries up to 10 000. It validates the dimensions and element bounds, computes the product matrix C = A×B (size n×k), and prints each row of C with space-separated values."
+  },
+  {
+    "Sub Directory": "p03013",
+    "Description_Simple": "Title: Climbing Stairs with Broken Rungs (Dynamic Programming)\n\nMain Goal:\nThis obfuscated Java program reads two integers, N (the total number of rungs) and M (the number of broken rungs), then reads the M distinct broken‐rung positions. If any two broken rungs are consecutive, it decrypts and prints a stored error message. Otherwise it uses a Fibonacci-style DP (modulo 1 000 000 007) to count the number of ways to climb from the bottom (rung 0) to the top (rung N), taking 1‐ or 2‐rung steps and never landing on a broken rung. The final count is printed to standard output."
+  },
+  {
+    "Sub Directory": "p03035",
+    "Description_Simple": "Title: Conditional Integer Transformer with Fast Input\n\nMain Goal: This program reads two integers (a and b) from standard input using a custom fast I/O class (FS). It then applies these rules:\n- If a ≤ 5, set b = 0.\n- Else if a ≤ 12, replace b with b / 2 (integer division).\n- Otherwise leave b unchanged.\nFinally, it prints the resulting value of b."
+  },
+  {
+    "Sub Directory": "p03037",
+    "Description_Simple": "Title: Computing the Length of the Common Overlap of M Intervals\n\nMain Goal:\n Given an integer N (the initial allowable range [0…N]) and M closed intervals, the code reads all M intervals and computes the size (number of integer points) in the intersection of all those intervals. If the M intervals have no point in common, it outputs 0.\n\nSummary Description:\n The program first de-obfuscates two constants:  \n  • ZERO = 0  \n  • ONE  = 1  \n\n It then reads two integers:  \n  • N – defines the initial interval [0, N]  \n  • M – the number of intervals to process  \n\n If M == 1, it reads a single interval [L,R] and immediately prints R–L+1.  \n Otherwise it initializes a “current overlap” to [start=0, end=N] and iterates over the M input intervals [L,R]. On each step it replaces the current overlap with its intersection with [L,R]:  \n  • newStart = max(oldStart, L)  \n  • newEnd   = min(oldEnd,   R)  \n\n After each update it recomputes the length = newEnd – newStart + 1.  \n If at any point the intervals do not overlap, it breaks out and will print 0.  \n Finally it prints the size of the intersection of all M intervals."
+  },
+  {
+    "Sub Directory": "p03041",
+    "Description_Simple": "The Main class uses an obfuscated static array llIIIIIll holding [1, 32]. It reads two integers (the first unused, the second used as a 1-based index) and a string. It converts the string to a char array, computes zero-based index = position–1, then does char[index] = (char)(char[index] + 32). This shifts the ASCII code of that character by 32 (e.g. 'A'→'a'), rebuilds the string, and prints it. The FastScanner class is a heavily obfuscated I/O utility for tokenized input (next(), nextInt(), nextLong(), etc.)."
+  },
+  {
+    "Sub Directory": "p03042",
+    "Description_Simple": "An obfuscated Java program that hides all its string constants (error messages, regex patterns, valid and invalid codes) in encrypted form (Base64+XOR, DES, Blowfish). At startup it decrypts them into an array, then in main() it reads a single two‐character token, splits it into the first and second character, ensures each matches a compiled regex, tests each against hardcoded allow/deny lists, and prints one of four possible status messages (both valid, first only, second only, neither) or an overall failure message if they don’t match the regex. The two helper functions perform XOR+Base64 decoding and DES/Blowfish decryption to recover the constants."
+  },
+  {
+    "Sub Directory": "p03043",
+    "Description_Simple": "Title: Average of Raised Powers Based on Doubling Steps\n\nMain Goal:\nThis program (in its active routine solveC) reads two integers N and M, and for each starting value i=1..N computes the minimum number of times t you must double i (i → 2·i → 4·i → …) before it reaches or exceeds M.  It then raises a fixed base B (loaded from an obfuscated constant) to that power t, sums those B^t values for all i, and finally outputs the average \n   (Σ_{i=1..N} B^{t_i}) ÷ N \nas a BigDecimal with a fixed number of decimal places.  \n\nSupport code:\n– A fully in-house fast input reader (hasNext, nextInt, next(), etc.)  \n– Several swap-free comparison helpers (lIIllIIIIIIl, IlIllIIIIIIl, …)  \n– Static routines to decrypt and assemble the string constants used for output messages and the base B.  \n\nOnly the solveC method is actually invoked by main; solveA..solveF are unused stubs for other problems."
+  },
+  {
+    "Sub Directory": "p03059",
+    "Description_Simple": "Title: Block-Based Cost Calculator\n\nMain goal: Read three integers A, B, and C, then compute how many increments of size A are needed to exceed C and output the total cost as that count multiplied by B.\n\nDescription: The program uses a custom FastScanner to read A (block size), B (cost per block), and C (target value). It initializes an accumulator to A and a cost counter to 0. While the accumulator is less than or equal to C, it adds another block (accumulator += A) and increases the cost by B. Once the accumulator exceeds C, it prints the accumulated cost."
+  },
+  {
+    "Sub Directory": "p03060",
+    "Description_Simple": "Title: Sum of Positive Differences between Two Arrays\n\nMain Goal: This program reads an integer N, then reads two integer sequences A and B of length N each. It computes and prints the total sum of (A[i] – B[i]) only for those indices i where A[i] > B[i].\n\nExplanation:\n- Uses a custom InputReader for fast input and OutputWriter for output.\n- The unused `round` function rounds a double to a given number of decimal places.\n- In `main`, after reading N, it fills arrays A and B.\n- It then iterates over all positions, accumulating (A[i]–B[i]) whenever A[i] exceeds B[i].\n- Finally, it outputs the accumulated sum as a long integer."
+  },
+  {
+    "Sub Directory": "p03071",
+    "Description_Simple": "Title: AtCoder Problem Solver (Simple Conditional Sum)\n\nMain Goal: \nThis program reads two integers A and B. If A equals B, it outputs their sum (A + B). Otherwise, it outputs (2 × max(A, B) – 1). It uses a custom FastScanner for input and PrintWriter for output, following a typical competitive‐programming template."
+  },
+  {
+    "Sub Directory": "p03072",
+    "Description_Simple": "Title: Counting Record-Breaking Array Elements\n\nMain goal: Read an integer N, then N more integers from standard input; scan the array while maintaining the current maximum and count how many times an element is at least as large as any previously seen value (including the first element). Finally, print that count. The code uses a custom fast I/O helper class for input parsing."
+  },
+  {
+    "Sub Directory": "p03073",
+    "Description_Simple": "Title: Counting Bounded Integer Triples Summing to S\n\nMain goal: Given two integers K and S, the code computes the number of non-negative integer triples (x, y, z) with x + y + z = S and 0 ≤ x, y, z ≤ K. It does this by:\n- f(t, K): counting the number of pairs (x, y) with x + y = t and 0 ≤ x, y ≤ K.\n- g(S, K): summing f(S – z, K) over z = 0…K to cover all possible third‐variable choices.\nThe result is printed to standard output."
+  },
+  {
+    "Sub Directory": "p03075",
+    "Description_Simple": "Title: Obfuscated Integer‐Array Validation and Conditional Message Output\n\nMain goal:\nThis program reads six integers from standard input, enforces that they are all between 0 and 123, non-decreasing, and that the last two values are equal. It then treats the first five numbers as a sorted list and the sixth as a threshold, checks every pairwise difference among the first five against that threshold, and finally prints one of two messages (both stored in obfuscated form and decrypted at runtime) indicating either “failure” or “success.”"
+  },
+  {
+    "Sub Directory": "p03076",
+    "Description_Simple": "Title: Container Capacity Optimization\n\nMain Goal: This program reads exactly five integer item‐sizes, assigns each item to the smallest “bucket” or container whose capacity meets or exceeds the item size (the buckets have fixed capacities 10, 20, 30, 50, 80, … up to a set of predefined thresholds), sums the total capacity of those chosen buckets, then subtracts the largest single unused space (slack) among all buckets to minimize the overall wasted capacity, and finally prints the optimized total."
+  },
+  {
+    "Sub Directory": "p03086",
+    "Description_Simple": "Title: Obfuscated Substring Extractor with Runtime-Decrypted Constants\n\nMain goal: This heavily-obfuscated program reads a single token from standard input, decrypts a set of hidden string constants (using Base64, XOR, Blowfish and DES routines), and then scans the user’s input to identify and print the longest contiguous substring whose characters fall within certain decrypted bounds (for example digit or letter ranges). Depending on the input’s overall validity and the length of the found segment, it either prints that longest valid segment, the original input, or a fallback string. All of the index tables and textual literals are concealed in static int and String arrays and are only revealed at runtime by the decryption methods."
+  },
+  {
+    "Sub Directory": "p03087",
+    "Description_Simple": "Title: Counting “AC” substrings and simulating health attacks (decompiled AtCoder solution)\n\nMain goal:\n1. The Main class reads an integer N (string length), Q (number of queries), and a string S. It preprocesses S to build a prefix‐sum array of the number of times the substring “AC” occurs ending at each position. Then for each query [L, R], it answers in O(1) how many “AC” substrings lie entirely within S[L..R].\n2. The AtCoder class solves another problem: it reads an initial health H, an array of N damage values A[i], then simulates subtracting each A[i] in order, printing “No” and stopping if health ≤ 0 at any point, or printing “Yes” if H stays positive after all attacks.\n3. The FastScanner class provides a highly‐obfuscated, fast input reader and utility decryption methods (MD5+DES/Blowfish/xor) to decode obfuscated string constants.\n\nKey functions:\n- In Main: building the prefix count of “AC” occurrences by scanning adjacent characters, then answering range queries by subtracting prefix sums.\n- In AtCoder: a solve() routine that decrements health and checks failure or survival.\n- In FastScanner: buffered reading of tokens (next(), nextInt(), nextLong(), etc.) with many helper boolean and decryption routines to hide constant values."
+  },
+  {
+    "Sub Directory": "p03102",
+    "Description_Simple": "Title: Positive Weighted Sum Counter\n\nMain Goal:\nThis program reads three integers N (number of items), M (number of features), and S (initial threshold). It then reads an array of M integer weights. For each of the N items, it reads M feature values, computes the score = S + ∑(weight[j] × feature[j]), and counts how many items produce a positive score. Finally, it prints that count."
+  },
+  {
+    "Sub Directory": "p03106",
+    "Description_Simple": "Title: Obfuscated Java Template That Reads and Reorders Three Integers\n\nMain Goal:\nThis code is a heavily obfuscated Java “competitive programming” template whose main method simply reads three integers from standard input and prints them in the order (third, first, second).\n\nDetails:\n- A static initializer sets up a modulus constant (mod = 1_000_000_007), a FastScanner for fast input, and a PrintWriter for output.\n- The FastScanner class provides methods to read tokens, integers, longs, doubles, and arrays, all implemented in an obfuscated way.\n- In main(), the program reads three int values a, b, c and then outputs “c a b”.\n- Unused fields (`S`, `n`, `seen`, `field`) and many confusing helper methods exist to disguise the simplicity of the logic."
+  },
+  {
+    "Sub Directory": "p03107",
+    "Description_Simple": "Title: Obfuscated Input Transformation and Node Counting\n\nMain goal: This code reads a single string from standard input, converts each character into a small integer by subtracting 1, and then builds a custom doubly-linked list while applying a set of value-based insertion and deletion rules. After processing all characters, it scans the resulting list to count how many nodes do not hold the special value (–1) and finally prints the length of the original string minus that count."
+  },
+  {
+    "Sub Directory": "p03109",
+    "Description_Simple": "Title: Threshold Evaluation and Element Filtering\n\nMain goal: Read an integer array, compute a threshold based on the total sum and a given divisor k, count how many elements fall below this threshold, and print “YES” if that count does not exceed k (otherwise “NO”).\n\nShort summary:\n1. Read n (array size) and k.\n2. Read an array of n integers.\n3. Compute the total sum of the array.\n4. Calculate threshold = ceil(sum / (4 * k)).\n5. Count how many array elements are strictly less than that threshold.\n6. If the count of “too small” elements is ≤ k, decrypt and print “YES”; otherwise decrypt and print “NO”.\n\nThe code uses an obfuscated Blowfish-based method to store the “YES”/“NO” strings securely, a custom FastScanner for input, and a helper ceil function."
+  },
+  {
+    "Sub Directory": "p03126",
+    "Description_Simple": "This program reads two integers N and M, then N sequences where each sequence starts with its length followed by that many values. It treats the first sequence as the reference set, and for each of its elements checks if it occurs in all the remaining sequences. If an element is found in every list, a counter is incremented. Finally, it outputs the total count of such common elements (for N=1 it simply outputs the size of the single list)."
+  },
+  {
+    "Sub Directory": "p03136",
+    "Description_Simple": "<Title: Largest-vs-Sum Validator  \nMain goal: This program reads an integer n and then n more integers from standard input, sorts them, computes the sum of the smallest n − 1 elements, compares that sum to the largest element, and prints a decrypted “Yes” if the sum is greater or “No” otherwise. It uses a custom fast reader (the hayami class) and simple Blowfish decryption to store the two output strings.>"
+  },
+  {
+    "Sub Directory": "p03146",
+    "Description_Simple": "Title: Collatz Sequence Step Counter\n\nMain Goal:\nThis program reads a single integer N from standard input, then repeatedly applies the Collatz‐map rule—if N is even, divide it by 2; otherwise replace it with 3·N + 1—keeping track of how many steps it takes until any value in the sequence repeats. Finally, it prints the count of steps taken to first encounter a previously seen value (i.e. to enter the cycle).\n\nSummary of Key Components:\n1. Obfuscated Constants Initialization  \n   - A static array `IlIlIIIIIl` of length 3 is set to {1, 2, 3} via bit‐twiddling (“ ”.length() etc.).\n\n2. Input/Output Setup  \n   - `FastScanner sc` for fast reading from `System.in`.  \n   - `PrintWriter writer` for writing to `System.out`.\n\n3. Main Loop (in `main`)  \n   - Read integer N.  \n   - Use a `HashSet<Integer>` to record all past values of N.  \n   - Initialize step counter to 0.  \n   - While the current N has not been seen before:  \n      • Add N to the set, increment the counter.  \n      • If N is divisible by 2, set N = N / 2.  \n      • Else set N = 3·N + 1.  \n   - When a repeat is detected, break and output the step count.\n\n4. FastScanner Class  \n   - Custom methods to parse `int`, `long`, `double`, `char`, `String` from `InputStream` using a buffered reader.  \n   - Contains several layers of obfuscation (encrypted strings, strange index checks), but functionally just speeds up reading tokens.\n\nOverall, despite heavy decompilation and naming obfuscation, the core algorithm implements the Collatz iteration on an input N and counts how many steps it takes before the sequence cycles."
+  },
+  {
+    "Sub Directory": "p03147",
+    "Description_Simple": "Title: Minimum Subarray Decrements to Zero\n\nMain goal:\nGiven an array of non‐negative integers, compute the minimum number of “–1” operations required to turn the entire array into zeros, where each operation selects a contiguous block of positive elements and decrements each element in that block by 1.\n\nHow it works:\n1. Read n and the array.\n2. Loop until all elements are zero:\n   a. Scan from left to right, collecting each maximal run of positive numbers.\n   b. For each run, use a TreeSet to track its current values and extract the minimum.\n   c. Add that minimum to a running total of operations.\n   d. Subtract the minimum from every element in the run (ensuring at least one element becomes zero).\n   e. Continue scanning for the next run.\n3. When no positive elements remain, print the total."
+  },
+  {
+    "Sub Directory": "p03160",
+    "Description_Simple": "This Java program reads an integer N and an array of N integers representing stone heights. It then uses a recursive, memoized dynamic‐programming function to find the least total cost for a frog to move from index 0 to index N−1, where at each step the frog can jump either one or two stones ahead and pays a cost equal to the absolute difference in heights between departure and landing stones. The result is printed to standard output."
+  },
+  {
+    "Sub Directory": "p03161",
+    "Description_Simple": "Title: Minimum Jump Cost Dynamic Programming Solver\n\nMain goal: Compute the minimum total cost to travel from the first element to the last in an integer array, where you may jump forward by at most K positions and each jump’s cost is the absolute difference between start and landing values.\n\nThis code implements a top-down recursive DP with memoization (`minCostFrom`) in the `solve` method. It checks boundary conditions (beyond end = “infinite” cost, landing exactly on the last index = zero cost), then tries every jump length from 1 to K, accumulating the minimum cost of `abs(arr[i] – arr[i+step]) + solve(i+step)`. The `main` method reads N, K, and the array, initializes the memo array to –1, and prints `solve(0)`."
+  },
+  {
+    "Sub Directory": "p03220",
+    "Description_Simple": "Title: Nearest Adjusted Value Finder\n\nMain Goal: The program reads three numbers N, P, and K, then reads N integer values v[i]. For each v[i], it computes an adjusted value P – 0.006 × v[i] and finds which one is closest to K. It then prints the 1-based index of the value whose adjusted result has the smallest absolute difference from K.\n\nDetails:\n- A fast I/O routine reads tokens (ints, longs, strings) from standard input.\n- solveB() implements the core logic:  \n  1. Read N (number of items), P (base value), and K (target).  \n  2. Loop i=0..N–1: read v[i], compute adj = P – 0.006*v[i], track |adj – K|.  \n  3. Remember the index with the smallest difference.  \n  4. Output that index + 1.  \n- The code also contains stub methods for problems A, C, D, E, F (unused here) and string decryption routines for obfuscation, but only solveB() is actually invoked."
+  },
+  {
+    "Sub Directory": "p03239",
+    "Description_Simple": "Title: Task Selector with Deadline Filtering\n\nMain Goal:\nThis Java program reads two integers N and T from standard input, then reads N pairs of integers (cost, time). It filters out all tasks whose time exceeds T, finds the minimum cost among the remaining tasks, and prints that minimum cost. If no task meets the deadline (i.e. there is no valid cost ≤ T), it prints an obfuscated “TLE” (time limit exceeded) message.\n\nExplanation of Key Parts:\n1. FastScanner: A custom, highly obfuscated fast input reader for tokens, integers, and longs.\n2. BTimeLimitExceeded.solve:\n   - Reads N (number of tasks) and T (time limit).\n   - Initializes minCost = 10001.\n   - Loops over the N task entries, each given as (cost, time).\n   - If time ≤ T, updates minCost = min(minCost, cost).\n   - After the loop:\n     • If no valid task was found (minCost > 1000), prints “TLE” (decrypted at runtime via Blowfish).\n     • Otherwise prints minCost.\n3. Main: Sets up FastScanner and PrintWriter, then calls the solver.\n\nObfuscation Details:\n- All constants and comparisons are buried behind bitwise and helper methods.\n- The “TLE” string is stored in encrypted form and decrypted via Blowfish/MD5 at class initialization.\n- Arrays and integer values are computed using weird expressions to make static analysis harder.\n  \nOverall, despite the obfuscation, the essential logic is simply filtering tasks by deadline and selecting the cheapest valid task, or reporting a time‐limit‐exceeded condition."
+  },
+  {
+    "Sub Directory": "p03242",
+    "Description_Simple": "API call failed."
+  },
+  {
+    "Sub Directory": "p03243",
+    "Description_Simple": "Title: Range Threshold Mapper with Runtime-Decrypted Error Message\n\nMain Goal:\nThis obfuscated Java program reads a single integer from standard input, compares it against a fixed set of numeric thresholds (111, 222, 333, 444, 765, 777, 792, 999), and prints the first threshold that is greater than or equal to the input value. If any error occurs (for example, non-numeric input), it catches the exception and prints a hidden error message which is decrypted at runtime using Blowfish with an MD5-derived key."
+  },
+  {
+    "Sub Directory": "p03261",
+    "Description_Simple": "Title: Shiritori (Word Chain) Validator\n\nMain goal: This program reads an integer N and then N strings, and verifies two conditions:\n1. Each word’s first character matches the previous word’s last character.\n2. No word appears more than once.\nIf both conditions hold, it prints “Yes”; otherwise it prints “No”."
+  },
+  {
+    "Sub Directory": "p03281",
+    "Description_Simple": "Title: Divisibility Pattern Counter\n\nMain Goal: The program reads an integer T (the number of test values) and then T integers. For each odd integer, it checks five specific compound divisibility conditions (divisible by 3, 13, 45; by 3, 13, 11; by 3, 13, 13; by 27, 13; and by 27, 45), increments a running total for each condition met, and finally prints the total count of all matches."
+  },
+  {
+    "Sub Directory": "p03282",
+    "Description_Simple": "Title: Obfuscated Java Utility and Input‐Processing Demo\n\nMain Goal: This heavily obfuscated class defines its own print/println wrappers and string‐deobfuscation routines (XOR, Blowfish, DES) to hide literal constants, then in main() it reads a token (String) and a number (long) from standard input. It loops over the characters of the input string, decrements the counter each time it sees a ‘1’, and either continues or prints a message when the count runs out (or prints the first non-’1’ character and exits).\n\nFunctions Breakdown:\n• Static Initializers: Populate integer constants and decrypt four hidden strings via Base64+XOR, Blowfish and DES.  \n• print/println Overloads: Uniformly handle all primitive types, Objects and arrays with automatic flushing.  \n• Decryption Helpers:  \n  – IIIllIIIIIl: XOR‐based decoder for Base64‐encoded payloads.  \n  – IlIllIIIIIl: Blowfish decrypter using MD5 of a key string.  \n  – lIIllIIIIIl: DES decrypter using MD5‐derived key.  \n• main():  \n  1. Reads a String and a long from stdin.  \n  2. Iterates over each character (while index < length):  \n     – If the character is ‘1’, decrement the counter; if still >0, continue, otherwise print a hidden message and exit.  \n     – If the character is anything else, print that character and exit."
+  },
+  {
+    "Sub Directory": "p03285",
+    "Description_Simple": "Title: Obfuscated Number Validator with Encrypted Output\n\nMain goal: This program reads an integer from the user, runs it through a series of deliberately obfuscated modular and comparison checks, and then prints one of two messages (decrypted at runtime) to indicate whether the input satisfies all the hidden criteria."
+  },
+  {
+    "Sub Directory": "p03289",
+    "Description_Simple": "Title: Input Format Validator with Obfuscated Constants\n\nMain Goal:\nThis code reads a single token from standard input and checks whether it matches a hidden format “P:D+”, where:\n- “P” is a specific one‐character prefix (decrypted at initialization),\n- “:” is a fixed delimiter (also decrypted),\n- “D+” is a nonempty sequence of decimal digits.\n\nIf the input meets these conditions, it prints a success message (another hidden string); otherwise it prints an error message. Internally, all literal strings are stored in encrypted form (Blowfish or DES) and decrypted in static initialization. The auxiliary classes (UnionFind, Pair, MyComparator, Edge) are never used by the validation logic and appear only as dead code."
+  },
+  {
+    "Sub Directory": "p03292",
+    "Description_Simple": "Title: Minimum Total Distance Among Three Positions\n\nMain Goal: This program reads three integer values (positions on a line) and computes the smallest total distance needed to \"gather\" all three points at one of the original positions. Internally, it tries each of the three points as the meeting spot, sums the absolute differences to the other two, and then prints the minimal sum—equivalently, the difference between the maximum and minimum of the three inputs."
+  },
+  {
+    "Sub Directory": "p03293",
+    "Description_Simple": "Title: Circular Substring Rotation Checker\n\nMain Goal:\nThis code reads two strings S and T, then determines whether T occurs as a contiguous substring in any cyclic rotation of S (i.e., whether T is a substring of S concatenated to itself). If such a rotation match exists, it prints “Yes”; otherwise, it prints “No.” The output messages (“Yes” and “No”) are stored in obfuscated form and decrypted at runtime."
+  },
+  {
+    "Sub Directory": "p03308",
+    "Description_Simple": "Title: Range Calculator\n\nMain Goal:\nThis program reads an integer N and then N integers from standard input, sorts them, and prints the difference between the largest and smallest values (i.e., the range of the data).\n\nDescription:\n- Uses a custom fast InputReader to parse input.\n- Reads N, then an array of N integers.\n- Sorts the array.\n- Computes array[N-1] – array[0] and prints the result."
+  },
+  {
+    "Sub Directory": "p03315",
+    "Description_Simple": "Title: Obfuscated String‐Comparison and Code‐Printer\n\nMain Goal:\nThis program reads a line of user input, compares it against a set of secret strings that have been hidden by XOR, Blowfish, or DES encryption, and then prints various integer codes depending on which (if any) hidden string the input matches.\n\nSummary of Key Functions:\n\n1. lIlllllIIl():\n   - Builds an array of integer constants (`IlIIIIll`) by using bitwise and length operations.\n\n2. IIlllllIIl():\n   - Creates the string array (`lIIIIIll`) of “secret” values by decoding literal Base64 tokens and then:\n     a. XOR‐decoding via llIllllIIl()\n     b. Blowfish‐decrypting via lIIllllIIl()\n     c. DES‐decrypting via IlIllllIIl()\n\n3. llIllllIIl(String, String):\n   - Decodes the first argument from Base64, then XORs each character with the repeating key given in the second argument.\n\n4. lIIllllIIl(String, String):\n   - Uses MD5(key) → 128-bit Blowfish key to decrypt the first argument (after Base64 decode).\n\n5. IlIllllIIl(String, String):\n   - Uses MD5(key), truncated to 8 bytes → DES key to decrypt the first argument (after Base64 decode).\n\n6. main(String[]):\n   - Reads one line from standard input.\n   - Performs a series of boolean checks comparing that input to the decoded secret strings.\n   - According to which comparisons succeed or fail, prints out one of the integer constants from `IlIIIIll`.\n\nIn short, the code is a simple password/keyword checker, cleverly hidden behind multiple layers of decoding and obfuscation."
+  },
+  {
+    "Sub Directory": "p03316",
+    "Description_Simple": "Title: Harshad Number Checker  \nMain goal: Read an integer N, compute the sum of its decimal digits, and print “Yes” if N is divisible by that sum (i.e. N is a Harshad number), otherwise print “No”.  \n\nThe code is heavily obfuscated—it includes  \n- a custom FastScanner for input,  \n- runtime decryption routines (DES/MD5, Blowfish) to hide the “Yes”/“No” literals,  \n- and an inner Solver class that parses N, accumulates its digit sum, tests `N % sum == 0`, and outputs the appropriate decrypted message."
+  },
+  {
+    "Sub Directory": "p03324",
+    "Description_Simple": "Title: Finding the k-th number with exactly d “00” suffixes\n\nMain goal:\nGiven two integers d and k, this program computes the k-th positive integer that is divisible by 100^d but not by 100^(d+1). In other words, it finds the k-th number whose decimal representation ends with exactly 2·d zeros (no more).\n\nHow it works:\n1. It reads d and k from standard input.\n2. It sets base = 100^d.\n3. It maintains a running total x, initially 0.\n4. It loops k times, each time:\n   a. Increments x by base.\n   b. Counts how many times 100 divides x (function howMany).\n   c. If that count exceeds d (meaning x has >2·d trailing zeros), it adds base one more time to skip that “bad” number.\n5. After k iterations, it prints x.\n6. The helper howMany(n) repeatedly divides n by 100 and counts how many times it can do so (the exponent of 100 in n). The custom InputReader is just a fast I/O utility.\n\nThus the output is the k-th multiple of 100^d that is not divisible by 100^(d+1)."
+  },
+  {
+    "Sub Directory": "p03325",
+    "Description_Simple": "Title: Total Power-of-Two Divisibility Counter\n\nMain goal: The program reads an integer n and then n more integers, and for each input number it checks divisibility by 2, 4, 8, 16, … up to 2^29. It counts one point for every power-of-two divisor each number has, effectively summing the exponent of 2 in the prime factorization (the number of trailing zero bits) across all inputs, then prints that total."
+  },
+  {
+    "Sub Directory": "p03352",
+    "Description_Simple": "Title: Find Largest Perfect Power ≤ N\n\nMain Goal:\nGiven an integer N, the code finds the greatest integer M (1 < M ≤ N) whose prime‐factorization exponents are all equal and greater than 1 (i.e. M = X^k for some integer X and k > 1, examples: 4, 8, 9, 16, 27, 36, …). If no such M exists, it prints 1.\n\nHow it works in brief:\n1. Build a smallest‐prime‐factor (SPF) sieve for all integers up to 1000.\n2. Read the input N.\n3. Iterate M = N down to 2:\n   a. Factorize M using the SPF array, count the exponent of each prime.\n   b. Check if all recorded exponents are identical and exceed 1.\n   c. If yes, print M and terminate.\n4. If the loop ends without finding any, print 1."
+  },
+  {
+    "Sub Directory": "p03370",
+    "Description_Simple": "Title: Bitter Alchemy Solver\n\nMain Goal:  \nThis code reads an integer n (number of elements), an integer m (target sum), and an array of n positive integers. It then computes and outputs  \n  n + ⌊(m – sum_of_array) / min_element⌋  \nthat is, starting from n items with total size sum_of_array, how many additional items of minimum size can fit into the remaining capacity (m – sum_of_array).\n\nDescription of Key Components:  \n1. Class Main  \n   - Contains the entry point, sets up input (FastScanner) and output (PrintWriter), and invokes BBitterAlchemy.solve with a hard-coded parameter (1).  \n\n2. FastScanner  \n   - A custom, buffered scanner to read ints, longs, and arrays from System.in quickly.  \n\n3. BBitterAlchemy  \n   - solve(int dummy, FastScanner in, PrintWriter out):  \n       • Reads n and m.  \n       • Reads an array of n integers, sorts it, computes its sum and minimum.  \n       • Calculates result = n + (m – sum) / minimum_element.  \n       • Prints result."
+  },
+  {
+    "Sub Directory": "p03371",
+    "Description_Simple": "Title: Minimizing Purchase Cost with Combo Deals  \nMain goal: Calculate the lowest total cost to buy a specified number of two products (d of type A and e of type B), given individual prices a and b and a special “combo” price c (which covers one of each when buying two).  \nBriefly, the code:\n1. Reads five integers a, b, c, d, e.  \n2. Computes how many pairs of A+B to buy (the smaller of d and e) using the cheaper of (a+b) vs. (2·c).  \n3. For the remaining |d–e| items, chooses the cheaper of the individual price (a or b) vs. (2·c) per item.  \n4. Sums these costs and prints the minimal total."
+  },
+  {
+    "Sub Directory": "p03378",
+    "Description_Simple": "Title: Counting Elements on Either Side of a Pivot\n\nMain goal:\nGiven three inputs N, M and K and then M distinct integers (each between 1 and N–1 and not equal to K), the code counts how many of the M numbers lie to the “left” of K (i.e. < K) and how many lie to the “right” of K (i.e. > K), then prints the smaller of those two counts.\n\nBrief explanation:\n1. Read N (1 ≤ N ≤ 100), M (1 ≤ M ≤ 100), and K (1 ≤ K ≤ N–1).\n2. Read an array of M values, each in [1, N–1] and not equal to K.\n3. Count how many values are greater than K.\n4. Count how many values are less than K.\n5. Output the minimum of these two counts."
+  },
+  {
+    "Sub Directory": "p03416",
+    "Description_Simple": "Title: Simple Integer Multiplication  \nMain Goal: Reads two integers from standard input and outputs their product."
+  },
+  {
+    "Sub Directory": "p03434",
+    "Description_Simple": "Title: Alternating Sum Difference Calculator\n\nMain Goal: Read an integer N and an array of N integers, sort the array in descending order, then compute and print the difference between the sum of elements at even indices (0,2,4,…) and the sum at odd indices (1,3,5,…). This effectively simulates two players alternately picking the largest remaining number and reporting the score difference."
+  },
+  {
+    "Sub Directory": "p03435",
+    "Description_Simple": "Title: Compute the Cube of One-Third the Input\n\nMain Goal: Read a floating-point number from standard input, divide it by 3, cube the result, and print it.\n\nSummary_description:\nThis Java class is heavily obfuscated and contains many unused methods for string splitting, decryption, and odd control-flow checks. In reality, its entry point (`main`) does nothing more than:\n\n1. Read one line from standard input and parse it as a double.\n2. Compute `(input / 3.0)³`.\n3. Print the computed value.\n\nAll the other code (the static initializers, `split()`, `kMarsh()`, the decryption routines, and the numerous boolean helpers) is never invoked by `main` and appears to be leftover obfuscation noise."
+  },
+  {
+    "Sub Directory": "p03448",
+    "Description_Simple": "Title: Counting Combinations for a Target Sum using 2000, 100, and 50‐Value Units\n\nMain goal:\nThis program reads four integers A, B, C, and X. It treats A, B, and C as the maximum allowed counts of items worth 2000, 100, and 50 units respectively, and X as a target sum. It then counts and prints the number of nonnegative integer solutions (i, j, k) with 0 ≤ i ≤ A, 0 ≤ j ≤ B, 0 ≤ k ≤ C such that\n\n  2000·i + 100·j + 50·k = X.\n\nFunctions and structure:\n- A static array holds the three denominations: 2000, 100, 50.\n- Helper boolean methods test (a) equality, (b) nonzero, (c) zero, and (d) ≥ 0 to drive the control flow.\n- Depending on which of A, B, C are nonzero, the code uses one, two, or three nested loops to enumerate all valid combinations within the given limits.\n- Each time the sum equals X, a counter is incremented.\n- Finally, the program prints the total count of valid combinations."
+  },
+  {
+    "Sub Directory": "p03449",
+    "Description_Simple": "Title: Maximum Profit from a Single Buy‐Sell Transaction\n\nMain goal:\nThis program reads an integer n from standard input, then reads n more integers into an array. It scans the array to find the largest difference arr[j] – arr[i] with j > i (the maximum “profit” you could get by buying once at a low value and selling once later at a high value). Finally it prints that maximal difference."
+  },
+  {
+    "Sub Directory": "p03455",
+    "Description_Simple": "Title: Parity Checker for Two Integers\n\nMain Goal:\nThis Java program reads two integers from standard input and prints \"Odd\" if both numbers are odd, otherwise it prints \"Even\".\n\nKey Components:\n1. Static Initialization:\n   - Defines an integer array `llIllIllIl` = {2, 1, 0}.\n   - Defines a string array (via obfuscated decryption) with messages: index 0 = \"Odd\", index 1 = \"Even\".\n\n2. Decryption Function (`IIllIIlIIlIl`):\n   - Decodes a Base64‐encoded string and XORs each byte with a key to obtain the human‐readable labels (\"Odd\"/\"Even\").\n\n3. Fast Scanner Class (`FS`):\n   - Provides methods to efficiently read tokens, ints, and longs from `System.in`.\n\n4. `main` Method:\n   - Uses `FS.nextInt()` twice to read two integers.\n   - Checks `(first % 2 == 1) && (second % 2 == 1)`.\n   - If true, prints the decrypted string at index 0 (\"Odd\"); otherwise prints index 1 (\"Even\")."
+  },
+  {
+    "Sub Directory": "p03456",
+    "Description_Simple": "Title: Perfect Square Checker\n\nMain goal: This obfuscated Java program reads two tokens from standard input, concatenates them to form an integer, and determines whether that integer is a perfect square. It prints a decrypted “YES” message if the number is a perfect square, or a decrypted “NO” message otherwise.\n\nKey components:\n- main: reads input, computes integer and its integer square‐root, compares square.\n- IlIllIIIll: decrypts Base64‐encoded strings (“YES”/“NO”) using DES with an MD5‐derived key.\n- IIIlIlIIll & lllIIlIIll: initialize integer and string arrays for obfuscation.\n- FastScanner: efficient input reader for tokens, integers, longs, doubles."
+  },
+  {
+    "Sub Directory": "p03457",
+    "Description_Simple": "Title: Manhattan Travel Validator\n\nMain Goal: Determine if a traveler can visit a given sequence of points (x, y) at specified times t, moving at most one Manhattan‐unit per time unit and respecting parity (even/odd) constraints. The program reads N triplets (t, x, y), checks for each leg (from (0,0) to the first point and then point to point) that\n  •  |Δx|+|Δy| ≤ Δt \n  •  (|Δx|+|Δy|) mod 2 == Δt mod 2\nIf any check fails it immediately prints “No” (two different error cases both decode to “No” via XOR and DES), otherwise at the end it prints “Yes” (decoded via Blowfish).\n\nKey Components:\n  •  Obfuscated integer constants in array l[] to represent 0,1,2,3,4.\n  •  Three decryption routines:\n     –  XOR + Base64 for I[0]\n     –  DES + MD5 for I[2]\n     –  Blowfish + MD5 for I[1]\n     These yield the strings “No” (twice) and “Yes”.  \n  •  Main logic in main(): read input, perform the distance/time and parity checks, print result, exit."
+  },
+  {
+    "Sub Directory": "p03470",
+    "Description_Simple": "Title: Counting Distinct Integers (Kagami Mochi)\n\nMain goal: Read an integer N, then read N more integers and output the count of distinct values among them.\n\nBrief overview:\n- FastScanner: a buffered input reader with methods nextInt() and nextLong().\n- Main: sets up IO, calls BKagamiMochi.solve().\n- BKagamiMochi.solve(): reads N, loops N times adding each integer to a HashSet, then prints the HashSet’s size."
+  },
+  {
+    "Sub Directory": "p03471",
+    "Description_Simple": "Title: Obfuscated Java Solver for the “Otoshidama”‐Style Bill‐Counting Problem\n\nMain Goal:\n  Read two integers N (the total number of bills) and Y (the total amount of money), and find nonnegative counts (a, b, c) of three bill types that\n    1. a + b + c = N  \n    2. 10000·a + 5000·b + 1000·c = Y  \n  If such a solution exists, print “a b c”; otherwise print “-1 -1 -1”.\n\nHow It Works:\n  • The code is heavily obfuscated—integers and string literals are hidden behind bit‐shifts, XORs, Blowfish/MD5 decryption, and odd loop‐conditions.  \n  • In main(), it reads N and Y via a custom FastScanner, then tries all 0 ≤ a, b ≤ N, computes c = N - a - b, and checks the two equations.  \n  • When it finds a valid triple, it prints them separated by spaces (the separators are decrypted at startup).  \n  • If no triple is found after exhausting the loops, it prints the fallback string “-1 -1 -1” (also decrypted).  \n  • Utility methods (llIIIlllll, llIllIllll, lllIlIllll, lIIllIllll) initialize constants and decrypt the few hard-coded strings; the FastScanner class handles fast I/O."
+  },
+  {
+    "Sub Directory": "p03478",
+    "Description_Simple": "Title: Obfuscated Sum of Numbers by Factorial‐Base Digit‐Sum\n\nMain goal: Read three integers N, L, R; then compute and print the sum of all i from 1 to N whose sum of “factorial‐base” digits lies between L and R inclusive.  \n\nDescription:\n- The code is heavily obfuscated (CFR‐decompiled, weird naming, boolean wrappers, and bit-trick constants) but boils down to:\n  1. FastScanner reads three ints: N (= upper limit), L (= lower bound on digit sum), R (= upper bound on digit sum).\n  2. A loop from i=1 to N computes the sum of the coefficients in i’s factorial number system (factoradic) representation.\n     - For i<2: digit‐sum = i\n     - For 2≤i<3: digit‐sum = (i mod 2) + (i/2)\n     - For 3≤i<4: digit‐sum = (i mod 2) + (i mod 3)/2 + (i/3)\n     - For 4≤i<5 and similarly for higher i up to base 5, then a catch‐all for i≥5.\n  3. If L ≤ (factorial‐base digit‐sum) ≤ R, then add i to the running total.\n  4. Print the final total.\n- Unused utility methods for gcd, lcm, and primality testing are present but not invoked in main."
+  },
+  {
+    "Sub Directory": "p03493",
+    "Description_Simple": "Title: Counting Occurrences of a Secret Token Using Decrypted Delimiter\n\nMain Goal:\nThis code decrypts two hard-coded Base64 strings (one with DES, one with Blowfish using MD5-derived keys) to recover:\n 1) A delimiter string  \n 2) A target token string  \nIt then reads a line of input, splits it on the decrypted delimiter, counts how many of the resulting substrings exactly match the decrypted token, and prints that count.\n\nKey Components:\n- Static initialization decrypts and populates `lIllIllIl[0]` (the delimiter) and `lIllIllIl[1]` (the token to count).\n- `hayami` is a custom fast-scanner implementation that provides `nextHayami()` to read the next whitespace-delimited token from `System.in`.\n- `main()` calls `nextHayami()` once to get the full input line, splits it by the decrypted delimiter, iterates through the parts, increments a counter whenever a part equals the decrypted token, and finally prints the counter."
+  },
+  {
+    "Sub Directory": "p03494",
+    "Description_Simple": "Title: “Obfuscated Fast I/O and Count‐Divisions‐By‐Two”\nMain Goal: Read an integer N and an array of N integers, then repeatedly divide all array elements by 2 until at least one element becomes odd, finally outputting how many full division‐rounds were completed.\n\nThis code is split into two parts:\n\n1. Class hayami:\n   • Acts as a highly obfuscated fast scanner.  \n   • Wraps System.in in a byte buffer and provides methods to read the next token as String, int, long or double (nextHayami, saori_hayami, saorihayami, Hayamin).  \n   • Handles whitespace skipping, numeric parsing, sign handling and throws NoSuchElementException or NumberFormatException on invalid input.\n\n2. Class Main:\n   • Uses hayami to read:\n       – N = saori_hayami()  \n       – An array A of N integers via repeated saori_hayami().\n   • Then enters a loop:\n       – For each element A[i], if it is even (A[i] % 2 == 0) it replaces it with A[i]/2; otherwise it prints the current division‐round count and exits.  \n       – After processing the whole array, it increments the division‐round counter and repeats.\n   • The result is the minimum number of times you can divide all elements of A by two before any element becomes odd, which is equivalent to the minimum 2‐adic valuation among the array’s elements."
+  },
+  {
+    "Sub Directory": "p03545",
+    "Description_Simple": "Title: Four-Digit Sum/Difference Puzzle Solver\n\nMain Goal:\nThis Java program reads a 4-digit integer, splits it into its individual digits, and then tries all 8 combinations of inserting “+” or “−” between those digits to see if any expression evaluates to 7. If it finds a match (for example, 1+2−3+7=7), it prints the corresponding equation. If no combination yields 7, it decrypts and prints a hidden message.\n\nKey Components:\n• IIlll(): Initializes a small constant array (sizes, base, target value 7, etc.).  \n• llIll(): Sets up a one-element string array and fills it by calling IlIll() to decrypt a Base64 + DES encrypted payload.  \n• IlIll(): Performs DES decryption using an MD5-derived key, returning the hidden message.  \n• lIlll() and Illll(): Simple comparison helpers (“<” and “==”).  \n• main():  \n  – Reads an integer, decomposes it into four decimal digits.  \n  – Assigns the thousands, hundreds, tens, and units digits to variables W, X, Y, Z.  \n  – Uses a switch-fallthrough over the 8 possible sign-patterns (+++ to +−−), computes each expression, and checks if it equals 7.  \n  – On the first successful match, prints “W±X±Y±Z=7” and exits.  \n  – If none match, prints the decrypted hidden string."
+  },
+  {
+    "Sub Directory": "p03632",
+    "Description_Simple": "Title: Compute Overlap Length of Two Intervals  \nMain goal: Read four integers as the endpoints of two one-dimensional segments and print the length of their intersection (or 0 if they do not overlap)."
+  },
+  {
+    "Sub Directory": "p03644",
+    "Description_Simple": "Title: Obfuscated Power-of-Two Finder  \nMain goal: Read an integer N from input and print the greatest power of two less than or equal to N using a series of obfuscated range checks."
+  },
+  {
+    "Sub Directory": "p03680",
+    "Description_Simple": "Title: Obfuscated Competitive Programming Template  \nMain Goal: This decompiled Java class sets up fast input (FastScanner) and output (PrintWriter), initializes two constants (INF and a computed MOD), and provides a `solve()` stub where problem logic would go. It’s a boilerplate for reading input, computing with a modulus, and writing results, but the actual solution logic is not yet implemented."
+  },
+  {
+    "Sub Directory": "p03695",
+    "Description_Simple": "Title: Obfuscated Range-Bucketing and Counting\n\nMain goal:\nThis program reads an integer N, then reads N more integers and classifies each value into one of several hard-coded numeric ranges (8 “low” buckets and one “high” bucket). It tracks which of the low buckets have at least one member (setting a flag the first time a value falls into each range) and also counts every occurrence of values in the highest range. After processing all inputs, it computes:\n 1. The number of non-empty low buckets (forcing a minimum of 1 if none were used).\n 2. The sum of that low-bucket count plus the total count of “high-range” values.\nFinally, it prints those two numbers separated by a space."
+  },
+  {
+    "Sub Directory": "p03720",
+    "Description_Simple": "This program reads two integers N (number of vertices) and M (number of edges), then reads M pairs of 1-based vertex indices representing undirected edges. It maintains a count array of size N, increments the count for both endpoints of each edge, and finally outputs the degree (number of incident edges) for each vertex. A custom fast I/O class (`hayami`) is used to parse input efficiently."
+  },
+  {
+    "Sub Directory": "p03775",
+    "Description_Simple": "The program reads a long integer N from standard input using a custom FastScanner. It initializes the answer to the number of digits in N, then iterates i from 1 up to √N. For each i that divides N, it computes j = N/i, measures the decimal digit lengths of i and j, takes their maximum, and updates the answer if this maximum is smaller than the current best. After checking all factor pairs, it prints the minimal maximum digit length found."
+  },
+  {
+    "Sub Directory": "p03814",
+    "Description_Simple": "Title: Compute Length from First 'A' to Last 'Z' in a String\n\nMain Goal:\nThis program reads a single token (string) from standard input, locates the first occurrence of the character 'A' and the last occurrence of the character 'Z', then computes and prints the number of characters between them (inclusive). \n\nKey Functions:\n- The static initializer in Main builds a small lookup table (`llllIIllIl`) holding the integer codes for 0, 1, 'A' (65), and 'Z' (90).\n- In `main`, it converts the input token to a `char[]`, scans forward to find the first 'A', scans backward to find the last 'Z', and prints `(endIndex – startIndex + 1)`.\n- `FastScanner` is an auxiliary class providing fast token-based input reading (methods `next()`, `nextInt()`, etc.).\n\nOverall, the code’s purpose is to determine the length of the substring spanning from the first ‘A’ to the last ‘Z’ within the given input string."
+  },
+  {
+    "Sub Directory": "p03835",
+    "Description_Simple": "Title: Counting Triplets with a Given Sum under an Upper Bound  \nMain Goal: Reads two integers K and S, then computes how many non‐negative integer triplets (x, y, z), each in the range [0…K], satisfy x + y + z = S."
+  },
+  {
+    "Sub Directory": "p03998",
+    "Description_Simple": "This Java program defines and decrypts a large table of string constants at startup, then reads three whitespace‐separated inputs from the user. For each input, it steps through every character in turn, comparing it against a small set of “allowed” characters (stored in the decrypted constants). It updates an internal state token based on which allowed character was seen or if the end of the string is reached without errors. If any input contains a disallowed character or otherwise fails the per-character checks, the program prints one of three precomputed error messages identifying which input was invalid; if all three pass, it prints a success message. The heavy obfuscation (XOR loops, DES/Blowfish decryption, confusing variable names) is solely to hide the simple pattern‐validation logic."
+  },
+  {
+    "Sub Directory": "p04012",
+    "Description_Simple": "Title: Obfuscated Even-Count Letter Checker with Encrypted Output\n\nMain goal: This code reads a single input token (a string), counts how many times each lowercase letter ’a’ through ’z’ appears, then tests whether every letter count is even. If and only if all counts are divisible by 2, it decrypts and prints an embedded “success” message; otherwise it prints “No.”  \n\nKey functions:\n- A big loop that, for each character in the input, compares it against an obfuscated array of ASCII values for ‘a’…‘z’ and increments 26 separate counters.\n- A final chain of Boolean checks requiring every counter % 2 == 0.\n- Two small decryption routines:\n  • One performs a Base64-decode + XOR with a repeating key (used to produce “No”).  \n  • The other performs MD5 → DES key derivation + DES decryption on a Base64 blob (used to produce the secret success message).\n- Helper methods named like lIIllIlIlIl, llIllIlIlIl, etc., simply implement ==, ≥, <, and ==0 checks.\n- Everything is heavily obfuscated but the core logic is just: “Does each letter’s frequency come out even? If yes, print the hidden flag; else print No.”"
+  },
+  {
+    "Sub Directory": "p04030",
+    "Description_Simple": "Title: Backspace Simulation via Stack\n\nMain Goal:\nThis code reads a single input string, treats each character ‘B’ as a backspace key (i.e. it deletes the most recently entered character if any), and then prints the final resulting string. All other characters are pushed onto a stack, and each ‘B’ causes one pop.\n\nKey Components:\n1. Static obfuscation methods and arrays compute two constants:  \n   – index start = 0  \n   – backspace code = 66 (ASCII for ‘B’)\n\n2. In main:  \n   – Read input string via the custom Scan class.  \n   – Iterate over its characters:  \n     • If char ≠ 'B', push onto stack.  \n     • If char == 'B' and stack not empty, pop one character.  \n   – After processing, iterate over the stack (in insertion order) to build and print the output string.\n\n3. Scan class:  \n   A fast I/O utility for reading strings, ints, longs, and doubles from standard input."
+  },
+  {
+    "Sub Directory": "p04043",
+    "Description_Simple": "Title: Obfuscated Integer Pattern Checker with Encrypted Output\n\nMain goal: This program reads three integers from standard input, applies a series of convoluted (but fixed) logical tests to count how many of those tests pass, and then prints one of two hidden messages based on whether exactly three conditions were met.\n\nHow it works:\n1. A static initializer builds two arrays:\n   - An integer array of six “magic” constants (0, 5, 1, 3, 1, 2) used in all comparisons.\n   - A string array of length 2 whose two entries are generated by:\n     • Decoding a Base64 literal,\n     • XOR-ing each character with a repeating key.\n2. The `main` method:\n   - Reads three integers (`a`, `b`, `c`).\n   - Uses a series of nested `if` statements (invoking helper methods `lllIllIlIl`, `IllIllIlIl`, etc.) to increment a counter whenever one of the predetermined patterns is satisfied.\n   - Checks whether the counter equals 3.\n   - If it does, prints the first decrypted message; otherwise prints the second.\nHelper functions:\n- lIlIllIlIl(): initializes the integer-constant array.\n- IIlIllIlIl(): allocates the string array and fills it by calling `llIIllIlIl` on two hard-coded Base64+key pairs.\n- llIIllIlIl(encrypted, key): decodes the Base64, then XORs its characters with `key` to recover a plaintext message.\n- lllIllIlIl / IIIlllIlIl / IllIllIlIl: simple `==`, `>=`, `!=` integer comparisons used throughout the logic."
+  },
+  {
+    "Sub Directory": "p04044",
+    "Description_Simple": "Title: Lexicographical String Sorter\n\nMain goal: This program reads two integers (N and an unused M), then reads N strings, sorts them in ascending (lexicographical) order, and prints them consecutively on a single line followed by a newline. It uses a custom fast‐input “Scnr” class to parse tokens efficiently."
+  }
+]

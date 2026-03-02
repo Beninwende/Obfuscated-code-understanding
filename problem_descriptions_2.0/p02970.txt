@@ -1,0 +1,14 @@
+### Exercise Title: Deploying Servers for Complete Network Coverage
+
+#### Problem Statement
+
+You are tasked with deploying servers in a linear network to ensure complete coverage. The network is represented as a series of equally spaced stations numbered from 1 to N. Each station can host only one server. When a server is installed at a given station, it can cover that station plus D stations to its left and right inclusively. Your goal is to determine the minimum number of servers required to ensure all stations are covered by at least one server.
+
+#### Requirements
+
+- Write a function that receives two integers, N and D. N represents the total number of stations, and D represents the number of additional stations a server can cover on either side.
+- The function should return the minimum number of servers required to cover all stations from 1 through N inclusive.
+- Consider that D can be zero, which means a server would only cover the station where it is installed.
+- Focus on optimizing the placement strategy to achieve the minimum number.
+
+By completing this exercise, you will practice fundamental programming concepts such as conditional logic, basic arithmetic operations, and how to approach optimization problems.

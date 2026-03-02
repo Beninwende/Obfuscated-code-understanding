@@ -1,0 +1,2645 @@
+"problem_id","failure_type","pattern","original_with_comments_score","with_without_comments_score","without_var_renaming_score","without_dead_code_score","without_encryption_score","score_drop","example_1_label","example_1_text","example_2_label","example_2_text"
+"p02898","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.5,0.5,0.25,0.5,0.25,"without_comments","<Summary_description>","dead_code","<Summary_description>
+    /src/main/java/com/google/cloud/pso/model/Question.java
+package com.google.cloud.pso.model;
+
+public class Question extends TextItem{
+  private String questionType;
+
+  public String getQuestionType() {
+    return questionType;
+  }
+
+  public void setQuestionType(String questionType) {
+    this.questionType = questionType;
+  }
+  
+}"
+"p02682","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.3,1.0,0.2,0.1,0.2,0.8,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code aims to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. It first validates the input using several conditions, then initializes some variables like `maxValue`, which will store the final result, and `restSelect`, which represents the remaining number of selections. Next, it enters into three nested loops to determine the maximum value based on the following logic:
+    1. If there are still unselected numbers left in the array, loop through each element until either all elements have been selected or the current element has a larger absolute value than the remaining number of unselected numbers. Inside the loop, increment `maxValue` for every positive element and decrement `maxValue` for every negative element.
+    2. After exiting the loop, check whether any more unselected numbers remain. If so, update `restSelect` accordingly.
+    3. Repeat steps 1 and 2 until no more unselected numbers remain.
+
+-   **Main Goal of Code:** The main goal of the code is to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. To achieve this, the code iterates over the array and selects the largest positive values and smallest negative values until `k` numbers have been selected. This ensures that the overall sum is as large as possible.
+
+-   **Functions of Code:** The code consists of several key functions:
+    1. Input validation: The code checks the validity of the user's input using various conditions such as checking if the input contains only non-negative integers, ensuring the total size of the array doesn't exceed a certain limit, etc.
+    2. Looping through the array: The code uses two nested loops to iterate over the entire array. The outer loop iterates over the array while the inner loop iterates over the subarray starting at the current index.
+    3. Selecting k numbers: Within the inner loop, the code checks if there are enough unselected numbers left (`restSelect`) and compares their absolute values with the current element. If the current element has a larger absolute value, it stops looping early and updates `restSelect`. Otherwise, it continues to the next iteration.
+    4. Updating max value: Once the selection process is complete, the code calculates the maximum value by adding the count of positive numbers and subtracting the count of negative numbers from `maxValue`.","variable_renaming","<Summary_description>
+    /data/markdown/interview/interview-question-3.md
+### Question: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+
+Here's how we can implement this algorithm using Python:
+<code>
+def find_indices_of_target_sum(nums, target):
+  complements = {}
+
+  for i, num in enumerate(nums):
+      complement = target - num
+      if complement in complements:
+          return [complements[complement], i]
+      complements[num] = i
+
+  raise ValueError(""No two sum solution"")
+</code>"
+"p02682","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.3,1.0,0.2,0.1,0.2,0.9,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code aims to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. It first validates the input using several conditions, then initializes some variables like `maxValue`, which will store the final result, and `restSelect`, which represents the remaining number of selections. Next, it enters into three nested loops to determine the maximum value based on the following logic:
+    1. If there are still unselected numbers left in the array, loop through each element until either all elements have been selected or the current element has a larger absolute value than the remaining number of unselected numbers. Inside the loop, increment `maxValue` for every positive element and decrement `maxValue` for every negative element.
+    2. After exiting the loop, check whether any more unselected numbers remain. If so, update `restSelect` accordingly.
+    3. Repeat steps 1 and 2 until no more unselected numbers remain.
+
+-   **Main Goal of Code:** The main goal of the code is to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. To achieve this, the code iterates over the array and selects the largest positive values and smallest negative values until `k` numbers have been selected. This ensures that the overall sum is as large as possible.
+
+-   **Functions of Code:** The code consists of several key functions:
+    1. Input validation: The code checks the validity of the user's input using various conditions such as checking if the input contains only non-negative integers, ensuring the total size of the array doesn't exceed a certain limit, etc.
+    2. Looping through the array: The code uses two nested loops to iterate over the entire array. The outer loop iterates over the array while the inner loop iterates over the subarray starting at the current index.
+    3. Selecting k numbers: Within the inner loop, the code checks if there are enough unselected numbers left (`restSelect`) and compares their absolute values with the current element. If the current element has a larger absolute value, it stops looping early and updates `restSelect`. Otherwise, it continues to the next iteration.
+    4. Updating max value: Once the selection process is complete, the code calculates the maximum value by adding the count of positive numbers and subtracting the count of negative numbers from `maxValue`.","dead_code","<Summary_description>
+    /README.md
+# Code Analysis
+A repository to analyze different programming languages using NLP techniques."
+"p02682","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,1.0,0.2,0.1,0.2,0.8,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code aims to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. It first validates the input using several conditions, then initializes some variables like `maxValue`, which will store the final result, and `restSelect`, which represents the remaining number of selections. Next, it enters into three nested loops to determine the maximum value based on the following logic:
+    1. If there are still unselected numbers left in the array, loop through each element until either all elements have been selected or the current element has a larger absolute value than the remaining number of unselected numbers. Inside the loop, increment `maxValue` for every positive element and decrement `maxValue` for every negative element.
+    2. After exiting the loop, check whether any more unselected numbers remain. If so, update `restSelect` accordingly.
+    3. Repeat steps 1 and 2 until no more unselected numbers remain.
+
+-   **Main Goal of Code:** The main goal of the code is to find the maximum value that can be obtained by selecting `k` numbers from an array containing both positive and negative integers. To achieve this, the code iterates over the array and selects the largest positive values and smallest negative values until `k` numbers have been selected. This ensures that the overall sum is as large as possible.
+
+-   **Functions of Code:** The code consists of several key functions:
+    1. Input validation: The code checks the validity of the user's input using various conditions such as checking if the input contains only non-negative integers, ensuring the total size of the array doesn't exceed a certain limit, etc.
+    2. Looping through the array: The code uses two nested loops to iterate over the entire array. The outer loop iterates over the array while the inner loop iterates over the subarray starting at the current index.
+    3. Selecting k numbers: Within the inner loop, the code checks if there are enough unselected numbers left (`restSelect`) and compares their absolute values with the current element. If the current element has a larger absolute value, it stops looping early and updates `restSelect`. Otherwise, it continues to the next iteration.
+    4. Updating max value: Once the selection process is complete, the code calculates the maximum value by adding the count of positive numbers and subtracting the count of negative numbers from `maxValue`.","encryption","<Summary_description>
+    /data/summarization/train/347.json
+{
+  ""source"": ""<p><strong>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</strong></p>\n<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>\n<p>You can return the answer in any order.</p>\n<p>&nbsp;</p>\n<p><strong>Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [2,7,11,15], target = 9\r\n<strong>Output:</strong> [0,1]\r\n<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].</pre>\n<p><strong>Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [3,2,4], target = 6\r\n<strong>Output:</strong> [1,2]</pre>\n<p><strong>Example 3:</strong></p>\n<pre><strong>Input:</strong> nums = [3,3], target = 6\r\n<strong>Output:</strong> [0,1]</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n<ul>\n<li>2 &lt;= nums.length &lt;= 10<sup>3</sup></li>\n<li>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></li>\n<li>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></li>\n<li>Only one valid answer exists.</li>\n</ul>"",
+  ""target"": ""Write a function that takes an array of integers and returns the indices of the first two elements whose sum equals the given target.""
+}"
+"p02910","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.6,0.1,1.0,0.0,0.5,"without_comments","<Summary_description>","variable_renaming","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.time.Instant;
+import java.util.*;
+
+/**
+ * This class contains methods that can be used to solve Google's recruiting challenge.
+ */
+public final class Main {
+
+  /**
+   * Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well. For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 3] should give 4. Do not modify the input array.
+   * @param nums the given array of integers
+   * @return the lowest positive integer that does not exist in the array
+   */
+  public static int firstMissingPositive(int[] nums) {
+      Set<Integer> set = new HashSet<>();
+      for (int n : nums)
+          set.add(n);
+      int i = 1;
+      while (set.contains(i))
+          i++;
+      return i;
+  }
+
+  /**
+   * Given two strings A and B, return whether or not A can be shifted some number of times to get B. For example, if A is abcde and B is cdeab then return true. If A is abcd and B is acbd then return false.
+   * @param A string A
+   * @param B string B
+   * @return true if A can be shifted some number of times to get B, otherwise returns false
+   */
+  public static boolean rotateString(String A, String B) {
+      if (A.length()!= B.length())
+          return false;
+      String s = A + A;
+      return s.indexOf(B) >= 0;
+  }
+
+  /**
+   * Given a list of sorted integers, square the elements and give the output in sorted order. For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+   * @param A the list of sorted integers
+   * @return"
+"p02910","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.0,0.6,0.1,1.0,0.0,0.6,"without_comments","<Summary_description>","encryption","<Summary_description>
+    /src/main/java/com/github/hcsp/objectbasic/Test.java
+package com.github.hcsp.objectbasic;
+
+class Test {
+  // 请在这里编写代码，将main方法里的两行注释取消
+  public static void main(String[] args) {
+    Person peter = new Person(""Peter"", 12);
+    Person john = new Person(""John"", 12);
+    System.out.println(peter.equals(john));
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (!(o instanceof Person)) {
+      return false;
+    }
+
+    Person person = (Person) o;
+
+    if (age!= person.age) {
+      return false;
+    }
+    return name.equals(person.name);
+  }
+
+  @Override
+  public int hashCode() {
+    int result = name.hashCode();
+    result = 31 * result + age;
+    return result;
+  }
+}"
+"p02268","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.2,1.0,0.5,0.35,0.0,0.65,"without_comments","<Summary_description>","dead_code","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Question {
+  private long id;
+
+  @NonNull private String questionType; // MCQ or ShortAnswer
+
+  @NonNull private String questionText;
+
+  @NonNull private String answerOptionOne;
+
+  private String answerOptionTwo;
+
+  private String answerOptionThree;
+
+  private String answerOptionFour;
+
+  @NonNull private String correctAnswer;
+
+  private String explanation;
+
+  private double difficultyLevel;
+
+  private String solutionCode;
+
+  private String testInput;
+
+  private String expectedOutput;
+
+  private String language;
+
+  private String tags;
+
+  private String author;
+
+  private String source;
+
+  private String yearOfPublication;
+
+  private String domain;
+
+  private String subDomain;
+
+  private String topic;
+
+  private String concept;
+
+  private String level;
+
+  private String prerequisite;
+
+  private String learningObjective;
+
+  private String knowledgePoint;
+
+  private String cognitiveLevel;
+
+  private String applicationArea;
+
+  private String industry;
+
+  private String company;
+
+  private String programmingLanguage;
+
+  private String problemStatement;
+
+  private String inputFormat;
+
+  private String outputFormat;
+
+  private String constraints;
+
+  private String timeLimit;
+
+  private String memoryLimit;
+
+  private String sampleTestCase;
+
+  private String hint;
+
+  private String editorial;
+
+  private String videoExplanation;
+
+  private String similarQuestions;
+
+  private String followUpQuestions;
+
+  private String frequency;
+
+  private String usageCount;
+
+  private String averageTimeTakenToSolveInMinutes;
+
+  private String averageAccuracy;
+
+  private String totalNumberOfSubmissions;
+
+  private String totalAcceptedSolutions;
+
+  private String averageDifficultyRating;
+
+  private String numberOfCompaniesUsingThisProblem;
+
+  private String topCompanyUsingThisProblem;
+
+  private String percentileRank;
+
+  private String globalRanking;
+
+  private String countryRanking;
+
+  private String cityRanking;
+
+  private String stateRanking;
+
+  private String schoolRanking;
+
+  private String universityRanking;
+
+  private String collegeRanking;
+
+  private String localityRanking;
+
+  private String localityType;
+
+  private String ageGroup;
+
+  private String gender;
+
+  private String profession;
+
+  private String educationQualification;
+
+  private String incomeBracket;
+
+  private String maritalStatus;
+
+  private String noOfChildren;
+
+  private String hobbiesAndInterests;
+
+  private String"
+"p02268","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,1.0,0.5,0.35,0.0,1.0,"without_comments","<Summary_description>","encryption","<Summary_description>
+    /README.md
+# Code-Analysis-and-Deobfuscation"
+"p02622","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.2,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /docs/modules/ROOT/pages/index.adoc
+= HackerRank Interview Preparation Kit
+
+This repository contains my solutions to problems in https://www.hackerrank.com/[HackerRank's] interview preparation kit section using Python. The purpose of these solutions are not to provide efficient or optimal solutions but rather to demonstrate how I approach and solve each problem. 
+
+The following sections cover different topics related to data structures, algorithms, and coding skills that are essential for successful completion of technical interviews at various companies. Each solution includes an explanation of the algorithmic approach taken, as well as any key points or tricks used to arrive at the final solution.","variable_renaming","<Summary_description>
+    /docs/index.md
+---
+layout: default
+title: Homepage
+nav_order: 1
+description: ""A simple yet powerful template for Jekyll that makes it easy to create an informative project website.""
+permalink: /
+---
+
+# Competitive Programming Problems & Solutions
+{:.fs-9 }
+
+This site contains problems from various competitive programming platforms such as Codeforces, LeetCode, etc., along with their solutions in Python or C++ languages. The aim is to provide a comprehensive resource for those interested in solving algorithmic challenges.
+{:.fs-6.fw-300 }
+
+[View on GitHub](https://github.com/khanhnguyen1401/competitive-programming){:.btn.btn-primary.fs-5.mb-4.mb-md-0.mr-2 } [Get started](#getting-started){:.btn.fs-5.mb-4.mb-md-0 }
+
+## Getting Started
+
+The following steps will help you get started with using this repository:
+
+1. Clone the repository to your local machine: `git clone https://github.com/khanhnguyen1401/competitive-programming`
+2. Navigate into the directory: `cd competitive-programming`
+3. Install required dependencies by running:
+   - For Python: `pip install -r requirements.txt`
+   - For C++: `sudo apt-get install build-essential`
+4. Start coding! You can find problem statements and sample inputs/outputs under the `problems` folder, and write your solution in either Python or C++ language.
+
+For more information about each problem, refer to the corresponding README file located inside each problem's folder.
+
+Note that some problems may require additional setup or configuration before you can run them. Please consult the problem's README file for any specific instructions.
+
+We hope these resources are useful for anyone who wants to improve their skills in competitive programming. Happy coding!"
+"p02622","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.2,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /docs/modules/ROOT/pages/index.adoc
+= HackerRank Interview Preparation Kit
+
+This repository contains my solutions to problems in https://www.hackerrank.com/[HackerRank's] interview preparation kit section using Python. The purpose of these solutions are not to provide efficient or optimal solutions but rather to demonstrate how I approach and solve each problem. 
+
+The following sections cover different topics related to data structures, algorithms, and coding skills that are essential for successful completion of technical interviews at various companies. Each solution includes an explanation of the algorithmic approach taken, as well as any key points or tricks used to arrive at the final solution.","dead_code","<Summary_description>
+    /src/main/java/com/interview/coding/leetcode/medium/LongestPalindromicSubstring.java
+package com.interview.coding.leetcode.medium;
+
+/**
+ * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+ */
+public class LongestPalindromicSubstring {
+  /**
+   * Brute force solution to check all possible substrings for their palindrome property.
+   * Time complexity O(N^3).
+   *
+   * @param s input string
+   * @return longest palindromic substring
+   */
+  public String bruteForceSolution(String s) {
+    if (s == null || s.isEmpty())
+      return s;
+
+    String result = """";
+    for (int start = 0; start < s.length(); start++) {
+      for (int end = start+1; end <= s.length(); end++) { //end index is inclusive
+        String currStr = s.substring(start, end);
+        if (currStr.length() > result.length() && isPalindrome(currStr))
+          result = currStr;
+      }
+    }
+    return result;
+  }
+
+  private boolean isPalindrome(String s) {
+    int left = 0;
+    int right = s.length()-1;
+    while (left < right) {
+      if (s.charAt(left)!= s.charAt(right))
+        return false;
+      left++;
+      right--;
+    }
+    return true;
+  }
+
+  /**
+   * Dynamic programming approach using bottom-up strategy.
+   * Time complexity O(N^2).
+   *
+   * @param s input string
+   * @return longest palindromic substring
+   */
+  public String dynamicProgrammingApproach(String s) {
+    if (s == null || s.isEmpty())
+      return s;
+
+    boolean[][] dp = new boolean[s.length()][s.length()];
+    String result = """";
+    for (int len = 1; len <= s.length(); len++) {
+      for (int start = 0; start <= s.length() - len; start++) {
+        int end = start + len - 1;
+        if (len == 1) {
+          dp[start][end] = true;
+        } else if (len == 2) {
+          dp"
+"p02622","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /docs/modules/ROOT/pages/index.adoc
+= HackerRank Interview Preparation Kit
+
+This repository contains my solutions to problems in https://www.hackerrank.com/[HackerRank's] interview preparation kit section using Python. The purpose of these solutions are not to provide efficient or optimal solutions but rather to demonstrate how I approach and solve each problem. 
+
+The following sections cover different topics related to data structures, algorithms, and coding skills that are essential for successful completion of technical interviews at various companies. Each solution includes an explanation of the algorithmic approach taken, as well as any key points or tricks used to arrive at the final solution.","encryption","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.*;
+
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+public class Question {
+  private Integer id;
+
+  private String questionText;
+
+  private String answerKey;
+
+  private String solution;
+
+  private Boolean flaggedForReview;
+
+  private String explanation;
+
+  private String source;
+
+  private String tags;
+
+  private String difficultyLevel;
+
+  private String companyName;
+
+  private String problemType;
+
+  private String language;
+
+  private String templateCode;
+
+  private String testCases;
+
+  private String sampleTestCases;
+
+  private String frequencyCount;
+
+  private String averageTimeTaken;
+
+  private String totalAttempts;
+
+  private String correctAttempts;
+
+  private String incorrectAttempts;
+
+  private String accuracy;
+
+  private String createdBy;
+
+  private String updatedBy;
+
+  private Long createdAt;
+
+  private Long updatedAt;
+
+  private Boolean deleted;
+
+  // This field will be used to store the predicted label from the model
+  private Double predictedLabel;
+
+  // This field will be used to store the probability score from the model
+  private Double probabilityScore;
+
+  // This field will be used to store the confidence level from the model
+  private Double confidenceLevel;
+
+  // This field will be used to store the error message in case there's an issue with the prediction
+  private String errorMessage;
+
+  /**
+   * Returns the predicted label based on the probability score using a threshold value of 0.5. If the
+   * probability score is greater than or equal to 0.5, then the predicted label is set as true. Otherwise,
+   * it is set as false.
+   */
+  public boolean getPredictedLabel() {
+    if (probabilityScore >= 0.5) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  /**
+   * Sets the probability score by dividing the number of positive examples in the dataset by the total
+   * number of examples. The probability score represents the likelihood that a given example belongs to
+   * the positive class.
+   */
+  public void setProbabilityScore() {
+    if (frequencyCount!= null) {
+      String[] counts = frequencyCount.split(""/"");
+      int positives = Integer.parseInt(counts[0].trim());
+      int negatives = Integer.parseInt(counts[1].trim());
+      probabilityScore = (double) positives / (positives + neg"
+"p02959","Comment_Dependency","original_description-with_comments >= 0.5 AND with_comments-without_comments < 0.5",0.6,0.1,0.2,0.2,0.0,0.5,"with_comments","<Summary_description>","without_comments","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * A class to solve reversing challenge.
+ */
+public final class Main {
+
+  private Main() {}
+  /**
+   * The entry point for the application.
+   *
+   * @param args command line arguments
+   */
+  public static void main(String[] args) {
+      try {
+          File file = new File(""C:\\Users\\Alejandro\\Desktop\\reversing-challenge\\src\\main\\resources\\reverse_this"");
+
+          BufferedReader br = new BufferedReader(new FileReader(file));
+          List<Integer> list = new ArrayList<>();
+          String st;
+          while ((st = br.readLine())!= null)
+              list.add(Integer.parseInt(st));
+          for(int i=list.size()-1;i>=0;i--){
+              System.out.print((char)(list.get(i)&0xFF));
+          }
+      }catch (Exception ex){
+
+      }
+  }
+}"
+"p02627","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.7,1.0,0.25,0.0,0.2,0.75,"without_comments","<Summary_description>
+    
+
+6.  ### Question: Write a program to find if a given number is prime or not using Python programming language. You can use any algorithm you want but make sure that your solution works for all possible cases (positive integers).
+    Note: A Prime Number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. For example, 2, 3, 5, 7, 11 are the first few prime numbers.
+
+    Example Input/Output:
+    - Input: 9
+    - Output: Not Prime
+    - Input: 7
+    - Output: Prime
+
+    Here's how we can implement this in Python:
+    <code>
+    def check_prime(num):
+      if num > 1:
+        for i in range(2, int(num**0.5) + 1):
+          if num % i == 0:
+            return False
+        return True
+      else:
+        return False
+        
+    print(check_prime(9)) # Prints 'False'
+    print(check_prime(7)) # Prints 'True'
+    </code>
+
+7.  ### Question: Create an object-oriented design for a library management system. The system should allow users to borrow books from the library, return them when they're done reading, and renew their loans if necessary. Consider including classes such as Library, Book, User, etc., with appropriate attributes and methods.
+
+    Here's one way we could model this system using OOP principles in Python:
+    <code>
+    class Library:
+      def __init__(self, name):
+        self.name = name
+        self.books = []
+        self.users = {}
+        
+    class Book:
+      def __init__(self, title, author, ISBN):
+        self.title = title
+        self.author = author
+        self.ISBN = ISBN
+        
+    class User:
+      def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.loans = {}
+        
+    class Loan:
+      def __init__(self, book, user, due_date):
+        self.book = book
+        self.user = user
+        self.due_date = due_date
+        
+    def borrow_book(library, book, user):
+      loan = Loan(book, user,...)
+     ...
+        
+    def return_book(loan):
+     ...
+        
+    def renew_loan(loan):
+     ...</code>/","variable_renaming","<Summary_description>"
+"p02627","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.7,1.0,0.25,0.0,0.2,1.0,"without_comments","<Summary_description>
+    
+
+6.  ### Question: Write a program to find if a given number is prime or not using Python programming language. You can use any algorithm you want but make sure that your solution works for all possible cases (positive integers).
+    Note: A Prime Number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. For example, 2, 3, 5, 7, 11 are the first few prime numbers.
+
+    Example Input/Output:
+    - Input: 9
+    - Output: Not Prime
+    - Input: 7
+    - Output: Prime
+
+    Here's how we can implement this in Python:
+    <code>
+    def check_prime(num):
+      if num > 1:
+        for i in range(2, int(num**0.5) + 1):
+          if num % i == 0:
+            return False
+        return True
+      else:
+        return False
+        
+    print(check_prime(9)) # Prints 'False'
+    print(check_prime(7)) # Prints 'True'
+    </code>
+
+7.  ### Question: Create an object-oriented design for a library management system. The system should allow users to borrow books from the library, return them when they're done reading, and renew their loans if necessary. Consider including classes such as Library, Book, User, etc., with appropriate attributes and methods.
+
+    Here's one way we could model this system using OOP principles in Python:
+    <code>
+    class Library:
+      def __init__(self, name):
+        self.name = name
+        self.books = []
+        self.users = {}
+        
+    class Book:
+      def __init__(self, title, author, ISBN):
+        self.title = title
+        self.author = author
+        self.ISBN = ISBN
+        
+    class User:
+      def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.loans = {}
+        
+    class Loan:
+      def __init__(self, book, user, due_date):
+        self.book = book
+        self.user = user
+        self.due_date = due_date
+        
+    def borrow_book(library, book, user):
+      loan = Loan(book, user,...)
+     ...
+        
+    def return_book(loan):
+     ...
+        
+    def renew_loan(loan):
+     ...</code>/","dead_code","<Summary_description>
+    /src/main/java/com/github/hcsp/controlflow/Main.java
+package com.github.hcsp.controlflow;
+
+public class Main {
+    public static void main(String[] args) {
+        printNarcissisticNumber();
+    }
+
+    /**
+     * 打印所有的水仙花数。水仙花数是指一个三位数字，其各位数字立方和等于该数字本身。
+     *
+     * <p>例如，153是一个水仙花数，因为1<sup>3</sup>+5<sup>3</sup>+3<sup>3</sup>=153
+     */
+    public static void printNarcissisticNumber() {}
+}"
+"p02627","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,1.0,0.25,0.0,0.2,0.8,"without_comments","<Summary_description>
+    
+
+6.  ### Question: Write a program to find if a given number is prime or not using Python programming language. You can use any algorithm you want but make sure that your solution works for all possible cases (positive integers).
+    Note: A Prime Number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. For example, 2, 3, 5, 7, 11 are the first few prime numbers.
+
+    Example Input/Output:
+    - Input: 9
+    - Output: Not Prime
+    - Input: 7
+    - Output: Prime
+
+    Here's how we can implement this in Python:
+    <code>
+    def check_prime(num):
+      if num > 1:
+        for i in range(2, int(num**0.5) + 1):
+          if num % i == 0:
+            return False
+        return True
+      else:
+        return False
+        
+    print(check_prime(9)) # Prints 'False'
+    print(check_prime(7)) # Prints 'True'
+    </code>
+
+7.  ### Question: Create an object-oriented design for a library management system. The system should allow users to borrow books from the library, return them when they're done reading, and renew their loans if necessary. Consider including classes such as Library, Book, User, etc., with appropriate attributes and methods.
+
+    Here's one way we could model this system using OOP principles in Python:
+    <code>
+    class Library:
+      def __init__(self, name):
+        self.name = name
+        self.books = []
+        self.users = {}
+        
+    class Book:
+      def __init__(self, title, author, ISBN):
+        self.title = title
+        self.author = author
+        self.ISBN = ISBN
+        
+    class User:
+      def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.loans = {}
+        
+    class Loan:
+      def __init__(self, book, user, due_date):
+        self.book = book
+        self.user = user
+        self.due_date = due_date
+        
+    def borrow_book(library, book, user):
+      loan = Loan(book, user,...)
+     ...
+        
+    def return_book(loan):
+     ...
+        
+    def renew_loan(loan):
+     ...</code>/","encryption","<Summary_description>
+    /README.md
+# CTF-Writeups
+This repository contains my writeups for various Capture The Flag (CTF) competitions that I have participated in over time. Each competition has its own folder containing the challenge descriptions and corresponding writeups."
+"p03060","Comment_Dependency","original_description-with_comments >= 0.5 AND with_comments-without_comments < 0.5",0.55,0.0,0.2,0.0,0.2,0.55,"with_comments","<Summary_description>
+     The purpose of this code is to calculate the profit that can be made by selling items based on their values and costs. It reads two arrays representing the values and costs of each item, then calculates the profit as the sum of differences between the value and cost of each item where the value exceeds the cost.
+ 
+
+ 
+
+/README.md
+# Code-Analysis-and-Summarization","without_comments","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity // This tells Hibernate to make a table out of this class
+public class Question {
+  @Id
+  @GeneratedValue(strategy=GenerationType.AUTO)
+  private Integer id;
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  private String questionText;
+
+  public String getQuestionText() {
+    return questionText;
+  }
+
+  public void setQuestionText(String questionText) {
+    this.questionText = questionText;
+  }
+  
+}"
+"p02801","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.6499999999999999,0.1,0.0,0.0,0.5499999999999999,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code reads a single character from standard input using `br.readLine()` and stores it in the variable `str`. It then uses a switch statement to check if the value of `str` matches any case from 'a' to 'z'. If there's a match, it prints the next letter in the alphabet ('b' for 'a', 'c' for 'b', etc.) until reaching the case 'z', which doesn't print anything. This code implements a simple algorithm to convert lowercase letters into their subsequent letters in the English alphabet.
+
+-   **Main Goal:** The main goal of the code is to read a single character from standard input and print the next letter in the alphabet. For example, if the user inputs 'a', the program will output 'b'. Similarly, if the user enters 'z', the program will display an empty line without printing anything.
+
+-   **Functions:** The code consists of two main parts: reading input and converting characters. Reading input involves creating a `BufferedReader` object to read data from the console using `br.readLine()`. Once the input is received, it's stored in the variable `str`, which is used as the argument for the switch statement.
+The switch statement checks whether the value of `str` matches any case from 'a' to 'z'. If there's a match, it executes the corresponding case and prints the next letter in the alphabet. Each case inside the switch statement corresponds to a specific letter from 'a' to 'z'. When a matching case is found, it prints the subsequent letter by incrementing the ASCII value of the matched character by 1. Finally, when the value of `str` reaches 'z', the default case is executed, which doesn't perform any action.
+
+Here's how you can explain the goal of the code and its functions:
+
+<Title>: Code Analysis and Functionality Understanding
+
+This code reads a single character from standard input and converts it into its subsequent letter in the English alphabet. It demonstrates understanding of core programming concepts such as I/O operations, string manipulation, conditional statements, and control flow.
+
+<Explanation>:
+
+1. Input Read: The code starts with reading a single character from standard input using `br.readLine()`, storing it in the variable `str`.
+
+2. Character Conversion: A switch statement is used to check if the value of `str` matches any case from 'a","variable_renaming","<Summary_description>
+    /docs/python-programming/python-functions/function-parameters.md
+---
+title: Function Parameters in Python
+description: This article provides an overview of function parameters in Python, including positional arguments, keyword arguments, default values, variable length arguments, and unpacking arguments using * and ** operators. It also covers how to define and call functions with different parameter combinations.
+---
+
+# Function Parameters in Python
+
+A function can accept any number of parameters, which are values passed into the function when it's called. These parameters can be used inside the function body for various computations or operations. In this article, we'll explore different ways to pass parameters to a function in Python.
+
+## Positional Arguments
+Positional arguments are the most basic type of argument that you can use in a function definition. They're simply the required arguments that need to be provided when calling the function. For example:
+
+```python
+def add(num1, num2):
+  return num1 + num2
+result = add(5, 6) # result will be 11
+```
+In this example, `add` is a function that takes two positional arguments (`num1` and `num2`). When calling the function, we provide these arguments as `add(5, 6)`. The order of the arguments matters here because they correspond directly to the parameters defined in the function signature.
+
+When defining a function, you specify the names of the parameters in the parentheses after the function name. When calling the function, you provide the actual values of those parameters as arguments.
+
+Here's another example where we have three positional arguments:
+
+```python
+def calculate_area(length, width, unit=""cm""):
+  area = length * width
+  print(f""The area is {area}{unit}"")
+calculate_area(30, 40) # Prints ""The area is 1200 cm""
+calculate_area(30, 40, ""km"") # Prints ""The area is 1200 km""
+```
+
+Notice how the third argument has a default value set to `""cm""`? If no value is provided during the function call, then the default value will be used instead. However, if a different value is specified, such as `""km""`, then that value will be used instead.
+
+It's important to note that positional arguments must always be provided in the same order as"
+"p02801","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.6499999999999999,0.1,0.0,0.0,0.6499999999999999,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code reads a single character from standard input using `br.readLine()` and stores it in the variable `str`. It then uses a switch statement to check if the value of `str` matches any case from 'a' to 'z'. If there's a match, it prints the next letter in the alphabet ('b' for 'a', 'c' for 'b', etc.) until reaching the case 'z', which doesn't print anything. This code implements a simple algorithm to convert lowercase letters into their subsequent letters in the English alphabet.
+
+-   **Main Goal:** The main goal of the code is to read a single character from standard input and print the next letter in the alphabet. For example, if the user inputs 'a', the program will output 'b'. Similarly, if the user enters 'z', the program will display an empty line without printing anything.
+
+-   **Functions:** The code consists of two main parts: reading input and converting characters. Reading input involves creating a `BufferedReader` object to read data from the console using `br.readLine()`. Once the input is received, it's stored in the variable `str`, which is used as the argument for the switch statement.
+The switch statement checks whether the value of `str` matches any case from 'a' to 'z'. If there's a match, it executes the corresponding case and prints the next letter in the alphabet. Each case inside the switch statement corresponds to a specific letter from 'a' to 'z'. When a matching case is found, it prints the subsequent letter by incrementing the ASCII value of the matched character by 1. Finally, when the value of `str` reaches 'z', the default case is executed, which doesn't perform any action.
+
+Here's how you can explain the goal of the code and its functions:
+
+<Title>: Code Analysis and Functionality Understanding
+
+This code reads a single character from standard input and converts it into its subsequent letter in the English alphabet. It demonstrates understanding of core programming concepts such as I/O operations, string manipulation, conditional statements, and control flow.
+
+<Explanation>:
+
+1. Input Read: The code starts with reading a single character from standard input using `br.readLine()`, storing it in the variable `str`.
+
+2. Character Conversion: A switch statement is used to check if the value of `str` matches any case from 'a","dead_code","<Summary_description>
+    /docs/CTF-Writeups/README.md
+# CTF Writeups 
+
+This folder contains writeups for various Capture The Flag (CTF) competitions that I have participated in over the years. Each competition has its own subfolder containing detailed writeups for each challenge that I solved. You can find writeups for individual challenges by navigating to their respective folders.
+
+Note that these writeups are intended for educational purposes only and should not be used for any illegal or unethical activities. By using them, you assume all responsibilities associated with your actions.
+    print(f'[+] Found flag at index {index}')
+                    found_flag = True
+                    break
+
+            if not found_flag:
+                print('[!] Failed to find flag')
+
+        except Exception as e:
+            print(f'[ERROR] {str(e)}')
+```/docs/CTF-Writeups/Google-CTF/2023/Crypto/Squeezed/writeup.py
+from Crypto.Util.number import bytes_to_long, long_to_bytes
+from gmpy2 import iroot
+from math import ceil
+from pwn import *
+
+def get_prime_factors(n):
+    prime_factors = []
+    d = 2
+    while n > 1:
+        if n % d == 0:
+            count = 0
+            while n % d == 0:
+                count += 1
+                n //= d
+            prime_factors.append((d, count))
+        d += 1
+    return prime_factors
+
+def decrypt_message(encrypted_message, key):
+    decrypted_message = ''
+    encrypted_blocks = [encrypted_message[i:i+len(key)] for i in range(0, len(encrypted_message), len(key))]
+    for block in encrypted_blocks:
+        decrypted_block = hex(pow(int(block, 16), 3, int(key, 16)))[2:]
+        decrypted_message += '0' * (len(block) - len(decrypted_block)) + decrypted_block # Pad with zeros if necessary
+    return decrypted_message
+
+if __name__ == '__main__':
+    try:
+        r = remote('crypto.ctfcompetition.com', 1337)
+        
+        while True:
+            line = r.recvline"
+"p02801","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.0,0.6499999999999999,0.1,0.0,0.0,0.6499999999999999,"without_comments","<Summary_description>
+    
+-   **Code Analysis:** The provided code reads a single character from standard input using `br.readLine()` and stores it in the variable `str`. It then uses a switch statement to check if the value of `str` matches any case from 'a' to 'z'. If there's a match, it prints the next letter in the alphabet ('b' for 'a', 'c' for 'b', etc.) until reaching the case 'z', which doesn't print anything. This code implements a simple algorithm to convert lowercase letters into their subsequent letters in the English alphabet.
+
+-   **Main Goal:** The main goal of the code is to read a single character from standard input and print the next letter in the alphabet. For example, if the user inputs 'a', the program will output 'b'. Similarly, if the user enters 'z', the program will display an empty line without printing anything.
+
+-   **Functions:** The code consists of two main parts: reading input and converting characters. Reading input involves creating a `BufferedReader` object to read data from the console using `br.readLine()`. Once the input is received, it's stored in the variable `str`, which is used as the argument for the switch statement.
+The switch statement checks whether the value of `str` matches any case from 'a' to 'z'. If there's a match, it executes the corresponding case and prints the next letter in the alphabet. Each case inside the switch statement corresponds to a specific letter from 'a' to 'z'. When a matching case is found, it prints the subsequent letter by incrementing the ASCII value of the matched character by 1. Finally, when the value of `str` reaches 'z', the default case is executed, which doesn't perform any action.
+
+Here's how you can explain the goal of the code and its functions:
+
+<Title>: Code Analysis and Functionality Understanding
+
+This code reads a single character from standard input and converts it into its subsequent letter in the English alphabet. It demonstrates understanding of core programming concepts such as I/O operations, string manipulation, conditional statements, and control flow.
+
+<Explanation>:
+
+1. Input Read: The code starts with reading a single character from standard input using `br.readLine()`, storing it in the variable `str`.
+
+2. Character Conversion: A switch statement is used to check if the value of `str` matches any case from 'a","encryption","<Summary_description>
+    ### Question: Write a Python program to find all prime numbers between two given integers using Sieve of Eratosthenes algorithm.
+
+Here's how you can implement this in Python:
+
+```python
+def sieve_of_eratosthenes(start, end):
+  if start <= 1 or end <= 1:
+      raise ValueError('Start and end values should be greater than 1')
+
+  primes = [True for _ in range(end + 1)]
+  p = 2
+  while p * p <= end:
+      if primes[p]:
+          for i in range(p*2, end+1, p):
+              primes[i] = False
+      p += 1
+
+  result = []
+  for num in range(start, end+1):
+      if primes[num]:
+          result.append(num)
+
+  return result
+```"
+"p03680","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.2,0.8,0.1,0.2,0.3,0.7000000000000001,"without_comments","<Summary_description>
+    /README.md
+# Code-Analysis-and-Documentation","variable_renaming","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.time.Instant;
+import java.util.*;
+import java.util.logging.Logger;
+
+/**
+ * The answer to all things.
+ */
+class Answer {
+  /**
+   * Compute the answer to the Ultimate Question of Life, the Universe, and Everything.
+   * @return the answer to the Ultimate Question of Life, the Universe, and Everything
+   */
+  public static int compute() {
+    return 42;
+  }
+
+  /**
+   * Check whether the given number is the answer to the Ultimate Question of Life, the Universe, and Everything.
+   * @param candidate the number to check
+   * @return true if the given number is the answer to the Ultimate Question of Life, the Universe, and Everything, false otherwise
+   */
+  public static boolean check(long candidate) {
+    return candidate == 42L;
+  }
+}
+
+/**
+ * A simple implementation of SHA-256 in pure Java.
+ */
+class Sha256 {
+  private final MessageDigest digest;
+
+  /**
+   * Constructs a new instance of {@link Sha256}.
+   */
+  public Sha256() {
+    try {
+      digest = MessageDigest.getInstance(""SHA-256"");
+    } catch (NoSuchAlgorithmException e) {
+      throw new RuntimeException(e);
+    }
+  }
+
+  /**
+   * Computes the SHA-256 hash of the specified data.
+   *
+   * @param data the data to be hashed
+   * @return the SHA-256 hash of the specified data
+   */
+  public byte[] hash(byte[] data) {
+    synchronized (digest) {
+      digest.update(data);
+      return digest.digest();
+    }
+  }
+
+  /**
+   * Converts a hexadecimal string into a byte array.
+   *
+   * @param hex the hexadecimal string
+   * @return the corresponding byte array
+   */
+  public static byte[] fromHex(String hex) {
+    byte[] result = new byte[hex.length() / 2];
+    for (int i = 0; i < result.length; i++) {
+      int high = Character.digit"
+"p03680","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.2,0.8,0.1,0.2,0.3,0.6000000000000001,"without_comments","<Summary_description>
+    /README.md
+# Code-Analysis-and-Documentation","dead_code","<Summary_description>
+    /Python/Python-Basics/Python_OOPs/MethodOverloading.py
+from typing import overload
+
+
+class OverloadTest:
+  def __init__(self):
+      self._a = """"
+
+  @overload
+  def test(self, a: str) -> None:
+     ...
+
+  @overload
+  def test(self, a: int, b: float) -> None:
+     ...
+
+  def test(self, a, b=None):
+      """"""Function with multiple signatures""""""
+      if isinstance(a, str):
+          print(""test called with string argument"")
+      elif isinstance(a, int) and isinstance(b, float):
+          print(""test called with integer and float arguments"")
+      else:
+          raise TypeError(""Invalid argument types for test"")
+
+
+if __name__ == ""__main__"":
+  obj = OverloadTest()
+  obj.test(""Hello World!"")
+  obj.test(10, 20.5)
+  #obj.test(True)  # Raises an exception due to invalid argument types
+    // Create a new instance of the class
+    const myClassInstance = new MyClass();
+
+    // Call the method on the instance
+    myClassInstance.myMethod();
+  }
+};
+
+// Call the function
+MyModule.myFunction();/JavaScript/JS_OOPs/CreatingClassesUsingFunctions.js
+const MyModule = {
+  myFunction: function () {
+    // Define a class using a function
+    function MyClass() {}
+
+    // Add a method to the class prototype
+    MyClass.prototype.myMethod = function () {
+      console.log('This is a method');
+    };"
+"p03680","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.8,0.1,0.2,0.3,0.5,"without_comments","<Summary_description>
+    /README.md
+# Code-Analysis-and-Documentation","encryption","<Summary_description>
+    /docs/index.md
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
+
+# Welcome to Code Analysis!
+
+This site provides an overview of how you can use [CodeQL](https://codeql.com/) to analyze source code for security vulnerabilities. It includes detailed instructions on how to set up CodeQL, write queries, and interpret results. We also provide examples of common security issues that can be detected using CodeQL.
+
+By following these steps, you will be able to leverage the power of CodeQL to identify potential security flaws in your codebase. This approach can help prevent various types of attacks, including but not limited to SQL injection, cross-site scripting (XSS), buffer overflows, and more.
+
+Let's get started with analyzing your code!"
+"p02993","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.1,0.5,0.2,0.75,0.15000000000000002,0.3,"without_comments","<Summary_description>","variable_renaming","<Summary_description>
+    /data/problems/problem29.md
+### Problem: Finding the number of ways to reach a given score in a game
+
+There are three types of moves allowed in this game:
+- Move A: Add 1 point to the current score.
+- Move B: Add 2 points to the current score.
+- Move C: Multiply the current score by 2.
+Given a target score, find all possible sequences of moves that can lead to the target score. Two sequences are considered different if there exists at least one move that appears in one sequence but not the other.
+For example, consider the following scenario where the target score is 5:
+- Sequence 1: [A, B] -> Current Score: 1 + 2 = 3
+- Sequence 2: [C, A] -> Current Score: 2 \* 2 + 1 = 5
+In this case, both sequences lead to the same target score of 5. However, since they differ in the order of moves, we treat them as two distinct sequences.
+Your task is to write a program in Python or any programming language of your choice that takes an integer representing the target score as input and returns a list containing all unique sequences of moves that can lead to the target score. Each element in the returned list should be a string consisting of the letters 'A', 'B', and 'C' indicating the moves taken in order. For instance, ['AB', 'CA'] would represent the two sequences mentioned above.
+Here's how you could implement such a function using dynamic programming:
+<code>
+def find_sequences(target):
+  dp = [[""""]] + [[] for _ in range(target)]
+
+  for i in range(1, target+1):
+      if i - 1 >= 0:
+          dp[i].extend([seq + ""A"" for seq in dp[i-1]])
+      if i - 2 >= 0:
+          dp[i].extend([seq + ""B"" for seq in dp[i-2]])
+      if i // 2 > 0:
+          dp[i].extend([seq + ""C"" for seq in dp[i//2]])
+
+  return sorted(dp[-1]) # Sort the resulting sequences alphabetically
+</code>
+This implementation uses dynamic programming to efficiently calculate all possible sequences leading up to each intermediate score from 1 to `target`. The"
+"p02993","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.1,0.5,0.2,0.75,0.15000000000000002,0.35,"without_comments","<Summary_description>","encryption","<Summary_description>
+    /src/main/java/com/interview/leetcode/medium/LongestSubstringWithAtLeastKRepeatingCharacters.java
+package com.interview.leetcode.medium;
+
+/**
+ * Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.
+
+ 
+ Example 1:
+
+ Input: s = ""aaabb"", k = 3
+ Output: 3
+ Explanation: The longest substring is ""aaa"", with the frequency of 'a' being 3.
+ 
+ Example 2:
+
+ Input: s = ""ababbc"", k = 2
+ Output: 5
+ Explanation: The longest substring is ""ababb"", with the frequency of 'a' and 'b' being 2.
+ 
+
+ Constraints:
+
+ 1 <= s.length <= 10^4
+ s consists of only lowercase English letters.
+ 1 <= k <= 10^5
+ */
+public class LongestSubstringWithAtLeastKRepeatingCharacters {
+    /**
+     * Approach: Divide and Conquer
+     * Time Complexity: O(n log n), where n is the length of the given string. We divide the problem into two subproblems of size n/2 at every step, and then merge the solutions of both the subproblems in linear time.
+     * Space Complexity: O(log n). The depth of recursion tree can go up to log n.
+     * @param s
+     * @param k
+     * @return
+     */
+    public int longestSubstring(String s, int k) {
+        
+        // Base case: If the entire string satisfies the condition, return its length
+        if (allCharFreqsAreAtLeastK(s, k)) {
+            return s.length();
+        }
+
+        int maxLen = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            
+            // Find the index of the first character that doesn't satisfy the condition
+            if (countCharFrequency(s.charAt(i)) < k) {
+
+                // Split the string into two parts and recursively find the maximum length of valid substrings in both halves
+                maxLen = Math.max(longestSubstring(s.substring(0, i), k),
+                                   longestSubstring(s.substring(i + 1), k));
+                
+                break;
+            }
+        }
+
+        return max"
+"p02818","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.05,0.6,0.2,0.2,0.2,0.39999999999999997,"without_comments","<Summary_description>
+    /content/posts/my-first-post.md
+---
+title: ""My First Post""
+date: 2023-05-15T14:01:48+05:30
+draft: false
+toc: false
+images:
+tags:
+  - untagged
+---","variable_renaming","<Summary_description>
+    /docs/index.md
+---
+layout: default
+title: Home
+nav_order: 1
+description: ""A simple and clean template for Jekyll that are designed to help you write documentation""
+permalink: /
+---
+
+# Codeforces Problemset Analysis
+{:.fs-9 }
+
+This site contains analysis on problems from [codeforces](https://codeforces.com/) problemset. The purpose is to provide detailed explanations with examples and sample implementations. Each problem will be analyzed based on different aspects such as solution approach, implementation details, test cases, and complexity analysis. This way, users can gain a better understanding of the problem's requirements, constraints, and expected solutions. Additionally, we'll cover common mistakes and edge cases that may arise during the development process. We aim to make these analyses accessible and clear, so that readers can easily understand and apply them to their own solutions.
+{:.fs-6.fw-300 }
+
+[Get started now](#getting-started){:.btn.btn-primary.fs-5.mb-4.mb-md-0.mr-2 } [View it on GitHub](https://github.com/codeforces-problemset-analysis/codeforces-problemset-analysis.github.io){:.btn.fs-5.mb-4.mb-md-0 }
+
+## Getting started
+
+To use this website, simply navigate through the sections using the sidebar or search for specific problems using the search bar at the top right corner. You can also access each section directly by clicking on one of the links below.
+
+### Sections
+
+* [Analysis](#analysis): A collection of comprehensive analyses on various problems from the Codeforces problemset. These analyses include solution approaches, implementation details, test cases, and complexity analysis.
+* [Resources](#resources): A list of useful resources related to programming competitions and algorithmic problem solving.
+* [About us](#about-us): Information about the team behind this project.
+
+For more information, check out our [documentation](https://codeforces-problemset-analysis.github.io/docs/)."
+"p02818","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.05,0.6,0.2,0.2,0.2,0.39999999999999997,"without_comments","<Summary_description>
+    /content/posts/my-first-post.md
+---
+title: ""My First Post""
+date: 2023-05-15T14:01:48+05:30
+draft: false
+toc: false
+images:
+tags:
+  - untagged
+---","dead_code","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main {
+  private static final FastWriter out = new FastWriter();
+
+  private static FastScanner in;
+
+  static Map<Character, Character> map =
+      new HashMap<>(
+          Map.ofEntries(
+              Map.entry('A', 'Y'),
+              Map.entry('B', 'H'),
+              Map.entry('C', 'E'),
+              Map.entry('D', 'S'),
+              Map.entry('E', 'O'),
+              Map.entry('F', 'C'),
+              Map.entry('G', 'V'),
+              Map.entry('H', 'X'),
+              Map.entry('I', 'D'),
+              Map.entry('J', 'U'),
+              Map.entry('K', 'I'),
+              Map.entry('L', 'G'),
+              Map.entry('M', 'L'),
+              Map.entry('N', 'B'),
+              Map.entry('O', 'K'),
+              Map.entry('P', 'R'),
+              Map.entry('Q', 'Z'),
+              Map.entry('R', 'T'),
+              Map.entry('S', 'N'),
+              Map.entry('T', 'W'),
+              Map.entry('U', 'J'),
+              Map.entry('V', 'P'),
+              Map.entry('W', 'F'),
+              Map.entry('X', 'M'),
+              Map.entry('Y', 'A'),
+              Map.entry('Z', 'Q')));
+
+  public static void main(String[] args) throws Exception {
+    in = new FastScanner();
+    int t = in.intNext();
+    for (int i = 1; i <= t; ++i) {
+      solve();
+    }
+    out.close();
+  }
+
+  private static void solve() {
+    char[] s = in.next().toCharArray();
+    char[] res = new char[s.length];
+    for (int j = 0; j < s.length; j++) {
+      res[j] = map.getOrDefault(s[j], '?');
+    }
+    out"
+"p02818","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.05,0.6,0.2,0.2,0.2,0.39999999999999997,"without_comments","<Summary_description>
+    /content/posts/my-first-post.md
+---
+title: ""My First Post""
+date: 2023-05-15T14:01:48+05:30
+draft: false
+toc: false
+images:
+tags:
+  - untagged
+---","encryption","<Summary_description>
+    /src/main/java/com/interview/leetcode/medium/LongestValidParentheses.java
+package com.interview.leetcode.medium;
+
+/**
+ * Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+ */
+public class LongestValidParentheses {
+  /**
+   * @param s
+   * @return
+   */
+  public int longestValidParentheses(String s) {
+    int leftCount = 0;
+    int rightCount = 0;
+    int result = 0;
+    for (Character ch : s.toCharArray()) {
+      if (ch == '(') {
+        leftCount++;
+      } else {
+        rightCount++;
+      }
+      if (leftCount == rightCount) {
+        result = Math.max(result, leftCount + rightCount);
+      } else if (rightCount > leftCount) {
+        leftCount = 0;
+        rightCount = 0;
+      }
+    }
+    leftCount = 0;
+    rightCount = 0;
+    for (int i = s.length() - 1; i >= 0; i--) {
+      Character ch = s.charAt(i);
+      if (ch == ')') {
+        rightCount++;
+      } else {
+        leftCount++;
+      }
+      if (leftCount == rightCount) {
+        result = Math.max(result, leftCount + rightCount);
+      } else if (leftCount > rightCount) {
+        leftCount = 0;
+        rightCount = 0;
+      }
+    }
+    return result;
+  }
+
+  // Time complexity O(N), space complexity O(1)
+}"
+"p02819","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.5,0.1,0.0,0.2,0.4,"without_comments","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.Data;
+
+@Data
+public class Question {
+  private String questionId;
+
+  public Question() {}
+
+  public Question(String id) {
+    this.questionId = id;
+  }
+}","variable_renaming","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+import java.io.*;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/**
+ * This class contains methods to solve Google's recaptcha challenge.
+ */
+public class Main {
+  /**
+   * Given an input string, returns the SHA-1 hash of that string.
+   *
+   * @param input The input string
+   * @return The SHA-1 hash of the input string
+   */
+  public String calculateSHA1Hash(String input) throws Exception {
+    MessageDigest md = MessageDigest.getInstance(""SHA-1"");
+    byte[] messageDigest = md.digest(input.getBytes());
+    StringBuilder hexString = new StringBuilder();
+    for (byte b : messageDigest) {
+      hexString.append(String.format(""%02x"", b));
+    }
+    return hexString.toString();
+  }
+
+  /**
+   * Given two strings as inputs, returns true if they are equal when decoded from URL encoding, or
+   * false otherwise.
+   *
+   * @param encodedStr1 The first encoded string
+   * @param encodedStr2 The second encoded string
+   * @return True if both strings are equal after decoding from URL encoding, false otherwise
+   */
+  public Boolean compareTwoStringsAfterDecodingFromUrlEncoding(
+      String encodedStr1, String encodedStr2) throws Exception {
+    String str1 = URLDecoder.decode(encodedStr1, StandardCharsets.UTF_8.name());
+    String str2 = URLDecoder.decode(encodedStr2, StandardCharsets.UTF_8.name());
+    return str1.equals(str2);
+  }
+
+  /**
+   * Given a list of integers, returns the sum of all even numbers in the list.
+   *
+   * @param nums A list of integers
+   * @return The sum of all even numbers in the list
+   */
+  public Integer findSumOfEvenNumbersInList(List<Integer>"
+"p02819","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.5,0.1,0.0,0.2,0.5,"without_comments","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.Data;
+
+@Data
+public class Question {
+  private String questionId;
+
+  public Question() {}
+
+  public Question(String id) {
+    this.questionId = id;
+  }
+}","dead_code","<Summary_description>
+    /README.md
+# Code Analysis Test for HireVue
+This repository contains sample questions to be used in an online coding test for HireVue's interview process. The purpose of these questions is to evaluate candidates' skills in analyzing code snippets written in various programming languages. Each question includes a code snippet along with instructions on how to analyze it. Candidates are expected to provide their responses in the form of a brief explanation that highlights the key aspects of the analysis.
+
+Here is an example of one such question:
+
+### Question 1
+Given the following Python function `is_prime`, which checks whether a given number is prime or not:
+
+```python
+def is_prime(num):
+  """"""Checks whether num is a prime number.""""""
+
+  if num <= 1:
+      return False
+
+  for i in range(2, num // 2 + 1):
+      if num % i == 0:
+          return False
+
+  return True
+```
+
+Provide a step-by-step breakdown of the logic behind the function, including the reasoning behind each line of code. For instance, you could explain why the function starts by checking if the input number is less than or equal to 1 before proceeding to check divisibility. You can also include any assumptions or optimizations made during the development of the function.
+
+Your answer should cover the following points:
+* Line-by-line breakdown of the function's logic
+* Reasoning behind each line of code
+* Assumptions or optimizations made during the development of the function
+
+For more clarity, here is the complete solution to the above problem:
+
+The provided function `is_prime` takes an integer as input and returns a Boolean value indicating whether the number is prime or not. It follows the following steps:
+1. Checks if the input number is less than or equal to 1. If so, immediately returns `False`. This covers edge cases where the input number is either 0, 1, or negative.
+2. Iterates through all integers from 2 up to half of the input number plus 1. For each iteration, it checks if the input number is evenly divisible by the current integer. If yes, then the number is not prime, and the function returns `False`. Otherwise, continues iterating until reaching the end of the loop.
+3. After completing the loop, the function returns `True`, since no"
+"p02819","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.0,0.5,0.1,0.0,0.2,0.3,"without_comments","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.Data;
+
+@Data
+public class Question {
+  private String questionId;
+
+  public Question() {}
+
+  public Question(String id) {
+    this.questionId = id;
+  }
+}","encryption","<Summary_description>
+    /src/main/java/com/github/hcsp/algorithm/BinarySearch.java
+package com.github.hcsp.algorithm;
+
+import java.util.Arrays;
+
+public class BinarySearch {
+    public static void main(String[] args) {
+        int[] array = new int[] {1, 3, 5, 8, 10};
+
+        System.out.println(binarySearch(array, 1)); // 0
+        System.out.println(binarySearch(array, 3)); // 1
+        System.out.println(binarySearch(array, 5)); // 2
+        System.out.println(binarySearch(array, 8)); // 3
+        System.out.println(binarySearch(array, 10)); // 4
+        System.out.println(binarySearch(array, 0)); // -1
+        System.out.println(binarySearch(array, 2)); // -1
+        System.out.println(binarySearch(array, 9)); // -1
+        System.out.println(binarySearch(array, 11)); // -1
+    }
+
+    /**
+     * 使用二分查找算法在一个有序数组中寻找指定的值，并返回其索引。如果值不存在，则返回-1。
+     *
+     * @param array 有序的整数数组
+     * @param value 需要寻找的目标值
+     * @return 目标值的索引，或-1（如果未找到）
+     */
+    public static int binarySearch(int[] array, int value) {
+        Arrays.sort(array);
+        int low = 0;
+        int high = array.length - 1;
+        
+        while (low <= high) {
+            
+            int mid = (low+high)/2;
+
+            if (array[mid] == value){
+
+                return mid;
+
+            }else if (array[mid]<value){
+
+                low=mid+1;
+
+            } else{
+
+                high=mid-1;
+
+            }
+            
+        }
+        
+        return -1;
+        
+    }
+}"
+"p03720","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.1,0.95,0.05,0.25,0.0,0.8999999999999999,"without_comments","<Summary_description>","variable_renaming","<Summary_description>
+    /src/main/java/com/google/challenges/Main.java
+package com.google.challenges;
+
+public class Main {
+  static final long MOD = 1000000007L;
+  static final int MAX = 0x7FFFFFFE;
+  static final int INF = 1000000000;
+
+  public static void main(String[] args) throws Exception {
+    hayami input = new hayami();
+    int N = input.saori_hayami();
+    int M = input.saori_hayami();
+    int[] L = new int[M];
+    int[] R = new int[M];
+    for (int i = 0; i < M; ++i) {
+      L[i] = input.saori_hayami();
+      R[i] = input.saori_hayami();
+    }
+    int[] Cnt = new int[N];
+    for (int i = 0; i < M; ++i) {
+      int x = L[i] - 1;
+      Cnt[x]++;
+      int y = R[i] - 1;
+      Cnt[y]++;
+    }
+    for (int i = 0; i < N; ++i) {
+      System.out.println(Cnt[i]);
+    }
+    input.close();
+  }
+}"
+"p03720","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.1,0.95,0.05,0.25,0.0,0.7,"without_comments","<Summary_description>","dead_code","<Summary_description>
+    /src/main/java/com/google/challenges/Answer.java
+package com.google.challenges;
+
+public class Answer {
+  public static String answer(String s) {
+      // your code here
+      char[] chars = s.toCharArray();
+      for (char c : chars){
+          if(!Character.isLetterOrDigit(c)){
+              return ""Invalid input"";
+          }
+      }
+      int leftIndex=0;
+      int rightIndex=chars.length-1;
+      while(leftIndex<rightIndex){
+          if(chars[leftIndex]!=chars[rightIndex]){
+              return ""Not palindrome"";
+          }else{
+              leftIndex++;
+              rightIndex--;
+          }
+      }
+      return ""Palindrome"";
+  }
+
+  public static void main(String[] args) {
+      System.out.println(""Is 'racecar' a palindrome? ""+answer(""racecar""));
+      System.out.println(""Is 'hello' a palindrome? ""+answer(""hello""));
+      System.out.println(""Is '123321' a palindrome? ""+answer(""123321""));
+      System.out.println(""Is '@#$%^&*' a palindrome? ""+answer(""@#$%^&*""));
+      System.out.println(""Is 'Hello World!' a palindrome? ""+answer(""Hello World!""));
+  }
+}"
+"p03720","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.1,0.95,0.05,0.25,0.0,0.95,"without_comments","<Summary_description>","encryption","<Summary_description>
+    /README.md
+# Code-Analysis-and-Deobfuscation"
+"p02413","Comment_Dependency","original_description-with_comments >= 0.5 AND with_comments-without_comments < 0.5",0.6,0.0,0.0,0.2,0.2,0.6,"with_comments","<Summary_description>
+    1. The program creates an `n x m` matrix using a two-dimensional array. It initializes all cells to zero, then fills them with user inputs.
+    2. Next, it calculates the sum of each row and stores it in the last column. Similarly, it computes the sum of each column and stores it in the last row.
+    3. Finally, it prints out the resulting matrix along with the computed row and column sums./app/views/pages/home.html.erb
+<div class=""container"">
+  <h1>Welcome to Code Analysis</h1>
+
+  <% if current_user %>
+    <%= link_to 'New Question', new_question_path, class: 'btn btn-primary' %>
+  <% end %>
+
+  <table class=""table table-striped mt-4"">
+    <thead>
+      <tr>
+        <th scope=""col"">#</th>
+        <th scope=""col"">Title</th>
+        <th scope=""col"">Language</th>
+        <th scope=""col"">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @questions.each do |question| %>
+        <tr>
+          <td><%= question.id %></td>
+          <td><%= link_to question.title, question_path(question), target: '_blank' %></td>
+          <td><%= question.language.name %></td>
+          <td>
+            <%= link_to 'Show', question_path(question), class: 'btn btn-info mr-2' %>
+
+            <% if current_user&.admin? || current_user&.owner?(question) %>
+              <%= link_to 'Edit', edit_question_path(question), class: 'btn btn-warning mr-2' %>
+              <%= link_to 'Delete', question_path(question), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <%= paginate @questions %>
+</div>","without_comments","<Summary_description>
+    
+
+3. 
+    ### Question: What is the output of the following program?
+
+    <code>
+    ```java
+    class Test {
+      public static void main(String[] args) {
+        String str1 = ""Hello"";
+        String str2 = ""World"";
+
+        System.out.println(""str1 + str2 = "" + str1 + str2);
+        System.out.println(""str1.concat(str2) = "" + str1.concat(str2));
+      }
+    }
+    ```
+    </code>
+    
+    ### Response: The output will be as follows:
+    
+    <code>
+    ```
+    str1 + str2 = HelloWorld
+    str1.concat(str2) = HelloWorld
+    ```
+    </code>
+    
+    In both cases, the concatenation of `str1` and `str2` results in the string `""HelloWorld""`. However, the `+` operator creates a new string object while the `concat()` method concatenates the two strings without creating a new object./src/main/java/com/interview/coding/questions/arrays/FindMissingNumberInArray.java
+package com.interview.coding.questions.arrays;
+
+public class FindMissingNumberInArray {
+
+  /**
+   * Given an unsorted integer array that contains all elements from 1 to N except one number, find
+   * the missing element. For example, given [8, 7, 6, 4, 3, 2, 1], return 5. Note: This problem can
+   * also be solved using bit manipulation.
+   */
+  private static Integer findMissingElementUsingSummation(Integer[] arr) throws Exception {
+    final long n = arr.length; // size of input array
+    final long total = (n + 1) * (n + 2) / 2; // summation formula for first n natural numbers
+    long actualTotal = 0L;
+    for (final var num : arr) {
+      actualTotal += num;
+    }
+    return Math.toIntExact(total - actualTotal);
+  }
+
+  private static Integer findMissingElementUsingXOR(Integer[] arr) throws Exception {
+    int xorResult = 0;
+    for (var i = 0; i < arr.length; ++i) {
+      xorResult ^= arr[i];
+      xorResult ^= i + 1;
+    }
+    return xorResult;
+  }
+
+  public"
+"p03242","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.5,0.0,0.0,0.5,0.5,"without_comments","<Summary_description>
+    ## Question 3:
+    Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+    
+    Example 1:
+        Input: nums = [2,7,11,15], target = 9
+        Output: [0,1]
+        Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+        
+    Example 2:
+        Input: nums = [3,2,4], target = 6
+        Output: [1,2]
+        
+    Example 3:
+        Input: nums = [3,3], target = 6
+        Output: [0,1]
+        
+    
+    Constraints:
+        2 <= nums.length <= 10^4
+        -10^9 <= nums[i] <= 10^9
+        -10^9 <= target <= 10^9
+        Only one valid answer exists.
+        
+    Follow-up: Can you come up with an algorithm that is less than O(n^2) time complexity?
+    
+    Hint #1  
+        Brute force approach will be to loop through each element x and find if there is another value that equals to target - x. Can we optimize this process?
+        
+    Hint #2
+        We can use Hash Map to store the values and their corresponding indices, then for each value, we can check if the complement (target - value) exists in the map or not. This way we can reduce the search time from O(n) to O(1).
+        
+    Solution #1
+        
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] == target - nums[i]) {
+                        return new int[] { i, j };
+                    }
+                }
+            }
+            throw new IllegalArgumentException(""No two sum solution"");
+        }
+        
+    Time Complexity: O(n^2), where n is the length of the array.
+    
+    Space Complexity: O(1).
+    
+    Solution #2
+        
+        import java.util.HashMap;
+
+        public int[] twoSum(int[] nums, int target) {
+            HashMap","variable_renaming","<Summary_description>
+    /data/summaries/28573.md
+title: Finding the number of occurrences of each character in a string using Python's collections module
+
+plan:
+  - type: text
+    contents: |
+      To find the number of occurrences of each character in a given string, we can use Python's `collections` module to count the frequency of characters in the string. The `Counter` object from the `collections` module provides an efficient way to count the frequencies of elements in any iterable, including strings.
+
+  - type: text
+    contents: |
+      We'll first import the `Counter` class from the `collections` module and then create a Counter object by passing the input string as an argument. This will initialize the counter with the frequencies of each element in the string.
+
+  - type: text
+    contents: |
+      Next, we'll iterate over all unique characters in the string using the `.keys()` method on the counter object. For each character, we'll print out the character along with its corresponding frequency obtained via the `.get()` method on the counter object.
+
+  - type: text
+    contents: |
+      Finally, we'll sort the output based on the frequency of occurrence in descending order using the `sorted()` function with a custom key function that returns the negative value of the frequency for each character. This ensures that the most frequent characters are displayed first.
+
+instructions:
+  - type: text
+    contents: |
+      Write a program that takes a string as input and prints the number of occurrences of each character in the string sorted in descending order of their frequencies.
+
+  - type: text
+    contents: |
+      You may assume that the input string contains only alphanumeric characters and spaces.
+
+  - type: text
+    contents: |
+      Handle cases where there are multiple characters with the same highest frequency by printing them in alphabetical order.
+
+  - type: text
+    contents: |
+      If the input string is empty or consists solely of whitespace characters, print ""No characters found."" instead.
+
+hint:
+  - type: text
+    contents: |
+      Use the `collections` module's `Counter` class to efficiently count the frequencies of characters in the input string. Iterate through the unique characters in the string and print out their counts. Sort the output based on frequency in descending order using the `sorted()` function with a custom key function.
+
+solution:
+  - type: text
+    contents: |
+      Here is one possible solution using Python's `collections` module"
+"p03242","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.5,0.0,0.0,0.5,0.5,"without_comments","<Summary_description>
+    ## Question 3:
+    Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+    
+    Example 1:
+        Input: nums = [2,7,11,15], target = 9
+        Output: [0,1]
+        Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+        
+    Example 2:
+        Input: nums = [3,2,4], target = 6
+        Output: [1,2]
+        
+    Example 3:
+        Input: nums = [3,3], target = 6
+        Output: [0,1]
+        
+    
+    Constraints:
+        2 <= nums.length <= 10^4
+        -10^9 <= nums[i] <= 10^9
+        -10^9 <= target <= 10^9
+        Only one valid answer exists.
+        
+    Follow-up: Can you come up with an algorithm that is less than O(n^2) time complexity?
+    
+    Hint #1  
+        Brute force approach will be to loop through each element x and find if there is another value that equals to target - x. Can we optimize this process?
+        
+    Hint #2
+        We can use Hash Map to store the values and their corresponding indices, then for each value, we can check if the complement (target - value) exists in the map or not. This way we can reduce the search time from O(n) to O(1).
+        
+    Solution #1
+        
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] == target - nums[i]) {
+                        return new int[] { i, j };
+                    }
+                }
+            }
+            throw new IllegalArgumentException(""No two sum solution"");
+        }
+        
+    Time Complexity: O(n^2), where n is the length of the array.
+    
+    Space Complexity: O(1).
+    
+    Solution #2
+        
+        import java.util.HashMap;
+
+        public int[] twoSum(int[] nums, int target) {
+            HashMap","dead_code","<Summary_description>
+    /src/main/java/com/example/demo/service/QuestionService.java
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class QuestionService {
+  @Autowired
+  private QuestionRepository questionRepository;
+
+  public List<Question> getAllQuestions() {
+      return questionRepository.findAll();
+  }
+
+  public Optional<Question> getQuestionById(Long id) {
+      return questionRepository.findById(id);
+  }
+
+  public Question addQuestion(Question question) {
+      return questionRepository.save(question);
+  }
+
+  public Question updateQuestion(Question updatedQuestion) {
+      return questionRepository.save(updatedQuestion);
+  }
+
+  public void deleteQuestion(Long id) {
+      questionRepository.deleteById(id);
+  }
+  
+}"
+"p02411","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.7,1.0,0.2,0.2,0.15000000000000002,0.8,"without_comments","<Summary_description>","variable_renaming","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.*;
+
+@Getter @Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Question {
+  private String questionId;
+
+  // The question text itself
+  private String questionText;
+
+  // The answer to the question
+  private String answer;
+
+  // The type of question (e.g., ""multiple choice"", ""short answer"")
+  private String questionType;
+
+  // The difficulty level of the question (e.g., ""easy"", ""medium"", ""hard"")
+  private String difficultyLevel;
+
+  // The topic or subject area that the question belongs to
+  private String topic;
+
+  // Optional fields for additional information about the question
+  private String hint;
+  private String explanation;
+  private String source;
+  private String author;
+  private String creationDate;
+  private String lastUpdatedDate;
+  private boolean isDeleted;
+
+  public Question(
+      String questionText,
+      String answer,
+      String questionType,
+      String difficultyLevel,
+      String topic) {
+    this.questionText = questionText;
+    this.answer = answer;
+    this.questionType = questionType;
+    this.difficultyLevel = difficultyLevel;
+    this.topic = topic;
+  }
+
+  public Question(
+      String questionText,
+      String answer,
+      String questionType,
+      String difficultyLevel,
+      String topic,
+      String hint,
+      String explanation,
+      String source,
+      String author,
+      String creationDate,
+      String lastUpdatedDate,
+      boolean isDeleted) {
+    this.questionText = questionText;
+    this.answer = answer;
+    this.questionType = questionType;
+    this.difficultyLevel = difficultyLevel;
+    this.topic = topic;
+    this.hint = hint;
+    this.explanation = explanation;
+    this.source = source;
+    this.author = author;
+    this.creationDate = creationDate;
+    this.lastUpdatedDate = lastUpdatedDate;
+    this.isDeleted = isDeleted;
+  }
+}"
+"p02411","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.7,1.0,0.2,0.2,0.15000000000000002,0.8,"without_comments","<Summary_description>","dead_code","<Summary_description>
+    /src/main/java/com/example/demo/model/Question.java
+package com.example.demo.model;
+
+import lombok.*;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@ToString
+public class Question {
+  String questionId;
+
+  String content;
+
+  String answer;
+
+  Integer score;
+
+  String solution;
+
+  String type;
+
+  Boolean hasCode;
+
+  Code code;
+
+  @Override
+  public Object clone() throws CloneNotSupportedException {
+      return super.clone();
+  }
+}"
+"p02411","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,1.0,0.2,0.2,0.15000000000000002,0.85,"without_comments","<Summary_description>","encryption","<Summary_description>
+    /Codeforces/Round 734/C.cpp
+#include<bits/stdc++.h>
+ 
+using namespace std;
+ 
+void solve(){
+    long long n; 
+    cin>>n; 
+    vector<long long> arr(n), brr(n); 
+    map<pair<long long,long long>, bool > mp; 
+    set<long long> st; 
+    for(auto &it:arr){ 
+        cin>>it; 
+        st.insert(it); 
+    }
+    for(auto &it:brr){ 
+        cin>>it; 
+        st.insert(it); 
+    }
+    
+    sort(arr.begin(), arr.end()), sort(brr.begin(), brr.end()); 
+    reverse(arr.begin(), arr.end()),reverse(brr.begin(), brr.end()); 
+    long long ans=0; 
+    for(long long i=0;i<n;i++){ 
+        pair<long long, long long> p={arr[i], brr[i]}; 
+        if(!mp[p]){ 
+            mp[p]=true; 
+            auto it=st.find(arr[i]); 
+            st.erase(it); 
+            it=st.find(brr[i]); 
+            st.erase(it); 
+            //cout<<arr[i]<<"" ""<<brr[i]<<""\n""; 
+            ans+=max(arr[i], brr[i]); 
+        }
+        
+    }
+    
+    cout<<ans+(long long)*st.rbegin()<<""\n""; 
+    
+    
+}
+ 
+int main(){
+   ios::sync_with_stdio(false); 
+   cin.tie(NULL); 
+ 
+   #ifndef ONLINE_JUDGE
+      freopen(""input.txt"",""r"",stdin);
+      freopen(""output.txt"",""w"",stdout);
+   #endif
+ 
+   int t=1;
+   cin >> t;
+   while(t--){
+       solve();
+   }
+   return 0;
+}"
+"p02729","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.5,0.0,0.1,0.0,0.5,"without_comments","<Summary_description>
+    /data/summaries/29457.md
+title: Analysis of Code Snippet
+author: 
+category: analysis-of-code-snippet
+difficulty: medium
+tags: [java]
+---
+### Context: This question is about analyzing a piece of code to understand its functionality. The context provides some information about the code's purpose and asks you to answer specific questions related to it. You need to provide clear and concise answers that explain the reasoning behind your solutions.
+
+Here is the code snippet provided in the context:
+<code>
+```
+class Node {
+  int val;
+  Node left;
+  Node right;
+
+  Node() {}
+
+  Node(int val) {
+      this.val = val;
+  }
+
+  Node(int val, Node left, Node right) {
+      this.val = val;
+      this.left = left;
+      this.right = right;
+  }
+}
+
+class Solution {
+  boolean hasPathSum(Node root, int targetSum) {
+      if (root == null) return false;
+      if (root.left == null && root.right == null)
+          return root.val == targetSum;
+      return hasPathSum(root.left, targetSum - root.val) ||
+             hasPathSum(root.right, targetSum - root.val);
+  }
+}
+```
+</code>
+
+
+The following are the instructions from the context:
+1. What is the purpose of this code?
+2. How do we determine whether there exists a path in the tree such that the sum of node values equals a given target sum?
+3. Can we improve the time complexity of our solution? If so, how can we achieve this?
+
+Your task is to analyze the code snippet and answer these questions based on your understanding.
+
+### Question 1: Purpose of the Code
+This code defines a `Node` class with three fields (`val`, `left`, and `right`) and a constructor method. It also contains a recursive function called `hasPathSum()` which takes two arguments: a `Node` object representing the current node and an integer value representing the remaining target sum. 
+
+It checks whether the current node is a leaf node by checking if both `left` and `right` children are `null`. If yes, then it returns true if the current node's value matches the target sum. Otherwise, it recursively calls itself","variable_renaming","<Summary_description>
+    /src/main/java/com/example/demo/model/ResponseModel.java
+package com.example.demo.model;
+
+/**
+ * @author 
+ */
+public record ResponseModel(String message) {}"
+"p02729","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.5,0.0,0.1,0.0,0.4,"without_comments","<Summary_description>
+    /data/summaries/29457.md
+title: Analysis of Code Snippet
+author: 
+category: analysis-of-code-snippet
+difficulty: medium
+tags: [java]
+---
+### Context: This question is about analyzing a piece of code to understand its functionality. The context provides some information about the code's purpose and asks you to answer specific questions related to it. You need to provide clear and concise answers that explain the reasoning behind your solutions.
+
+Here is the code snippet provided in the context:
+<code>
+```
+class Node {
+  int val;
+  Node left;
+  Node right;
+
+  Node() {}
+
+  Node(int val) {
+      this.val = val;
+  }
+
+  Node(int val, Node left, Node right) {
+      this.val = val;
+      this.left = left;
+      this.right = right;
+  }
+}
+
+class Solution {
+  boolean hasPathSum(Node root, int targetSum) {
+      if (root == null) return false;
+      if (root.left == null && root.right == null)
+          return root.val == targetSum;
+      return hasPathSum(root.left, targetSum - root.val) ||
+             hasPathSum(root.right, targetSum - root.val);
+  }
+}
+```
+</code>
+
+
+The following are the instructions from the context:
+1. What is the purpose of this code?
+2. How do we determine whether there exists a path in the tree such that the sum of node values equals a given target sum?
+3. Can we improve the time complexity of our solution? If so, how can we achieve this?
+
+Your task is to analyze the code snippet and answer these questions based on your understanding.
+
+### Question 1: Purpose of the Code
+This code defines a `Node` class with three fields (`val`, `left`, and `right`) and a constructor method. It also contains a recursive function called `hasPathSum()` which takes two arguments: a `Node` object representing the current node and an integer value representing the remaining target sum. 
+
+It checks whether the current node is a leaf node by checking if both `left` and `right` children are `null`. If yes, then it returns true if the current node's value matches the target sum. Otherwise, it recursively calls itself","dead_code","<Summary_description>
+    /pages/api-reference/api-reference-overview.mdx
+---
+title: API Reference Overview
+hide_table_of_contents: true
+---
+
+The following sections provide detailed information about each component in the API reference documentation. Each section includes the following subsections:
+
+- **Description**: A brief overview of the component's purpose and functionality.
+- **Parameters**: A list of parameters that are required or optional for using the component.
+- **Return value**: The type and meaning of the value returned by the component.
+- **Example usage**: An example showing how to use the component in practice.
+
+By reading these sections, you can understand how to utilize each component effectively in your projects.
+
+Note that some components may have additional properties or methods not covered here. You should refer to their respective documentation for more details.
+
+[Next Page - API Reference - Class](class)"
+"p02729","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.0,0.5,0.0,0.1,0.0,0.5,"without_comments","<Summary_description>
+    /data/summaries/29457.md
+title: Analysis of Code Snippet
+author: 
+category: analysis-of-code-snippet
+difficulty: medium
+tags: [java]
+---
+### Context: This question is about analyzing a piece of code to understand its functionality. The context provides some information about the code's purpose and asks you to answer specific questions related to it. You need to provide clear and concise answers that explain the reasoning behind your solutions.
+
+Here is the code snippet provided in the context:
+<code>
+```
+class Node {
+  int val;
+  Node left;
+  Node right;
+
+  Node() {}
+
+  Node(int val) {
+      this.val = val;
+  }
+
+  Node(int val, Node left, Node right) {
+      this.val = val;
+      this.left = left;
+      this.right = right;
+  }
+}
+
+class Solution {
+  boolean hasPathSum(Node root, int targetSum) {
+      if (root == null) return false;
+      if (root.left == null && root.right == null)
+          return root.val == targetSum;
+      return hasPathSum(root.left, targetSum - root.val) ||
+             hasPathSum(root.right, targetSum - root.val);
+  }
+}
+```
+</code>
+
+
+The following are the instructions from the context:
+1. What is the purpose of this code?
+2. How do we determine whether there exists a path in the tree such that the sum of node values equals a given target sum?
+3. Can we improve the time complexity of our solution? If so, how can we achieve this?
+
+Your task is to analyze the code snippet and answer these questions based on your understanding.
+
+### Question 1: Purpose of the Code
+This code defines a `Node` class with three fields (`val`, `left`, and `right`) and a constructor method. It also contains a recursive function called `hasPathSum()` which takes two arguments: a `Node` object representing the current node and an integer value representing the remaining target sum. 
+
+It checks whether the current node is a leaf node by checking if both `left` and `right` children are `null`. If yes, then it returns true if the current node's value matches the target sum. Otherwise, it recursively calls itself","encryption","<Summary_description>
+    /src/main/java/com/example/demo/service/QuestionService.java
+package com.example.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.model.Question;
+import com.example.demo.repository.QuestionRepository;
+@Service
+public class QuestionService implements BaseService<Question>{
+  @Autowired
+  QuestionRepository questionRepo;
+
+  @Override
+  public Iterable<Question> findAll() {
+      return questionRepo.findAll();
+  }
+
+  @Override
+  public Question findById(Long id) {
+      return questionRepo.findById(id).get();
+  }
+
+  @Override
+  public Question save(Question entity) {
+      return questionRepo.save(entity);
+  }
+
+  @Override
+  public void remove(Long id) {
+      questionRepo.deleteById(id);
+  }
+  
+}"
+"p02707","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.15000000000000002,0.6,0.2,0.2,0.25,0.39999999999999997,"without_comments","<Summary_description>
+    /docs/ai-report/index.md
+# AI Report
+
+
+<div id=""toc"" style=""display:none"">
+  <nav id=""TableOfContents"">
+  <ul>
+    <li><a href=""#instruction"">Instruction</a></li>
+    <li><a href=""#response"">Response</a></li>
+  </ul>
+</nav>
+</div>
+
+
+### Instruction: Write an AI report on the following topic: ""How can we improve the efficiency of machine learning models?"" The report should include at least three actionable steps to achieve this goal. 
+
+Here's how you could do it:
+
+To improve the efficiency of machine learning models, here are some possible approaches:
+
+1. Use faster algorithms: Instead of using slow but accurate algorithms, consider using faster ones that trade off accuracy for speed. For example, instead of training a neural network from scratch, use transfer learning to leverage pre-trained models.
+
+2. Utilize GPUs or TPUs: GPU-accelerated computing has become popular with deep learning applications due to their high performance and parallelization capabilities. Similarly, Google Tensor Processing Units (TPU) offer even better performance by leveraging specialized hardware for matrix computations.
+
+3. Reduce model complexity: Simplify the architecture of the model to reduce the number of parameters and operations. This can be achieved through techniques such as regularization, dropout, and early stopping.
+
+These are just a few examples of ways to improve the efficiency of machine learning models. It depends on the specific requirements and constraints of each project.
+
+By considering these factors, we can develop more efficient machine learning models that meet our needs without compromising accuracy.
+
+### Response:
+
+The key challenge in improving the efficiency of machine learning models lies in reducing the computational resources required to train them. To address this issue, several strategies have been proposed, including utilizing faster algorithms, leveraging GPUs or TPUs, and reducing model complexity.
+
+One approach to achieving this goal involves replacing traditional machine learning algorithms with newer, faster alternatives. For instance, support vector machines (SVMs), which were widely used before, have been replaced by random forests or gradient boosting trees due to their higher efficiency. Additionally, deep learning models often require significant compute power, making them difficult to scale up. Using GPUs or TPUs offers significantly improved performance compared to CPUs. Lastly, reducing model complexity can help","variable_renaming","<Summary_description>
+    /Python/Python_code_challenges/Python_code_challenge_9.py
+def challenge9(s):
+  s=str(s).replace("" "","""")
+  result=[]
+  i=len(s)-1
+
+  def helper(i):
+      temp=""""
+      count=0
+      while i>=0:
+          if not s[i].isdigit():
+              i-=1
+              continue
+          while i>=0 and s[i].isdigit():
+              temp+=s[i]
+              i-=1
+              count+=1
+
+          if len(temp)>0:
+              result.insert(0,int(temp[::-1]))
+              temp=""""
+        
+          if count==3:
+              result.insert(0,"","")
+              count=0
+          
+      return """".join([str(num) for num in result])
+      
+  return helper(i)
+  
+print(challenge9(1234567890)) # ""1,234,567,890""
+print(challenge9(1234567890123)) # ""12,345,678,901,23""
+print(challenge9(123456789012345)) # ""123,456,789,012,345""
+print(challenge9(1234567890123456)) # ""1,234,567,890,123,456""
+print(challenge9(12345678901234567)) # ""12,345,678,901,234,567""
+print(challenge9(123456789012345678)) # ""123,456,789,012,345,678""
+print(challenge9(1234567890123456789)) # ""1,234,567,890,123,456,789""
+print(challenge9(123456789012"
+"p02707","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.15000000000000002,0.6,0.2,0.2,0.25,0.39999999999999997,"without_comments","<Summary_description>
+    /docs/ai-report/index.md
+# AI Report
+
+
+<div id=""toc"" style=""display:none"">
+  <nav id=""TableOfContents"">
+  <ul>
+    <li><a href=""#instruction"">Instruction</a></li>
+    <li><a href=""#response"">Response</a></li>
+  </ul>
+</nav>
+</div>
+
+
+### Instruction: Write an AI report on the following topic: ""How can we improve the efficiency of machine learning models?"" The report should include at least three actionable steps to achieve this goal. 
+
+Here's how you could do it:
+
+To improve the efficiency of machine learning models, here are some possible approaches:
+
+1. Use faster algorithms: Instead of using slow but accurate algorithms, consider using faster ones that trade off accuracy for speed. For example, instead of training a neural network from scratch, use transfer learning to leverage pre-trained models.
+
+2. Utilize GPUs or TPUs: GPU-accelerated computing has become popular with deep learning applications due to their high performance and parallelization capabilities. Similarly, Google Tensor Processing Units (TPU) offer even better performance by leveraging specialized hardware for matrix computations.
+
+3. Reduce model complexity: Simplify the architecture of the model to reduce the number of parameters and operations. This can be achieved through techniques such as regularization, dropout, and early stopping.
+
+These are just a few examples of ways to improve the efficiency of machine learning models. It depends on the specific requirements and constraints of each project.
+
+By considering these factors, we can develop more efficient machine learning models that meet our needs without compromising accuracy.
+
+### Response:
+
+The key challenge in improving the efficiency of machine learning models lies in reducing the computational resources required to train them. To address this issue, several strategies have been proposed, including utilizing faster algorithms, leveraging GPUs or TPUs, and reducing model complexity.
+
+One approach to achieving this goal involves replacing traditional machine learning algorithms with newer, faster alternatives. For instance, support vector machines (SVMs), which were widely used before, have been replaced by random forests or gradient boosting trees due to their higher efficiency. Additionally, deep learning models often require significant compute power, making them difficult to scale up. Using GPUs or TPUs offers significantly improved performance compared to CPUs. Lastly, reducing model complexity can help","dead_code","<Summary_description>
+    /src/main/java/com/google/challenges/Answer.java
+package com.google.challenges;
+
+/**
+ * This interface defines how to answer a challenge question.
+ */
+@FunctionalInterface
+interface Answer<T extends Question> {
+  /**
+   * Given a challenge question, provide an answer for that question.
+   * @param question The challenge question
+   * @return The answer to the challenge question
+   */
+  T answer(Question question);
+
+  default boolean checkAnswer(Question question) {
+    return answer(question).checkAnswer();
+  }
+}"
+"p02707","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.15000000000000002,0.6,0.2,0.2,0.25,0.35,"without_comments","<Summary_description>
+    /docs/ai-report/index.md
+# AI Report
+
+
+<div id=""toc"" style=""display:none"">
+  <nav id=""TableOfContents"">
+  <ul>
+    <li><a href=""#instruction"">Instruction</a></li>
+    <li><a href=""#response"">Response</a></li>
+  </ul>
+</nav>
+</div>
+
+
+### Instruction: Write an AI report on the following topic: ""How can we improve the efficiency of machine learning models?"" The report should include at least three actionable steps to achieve this goal. 
+
+Here's how you could do it:
+
+To improve the efficiency of machine learning models, here are some possible approaches:
+
+1. Use faster algorithms: Instead of using slow but accurate algorithms, consider using faster ones that trade off accuracy for speed. For example, instead of training a neural network from scratch, use transfer learning to leverage pre-trained models.
+
+2. Utilize GPUs or TPUs: GPU-accelerated computing has become popular with deep learning applications due to their high performance and parallelization capabilities. Similarly, Google Tensor Processing Units (TPU) offer even better performance by leveraging specialized hardware for matrix computations.
+
+3. Reduce model complexity: Simplify the architecture of the model to reduce the number of parameters and operations. This can be achieved through techniques such as regularization, dropout, and early stopping.
+
+These are just a few examples of ways to improve the efficiency of machine learning models. It depends on the specific requirements and constraints of each project.
+
+By considering these factors, we can develop more efficient machine learning models that meet our needs without compromising accuracy.
+
+### Response:
+
+The key challenge in improving the efficiency of machine learning models lies in reducing the computational resources required to train them. To address this issue, several strategies have been proposed, including utilizing faster algorithms, leveraging GPUs or TPUs, and reducing model complexity.
+
+One approach to achieving this goal involves replacing traditional machine learning algorithms with newer, faster alternatives. For instance, support vector machines (SVMs), which were widely used before, have been replaced by random forests or gradient boosting trees due to their higher efficiency. Additionally, deep learning models often require significant compute power, making them difficult to scale up. Using GPUs or TPUs offers significantly improved performance compared to CPUs. Lastly, reducing model complexity can help","encryption","<Summary_description>
+    /docs/interview/system-design/microservices.md
+---
+title: Microservices Design
+sidebar_label: Microservices Design
+---
+
+## What are microservices?
+A microservice architecture style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.
+
+Microservices can be used to implement complex applications that would otherwise be difficult to develop as a single monolithic service. The term was first introduced by  and  in their book [Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420). They defined a microservice as ""a fine-grained service that is loosely coupled with other services."" In this definition, a microservice is a service with a small set of responsibilities, which is relatively easy to understand and modify compared to a large monolithic service. Additionally, microservices are designed to be modular and independent, meaning they can be developed, deployed, and scaled separately from other services. This makes them well-suited for building complex applications that require scalability and flexibility.
+
+However, there's no one-size-fits-all solution when it comes to designing a microservice architecture. It depends on the specific requirements of the system being developed, such as performance, scalability, availability, and maintainability. Therefore, it's important to consider factors like team size, technology stack, and organizational structure before choosing a microservice architecture.
+
+Here are some benefits of using microservices:
+* **Modularity**: Each microservice has a smaller scope and is easier to understand than a larger monolithic application. This makes it easier to develop, test, and maintain individual components.
+* **Scalability**: Individual microservices can be scaled up or down depending on demand, allowing for better utilization of resources.
+* **Independence**: Microservices can be developed, tested, and deployed independently, making it easier to iterate quickly and reduce the risk of failure.
+* **Resilience**: If a microservice fails,"
+"p02922","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.0,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /src/main/java/com/github/crodriguezvega/model/Question.java
+package com.github.crodriguezvega.model;
+
+/**
+ * Question model that holds the question text and answer options.
+ */
+public record Question(String text, Option... options) {}","variable_renaming","<Summary_description>
+    /src/main/java/com/github/hcsp/algorithm/BinarySearch.java
+package com.github.hcsp.algorithm;
+
+import java.util.Arrays;
+
+public class BinarySearch {
+    public static void main(String[] args) {
+        System.out.println(binarySearch(new int[] {}, 3));
+    }
+
+    /**
+     * 二分查找。
+     *
+     * @param array 已经排序好的数组
+     * @param target 需要查找的元素
+     * @return 目标元素的下标，未找到则返回-1
+     */
+    public static int binarySearch(int[] array, int target) {
+        // 请实现这个二分查找方法
+        return Arrays.binarySearch(array,target);
+    }
+}"
+"p02922","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.0,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /src/main/java/com/github/crodriguezvega/model/Question.java
+package com.github.crodriguezvega.model;
+
+/**
+ * Question model that holds the question text and answer options.
+ */
+public record Question(String text, Option... options) {}","dead_code","<Summary_description>
+    /src/main/java/com/google/challenges/YearTwoThousandThree.java
+package com.google.challenges;
+
+import java.math.BigInteger;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+/**
+ * @author 
+ */
+public class YearTwoThousandThree implements Challenge {
+
+  /**
+   * The challenge question for year two thousand three.
+   */
+  protected static final String QUESTION =
+      ""We can use the fact that SHA-1 is vulnerable to length extension attacks to generate hash collisions. We start by choosing an arbitrary message with its corresponding hash. Then we append another message to the first one in such a way that the resulting hash will be identical to the original hash. This allows us to forge messages with the same hash as the original message.\n\nFor example, let's say we have the following message and its corresponding hash:\n\nm1 = \""Hello World\""\nh(m1) = \""a94a8fe5ccb19ba61c4c0873d391e987982fbbd3\""\nNow, we want to find another message m2 that has the same hash as m1. To achieve this, we need to calculate the SHA-1 padding for m1 and then append the desired message m2 to it. Once we have the padded message, we can compute its hash using the same algorithm as SHA-1 and obtain the same result as h(m1)."";
+
+  /**
+   * The solution for year two thousand three.
+   */
+  protected static final String SOLUTION =
+      ""To solve this problem, you'll need to understand how SHA-1 works and how it's vulnerable to length extension attacks. You also need to know how to generate hash collisions using these techniques.\n\nHere are some resources that might help you understand the concepts involved:\n\nSHA-1 Wikipedia page: https://en.wikipedia.org/wiki/SHA-1\nLength Extension Attacks on SHA-1: http://www.cs.tau.ac.il/~tromer"
+"p02922","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.0,0.5,0.2,0.2,0.2,0.3,"without_comments","<Summary_description>
+    /src/main/java/com/github/crodriguezvega/model/Question.java
+package com.github.crodriguezvega.model;
+
+/**
+ * Question model that holds the question text and answer options.
+ */
+public record Question(String text, Option... options) {}","encryption","<Summary_description>
+    /src/main/java/com/hackerrank/interviewpreparationkit/search/MinimumTimeRequired.java
+package com.hackerrank.interviewpreparationkit.search;
+
+/**
+ * https://www.hackerrank.com/challenges/minimum-time-required/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search
+ */
+public class MinimumTimeRequired {
+  // Complete the minTime function below.
+  static long minTime(long[] machines, long goal) {
+    long low = 0;
+    long high = Long.MAX_VALUE / goal;
+    while (low < high) {
+      long mid = low + ((high - low) >> 1);
+      long totalProduction = calculateTotalProductionAtDay(machines, mid);
+      if (totalProduction >= goal) {
+        high = mid;
+      } else {
+        low = mid + 1;
+      }
+    }
+    return low;
+  }
+
+  /**
+   * Calculate how many units can be produced at day d using all the machines
+   */
+  private static long calculateTotalProductionAtDay(long[] machines, long d) {
+    long totalProduction = 0;
+    for (long machine : machines) {
+      totalProduction += d / machine;
+    }
+    return totalProduction;
+  }
+}"

@@ -1,0 +1,23 @@
+**Exercise Title: Managing a Grid of Units**
+
+**Problem Statement:**
+
+You are tasked with managing a 3D grid of units, where each unit can have a value associated with it. This grid consists of a certain number of blocks, each block is made up of several layers, and each layer contains a specific number of units. Your goal is to track changes to the values in each unit based on a series of operations, either adding or subtracting a certain number from the unit's current value. 
+
+Write a program to read a sequence of operations and update the unit values accordingly. Each operation consists of identifying a specific block, a specific layer within that block, and a specific unit within the layer, along with a value to be added or subtracted. Initially, all unit values in the grid are set to zero.
+
+**Requirements:**
+
+1. Define a 3D grid where you have a specific number of blocks, layers per block, and units per layer. Initialize all unit values in this grid to zero.
+
+2. Design a function to process operations that either add to or subtract from the unit values:
+   - An operation consists of three identifiers (block, layer, unit) followed by a value to add or subtract.
+   - Update the specific unit's value by the given amount.
+
+3. Implement a method to output the current status of the grid:
+   - Iterate over each block, layer, and unit to print the value in each unit.
+   - Separate the information for each block with a delimiter of your choice to clearly distinguish between them.
+
+4. Assume no incorrect identifiers for blocks, layers, or units are given in the operations.
+
+This exercise will help you practice managing multi-dimensional arrays and iterating over them, as well as processing input data to update and report the current state of a data structure.

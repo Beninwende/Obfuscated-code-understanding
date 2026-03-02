@@ -1,0 +1,21 @@
+**Exercise Title: Determine If Target Is Reachable with Limited Moves**
+
+**Problem Statement:**
+
+You are given a target value and a list of unique actions, each represented by a number. These actions represent the amount you can decrease the target value. Your goal is to determine if you can reduce the target value to zero or below using these actions exactly once each, or not at all.
+
+Design a program that takes in a target value and a set of action values, and prints "Achievable" if the target can be reached using the actions without any repetition, otherwise prints "Not Achievable."
+
+**Requirements:**
+
+1. Accepts an integer representing the target value. This value indicates the initial amount you need to reduce to zero or below.
+
+2. Accepts a series of integers representing the unique action values available. Each action can be used at most once.
+
+3. Implement a function that checks if it's possible to create sequences of these action values, taken once each, that sum up to at least the target value.
+
+4. The program should output "Achievable" if the target can be reduced to zero or below by using the available actions without any repetition. If it's not possible, the program should output "Not Achievable."
+
+5. Ensure the solution is optimized to handle the largest constraints efficiently.
+
+Through this exercise, you will practice fundamental concepts such as loops, conditional logic, decision making, and combination calculation in programming.

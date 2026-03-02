@@ -1,0 +1,15 @@
+## Exercise Title: Maximum Sum Using Two Numbers
+
+### Problem Statement
+You are given two integers, `X` and `Y`. Your task is to select two numbers, either from `X`, `Y`, or a combination of both, such that the sum of these two numbers is maximized. You can pick the same number twice or choose one number from each.
+
+Each selection reduces the available number by one for future selections. For example, if you choose `X` first, your second choice should be `X-1` or `Y`.
+
+Your goal is to determine the maximum possible sum of the two selected numbers.
+
+### Requirements
+1. Implement a function that accepts two integer parameters, `X` and `Y`.
+2. The function should compute and return the largest possible sum from selecting two numbers according to the rules stated.
+3. Ensure your function handles all edge cases within the given constraints:
+   - Both `X` and `Y` are non-negative integers.
+   - `X` and `Y` are at least 3 and at most 20.

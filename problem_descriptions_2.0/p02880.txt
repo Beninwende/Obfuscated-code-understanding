@@ -1,0 +1,15 @@
+**Exercise Title: Check Simple Multiplicability**
+
+**Problem Statement:**
+
+Create a program that checks if a given integer can be expressed as the product of two integers within a specific range. You are tasked to determine if there exist two integers, each between 1 and 9 (inclusive), whose product equals the given integer. 
+
+Write a function that takes an integer as input and returns a simple result indicating if the integer can be represented as such a product. The function should return "Yes" if the product condition is met and "No" if it is not.
+
+**Requirements:**
+
+1. Implement a function that accepts a single integer as input.
+2. The integer will always be between 1 and 100, inclusive.
+3. Your function should determine if the input integer can be decomposed into the product of two numbers, both of which are between 1 and 9 (inclusive).
+4. If the integer can be represented as the product of two such numbers, return "Yes". Otherwise, return "No".
+5. Ensure your implementation is efficient and concise, leveraging fundamental programming constructs such as loops and conditional statements.

@@ -1,0 +1,21 @@
+### Exercise: Identify Possible Number Range
+
+**Problem Statement:**
+
+You are tasked with a simple problem involving number ranges. Given a base number `N` and a range size `R`, you need to calculate and print out all numbers from a start to an end range that are centered around the given base number.
+
+The range size `R` specifies how far from the base number `N` you need to expand in both the lower and upper direction. Specifically, if `R` is the range size, the numbers should include `R` numbers both below and above the base number `N` resulting in a collection of numbers.
+
+**Requirements:**
+
+1. Given two integers as inputs, `R` (range size) and `N` (base number), calculate the potential range:
+   - Start with the lowest number at `N - R + 1`.
+   - Finish with the highest number at `N + R`.
+   
+2. Print all numbers from the start to the end of this range, inclusive.
+
+3. Output should be a single line where each number in the calculated range is separated by a single space.
+
+4. Ensure that your solution handles basic integer arithmetic and loops over a specified range accurately.
+
+This exercise will help you practice basic operations on numbers and control structures in programming, such as loops and arithmetic operations, without any external context or larger problem requirements.

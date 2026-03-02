@@ -1,0 +1,27 @@
+**Exercise Title: Maximum Sum from Card Selection**
+
+**Problem Statement:**
+
+You have a collection of cards, each card has a number written on it. The cards are divided into three distinct groups based on the number they have:
+
+1. Group 1: Cards with the number `+1`.
+2. Group 2: Cards with the number `0`.
+3. Group 3: Cards with the number `-1`.
+
+The number of cards in each group is given. You are required to select a specified total number of cards from these groups. Your goal is to determine the maximum possible sum of the numbers on the selected cards.
+
+**Requirements:**
+
+- You will receive four integer inputs:
+  - `a`: the number of cards in Group 1 (`+1` cards).
+  - `b`: the number of cards in Group 2 (`0` cards).
+  - `c`: the number of cards in Group 3 (`-1` cards).
+  - `k`: the total number of cards to select from these groups.
+
+- The task is to calculate the maximum possible sum of the values of the selected cards.
+
+- Provide a solution that efficiently calculates this sum, considering the constraints where the values of `a`, `b`, `c`, and `k` are integers, and `0 <= a, b, c` with `1 <= k <= a + b + c`.
+
+- Print the result as the output, which is the maximum possible sum achievable by selecting `k` cards.
+
+Ensure that the implementation is efficient and adheres to the constraint limits for optimal performance.

@@ -1,0 +1,16 @@
+### Exercise Title: Find Range Between Specific Characters
+
+### Problem Statement
+
+Create a program that takes a string, `s`, composed of uppercase English letters. Your task is to identify the first occurrence of a specific character, Character1, and the last occurrence of another specific character, Character2, within the string. Once these positions are identified, calculate the length of the substring that stretches from the first occurrence of Character1 to the last occurrence of Character2, including both characters.
+
+### Requirements
+
+1. The program should read a single string, `s`, from standard input.
+2. The string will only consist of uppercase English letters.
+3. Assume that the input will always contain at least one occurrence of both Character1 and Character2.
+4. Determine the positions of the first occurrence of Character1 and the last occurrence of Character2 in the string.
+5. Calculate and output the length of the substring from the position of Character1 to the position of Character2, inclusive.
+6. The solution should be efficient to handle strings up to a specified length.
+
+The primary objective of this exercise is to practice string manipulation techniques, including searching for specific characters and calculating substring lengths in a given string.

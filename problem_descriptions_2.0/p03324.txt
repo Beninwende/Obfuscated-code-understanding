@@ -1,0 +1,14 @@
+### Title: Calculate N-th Smallest Power of Ten Multiple
+
+#### Problem Statement
+Create a function that determines the N-th smallest integer that is a multiple of `10^M`, where `M` is a given non-negative integer. The function should account for specific cases where the result for some inputs needs minor adjustment to avoid overlap at certain boundaries.
+
+The input will consist of two positive integers, `M` and `N`. The goal is to compute the N-th integer that reflects the structure of numbers that can be represented as `x * (10^M)`, where `x` is a positive integer and meets the criteria outlined below.
+
+#### Requirements
+- Ensure the function accepts two integer inputs: `M` (0 ≤ M ≤ 2) and `N` (1 ≤ N ≤ 100).
+- The function should calculate the integer by multiplying `N` with `10^M`.
+- If `N` equals `K` (where K is a specific boundary value), the function needs to return a slightly higher number to avoid undesired overlap. This adjustment adds `10^M` to the calculated result.
+- Implement input validation and error handling to ensure robustness.
+
+This exercise practices fundamental concepts such as arithmetic operations, conditional logic, and mathematical power calculations within programming.

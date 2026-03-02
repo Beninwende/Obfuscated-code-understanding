@@ -1,0 +1,19 @@
+**Exercise Title: Simple Toggle Between Two States**
+
+**Problem Statement:**
+
+You are responsible for managing a light switch that alternates between two states: "ON" and "OFF". The switch changes its state every time it is toggled. Your task is to write a function that determines the current state of the switch based on the previous state.
+
+The switch follows the following rules:
+- If the switch was "ON", toggling it changes its state to "OFF".
+- If the switch was "OFF", toggling it changes its state to "ON".
+
+Given the previous state of the switch, your function should return the current state after toggling.
+
+**Requirements:**
+
+1. Design a function that accepts a string input representing the previous state of the switch. The string will be either "ON" or "OFF".
+
+2. The function should return a string indicating the current state of the switch after toggling.
+
+3. Ensure the function handles both possible input strings correctly and only those strings will be considered valid input.

@@ -1,0 +1,16 @@
+**Title:** Calculate Frequency of Letters in Text
+
+**Problem Statement:**
+
+Create a program that calculates and displays the frequency of each English letter within a given text. The input text consists of multiple lines, and it is not case-sensitive, meaning the program should treat uppercase and lowercase versions of the same letter as identical.
+
+**Requirements:**
+
+1. The program must prompt the user to enter a multi-line text.
+2. After processing the input, it should output the frequency of every letter in the English alphabet (a-z).
+3. The letters should be presented in alphabetical order, with each letter followed by its frequency count.
+4. Ignore case sensitivity: 'A' and 'a' should be counted as the same letter.
+5. Only count the alphabetical characters; other symbols, numbers, or whitespace characters should be ignored.
+6. The maximum length of the input text should not exceed 1200 characters.
+
+Design your code to ensure it efficiently processes the input and accurately displays the count for each letter.

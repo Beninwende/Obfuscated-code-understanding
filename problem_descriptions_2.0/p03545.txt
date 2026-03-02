@@ -1,0 +1,26 @@
+**Exercise Title: Creating a Balanced Arithmetic Expression**
+
+**Problem Statement:**
+
+You are given four integers, each between 0 and 9, denoted as A, B, C, and D. Your task is to form an arithmetic expression using these four integers in sequence by inserting either a "+" (addition) or "-" (subtraction) operation between them so that the result of the expression equals a given target sum.
+
+The target sum will always have a possible solution given the values of A, B, C, and D. If there are multiple possible expressions that achieve the target sum, any of them will be accepted.
+
+Here is your task detailed out:
+1. Create an expression by inserting '+' or '-' between A, B, C, and D.
+2. Ensure that when the expression is evaluated, the result equals the specified target sum.
+3. Print the expression in the format "A op B op C op D = target", where 'op' represents either '+' or '-'.
+4. Do not include spaces between the digits and operators in the output.
+
+**Requirements:**
+
+- Accept a string composed of four digits each representing A, B, C, and D in that order.
+- Accept an integer representing the target sum that the expression should evaluate to.
+- Output the correct expression that evaluates to the given target sum.
+- Output format must include the expression followed by "= target".
+
+**Constraints:**
+
+- 0 ≤ A, B, C, D ≤ 9
+- The target sum is an integer.
+- It is guaranteed that a solution exists for the provided inputs.

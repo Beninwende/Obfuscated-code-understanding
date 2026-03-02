@@ -1,0 +1,24 @@
+**Exercise Title: Determine Specific Value Combinations**
+
+**Problem Statement:**
+
+You are tasked with determining whether a given number can be expressed as a combination of two other specified numbers. Specifically, you will check if a target number can be achieved through any combination of two values: A and B. You can utilize zero or more occurrences of each value. Your task is to write a function that determines whether it is possible to achieve the exact target number using only these two values.
+
+Given a target integer `T`, and integer values `A` and `B`, determine if it is possible to form `T` by summing multiples of `A` and `B`.
+
+**Requirements:**
+
+1. Implement a function `canCreateTarget(T, A, B)` that takes three integer parameters:
+   - `T`: the target number you want to achieve, where `T` is an integer between 1 and 100, inclusive.
+   - `A`: the first number value that can be used in the combination.
+   - `B`: the second number value that can be used in the combination.
+
+2. The function should output `"Possible"` if it is feasible to form `T` by summing multiples of `A` and `B`. Otherwise, output `"Impossible"`.
+
+3. The function should efficiently explore combinations of `A` and `B`, considering:
+   - You may use zero or more of each `A` and `B`.
+   - Combinations can use any non-negative integer multiple of `A` and `B`.
+
+4. Ensure your function handles edge cases, such as when `T` is smaller than `A` and `B`.
+
+By completing this exercise, you will practice working with loops and conditionals to explore potential combinations and divisibility. This foundational skill is essential for problem-solving in programming.

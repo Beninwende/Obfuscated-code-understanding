@@ -1,0 +1,29 @@
+**Title: Stack-Based Postfix Expression Evaluator**
+
+**Problem Statement:**
+
+You are tasked with writing a program to evaluate mathematical expressions given in postfix notation (also known as Reverse Polish Notation, or RPN). In postfix notation, operators come after their operands, allowing expressions to be evaluated without the need for parentheses to dictate operations precedence. Your program should read a postfix expression, perform the calculations, and output the result.
+
+**Requirements:**
+
+1. **Input Handling:**
+   - The input will be a single line containing a valid postfix expression. Each token (either an operand or operator) is separated by a space.
+   - The expression will include positive integer operands and the operators `+`, `-`, and `*`.
+
+2. **Evaluation Process:**
+   - Implement a stack to store operands and intermediate results during the evaluation.
+   - Traverse each token in the input expression:
+     - If the token is an operand, convert it to an integer and push it onto the stack.
+     - If the token is an operator, pop the necessary number of operands from the stack, apply the operator, and push the result back onto the stack.
+   
+3. **Output:**
+   - After processing all tokens, the stack should contain the final result of the expression.
+   - Output this single integer result.
+
+4. **Constraints:**
+   - Each operand in the expression will be a positive integer.
+   - The stack will maintain integer values, ensuring intermediate and final results do not exceed typical integer limits.
+   - There will be at least two operands and one operator in the input expression.
+   - Your implementation must handle at least 100 tokens in the expression.
+
+This exercise is designed to practice using stack data structures, parsing input, and implementing arithmetic operations in a structured manner.

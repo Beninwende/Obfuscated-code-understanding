@@ -1,0 +1,31 @@
+**Exercise Title: Coin Combination Counting**
+
+**Problem Statement:**
+
+You are tasked with creating a program to determine how many unique ways you can select different numbers of three types of items to achieve an exact target total value. Given a certain number of items of each type and their respective values, your program should calculate and return the number of distinct combinations that add up to the target value.
+
+**Requirements:**
+
+1. You will have three types of items:
+   - Item A, worth 500 units.
+   - Item B, worth 100 units.
+   - Item C, worth 50 units.
+
+2. You are provided with:
+   - `A`: The total number of item A.
+   - `B`: The total number of item B.
+   - `C`: The total number of item C.
+   - `X`: The target value you need to achieve using the items.
+
+3. Your task is to determine the total number of distinct ways to choose items such that their combined value equals `X`.
+
+4. Each type of item has an unlimited, yet specific number available, meaning you cannot use more of any item than its given maximum (`A` for item A, `B` for item B, or `C` for item C).
+
+5. The parameters will be provided as integers, where:
+   - `0 ≤ A, B, C ≤ 50`
+   - `50 ≤ X ≤ 20,000`
+   - `X` is guaranteed to be a multiple of 50.
+
+6. Your program should output a single integer: the number of distinct combinations where the selected items exactly sum to the target value `X`.
+
+Ensure your solution efficiently iterates through possible combinations, leveraging the constraints to minimize unnecessary calculations.

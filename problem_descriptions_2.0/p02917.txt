@@ -1,0 +1,18 @@
+**Exercise Title: Sum of Minimum Adjacent Integers**
+
+**Problem Statement:**
+Create a program that calculates the sum of a sequence of integers derived from given constraints. You are provided with a list of integers, where each integer represents the maximum allowable limit for two consecutive elements in the derived sequence. Your task is to determine the sequence such that the calculated sum is maximized.
+
+**Instructions:**
+
+1. You are given an integer `N`, which represents the number of elements in the sequence you need to find. The sequence is named `C` and has `N` elements.
+2. You will also receive an integer list `D` of length `N-1`. Each element `D[i]` in the list represents the restriction that `C[i]` and `C[i+1]` can both individually be at most equal to `D[i]`.
+
+**Requirements:**
+
+- Implement a function that receives the length of the sequence `N` and the list `D` as inputs.
+- Your function should return the maximum possible sum of the sequence `C` while satisfying the constraints for each adjacent pair.
+- Consider that the elements of `C` can be any non-negative integers.
+- The approach should effectively utilize the values in `D` to form the sequence `C` while ensuring that the sum is maximized according to the defined restrictions.
+
+Your solution should focus on combining fundamental concepts such as loops, conditional statements, and arithmetic operations to achieve the desired functionality in calculating the sequence sum efficiently. Remember, you are maximizing the sum of the sequence given these constraints.

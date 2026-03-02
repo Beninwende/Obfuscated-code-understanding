@@ -1,0 +1,1286 @@
+category,subtype,brief_description,description_original,description_1,description_2,code_1,code_2,model,problem_id,problem_index
+Comment_Dependency,Algorithm_misunderstanding_,The model describes a different algorithm than the code (different logic or goal).,"**Exercise Title: Maximum Sum from Card Selection** **Problem Statement:** You have a collection of cards, each card has a number written on it. The cards are divided into three distinct groups based on the number they have: 1. Group 1: Cards with the number `+1`. 2. Group 2: Cards with the number `0`. 3. Group 3: Cards with the number `-1`. The number of cards in each group is…","<Summary_description> This Java code reads four integers as inputs representing counts of positive (+1), neutral (0), and negative (-1) numbers along with the number of selections that can be made among them. The goal of the code is to find the maximum sum that can be obtained through making valid selections of these numbers based on the given conditions. Valid selection means…",<Summary_description> This Java program reads three integers from user input and calculates the maximum number that can be formed using these numbers with an additional'select' number of coins having value -1. The condition to form the maximum number is that the sum of given three numbers should not exceed twice the power of ten and the select number should also be positive. If…,"import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    // Create a Scanner object to read input from the standard input stream
+    Scanner stdIn = new Scanner(System.in);
+    try {
+      // Read the first integer input which represents the count of +1 values
+      int oneNum = stdIn.nextInt();
+      // If the input is negative, terminate the program
+      if (oneNum < 0) return;
+
+      // Read the second integer input which represents the count of 0 values
+      int zeroNum = stdIn.nextInt();
+      // If the input is negative, terminate the program
+      if (zeroNum < 0) return;
+
+      // Read the third integer input which represents the count of -1 values
+      int minusOneNum = stdIn.nextInt();
+      // If the input is negative, terminate the program
+      if (minusOneNum < 0) return;
+
+      // Read the fourth integer input which represents the number of selections
+      int selectNum = stdIn.nextInt();
+      // Validate the selectNum input:
+      // - It must be at least 1
+      // - The total number of available numbers must be at least selectNum
+      // - The total number of available numbers must not exceed 2 billion
+      if (selectNum < 1 || (oneNum + zeroNum + minusOneNum) < selectNum || (oneNum + zeroNum + minusOneNum) > 2 * Math.pow(10, 9)) return;
+
+      // Initialize maxValue to store the maximum sum possible
+      int maxValue = 0;
+      // Initialize restSelect to track the remaining selections
+      int restSelect = selectNum;
+
+      // Process the +1 values
+      if (restSelect != 0) {
+        // If the number of +1 values is less than or equal to the remaining selections
+        if (oneNum <= restSelect) {
+          // Add +1 for each available +1 value
+          for (int oneCnt = 0; oneCnt < oneNum; oneCnt++) {
+            maxValue++;
+          }
+          // Decrease the remaining selections by the number of +1 values used
+          restSelect -= oneNum;
+        } else {
+          // If there are more +1 values than needed, use only the required amount
+          for (int oneCnt = 0; oneCnt < restSelect; oneCnt++) {
+            maxValue++;
+          }
+          // All selections are used up
+          restSelect = 0;
+        }
+      }
+
+      // Process the 0 values
+      if (restSelect != 0) {
+        // If the number of 0 values is less than or equal to the remaining selections
+        if (zeroNum <= restSelect) {
+          // Simply decrease the remaining selections by the number of 0 values used
+          restSelect -= zeroNum;
+        } else {
+          // If there are more 0 values than needed, use only the required amount
+          restSelect -= restSelect;
+        }
+      }
+
+      // Process the -1 values
+      if (restSelect != 0) {
+        // If the number of -1 values is less than or equal to the remaining selections
+        if (minusOneNum <= restSelect) {
+          // Subtract 1 for each available -1 value
+          for (int minusOneCnt = 0; minusOneCnt < minusOneNum; minusOneCnt++) {
+            maxValue--;
+          }
+          // Decrease the remaining selections by the number of -1 values used
+          restSelect -= minusOneNum;
+        } else {
+          // If there are more -1 values than needed, use only the required amount
+          for (int minusOneCnt = 0; minusOneCnt < restSelect; minusOneCnt++) {
+            maxValue--;
+          }
+          // All selections are used up
+          restSelect -= restSelect;
+        }
+      }
+
+      // Output the maximum value calculated
+      System.out.println(maxValue);
+    } catch (Exception e) {
+      // Print the stack trace if an exception occurs
+      e.printStackTrace();
+    } finally {
+      // Close the Scanner object to free up resources
+      stdIn.close();
+    }
+  }
+}","import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner stdIn = new Scanner(System.in);
+    try {
+      int oneNum = stdIn.nextInt();
+      if (oneNum < 0) return;
+      int zeroNum = stdIn.nextInt();
+      if (zeroNum < 0) return;
+      int minusOneNum = stdIn.nextInt();
+      if (minusOneNum < 0) return;
+      int selectNum = stdIn.nextInt();
+      if (selectNum < 1 || (oneNum + zeroNum + minusOneNum) < selectNum || (oneNum + zeroNum + minusOneNum) > 2 * Math.pow(10, 9)) return;
+      int maxValue = 0;
+      int restSelect = selectNum;
+      if (restSelect != 0) {
+        if (oneNum <= restSelect) {
+          for (int oneCnt = 0; oneCnt < oneNum; oneCnt++) {
+            maxValue++;
+          }
+          restSelect -= oneNum;
+        } else {
+          for (int oneCnt = 0; oneCnt < restSelect; oneCnt++) {
+            maxValue++;
+          }
+          restSelect = 0;
+        }
+      }
+      if (restSelect != 0) {
+        if (zeroNum <= restSelect) {
+          restSelect -= zeroNum;
+        } else {
+          restSelect -= restSelect;
+        }
+      }
+      if (restSelect != 0) {
+        if (minusOneNum <= restSelect) {
+          for (int minusOneCnt = 0; minusOneCnt < minusOneNum; minusOneCnt++) {
+            maxValue--;
+          }
+          restSelect -= minusOneNum;
+        } else {
+          for (int minusOneCnt = 0; minusOneCnt < restSelect; minusOneCnt++) {
+            maxValue--;
+          }
+          restSelect -= restSelect;
+        }
+      }
+      System.out.println(maxValue);
+    } catch (Exception e) {
+      e.printStackTrace();
+    } finally {
+      stdIn.close();
+    }
+  }
+}",Dataset_mistral,p02682,4
+,,,,,,,,,,
+Comment_Dependency,Functional_inaccuracy_,"Right general domain (same task type) but wrong functional details: wrong I/O, formulas, or edge cases.",**Exercise Title: Count Even Halving Operations** **Problem Statement:** You are given a collection of positive integers. Your task is to determine how many times you can repeatedly halve all the integers in the collection. Each operation consists of replacing all even integers in the collection by half their value. The operation can only be performed if all integers in the…,"** ** The given Java program is designed to read an array of integers from standard input until at least one odd number appears in the array. For each iteration (operation), every even element in the current state of the array is divided by 2. The process continues indefinitely until an odd number is encountered, then prints out how many operations were performed before that…","** ** The code is not valid Java due to numerous syntax errors (e.g., incorrect method signatures like `hayami_saori(int hayami)`, invalid variable names such as `Hayamisaori` which should be lowercase, improper use of operators in conditionals). The logic appears intended for reading input from stdin into an array, then processing each element based on whether it's even or odd…","import java.io.*;
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) throws Exception {
+        // Create an instance of the hayami class to handle input
+        hayami saori = new hayami();
+        
+        // Read an integer n from input
+        int n = saori.saori_hayami();
+        
+        // Initialize an array of integers with size n
+        int[] a = new int[n];
+        
+        // Populate the array with integers from input
+        for (int i = 0; i < n; i++) {
+            a[i] = saori.saori_hayami();
+        }
+
+        // Initialize a counter to track the number of operations
+        int count = 0;
+        
+        // Infinite loop to perform operations on the array
+        while (true) {
+            // Iterate over each element in the array
+            for (int i = 0; i < a.length; i++) {
+                // Check if the current element is even
+                if (a[i] % 2 == 0) {
+                    // If even, divide the element by 2
+                    a[i] /= 2;
+                } else {
+                    // If any element is odd, print the count and exit
+                    System.out.println(count);
+                    return;
+                }
+            }
+            // Increment the operation count after processing all elements
+            count++;
+        }
+    }
+}
+
+class hayami implements Closeable {
+    // InputStream to read input data
+    private final InputStream in = System.in;
+    
+    // Buffer to store input data
+    private final byte[] hayami = new byte[1024];
+    
+    // Pointers to track the current position in the buffer
+    private int Hayami = 0;
+    private int saori = 0;
+
+    // Method to check if there is more data to read
+    private boolean HayamiSaori() {
+        if (Hayami < saori) {
+            return true;
+        } else {
+            Hayami = 0;
+            try {
+                // Read data into the buffer
+                saori = in.read(hayami);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            // Return false if no data was read
+            if (saori <= 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // Method to get the next byte from the buffer
+    private int SaoriHayami() {
+        if (HayamiSaori()) {
+            return hayami[Hayami++];
+        } else {
+            return -1;
+        }
+    }
+
+    // Check if a byte is a printable ASCII character
+    private static boolean hayami_saori(int hayami) {
+        return 33 <= hayami && hayami <= 126;
+    }
+
+    // Skip non-printable characters and check if there is more data
+    public boolean hayamisaori() {
+        while (HayamiSaori() && !hayami_saori(hayami[Hayami])) Hayami++;
+        return HayamiSaori();
+    }
+
+    // Read the next string from input
+    public String nextHayami() {
+        if (!hayamisaori()) throw new NoSuchElementException();
+        StringBuilder hayamin = new StringBuilder();
+        int saori = SaoriHayami();
+        while (hayami_saori(saori)) {
+            hayamin.appendCodePoint(saori);
+            saori = SaoriHayami();
+        }
+        return hayamin.toString();
+    }
+
+    // Read the next long integer from input
+    public long saorihayami() {
+        if (!hayamisaori()) throw new NoSuchElementException();
+        long hayami = 0;
+        boolean misao = false;
+        int saori = SaoriHayami();
+        
+        // Check for negative sign
+        if (saori == '-') {
+            misao = true;
+            saori = SaoriHayami();
+        }
+        
+        // Validate the first character is a digit
+        if (saori < '0' || '9' < saori) {
+            throw new NumberFormatException();
+        }
+        
+        // Read digits and construct the number
+        while (true) {
+            if ('0' <= saori && saori <= '9') {
+                hayami *= 10;
+                hayami += saori - '0';
+            } else if (saori == -1 || !hayami_saori(saori)) {
+                return misao ? -hayami : hayami;
+            } else {
+                throw new NumberFormatException();
+            }
+            saori = SaoriHayami();
+        }
+    }
+
+    // Read the next integer from input
+    public int saori_hayami() {
+        long hayami = saorihayami();
+        // Check if the number is within the integer range
+        if (hayami < Integer.MIN_VALUE || hayami > Integer.MAX_VALUE) throw new NumberFormatException();
+        return (int) hayami;
+    }
+
+    // Read the next double from input
+    public double Hayamin() {
+        return Double.parseDouble(nextHayami());
+    }
+
+    // Close the input stream
+    public void close() {
+        try {
+            in.close();
+        } catch (IOException e) {
+            // Handle exception silently
+        }
+    }
+}","import java.io.*;
+import java.util.*;
+class Main{
+    public static void main(String[] args) throws Exception {
+		hayami saori = new hayami();
+		int n = saori.saori_hayami();
+		int[] a = new int[n];
+		for(int i = 0;i < n;i++){
+			a[i] = saori.saori_hayami();
+		}
+
+		int count = 0;
+		while(true) {
+			for(int i = 0; i < a.length; i++) {	
+				if(a[i] % 2 == 0) {
+					a[i] /= 2;
+				}else {
+					System.out.println(count);
+					return;
+				}
+			}
+			count++;
+		}
+		
+    }
+}
+
+class hayami implements Closeable {
+	private final InputStream in = System.in;
+	private final byte[] hayami = new byte[1024];
+	private int Hayami = 0;
+	private int saori = 0;
+	private boolean HayamiSaori() {
+		if (Hayami < saori) {
+			return true;
+		}else{
+			Hayami = 0;
+			try {
+				saori = in.read(hayami);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			if (saori <= 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	private int SaoriHayami() { 
+		if (HayamiSaori()) {
+            return hayami[Hayami++];
+         }else{
+             return -1;
+         }
+	}
+	private static boolean hayami_saori(int hayami) { 
+		return 33 <= hayami && hayami <= 126;
+	}
+	public boolean hayamisaori() { 
+		while(HayamiSaori() && !hayami_saori(hayami[Hayami])) Hayami++; return HayamiSaori();
+	}
+	public String nextHayami() {
+		if (!hayamisaori()) throw new NoSuchElementException();
+		StringBuilder hayamin = new StringBuilder();
+		int saori = SaoriHayami();
+		while(hayami_saori(saori)) {
+			hayamin.appendCodePoint(saori);
+			saori = SaoriHayami();
+		}
+		return hayamin.toString();
+	}
+	public long saorihayami() {
+		if (!hayamisaori()) throw new NoSuchElementException();
+		long hayami = 0;
+		boolean misao = false;
+		int saori = SaoriHayami();
+		if (saori == '-') {
+			misao = true;
+			saori = SaoriHayami();
+		}
+		if (saori < '0' || '9' < saori) {
+			throw new NumberFormatException();
+		}
+		while(true){
+			if ('0' <= saori && saori <= '9') {
+				hayami *= 10;
+				hayami += saori - '0';
+			}else if(saori == -1 || !hayami_saori(saori)){
+				return misao ? -hayami : hayami;
+			}else{
+				throw new NumberFormatException();
+			}
+			saori = SaoriHayami();
+		}
+	}
+	public int saori_hayami() {
+		long hayami = saorihayami();
+		if (hayami < Integer.MIN_VALUE || hayami > Integer.MAX_VALUE) throw new NumberFormatException();
+		return (int) hayami;
+	}
+	public double Hayamin() { 
+		return Double.parseDouble(nextHayami());
+	}
+	public void close() {
+		try {
+			in.close();
+		} catch (IOException e) {
+		}
+    }
+    
+}",Dataset_Qwen3VL,p03494,147
+Comment_Dependency,Hallucination_unrelated_,"Content unrelated to the code: different problem, algorithm, or questions/exercises.","Title: Calculate Standard Deviation Problem Statement: Write a program that calculates the standard deviation of a given set of numbers. The program should repeatedly process datasets until it encounters a dataset with 0 elements. For each dataset, compute the average (mean) of the numbers, calculate the variance, and then determine the standard deviation as the square root of…","The code is designed to calculate the variance of a dataset. It initializes variables to store the number of test scores, the sum of the scores, and the sum of the squared differences from the mean. The code then iterates through an array of test scores, calculating the sum and sum of squared differences. Finally, it calculates the variance using the formula (sum of squared…","The code is designed to solve a problem where we have an array of integers and we need to find the maximum sum of a subarray of length 'k'. The code uses a sliding window approach to achieve this. It initializes two variables, 'max_sum' and 'current_sum', to store the maximum sum and the current sum of the subarray respectively. It then iterates through the array, updating the…","import java.util.Scanner;
+
+public class Main{
+
+	public static void main(String[] args) {
+		
+		// Create a Scanner object to read input from the console
+		Scanner sc = new Scanner(System.in);
+		
+		// Initialize variables
+		int n = 0; // Number of test scores
+		String[] Test_String; // Array to hold the input test scores as strings
+		int[] Test_Score; // Array to hold the test scores as integers
+		String input_n = """"; // String to hold the input for number of test scores
+		String input_test = """"; // String to hold the input test scores
+		boolean judge_n = true; // Flag to check if the input for n is valid
+		boolean judge_test = true; // Flag to check if the input test scores are valid
+		double m = 0.0; // Mean of the test scores
+		double V = 0.0; // Variance of the test scores
+		int MAX = 1000; // Maximum number of test scores allowed
+		double[] SD = new double[MAX]; // Array to store standard deviations for each set of test scores
+		int data_count = 0; // Counter to keep track of the number of valid data sets
+
+		// Outer loop to continuously read input until a termination condition is met
+		out: while (true) {
+			// Read the number of test scores
+			input_n = sc.nextLine();
+			n = Integer.parseInt(input_n); // Convert input to integer
+			
+			// If n is 0, break out of the loop (termination condition)
+			if (n == 0) {
+				break out;
+			}
+			
+			// If n is negative or greater than 1000, set judge_n to false and break out
+			if (n < 0 || n > 1000) {
+				judge_n = false;
+				break out;
+			}
+
+			// Read the test scores
+			input_test = sc.nextLine();
+			Test_String = input_test.split("" ""); // Split the input string into an array of strings
+
+			// If the number of test scores does not match n, set judge_test to false and break out
+			if (Test_String.length != n) {
+				judge_test = false;
+				break out;
+			}
+			
+			// Initialize mean to 0
+			m = 0.0;
+			Test_Score = new int[n]; // Initialize the array to hold test scores
+			
+			// Calculate the sum of test scores and store them in Test_Score array
+			for (int i = 0; i < n; i++) {
+				Test_Score[i] = Integer.parseInt(Test_String[i]); // Convert each score to integer
+				m += Test_Score[i]; // Add score to the sum
+			}
+			
+			// Calculate the mean of the test scores
+			m = m / n;
+			
+			// Initialize variance to 0
+			V = 0.0;
+
+			// Calculate the variance of the test scores
+			for (int j = 0; j < n; j++) {
+				V += ((double) (Test_Score[j] - m)) * ((double) (Test_Score[j] - m)); // Sum of squared differences from the mean
+			}
+			
+			// Calculate the variance
+			V = V / n;
+			
+			// Calculate the standard deviation and store it in the SD array
+			SD[data_count] = Math.sqrt(V);
+			data_count++; // Increment the data count
+		}
+
+		// If both n and test scores are valid, print the standard deviations
+		if (judge_n == true && judge_test == true) {
+			for (int k = 0; k < data_count; k++) {
+				System.out.printf(""%.5f"", SD[k]); // Print each standard deviation with 5 decimal places
+                System.out.println(); // Print a new line after each standard deviation
+			}
+		}
+	}
+}","import java.util.Scanner;
+
+public class Main{
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int n = 0;
+		String[] Test_String;
+		int[] Test_Score;
+		String input_n = """";
+		String input_test = """";
+		boolean judge_n = true;
+		boolean judge_test = true;
+		double m = 0.0;
+		double V = 0.0;
+		int MAX = 1000;
+		double[] SD = new double[MAX];
+		int data_count = 0;
+
+		out: while (true) {
+			input_n = sc.nextLine();
+			n = Integer.parseInt(input_n);
+			if (n == 0) {
+				break out;
+			}
+			if (n < 0 || n > 1000) {
+				judge_n = false;
+				break out;
+			}
+
+			input_test = sc.nextLine();
+			Test_String = input_test.split("" "");
+
+			if (Test_String.length != n) {
+				judge_test = false;
+				break out;
+
+			}
+			
+			m = 0.0;
+			Test_Score = new int[n];
+			for (int i = 0; i < n; i++) {
+				Test_Score[i] = Integer.parseInt(Test_String[i]);
+				m += Test_Score[i];
+			}
+			m = m / n;
+			
+
+			V = 0.0;
+
+			for (int j = 0; j < n; j++) {
+				V += ((double) (Test_Score[j] - m))
+						* ((double) (Test_Score[j] - m));
+
+			}
+			V = V / n;
+			SD[data_count] = Math.sqrt(V);
+			data_count++;
+		}
+
+		if (judge_n == true && judge_test == true) {
+
+			for (int k = 0; k < data_count; k++) {
+				System.out.printf(""%.5f"", SD[k]);
+                System.out.println();
+			}
+		}
+	}
+}",Dataset_LlamaVL,p02381,41
+Comment_Dependency,Minimal_code_understanding_,Very vague or generic description; little or no information on actual behavior (boilerplate phrases).,"### Exercise Title: Calculate Reciprocal of Sums ## Problem Statement Your task is to write a program that calculates the multiplicative inverse of the sum of the multiplicative inverses of a sequence of given integers. Given a sequence containing `N` integers, your goal is to compute the following expression: \[ \text{Result} = \frac{1}{\left(\frac{1}{A_1} + \frac{1}{A_2} +…","#### Explanation: ###### Goals: The program reads the values of N resistors that are connected in parallel. It then calculates the equivalent resistance R_eq using the formula: $$R_{eq} = \frac{1}{\sum_{k=1}^N\frac{1}{R_k}}$$ where $R_k$ represents the k-th resistor. Finally, the program outputs the result as the equation above. ###### Steps: Firstly, we need to create two…",#### Title: ##### Description: I am not sure about how to describe my answer but here are some points that you should consider: The first thing we can see from the code above is that there are two classes defined inside the Main class which are called BResistorsInParallel and InputReader. These classes have their own methods and properties so they need to be analyzed…,"import java.io.OutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.BufferedWriter;
+import java.io.Writer;
+import java.io.OutputStreamWriter;
+import java.util.InputMismatchException;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class Main {
+   public static void main(String[] args) {
+      // Initialize input and output streams
+      InputStream inputStream = System.in;
+      OutputStream outputStream = System.out;
+      
+      // Create InputReader and OutputWriter objects for handling input and output
+      InputReader in = new InputReader(inputStream);
+      OutputWriter out = new OutputWriter(outputStream);
+      
+      // Create an instance of the solver class and solve the problem
+      BResistorsInParallel solver = new BResistorsInParallel();
+      solver.solve(1, in, out);
+      
+      // Close the output writer to release resources
+      out.close();
+   }
+
+   static class BResistorsInParallel {
+      public void solve(int testNumber, InputReader in, OutputWriter out) {
+         // Read the number of resistors
+         int n = in.nextInt();
+         double a = 0;
+         
+         // Calculate the sum of the reciprocals of the resistances
+         for (int x = 0; x < n; x++) {
+            a += (1.0 / in.nextDouble());
+         }
+         
+         // Output the reciprocal of the sum, which is the equivalent resistance
+         out.println(1 / a);
+      }
+   }
+
+   static class InputReader {
+      private InputStream stream;
+      private byte[] buf = new byte[1024]; // Buffer for reading input
+      private int curChar; // Current character index in the buffer
+      private int numChars; // Number of characters read into the buffer
+      private InputReader.SpaceCharFilter filter; // Optional filter for space characters
+
+      public InputReader(InputStream stream) {
+         this.stream = stream;
+      }
+
+      public int read() {
+         // If no more characters are available, throw an exception
+         if (numChars == -1) {
+            throw new InputMismatchException();
+         }
+         // If current character index exceeds the number of characters, read more
+         if (curChar >= numChars) {
+            curChar = 0;
+            try {
+               numChars = stream.read(buf);
+            } catch (IOException e) {
+               throw new InputMismatchException();
+            }
+            // If no characters were read, return -1 indicating end of stream
+            if (numChars <= 0) {
+               return -1;
+            }
+         }
+         // Return the next character from the buffer
+         return buf[curChar++];
+      }
+
+      public int nextInt() {
+         int c = read();
+         // Skip any whitespace characters
+         while (isSpaceChar(c)) {
+            c = read();
+         }
+         int sgn = 1;
+         // Check for negative sign
+         if (c == '-') {
+            sgn = -1;
+            c = read();
+         }
+         int res = 0;
+         // Read the integer value
+         do {
+            if (c < '0' || c > '9') {
+               throw new InputMismatchException();
+            }
+            res *= 10;
+            res += c - '0';
+            c = read();
+         } while (!isSpaceChar(c));
+         return res * sgn;
+      }
+
+      public boolean isSpaceChar(int c) {
+         if (filter != null) {
+            return filter.isSpaceChar(c);
+         }
+         return isWhitespace(c);
+      }
+
+      public static boolean isWhitespace(int c) {
+         // Check if the character is a whitespace character
+         return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+      }
+
+      public double nextDouble() {
+         int c = read();
+         // Skip any whitespace characters
+         while (isSpaceChar(c)) {
+            c = read();
+         }
+         int sgn = 1;
+         // Check for negative sign
+         if (c == '-') {
+            sgn = -1;
+            c = read();
+         }
+         double res = 0;
+         // Read the integer part of the double
+         while (!isSpaceChar(c) && c != '.') {
+            if (c == 'e' || c == 'E') {
+               return res * Math.pow(10, nextInt());
+            }
+            if (c < '0' || c > '9') {
+               throw new InputMismatchException();
+            }
+            res *= 10;
+            res += c - '0';
+            c = read();
+         }
+         // Read the fractional part of the double
+         if (c == '.') {
+            c = read();
+            double m = 1;
+            while (!isSpaceChar(c)) {
+               if (c == 'e' || c == 'E') {
+                  return res * Math.pow(10, nextInt());
+               }
+               if (c < '0' || c > '9') {
+                  throw new InputMismatchException();
+               }
+               m /= 10;
+               res += (c - '0') * m;
+               c = read();
+            }
+         }
+         return res * sgn;
+      }
+
+      public interface SpaceCharFilter {
+         public boolean isSpaceChar(int ch);
+      }
+   }
+
+   static class OutputWriter {
+      private final PrintWriter writer;
+
+      public OutputWriter(OutputStream outputStream) {
+         // Initialize PrintWriter with a BufferedWriter for efficient output
+         writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+      }
+
+      public OutputWriter(Writer writer) {
+         this.writer = new PrintWriter(writer);
+      }
+
+      public void print(Object... objects) {
+         // Print each object separated by a space
+         for (int i = 0; i < objects.length; i++) {
+            if (i != 0) {
+               writer.print(' ');
+            }
+            writer.print(objects[i]);
+         }
+      }
+
+      public void println(Object... objects) {
+         // Print objects followed by a newline
+         print(objects);
+         writer.println();
+      }
+
+      public void close() {
+         // Close the writer to release resources
+         writer.close();
+      }
+   }
+}","import java.io.OutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.BufferedWriter;
+import java.io.Writer;
+import java.io.OutputStreamWriter;
+import java.util.InputMismatchException;
+import java.io.IOException;
+import java.io.InputStream;
+
+
+public class Main {
+   public static void main(String[] args) {
+      InputStream inputStream = System.in;
+      OutputStream outputStream = System.out;
+      InputReader in = new InputReader(inputStream);
+      OutputWriter out = new OutputWriter(outputStream);
+      BResistorsInParallel solver = new BResistorsInParallel();
+      solver.solve(1, in, out);
+      out.close();
+   }
+
+   static class BResistorsInParallel {
+      public void solve(int testNumber, InputReader in, OutputWriter out) {
+         int n = in.nextInt();
+         double a = 0;
+         for (int x = 0; x < n; x++) {
+            a += (1.0 / in.nextDouble());
+         }
+         out.println(1 / a);
+      }
+
+   }
+
+   static class InputReader {
+      private InputStream stream;
+      private byte[] buf = new byte[1024];
+      private int curChar;
+      private int numChars;
+      private InputReader.SpaceCharFilter filter;
+
+      public InputReader(InputStream stream) {
+         this.stream = stream;
+      }
+
+      public int read() {
+         if (numChars == -1) {
+            throw new InputMismatchException();
+         }
+         if (curChar >= numChars) {
+            curChar = 0;
+            try {
+               numChars = stream.read(buf);
+            } catch (IOException e) {
+               throw new InputMismatchException();
+            }
+            if (numChars <= 0) {
+               return -1;
+            }
+         }
+         return buf[curChar++];
+      }
+
+      public int nextInt() {
+         int c = read();
+         while (isSpaceChar(c)) {
+            c = read();
+         }
+         int sgn = 1;
+         if (c == '-') {
+            sgn = -1;
+            c = read();
+         }
+         int res = 0;
+         do {
+            if (c < '0' || c > '9') {
+               throw new InputMismatchException();
+            }
+            res *= 10;
+            res += c - '0';
+            c = read();
+         } while (!isSpaceChar(c));
+         return res * sgn;
+      }
+
+      public boolean isSpaceChar(int c) {
+         if (filter != null) {
+            return filter.isSpaceChar(c);
+         }
+         return isWhitespace(c);
+      }
+
+      public static boolean isWhitespace(int c) {
+         return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+      }
+
+      public double nextDouble() {
+         int c = read();
+         while (isSpaceChar(c)) {
+            c = read();
+         }
+         int sgn = 1;
+         if (c == '-') {
+            sgn = -1;
+            c = read();
+         }
+         double res = 0;
+         while (!isSpaceChar(c) && c != '.') {
+            if (c == 'e' || c == 'E') {
+               return res * Math.pow(10, nextInt());
+            }
+            if (c < '0' || c > '9') {
+               throw new InputMismatchException();
+            }
+            res *= 10;
+            res += c - '0';
+            c = read();
+         }
+         if (c == '.') {
+            c = read();
+            double m = 1;
+            while (!isSpaceChar(c)) {
+               if (c == 'e' || c == 'E') {
+                  return res * Math.pow(10, nextInt());
+               }
+               if (c < '0' || c > '9') {
+                  throw new InputMismatchException();
+               }
+               m /= 10;
+               res += (c - '0') * m;
+               c = read();
+            }
+         }
+         return res * sgn;
+      }
+
+      public interface SpaceCharFilter {
+         public boolean isSpaceChar(int ch);
+
+      }
+
+   }
+
+   static class OutputWriter {
+      private final PrintWriter writer;
+
+      public OutputWriter(OutputStream outputStream) {
+         writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+      }
+
+      public OutputWriter(Writer writer) {
+         this.writer = new PrintWriter(writer);
+      }
+
+      public void print(Object... objects) {
+         for (int i = 0; i < objects.length; i++) {
+            if (i != 0) {
+               writer.print(' ');
+            }
+            writer.print(objects[i]);
+         }
+      }
+
+      public void println(Object... objects) {
+         print(objects);
+         writer.println();
+      }
+
+      public void close() {
+         writer.close();
+      }
+
+   }
+}",Dataset_codellama,p02934,162
+,,,,,,,,,,
+Comment_Dependency,Semantic_drift_,"Same high-level domain (e.g. counting, threshold) but different task or entities (different problem or interpretation).","Title: Determine the Missing Number Problem Statement: You are given two unique numbers, A and B, chosen from the set {1, 2, 3}. Your task is to identify and output the third number in this set that is not equal to A or B. The numbers A and B are guaranteed to be distinct from each other and within the specified range. Requirements: 1. Implement a function or program that takes…","<Summary_description> - Title: Number Permutation Printer - Goal: This program reads two integers as input from the user and then outputs an integer which is neither of the given inputs. It appears to follow a pattern where for every unique combination of inputs (1,2),(1,3),(2,3), it always returns one distinct output. </Summary_description> assistant ### Response: - Title…","<Summary_description> ENDINSTRUCTION assistant Title: Determining the Third Number in a Sequential Game Between Three Players Main Goal: The provided Java code aims to simulate a sequential game between three players where two numbers are inputted by users. Based on these inputs, the code determines which player would win next according to specific rules defined for each case…","import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		// Create a Scanner object to read input from the console
+		Scanner sc = new Scanner(System.in);
+		
+		// Read two integer inputs from the user
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+
+		/* 
+		 * The following series of if-else statements checks the values of 'a' and 'b'.
+		 * Depending on their values, it prints a specific integer to the console.
+		 * The logic seems to be based on a permutation of the numbers 1, 2, and 3.
+		 * For each pair of inputs (a, b), the code prints the number that is not present in the pair.
+		 */
+		
+		if (a == 1 && b == 2) {
+			// If a is 1 and b is 2, print 3
+			System.out.println(3);
+		} else if (a == 1 && b == 3) {
+			// If a is 1 and b is 3, print 2
+			System.out.println(2);
+		} else if (a == 2 && b == 3) {
+			// If a is 2 and b is 3, print 1
+			System.out.println(1);
+		} else if (a == 2 && b == 1) {
+			// If a is 2 and b is 1, print 3
+			System.out.println(3);
+		} else if (a == 3 && b == 1) {
+			// If a is 3 and b is 1, print 2
+			System.out.println(2);
+		} else if (a == 3 && b == 2) {
+			// If a is 3 and b is 2, print 1
+			System.out.println(1);
+		} else if (b == 1 && a == 2) {
+			// If b is 1 and a is 2, print 3 (redundant due to symmetry)
+			System.out.println(3);
+		} else if (b == 1 && a == 3) {
+			// If b is 1 and a is 3, print 2 (redundant due to symmetry)
+			System.out.println(2);
+		} else if (b == 2 && a == 3) {
+			// If b is 2 and a is 3, print 1 (redundant due to symmetry)
+			System.out.println(1);
+		} else if (b == 2 && a == 1) {
+			// If b is 2 and a is 1, print 3 (redundant due to symmetry)
+			System.out.println(3);
+		} else if (b == 3 && a == 1) {
+			// If b is 3 and a is 1, print 2 (redundant due to symmetry)
+			System.out.println(2);
+		} else if (b == 3 && a == 2) {
+			// If b is 3 and a is 2, print 1 (redundant due to symmetry)
+			System.out.println(1);
+		}
+
+	}
+}","import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+
+		if (a == 1 && b == 2) {
+			System.out.println(3);
+		} else if (a == 1 && b == 3) {
+			System.out.println(2);
+		} else if (a == 2 && b == 3) {
+			System.out.println(1);
+		} else if (a == 2 && b == 1) {
+			System.out.println(3);
+		} else if (a == 3 && b == 1) {
+			System.out.println(2);
+		} else if (a == 3 && b == 2) {
+			System.out.println(1);
+		} else if (b == 1 && a == 2) {
+			System.out.println(3);
+		} else if (b == 1 && a == 3) {
+			System.out.println(2);
+		} else if (b == 2 && a == 3) {
+			System.out.println(1);
+		} else if (b == 2 && a == 1) {
+			System.out.println(3);
+		} else if (b == 3 && a == 1) {
+			System.out.println(2);
+		} else if (b == 3 && a == 2) {
+			System.out.println(1);
+		}
+
+	}
+}",Dataset_starchat,p02829,110
+Comment_Dependency,Structural_description_only_,"Text focuses on classes, methods, variables, I/O utilities (FastScanner, BufferedReader, etc.) and not on what the program does semantically.","Title: Maximize Monster Defeat Problem Statement: You are given a list of towns, each being attacked by a number of monsters. There are also a group of heroes available to help defeat these monsters. Each hero has a certain capacity to defeat monsters, and they can choose to fight the monsters in a given town or the following town. Your task is to determine the maximum number…","<Summary_description>The provided Java code defines a program to solve an optimization problem related to \""Bitter Alchemy.\"" Given `N` integers (`m`) representing different types of alchemical substances with their respective values, along with another integer `X`, the task is to find the minimum number of operations required such that the total value of all remaining elements after each operation equals or exceeds `X`.......","<Summary_description>   The provided Java program defines classes to handle input/output operations efficiently using custom `FastScanner` and `BBitterAlchemy`. It reads integers from standard input (`System.in`) into an array, sorts that array, calculates some values based on these inputs, and prints results to standard output (`System.out`). .......... ","import java.io.OutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.util.stream.IntStream;
+import java.util.Arrays;
+import java.io.Closeable;
+import java.io.IOException;
+import java.util.NoSuchElementException;
+import java.io.InputStream;
+
+
+public class Main {
+    public static void main(String[] args) {
+        InputStream inputStream = System.in;
+        OutputStream outputStream = System.out;
+        FastScanner in = new FastScanner(inputStream);
+        PrintWriter out = new PrintWriter(outputStream);
+        BBitterAlchemy solver = new BBitterAlchemy();
+        solver.solve(1, in, out);
+        out.close();
+    }
+
+    static class BBitterAlchemy {
+        public void solve(int testNumber, FastScanner in, PrintWriter out) {
+            int N = in.nextInt();
+            int X = in.nextInt();
+            int[] m = in.nextIntArray(N);
+            Arrays.sort(m);
+            long sum = Arrays.stream(m).sum();
+            long ans = N + (X - sum) / m[0];
+            out.println(ans);
+        }
+
+    }
+
+    static class FastScanner implements Closeable {
+        private final InputStream in;
+        private final byte[] buffer = new byte[1024];
+        private int ptr = 0;
+        private int buflen = 0;
+
+        public FastScanner(InputStream in) {
+            this.in = in;
+        }
+
+        private boolean hasNextByte() {
+            if (ptr < buflen) {
+                return true;
+            } else {
+                ptr = 0;
+                try {
+                    buflen = in.read(buffer);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                if (buflen <= 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        private int readByte() {
+            if (hasNextByte()) return buffer[ptr++];
+            else return -1;
+        }
+
+        private static boolean isPrintableChar(int c) {
+            return 33 <= c && c <= 126;
+        }
+
+        public boolean hasNext() {
+            while (hasNextByte() && !isPrintableChar(buffer[ptr])) ptr++;
+            return hasNextByte();
+        }
+
+        public long nextLong() {
+            if (!hasNext()) throw new NoSuchElementException();
+            long n = 0;
+            boolean minus = false;
+            int b = readByte();
+            if (b == '-') {
+                minus = true;
+                b = readByte();
+            }
+            if (b < '0' || '9' < b) {
+                throw new NumberFormatException();
+            }
+            while (true) {
+                if ('0' <= b && b <= '9') {
+                    n *= 10;
+                    n += b - '0';
+                } else if (b == -1 || !isPrintableChar(b)) {
+                    return minus ? -n : n;
+                } else {
+                    throw new NumberFormatException();
+                }
+                b = readByte();
+            }
+        }
+
+        public int nextInt() {
+            long nl = nextLong();
+            if (nl < Integer.MIN_VALUE || nl > Integer.MAX_VALUE) throw new NumberFormatException();
+            return (int) nl;
+        }
+
+        public int[] nextIntArray(final int n) {
+            final int[] res = new int[n];
+            for (int i = 0; i < n; i++) {
+                res[i] = nextInt();
+            }
+            return res;
+        }
+
+        public void close() {
+            try {
+                in.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+}
+","      ""code_variable_renaming"": ""import java.io.Closeable;\nimport java.io.IOException;\nimport java.io.InputStream;\nimport java.io.PrintStream;\nimport java.io.PrintWriter;\nimport java.util.Arrays;\nimport java.util.NoSuchElementException;\n\n\npublic class Main {\n    public Main() {\n        Main Illllllllllllll;\n    }\n\n    public static void main(String[] lllIlllllllllll) {\n        InputStream IllIlllllllllll = System.in;\n        PrintStream lIlIlllllllllll = System.out;\n        FastScanner IIlIlllllllllll = new FastScanner(IllIlllllllllll);\n        PrintWriter llIIlllllllllll = new PrintWriter(lIlIlllllllllll);\n        BBitterAlchemy IlIIlllllllllll = new BBitterAlchemy();\n        IlIIlllllllllll.solve(1, IIlIlllllllllll, llIIlllllllllll);\n        llIIlllllllllll.close();\n    }\n\n    static class FastScanner\n    implements Closeable {\n        private final InputStream in;\n        private final byte[] buffer = new byte[1024];\n        private int ptr = 0;\n        private int buflen = 0;\n\n        public FastScanner(InputStream lIlllllllllllll) {\n            FastScanner lllllllllllllll;\n            lllllllllllllll.in = lIlllllllllllll;\n        }\n\n        private boolean hasNextByte() {\n            FastScanner llIllllllllllll;\n            if (llIllllllllllll.ptr < llIllllllllllll.buflen) {\n                return true;\n            }\n            llIllllllllllll.ptr = 0;\n            try {\n                llIllllllllllll.buflen = llIllllllllllll.in.read(llIllllllllllll.buffer);\n            }\n            catch (IOException IIlllllllllllll) {\n                IIlllllllllllll.printStackTrace();\n            }\n            return llIllllllllllll.buflen > 0;\n        }\n\n        private int readByte() {\n            FastScanner IlIllllllllllll;\n            if (IlIllllllllllll.hasNextByte()) {\n                return IlIllllllllllll.buffer[IlIllllllllllll.ptr++];\n            }\n            return -1;\n        }\n\n        private static boolean isPrintableChar(int lIIllllllllllll) {\n            return 33 <= lIIllllllllllll && lIIllllllllllll <= 126;\n        }\n\n        public boolean hasNext() {\n            FastScanner IIIllllllllllll;\n            while (IIIllllllllllll.hasNextByte() && !FastScanner.isPrintableChar(IIIllllllllllll.buffer[IIIllllllllllll.ptr])) {\n                ++IIIllllllllllll.ptr;\n            }\n            return IIIllllllllllll.hasNextByte();\n        }\n\n        public long nextLong() {\n            FastScanner IlIIlllllllllll;\n            if (!IlIIlllllllllll.hasNext()) {\n                throw new NoSuchElementException();\n            }\n            long lIIIlllllllllll = 0L;\n            boolean IIIIlllllllllll = false;\n            int llllIllllllllll = IlIIlllllllllll.readByte();\n            if (llllIllllllllll == 45) {\n                IIIIlllllllllll = true;\n                llllIllllllllll = IlIIlllllllllll.readByte();\n            }\n            if (llllIllllllllll < 48 || 57 < llllIllllllllll) {\n                throw new NumberFormatException();\n            }\n            while (true) {\n                if (48 <= llllIllllllllll && llllIllllllllll <= 57) {\n                    lIIIlllllllllll *= 10L;\n                    lIIIlllllllllll += (long)(llllIllllllllll - 48);\n                } else {\n                    if (llllIllllllllll == -1 || !FastScanner.isPrintableChar(llllIllllllllll)) {\n                        return IIIIlllllllllll ? -lIIIlllllllllll : lIIIlllllllllll;\n                    }\n                    throw new NumberFormatException();\n                }\n                llllIllllllllll = IlIIlllllllllll.readByte();\n            }\n        }\n\n        public int nextInt() {\n            FastScanner IlllIllllllllll;\n            long lIllIllllllllll = IlllIllllllllll.nextLong();\n            if (lIllIllllllllll < Integer.MIN_VALUE || lIllIllllllllll > Integer.MAX_VALUE) {\n                throw new NumberFormatException();\n            }\n            return (int)lIllIllllllllll;\n        }\n\n        public int[] nextIntArray(int IlIlIllllllllll) {\n            int[] lIIlIllllllllll = new int[IlIlIllllllllll];\n            for (int IIllIllllllllll = 0; IIllIllllllllll < IlIlIllllllllll; ++IIllIllllllllll) {\n                FastScanner llIlIllllllllll;\n                lIIlIllllllllll[IIllIllllllllll] = llIlIllllllllll.nextInt();\n            }\n            return lIIlIllllllllll;\n        }\n\n        @Override\n        public void close() {\n            try {\n                FastScanner lllIIllllllllll;\n                lllIIllllllllll.in.close();\n            }\n            catch (IOException IIIlIllllllllll) {\n                IIIlIllllllllll.printStackTrace();\n            }\n        }\n    }\n\n    static class BBitterAlchemy {\n        BBitterAlchemy() {\n            BBitterAlchemy Illllllllllllll;\n        }\n\n        public void solve(int lIlIIllllllllll, FastScanner IIlIIllllllllll, PrintWriter llIIIllllllllll) {\n            int IlIIIllllllllll = IIlIIllllllllll.nextInt();\n            int lIIIIllllllllll = IIlIIllllllllll.nextInt();\n            int[] IIIIIllllllllll = IIlIIllllllllll.nextIntArray(IlIIIllllllllll);\n            Arrays.sort(IIIIIllllllllll);\n            long lllllIlllllllll = Arrays.stream(IIIIIllllllllll).sum();\n            long IllllIlllllllll = (long)IlIIIllllllllll + ((long)lIIIIllllllllll - lllllIlllllllll) / (long)IIIIIllllllllll[0];\n            llIIIllllllllll.println(IllllIlllllllll);\n        }\n    }\n}\n""",Dataset_qwencoder32B,p03370,6
+Dead_Code_Failure,Algorithm_confusion_,"Mix of correct and wrong ideas about the algorithm; same domain but details reversed or confused (min vs max, inverted condition, etc.).","**Exercise Title:### Exercise Title: Circular String Pattern Finder
+
+#### Problem Statement:
+
+Create a program to determine if a given substring `p` can be found within a base string `s`, considering the string `s` to be circular or ring-shaped. This means that after the last character of `s`, it wraps around to the first character. Your task is to write a function that checks if `p` appears in this circular version of `s`. Calculating the Smallest Number of Currency Notes** **Problem Statement:** You are tasked with calculating the number of currency notes needed to cover a certain amount using notes of a single denomination. Given an integer amount, determine the smallest number of currency notes required to match or exceed that amount, and calculate how much value is left as a…"," ""example_without_comments"": ""### Title: Circular Substring Search Checker\n\n**Main Goal:** To determine if a specific target string (`want`) exists as a substring within a source string (`str`), treating the source string as a circular ring where the end connects back to the start.\n\n**Functionality:**\n1.  **Input Handling:** The code reads two strings from the user: a source text and a pattern to search for.\n2.  **Circular Matching:** It iterates through every character of the source string as a potential starting point. It compares the pattern against the source string.\n3.  **Index Wrapping:** Crucially, if the comparison reaches the end of the source string while still matching the pattern, the logic wraps around to the beginning of the source string (index 0) to continue the comparison.\n4.  **Output:** It prints \""Yes\"" if the pattern is found within the circular string, and \""No\"" otherwise."""," ""example_dead_code"": ""**Goal: String Matching with Early Exits**\n\nThis Java code snippet aims to determine if a given string `want` is present within another string `str`.  It reads two strings from the input, `str` and `want`. It then attempts to find `want` within `str`. The code is obfuscated with unnecessary conditional statements (`if (null == null)`, `if (\""\"".length() <= 0)`, `if (-(92 + 155 - 117 + 65 ^ 42 + 92 - -9 + 55) < 0)`) and seemingly pointless arithmetic operations within conditional checks (e.g., `(116 + 12 - 34 + 69 ^ 108 + 87 - 99 + 71) <= 0`). These additions serve no functional purpose and appear designed solely to make the code harder to understand. Furthermore, the use of single-letter method names and their unconventional capitalization make the code less readable. The code has early exit points within loops, causing it not to execute completely and potentially giving incorrect results. The overall goal is string matching but is poorly and unreliably implemented. It prints \""Yes\"" if a match is (potentially incorrectly) found and \""No\"" otherwise.\n        </Summary_description>""","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+	public static void main (String[] args) throws IOException
+	{
+		BufferedReader input = new BufferedReader (new InputStreamReader (System.in));
+
+		String str = input.readLine();
+
+		String want = input.readLine();
+
+		boolean judge = false;
+
+		if(want.length() == 1)
+		{
+			
+			for(int num = 0; num < str.length(); num++)
+			{
+				if(str.charAt(num) == want.charAt(0))
+				{
+					judge = true;
+					break;
+				}
+			}
+		}
+
+		else
+		{
+			
+			for(int start = 0; start < str.length(); start++)
+			{
+				if(str.charAt(start) == want.charAt(0))
+				{
+					
+					for(int next = 1; next < want.length(); next++)
+					{
+						
+						if(next + start < str.length())
+						{
+							if(str.charAt(next + start) != want.charAt(next))
+								break;
+						}
+
+						
+						else if(next + start >= str.length())
+						{
+							if(str.charAt(next + start - str.length()) != want.charAt(next))
+								break;
+						}
+
+						
+						if(next + 1 == want.length())
+							judge = true;
+					}
+				}
+			}
+		}
+
+		if(judge)
+			System.out.println(""Yes"");
+
+		else
+			System.out.println(""No"");
+	}
+}
+","import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.nio.charset.StandardCharsets;\nimport java.security.MessageDigest;\nimport java.util.Base64;\nimport javax.crypto.Cipher;\nimport javax.crypto.spec.SecretKeySpec;\n\n\npublic class Main {\n    private static String[] I;\n    private static int[] l;\n\n    private static void Il() {\n        I = new String[l[2]];\n        Main.I[Main.l[0]] = Main.I(\""DCsa\"", \""UNiei\"");\n        Main.I[Main.l[1]] = Main.l(\""hX9yZv4XRec=\"", \""eVIVD\"");\n    }\n\n    private static String I(String obj, String key) {\n        obj = new String(Base64.getDecoder().decode(obj.getBytes(StandardCharsets.UTF_8)), StandardCharsets.UTF_8);\n        StringBuilder sb = new StringBuilder();\n        char[] keyChars = key.toCharArray();\n        int i = l[0];\n        char[] cArray = obj.toCharArray();\n        int n = cArray.length;\n        for (int j = l[0]; j < n; ++j) {\n            char c = cArray[j];\n            sb.append((char)(c ^ keyChars[i % keyChars.length]));\n            ++i;\n        }\n        return sb.toString();\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));\n        String str = input.readLine();\n        String want = input.readLine();\n        int judge = l[0];\n        if (want.length() == l[1]) {\n            for (int num = l[0]; num < str.length(); ++num) {\n                if (str.charAt(num) != want.charAt(l[0])) continue;\n                judge = l[1];\n                break;\n            }\n        } else {\n            for (int start = l[0]; start < str.length(); ++start) {\n                if (str.charAt(start) != want.charAt(l[0])) continue;\n                for (int next = l[1]; next < want.length() && !(next + start >= str.length() ? next + start >= str.length() && str.charAt(next + start - str.length()) != want.charAt(next) : str.charAt(next + start) != want.charAt(next)); ++next) {\n                    if (next + l[1] != want.length()) continue;\n                    judge = l[1];\n                }\n            }\n        }\n        if (judge != 0) {\n            System.out.println(I[l[0]]);\n        } else {\n            System.out.println(I[l[1]]);\n        }\n    }\n\n    private static void ll() {\n        l = new int[3];\n        Main.l[0] = (5 ^ 0x4D) & ~(0x65 ^ 0x2D);\n        Main.l[1] = \"" \"".length();\n        Main.l[2] = \""  \"".length();\n    }\n\n    private static String l(String obj, String key) {\n        try {\n            SecretKeySpec keySpec = new SecretKeySpec(MessageDigest.getInstance(\""MD5\"").digest(key.getBytes(StandardCharsets.UTF_8)), \""Blowfish\"");\n            Cipher des = Cipher.getInstance(\""Blowfish\"");\n            des.init(l[2], keySpec);\n            return new String(des.doFinal(Base64.getDecoder().decode(obj.getBytes(StandardCharsets.UTF_8))), StandardCharsets.UTF_8);\n        }\n        catch (Exception e) {\n            e.printStackTrace();\n            return null;\n        }\n    }\n\n    static {\n        Main.ll();\n        Main.Il();\n    }\n}\n",Dataset_Gemini,p02418,20
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Dead_Code_Failure,Obfuscation_narrative_,"Model describes encryption/decryption, DES/Blowfish/XOR, hidden messages, instead of the program's actual logic.","**Exercise Title: Determine Specific Value Combinations**
+
+**Problem Statement:**
+
+You are tasked with determining whether a given number can be expressed as a combination of two other specified numbers. Specifically, you will check if a target number can be achieved through any combination of two values: A and B. You can utilize zero or more occurrences of each value. Your task is to write a function that determines whether it is possible to achieve the exact target number using only these two values.
+
+Given a target integer `T`, and integer values `A` and `B`, determine if it is possible to form `T` by summing multiples of `A` and `B`.","Title: Checking If a Number Can Be Expressed as a Sum of 4s and 7s\n\nMain Goal: This code determines if a given integer N can be expressed as a sum of the numbers 4 and 7 (e.g., 4+4+7, 7+7, etc.). It uses a series of conditional checks based on modulo arithmetic to find a solution without resorting to a brute-force algorithm. The program outputs \""Yes\"" if such a combination exists, otherwise \""No\"".","Title: Obfuscated Number Classification with Encrypted Output\n\nMain Goal: This code processes an integer input to determine if it meets specific divisibility conditions (likely checking for prime or special numbers) and then outputs an encrypted result. The program uses obfuscation techniques with hardcoded encrypted strings and XOR operations to conceal its true purpose and output messages.\n\nKey Functions:\n1. Initializes an integer array `l` with obfuscated values using bitwise operations\n2. Decrypts two strings using custom XOR and Blowfish encryption methods\n3. Takes an integer input `N` and checks it against multiple complex divisibility conditions\n4. Outputs one of two decrypted strings based on whether `N` met the conditions\n5. Uses Base64 encoding and cryptographic ciphers (Blowfish with MD5 key) for string obfuscation\n\nThe code appears to be heavily obfuscated to hide its actual classification logic and output messages, which are only decrypted at runtime.","import java.util.Scanner;\n\npublic class Main {\n\n\tpublic static void main(String[] args) {\n\t\t\n\t\tScanner sc = new Scanner(System.in);\n\t\t\n\t\t\n\t\tint N = sc.nextInt();\n\t\t\n\t\t\n\t\tboolean ans = false;\n\t\tif(N <= 3 || N == 5 || N == 6 || N == 9 || N == 10) {\n\n\t\t}else if(N % 7 == 0) {\n\t\t\tans = true;\n\t\t}else if(N % 4 == 0) {\n\t\t\tans = true;\n\t\t}else if(N % 7 % 4 == 0) {\n\t\t\tans = true;\n\t\t}else if(N % 8 % 7 == 0 || N % 14 % 4 == 0) {\n\t\t\tans = true;\n\t\t}else if(N % 12 % 7 == 0 || N % 21 % 4 == 0) {\n\t\t\tans = true;\n\t\t}else if(N % 16 % 7 == 0 || N % 20 % 7 == 0 || N % 24 % 7 == 0) {\n\t\t\tans = true;\n\t\t}\n\n\t\t\n\t\tSystem.out.println(ans? \""Yes\"":\""No\"");\n\t\tsc.close();\n\n\t\t\n\t}\n\n}\n","import java.nio.charset.StandardCharsets;\nimport java.security.MessageDigest;\nimport java.util.Base64;\nimport java.util.Scanner;\nimport javax.crypto.Cipher;\nimport javax.crypto.spec.SecretKeySpec;\n\n\npublic class Main {\n    private static String[] I;\n    private static int[] l;\n\n    static {\n        Main.ll();\n        Main.Il();\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int N = sc.nextInt();\n        int ans = l[0];\n        if (N > l[1] && N != l[2] && N != l[3] && N != l[4] && N != l[5]) {\n            if (N % l[6] == 0) {\n                ans = l[7];\n            } else if (N % l[8] == 0) {\n                ans = l[7];\n            } else if (N % l[6] % l[8] == 0) {\n                ans = l[7];\n            } else if (N % l[9] % l[6] == 0 || N % l[10] % l[8] == 0) {\n                ans = l[7];\n            } else if (N % l[11] % l[6] == 0 || N % l[12] % l[8] == 0) {\n                ans = l[7];\n            } else if (N % l[13] % l[6] == 0 || N % l[14] % l[6] == 0 || N % l[15] % l[6] == 0) {\n                ans = l[7];\n            }\n        }\n        System.out.println(ans != 0 ? I[l[0]] : I[l[7]]);\n        sc.close();\n    }\n\n    private static String l(String obj, String key) {\n        try {\n            SecretKeySpec keySpec = new SecretKeySpec(MessageDigest.getInstance(\""MD5\"").digest(key.getBytes(StandardCharsets.UTF_8)), \""Blowfish\"");\n            Cipher des = Cipher.getInstance(\""Blowfish\"");\n            des.init(l[16], keySpec);\n            return new String(des.doFinal(Base64.getDecoder().decode(obj.getBytes(StandardCharsets.UTF_8))), StandardCharsets.UTF_8);\n        }\n        catch (Exception e) {\n            e.printStackTrace();\n            return null;\n        }\n    }\n\n    private static void ll() {\n        l = new int[17];\n        Main.l[0] = (0xEE ^ 0x85 ^ (0x2B ^ 0x49)) & (0x54 ^ 0x34 ^ (0xF8 ^ 0x91) ^ -\"" \"".length());\n        Main.l[1] = \""   \"".length();\n        Main.l[2] = 0x85 ^ 0x80;\n        Main.l[3] = 0x87 ^ 0xA5 ^ (0x87 ^ 0xA3);\n        Main.l[4] = 148 + 118 - 196 + 84 ^ 91 + 5 - 9 + 60;\n        Main.l[5] = 0x45 ^ 0x4F;\n        Main.l[6] = 0x87 ^ 0x80;\n        Main.l[7] = \"" \"".length();\n        Main.l[8] = 0xA9 ^ 0x8F ^ (0x3F ^ 0x1D);\n        Main.l[9] = 0x3C ^ 1 ^ (0xA9 ^ 0x9C);\n        Main.l[10] = 8 ^ 6;\n        Main.l[11] = 6 ^ 0x2A ^ (0x1C ^ 0x3C);\n        Main.l[12] = 76 + 40 - -92 + 7 ^ 106 + 103 - 121 + 106;\n        Main.l[13] = 181 + 154 - 324 + 204 ^ 29 + 22 - -109 + 39;\n        Main.l[14] = 0xDF ^ 0xC6 ^ (0x74 ^ 0x79);\n        Main.l[15] = 0x92 ^ 0x8A;\n        Main.l[16] = \""  \"".length();\n    }\n\n    private static void Il() {\n        I = new String[l[16]];\n        Main.I[Main.l[0]] = Main.I(\""HAEq\"", \""EdYJI\"");\n        Main.I[Main.l[7]] = Main.l(\""59FyzvR6oSA=\"", \""MetMy\"");\n    }\n\n    private static String I(String obj, String key) {\n        obj = new String(Base64.getDecoder().decode(obj.getBytes(StandardCharsets.UTF_8)), StandardCharsets.UTF_8);\n        StringBuilder sb = new StringBuilder();\n        char[] keyChars = key.toCharArray();\n        int i = l[0];\n        char[] cArray = obj.toCharArray();\n        int n = cArray.length;\n        for (int j = l[0]; j < n; ++j) {\n            char c = cArray[j];\n            sb.append((char)(c ^ keyChars[i % keyChars.length]));\n            ++i;\n        }\n        return sb.toString();\n    }\n}\n",Dataset_DeepseekV3.1,p00005,75
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

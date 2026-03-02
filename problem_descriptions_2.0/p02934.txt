@@ -1,0 +1,24 @@
+### Exercise Title: Calculate Reciprocal of Sums
+
+## Problem Statement
+Your task is to write a program that calculates the multiplicative inverse of the sum of the multiplicative inverses of a sequence of given integers.
+
+Given a sequence containing `N` integers, your goal is to compute the following expression:
+
+\[ \text{Result} = \frac{1}{\left(\frac{1}{A_1} + \frac{1}{A_2} + \ldots + \frac{1}{A_N}\right)} \]
+
+where \(A_1, A_2, \ldots, A_N\) are the elements of the sequence.
+
+## Requirements
+1. Read an integer `N` from the input indicating the number of elements in the sequence.
+2. Read `N` integers which form the sequence.
+3. Calculate the sum of the inverses of these integers.
+4. Compute the inverse of the sum obtained in step 3.
+5. Print the calculated value as a decimal number, making sure the absolute or relative error does not exceed \(10^{-5}\).
+6. Ensure the implementation handles edge cases efficiently and adheres to the constraints.
+
+## Constraints
+- \(1 \leq N \leq 100\)
+- \(1 \leq A_i \leq 1000\) where \(1 \leq i \leq N\)
+
+Implement this functionality with efficiency in mind, using appropriate data structures and algorithms to handle input parsing and computation accurately.

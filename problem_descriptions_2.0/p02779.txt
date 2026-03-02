@@ -1,0 +1,12 @@
+**Exercise Title: Distinct Character Checker**
+
+**Problem Statement:**
+Create a function that accepts a string and determines whether all characters in the string are unique. If every character in the string is unique (i.e., they do not repeat), the function should return "UNIQUE". If any character in the string is repeated, the function should return "DUPLICATE".
+
+**Requirements:**
+1. The function should take a single input, a string, which will consist of uppercase and lowercase letters (A-Z, a-z).
+2. The function should output "UNIQUE" if all characters in the input string are unique.
+3. The function should output "DUPLICATE" if any character in the input string appears more than once.
+4. Implement the solution using efficient data structures to handle the operations optimally.
+
+This exercise aims to practice using sets or other data structures for efficiently checking for duplicate elements in a collection, and handling basic string manipulation and control flow logic.

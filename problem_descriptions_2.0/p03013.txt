@@ -1,0 +1,24 @@
+**Exercise Title: Counting Ways to Reach a Target Number Using Steps**
+
+**Problem Statement:**
+
+You need to determine the number of different ways to reach a target number `T` from the starting point `0` using a set of allowed steps. You are given a target number `T` and a list of positive integers known as "step sizes". You can move forward from the current number by any of the step sizes specified.
+
+The goal is to find how many distinct sequences of steps can get you exactly to the target number `T`. You need to consider that some numbers on the way towards `T` might be restricted, meaning you cannot land on these numbers regardless of the step size.
+
+**Requirements:**
+
+1. Define a function that accepts three arguments:
+   - An integer `T` representing the target number.
+   - An array of integers representing the allowed step sizes.
+   - An array of integers indicating restricted positions where no landing is allowed.
+
+2. Compute the number of distinct sequences that reach exactly the number `T` using any combination of the given step sizes while avoiding landing on restricted positions.
+
+3. Ensure that your solution accounts for the possibility of zero sequences being viable, in which case output zero.
+
+4. Optimize your solution for large values of `T`, ensuring it handles up to 100,000 as input efficiently.
+
+5. Return the total number of ways to reach `T` modulo \(1,000,000,007\).
+
+The task involves understanding dynamic programming (or other suitable techniques) to efficiently compute the required number of sequences. Aim for an efficient solution that uses only necessary computations and avoids recomputation through memorization or similar strategies.

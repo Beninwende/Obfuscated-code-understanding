@@ -1,0 +1,162 @@
+[
+  {
+    "problem_id": "p02687",
+    "success_rate": 0.10666666666666667,
+    "success_count": 24,
+    "failure_count": 201,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Simple Toggle Between Two States**\n\n**Problem Statement:**\n\nYou are responsible for managing a light switch that alternates between two states: \"ON\" and \"OFF\". The switch changes its state every time it is toggled. Your task is to write a function that determines the current state of the switch based on the previous state.\n\nThe switch follows the following rules:\n- If the switch was \"ON\", toggling it changes its state to \"OFF\".\n- If the switch was \"OFF\", toggling it changes its state to \"ON\".\n\nGiven the previous state of the switch, your function should return the current state after toggling.\n\n**Requirements:**\n\n1. Design a function that accepts a string input representing the previous state of the switch. The string will be either \"ON\" or \"OFF\".\n\n2. The function should return a string indicating the current state of the switch after toggling.\n\n3. Ensure the function handles both possible input strings correctly and only those strings will be considered valid input."
+  },
+  {
+    "problem_id": "p02390",
+    "success_rate": 0.1111111111111111,
+    "success_count": 25,
+    "failure_count": 200,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Number Breakdown into Components**\n\n**Problem Statement:**\n\nWrite a function that receives a positive integer and breaks it down into three separate components. Specifically, decompose a given integer into three parts: a larger component, a middle component, and a smaller component. Each part is derived through specific calculations and must fulfill predefined constraints. The goal is to understand how to systematically break down a number into meaningful segments.\n\n**Requirements:**\n\n1. Implement a function that takes a single positive integer as input.\n2. Calculate the largest component by dividing the input number by a specific divisor.\n3. Determine the middle component by finding the remainder when the input number is divided by the divisor, then further dividing this remainder using another divisor.\n4. The smallest component is calculated by finding the remainder when the middle calculation is performed.\n5. Return or print the three components, separated by a clearly defined delimiter.\n6. Ensure each component fulfills its respective constraint, ensuring the middle and smaller components are less than their corresponding divisors.\n7. The function should be designed to handle a variety of input values within the given range.\n\nKey concepts practiced in this exercise include integer division, remainder calculation, and parsing and structuring output according to constraints."
+  },
+  {
+    "problem_id": "p03107",
+    "success_rate": 0.11555555555555555,
+    "success_count": 26,
+    "failure_count": 199,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Counting Character Pairs**\n\n**Problem Statement:**\n\nYou are given a string composed exclusively of two distinct characters, 'A' and 'B'. Your task is to count how many pairs of 'A' and 'B' can be formed. A pair can consist of any 'A' and any 'B', regardless of their positions in the string. Each character can only be used once in a pair. The goal is to determine the maximum number of pairs that can be formed from the characters in the string.\n\n**Requirements:**\n\n- Implement a function that takes a string as input.\n- The function should return an integer representing the maximum number of pairs that can be formed from 'A's and 'B's.\n- Assume the input string has at least one character and consists only of the characters 'A' and 'B'.\n- Consider edge cases where the string consists entirely of one character (either all 'A's or all 'B's), or where the string alternates between 'A' and 'B'.\n\nThis exercise will help you practice counting characters within a string and using this information to perform simple calculations."
+  },
+  {
+    "problem_id": "p02717",
+    "success_rate": 0.11555555555555555,
+    "success_count": 26,
+    "failure_count": 199,
+    "total_evaluations": 225,
+    "full_description": "### Exercise Title: Swap and Rotate Integers\n\n#### Problem Statement\n\nYou are provided with three variables, `a`, `b`, and `c`, each of which holds an integer value. Your task is to perform a series of operations to manipulate the values stored in these variables and then display the final results.\n\n1. Swap the contents of variables `a` and `b`.\n2. Swap the contents of variables `a` and `c`.\n\nAfter performing these operations, output the values of `a`, `b`, and `c` in that specific order, separated by spaces.\n\n#### Requirements\n\n- You must create a function that takes three integer arguments corresponding to the initial values of `a`, `b`, and `c`.\n- Implement the swaps as described above in the specified order.\n- The function must return or print the modified values of `a`, `b`, and `c` in the correct sequence after all operations are completed.\n- All initial and final values should remain integers.\n\nThis exercise focuses on understanding and applying the concept of variable swapping and practicing conditional logic in programming."
+  },
+  {
+    "problem_id": "p03242",
+    "success_rate": 0.12444444444444444,
+    "success_count": 28,
+    "failure_count": 197,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Basic Character Replacement in Strings**\n\n**Problem Statement:**\n\nIn this exercise, you will transform a given string by replacing specific characters. The task is to take an input string consisting solely of lowercase letters 'a' and 'b'. Your objective is to replace every 'a' with 'x' and every 'b' with 'y'.\n\n**Requirements:**\n\n1. Write a function that accepts a string of lowercase characters composed only of the letters 'a' and 'b'.\n2. The function should return a new string where each occurrence of 'a' is replaced with 'x' and each occurrence of 'b' is replaced with 'y'.\n3. Assume that the string contains at least one character and all characters are either 'a' or 'b'.\n\nFocus on using fundamental string manipulation techniques to achieve the desired transformation. Avoid using complex libraries or built-in functions that directly solve the problem."
+  },
+  {
+    "problem_id": "p03449",
+    "success_rate": 0.13333333333333333,
+    "success_count": 30,
+    "failure_count": 195,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Array Sum in Two Steps**\n\n**Problem Statement:**\n\nYou are given two arrays, each containing `N` positive integers representing the number of items in the corresponding positions. Your goal is to determine the maximum sum of items you can collect by performing the following steps:\n\n1. Decide on a position `P` (0 ≤ P < N) to split the array journey.\n2. From the starting position (position 0) to the position `P`, sum all items in the first array. \n3. From position `P` to the end of the arrays (position N-1), sum all items in the second array.\n\nYou must calculate the maximum possible sum of items you can collect by choosing the optimal split position `P`. \n\n**Requirements:**\n\n1. Implement a function that takes two lists of integers as input, corresponding to the two arrays of items. Both lists have the same length `N`.\n2. Compute the maximum sum based on the described steps.\n3. Return the maximum sum as the result.\n4. Ensure the function efficiently handles the arrays within the constraints provided.\n5. Assume each integer in the arrays is within the range of 1 to 100 inclusive. \n\nYour task is to complete this exercise by writing a function that adheres to these requirements, focusing on correct computation and optimal performance."
+  },
+  {
+    "problem_id": "p02753",
+    "success_rate": 0.15555555555555556,
+    "success_count": 35,
+    "failure_count": 190,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Identify Unique Characters in a Triplet**\n\n**Problem Statement:**\n\nCreate a program that analyzes a string of exactly three characters to determine whether there is variation among them. The string will only consist of two types of characters, 'X' and 'Y'. Your task is to determine if there is at least one 'X' and one 'Y' present in the string.\n\nThe goal is to check whether the string comprises a combination of both characters, not solely one type. If at least one 'X' and one 'Y' are found, consider that a variation is present.\n\n**Requirements:**\n\n1. Write a function that accepts a string of length three containing only the characters 'X' and 'Y'.\n   \n2. The function should analyze the string and output:\n   - \"Variation\" if the string contains at least one 'X' and one 'Y'.\n   - \"No Variation\" if the string contains only 'X' or only 'Y' throughout.\n\n3. Ensure your solution is efficient and follows best practices for string manipulation. \n\nThrough this exercise, you will practice basic string handling, condition checking, and decision making based on character content within a fixed-length input."
+  },
+  {
+    "problem_id": "p03282",
+    "success_rate": 0.15555555555555556,
+    "success_count": 35,
+    "failure_count": 190,
+    "total_evaluations": 225,
+    "full_description": "**Title: Expanding Digits over Time**\n\n**Problem Statement:**\n\nYou are tasked with analyzing a sequence that begins as a string consisting of digits from 1 to 9. Each day, this string undergoes a transformation according to specific rules based on the digits it contains:\n\n- Each digit '2' in the string is expanded into '22'.\n- Each digit '3' is expanded into '333'.\n- Each digit '4' is expanded into '4444'.\n- Each digit '5' is expanded into '55555'.\n- Each digit '6' is expanded into '666666'.\n- Each digit '7' is expanded into '7777777'.\n- Each digit '8' is expanded into '88888888'.\n- Each digit '9' is expanded into '999999999'.\n- The digit '1' remains unchanged as '1'.\n\nYour task is to determine a specific character in this continually evolving string after simulating the changes for a large number of days.\n\n**Requirement:**\n\n1. Implement a function that receives an initial string composed of digits from 1 to 9.\n2. The function should also receive an integer K representing the position of the character you need to identify in the string after a specified number of days.\n3. The string's transformation rules cause rapid growth in length, making it impractical to simulate each transformation completely for an extensive period. Therefore, your function should deduce the character at the K-th position without constructing the full string.\n4. Consider computational efficiency and handle large values for the number of days to simulate effectively.\n\nYour function should determine and return the character found at the K-th position after a predetermined number of days of transformation."
+  },
+  {
+    "problem_id": "p03469",
+    "success_rate": 0.16,
+    "success_count": 36,
+    "failure_count": 189,
+    "total_evaluations": 225,
+    "full_description": "### Exercise Title: Modify Year in Date String\n\n### Problem Statement\n\nYou are tasked with modifying date strings to correct an existing error. Each string represents a date in the \"yyyy/mm/dd\" format. However, the year is incorrect in these strings and needs to be updated.\n\nYour program should take a string as input, which incorrectly contains a year \"XXXX\" at the start. Your task is to replace this year with \"YYYY\". You should then output the corrected date string.\n\n### Requirements\n\n1. **Input:**  \n   - The input will be a single string that represents a date. The date follows the format \"yyyy/mm/dd\" and is always of length 10.\n   - The year \"XXXX\" is the first four characters of the string, representing an incorrect year.\n\n2. **Output:**  \n   - Output the date string with the year \"XXXX\" replaced with \"YYYY\".\n\n3. **Constraints:**\n   - The date string always follows the exact \"yyyy/mm/dd\" format.\n   - The month (\"mm\") and day (\"dd\") are valid calendar values (e.g., \"01\" for January, \"02\" for February, etc., and days range from \"01\" to \"31\" as per calendar norms).\n   - The task is solely to replace the first four characters of the string with \"YYYY\".\n\n4. **Implementation Note:**\n   - Focus on string manipulation techniques to solve this problem.\n   - The solution should efficiently replace the first four characters without altering the rest of the string.\n\nThis exercise practices basic string manipulation and is intended to help solidify your understanding of working with substring operations in programming."
+  },
+  {
+    "problem_id": "p03315",
+    "success_rate": 0.16,
+    "success_count": 36,
+    "failure_count": 189,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Counting Changes in a Sequence**\n\n**Problem Statement:**\n\nYou are given a sequence of operations represented by a string of characters. Each operation either increases or decreases a counter, initially set to zero. Your task is to determine the final value of the counter after performing all the operations in the sequence.\n\n**Instructions:**\n\n1. The string representing the sequence of operations will be composed of only the characters '+' and '-'. These represent operations on the counter as follows:\n   - A '+' sign indicates an increment operation, increasing the counter by 1.\n   - A '-' sign indicates a decrement operation, decreasing the counter by 1.\n\n2. You need to process each character in the given string sequentially, starting from the first character to the last.\n\n3. Your task is to compute and print the final integer value of the counter after applying all operations specified in the input string.\n\n**Requirements:**\n\n- The length of the string can be any positive integer.\n- The input will contain only valid characters ('+' and '-') with no spaces or other characters.\n- Implement a function that reads the input string and outputs the final value of the counter.\n\nRemember, the initial value of the counter is zero, and you will adjust it based on each character in the sequence. Consider efficient ways to traverse the string and update the counter based on the operations encountered."
+  },
+  {
+    "problem_id": "p02783",
+    "success_rate": 0.1688888888888889,
+    "success_count": 38,
+    "failure_count": 187,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Dividing Items into Groups**\n\n**Problem Statement:**\n\nImagine you have a collection of items that you want to distribute evenly into groups. Each group should ideally have the same number of items. If there are any leftover items that cannot fit evenly into these groups, they should be placed into an additional group. Your task is to determine the minimum number of groups required to hold all the items.\n\n**Requirements:**\n\n1. Write a function that takes two integer inputs:\n   - `total_items`: the total number of items you have.\n   - `group_size`: the number of items each group can ideally hold.\n\n2. The function should calculate and return the minimum number of groups required to accommodate all the items. If `group_size` is greater than or equal to `total_items`, the answer should be 1, since all items will fit into a single group.\n\n3. Assume:\n   - `1 ≤ total_items ≤ 10,000`\n   - `1 ≤ group_size ≤ 10,000`\n\n4. The function should handle inputs where items do not perfectly divide into groups and efficiently compute the smallest number of groups needed.\n\n5. Pay attention to integer division and rounding to ensure that any remaining items create an additional group, instead of fractional groups.\n\nThis exercise will help you practice fundamental concepts such as arithmetic operations, conditional statements, and integer manipulation."
+  },
+  {
+    "problem_id": "p02724",
+    "success_rate": 0.1688888888888889,
+    "success_count": 38,
+    "failure_count": 187,
+    "total_evaluations": 225,
+    "full_description": "Title: Maximum Happiness Points Calculation\n\nProblem Statement:  \nYou are tasked with designing a simple algorithm that calculates the maximum number of happiness points that can be earned based on a unique points earning system. For this exercise, you will work with two types of collectible items: Item A and Item B. Collecting Item A grants a substantial number of happiness points, while collecting Item B provides a smaller, but still valuable, number of happiness points. Given a total number of units you can collect, your goal is to determine the optimal mix of Item A and Item B to maximize the total happiness points.\n\nRequirements:  \n1. Each unit of Item A contributes a high number of happiness points to your total score.\n2. Each unit of Item B contributes a lower number of happiness points compared to Item A.\n3. You will be given a total number of units you can collect (denoted as `totalUnits`), and you need to decide how many units of Item A and Item B to collect to maximize the number of happiness points.\n4. The program should output the maximum number of happiness points achievable with the given `totalUnits`.\n\nConstraints:  \n- `totalUnits` is a non-negative integer.\n- There is no limit on the number of Item A or Item B units you can choose to collect apart from the maximum set by `totalUnits`.\n\nThe objective of this exercise is to practice your ability to determine an optimal solution through logical decision-making and mathematical calculations while enhancing your understanding of basic programming structures and input/output operations."
+  },
+  {
+    "problem_id": "p02612",
+    "success_rate": 0.17333333333333334,
+    "success_count": 39,
+    "failure_count": 186,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Calculating the Smallest Number of Currency Notes**\n\n**Problem Statement:**\n\nYou are tasked with calculating the number of currency notes needed to cover a certain amount using notes of a single denomination. Given an integer amount, determine the smallest number of currency notes required to match or exceed that amount, and calculate how much value is left as a balance after forming the amount with those notes.\n\nYou must make use of a specific denomination to formulate the amount. Assume that you always use the minimum number of notes necessary to cover the amount.\n\n**Requirements:**\n\n- Define a function to calculate the smallest number of denomination notes required to cover a given amount.\n- Determine the leftover balance after using the notes.\n- Handle inputs where the specified amount is an integer, and less than or equal to a maximum limit.\n- The function should output the number of notes used and the balance left as two distinct values.\n\nEnsure your solution is efficient and follows standard conventions for handling input and output, suitable for a beginner level understanding of basic arithmetic operations and integer division."
+  },
+  {
+    "problem_id": "p02639",
+    "success_rate": 0.17333333333333334,
+    "success_count": 39,
+    "failure_count": 186,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Find the Missing Item**\n\n**Problem Statement:**\n\nYou are given a list of five items, each originally labeled with a unique value from 1 to 5. One of these items is replaced with a special marker, represented by the number 0. Your task is to determine the original label of the item that has been replaced by the 0 marker.\n\n**Requirements:**\n\n1. You will receive five integers as input, each indicating either the original label of an item or the special marker (0). The original labels are distinct integers from 1 to 5.\n2. Your task is to find the missing original label that was replaced with the value 0.\n3. The function should return the integer value of the original label that was replaced by 0.\n\nThis exercise focuses on the concepts of array manipulation, iteration, and basic arithmetic in identifying missing elements from a predefined range."
+  },
+  {
+    "problem_id": "p03220",
+    "success_rate": 0.17333333333333334,
+    "success_count": 39,
+    "failure_count": 186,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Find the Minimum Difference Index**\n\n**Problem Statement:**\n\nYou are given a list of integers and a target number. Your task is to find the index of the element in the list that has the smallest absolute difference from the target number. If there are multiple elements with the same smallest difference, return the index of the first such element.\n\nThe goal of this exercise is to practice working with arrays, loops, and mathematical operations involving absolute values and differences.\n\n**Requirements:**\n\n1. Design a function that accepts two inputs:\n   - A list of integers.\n   - An integer representing the target number.\n\n2. Iterate through the list to compute the absolute difference between each element and the target number.\n\n3. Determine the element with the smallest absolute difference from the target. Track the index of this element.\n\n4. Ensure that if there are multiple elements with the same minimum difference, the function returns the index of the first occurrence.\n\n5. The function should output an integer, which is the index of the desired element in the input list.\n\n**Constraints:**\n\n- The list can contain up to 1000 integers.\n- Each integer in the list can range from -10,000 to 10,000.\n- The target number can also range from -10,000 to 10,000.\n- There will always be at least one element in the list."
+  },
+  {
+    "problem_id": "p03013",
+    "success_rate": 0.17777777777777778,
+    "success_count": 40,
+    "failure_count": 185,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Counting Ways to Reach a Target Number Using Steps**\n\n**Problem Statement:**\n\nYou need to determine the number of different ways to reach a target number `T` from the starting point `0` using a set of allowed steps. You are given a target number `T` and a list of positive integers known as \"step sizes\". You can move forward from the current number by any of the step sizes specified.\n\nThe goal is to find how many distinct sequences of steps can get you exactly to the target number `T`. You need to consider that some numbers on the way towards `T` might be restricted, meaning you cannot land on these numbers regardless of the step size.\n\n**Requirements:**\n\n1. Define a function that accepts three arguments:\n   - An integer `T` representing the target number.\n   - An array of integers representing the allowed step sizes.\n   - An array of integers indicating restricted positions where no landing is allowed.\n\n2. Compute the number of distinct sequences that reach exactly the number `T` using any combination of the given step sizes while avoiding landing on restricted positions.\n\n3. Ensure that your solution accounts for the possibility of zero sequences being viable, in which case output zero.\n\n4. Optimize your solution for large values of `T`, ensuring it handles up to 100,000 as input efficiently.\n\n5. Return the total number of ways to reach `T` modulo \\(1,000,000,007\\).\n\nThe task involves understanding dynamic programming (or other suitable techniques) to efficiently compute the required number of sequences. Aim for an efficient solution that uses only necessary computations and avoids recomputation through memorization or similar strategies."
+  },
+  {
+    "problem_id": "p02731",
+    "success_rate": 0.17777777777777778,
+    "success_count": 40,
+    "failure_count": 185,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Calculate Maximum Cuboid Volume**\n\n**Problem Statement:**\n\nThe task is to calculate the maximum possible volume of a rectangular cuboid with given constraints. You will be provided with a positive integer value `L`, representing the sum of the cuboid's dimensions. Your goal is to determine how to optimally divide this sum among the three dimensions of the cuboid to obtain the maximum possible volume. Note that the dimensions do not need to be whole numbers.\n\n**Requirements:**\n\n1. Read an integer `L` from the input. This integer represents the total sum of the three dimensions of a rectangular cuboid.\n\n2. Calculate the maximum possible volume of the cuboid by optimally distributing the sum `L` across its three dimensions. Each dimension must be a positive number.\n\n3. Output the maximum volume, ensuring that the result meets a high degree of precision. The result should be correct within an absolute or relative error of at most \\(10^{-6}\\).\n\n4. The solution should handle inputs efficiently, adhering to the given constraints.\n\nRemember, the goal is to practice dividing a numeric sum optimally across multiple variables to maximize a mathematical function, in this case, the volume of a geometric shape. Focus on understanding the relationship between the dimensions of the cuboid and how changes to these dimensions affect its volume."
+  },
+  {
+    "problem_id": "p03854",
+    "success_rate": 0.17777777777777778,
+    "success_count": 40,
+    "failure_count": 185,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Building a Target String**\n\n**Problem Statement:**\n\nYou are given a sequence of unique words and an initially empty string. Your task is to determine whether it is possible to form a given target string by appending these words to the empty string any number of times. Each appending operation can only use one entire word from the list of words provided.\n\nThe goal is to replicate the target string exactly using any combination and sequence of the given words. Remember, you are allowed to repeat words multiple times, but must utilize them entirely in each operation.\n\n**Requirements:**\n\n1. Implement a function that takes as inputs:\n   - A list of available words, where each element is a string consisting of lowercase English letters.\n   - A target string, consisting of lowercase English letters.\n\n2. Your function should output:\n   - \"YES\" if it is possible to build the target string using the given words.\n   - \"NO\" if it is not possible to construct the target string with the available words.\n\n3. Constraints:\n   - The length of the target string will be between 1 and 100,000 characters.\n   - Each word in the list will have a minimum length of 1 and a maximum length of 10 characters.\n   - All characters will be lowercase English letters.\n  \n4. The words in the list are guaranteed to be unique.\n\n**Objective:**\n\nEnsure that the algorithm efficiently checks combinations and sequences of the available words to determine if the target string can be accurately assembled. The solution should be optimized to handle the given constraints, particularly with respect to the potential length of the target string."
+  },
+  {
+    "problem_id": "p03071",
+    "success_rate": 0.18222222222222223,
+    "success_count": 41,
+    "failure_count": 184,
+    "total_evaluations": 225,
+    "full_description": "## Exercise Title: Maximum Sum Using Two Numbers\n\n### Problem Statement\nYou are given two integers, `X` and `Y`. Your task is to select two numbers, either from `X`, `Y`, or a combination of both, such that the sum of these two numbers is maximized. You can pick the same number twice or choose one number from each.\n\nEach selection reduces the available number by one for future selections. For example, if you choose `X` first, your second choice should be `X-1` or `Y`.\n\nYour goal is to determine the maximum possible sum of the two selected numbers.\n\n### Requirements\n1. Implement a function that accepts two integer parameters, `X` and `Y`.\n2. The function should compute and return the largest possible sum from selecting two numbers according to the rules stated.\n3. Ensure your function handles all edge cases within the given constraints:\n   - Both `X` and `Y` are non-negative integers.\n   - `X` and `Y` are at least 3 and at most 20."
+  },
+  {
+    "problem_id": "p02407",
+    "success_rate": 0.18222222222222223,
+    "success_count": 41,
+    "failure_count": 184,
+    "total_evaluations": 225,
+    "full_description": "**Exercise Title: Basic List Reversal**\n\n**Problem Statement:**\n\nWrite a function that receives a list of numbers and returns a new list with the elements in reverse order. This exercise is aimed at practicing basic list manipulation and indexing. \n\n**Requirements:**\n\n1. Define a function that takes a single parameter:\n    - A list `numbers` containing `n` integers. The list may contain zero or more elements.\n\n2. The function should return a new list that contains all the elements from the original list, but in reverse order.\n\n3. The original list should remain unchanged after the operation.\n\n4. Assume the list can include numbers in any integer range.\n\n5. Do not use built-in functions or libraries that directly perform the reversal for you. Focus on using loops or any other manual technique to achieve the reversal.\n\nFocus on practicing list indexing and iteration techniques."
+  }
+]

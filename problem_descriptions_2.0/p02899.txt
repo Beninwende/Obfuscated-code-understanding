@@ -1,0 +1,16 @@
+# Ordering Students by Classroom Entry
+
+## Problem Statement
+
+You are to simulate the entry of several students into a classroom. Each student is uniquely identified by a student number, ranging from 1 to N, where N is the total number of students. Each student enters the classroom at a different time and has a distinct position in the entry order. Your task is to determine the order of entry based on recorded information of classroom occupancy at the time of each student's entry.
+
+Given a list of integers, which represent the number of students present in the classroom when each student enters (including themselves), reconstruct and output the order in which all students entered the classroom.
+
+## Requirements
+
+1. Accept an integer N, which denotes the number of students.
+2. Accept a list of N integers. Each integer indicates the classroom occupancy at the time the corresponding student entered, including that student.
+3. The list of occupancy numbers will be distinct and will range from 1 to N. The indices of these numbers correlate with student numbers.
+4. Based on this information, output the sequence of student numbers in the exact order they entered the classroom.
+5. Use the standard input for reading data and standard output for displaying results.
+6. Ensure that the implementation has an efficient time complexity due to the possible large size of N.

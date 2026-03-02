@@ -1,0 +1,17 @@
+Title: String Comparison and Scoring Game
+
+Problem Statement:
+
+Two players are having a simple game competition using a series of text tokens. At each round, both players present one token each. The token is a string composed of alphabetical characters (uppercase or lowercase). The objective is to determine which token is considered "greater" based on a lexicographical comparison. The player with the lexicographically larger token wins that round. If both tokens are equal, the round results in a draw.
+
+Scoring System:
+- If a player's token is lexicographically larger, they receive 3 points for that round.
+- If there is a draw, both players receive 1 point each.
+
+You are tasked to implement a function that calculates and reports the final scores of the two players after all rounds have been completed.
+
+Requirements:
+1. Implement a function that accepts as input the total number of rounds and a list of token pairs, each representing the tokens presented by the two players in each round.
+2. Perform a lexicographical comparison of the tokens for each round to determine the winner or if it is a draw.
+3. Update the scores according to the results of each round using the provided scoring system.
+4. Output the final scores of the two players, separated by a space. Ensure the output precisely reflects the cumulative points of each player according to the game rules.

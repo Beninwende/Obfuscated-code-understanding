@@ -1,0 +1,20 @@
+**Exercise Title: Binary Tree Attack Simulation**
+
+**Problem Statement:**
+
+You are tasked with simulating a series of attacks on a binary structured enemy. The enemy starts with a certain amount of health, denoted as `H`. Every time you attack a segment of this enemy, the following conditions apply:
+
+1. If the segment's health is 1, it becomes 0.
+2. If the segment's health, `X`, is greater than 1, the segment splits into two new segments. Each of these new segments has a health of `floor(X/2)`.
+
+The simulation concludes when all segments have a health of 0. Your goal is to determine the minimum number of attacks needed to achieve this.
+
+**Requirements:**
+
+1. Implement a function that accepts an integer `H` representing the initial health of the enemy.
+
+2. Calculate the minimum number of attacks required to reduce all segments of the enemy's health to 0.
+
+3. Return the number of attacks needed.
+
+Your solution should focus on simulation of the splitting and attacking process, leveraging mathematical concepts like binary representation or recursion if necessary to achieve efficient computation. Consider the decomposition of health as analogous to traversing a binary tree, where each level of the tree represents one potential attack.

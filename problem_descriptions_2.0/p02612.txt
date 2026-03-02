@@ -1,0 +1,16 @@
+**Exercise Title: Calculating the Smallest Number of Currency Notes**
+
+**Problem Statement:**
+
+You are tasked with calculating the number of currency notes needed to cover a certain amount using notes of a single denomination. Given an integer amount, determine the smallest number of currency notes required to match or exceed that amount, and calculate how much value is left as a balance after forming the amount with those notes.
+
+You must make use of a specific denomination to formulate the amount. Assume that you always use the minimum number of notes necessary to cover the amount.
+
+**Requirements:**
+
+- Define a function to calculate the smallest number of denomination notes required to cover a given amount.
+- Determine the leftover balance after using the notes.
+- Handle inputs where the specified amount is an integer, and less than or equal to a maximum limit.
+- The function should output the number of notes used and the balance left as two distinct values.
+
+Ensure your solution is efficient and follows standard conventions for handling input and output, suitable for a beginner level understanding of basic arithmetic operations and integer division.

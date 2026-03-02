@@ -1,0 +1,23 @@
+### Exercise Title: Circular String Pattern Finder
+
+#### Problem Statement:
+
+Create a program to determine if a given substring `p` can be found within a base string `s`, considering the string `s` to be circular or ring-shaped. This means that after the last character of `s`, it wraps around to the first character. Your task is to write a function that checks if `p` appears in this circular version of `s`.
+
+#### Requirements:
+
+1. **Function Signature**: Your program should define a function that takes two inputs:
+   - A string `s`: the base string that is considered circular.
+   - A string `p`: the pattern string that you need to find in `s`.
+
+2. **Output**: 
+   - The function should return `True` if `p` can be found in the circular version of `s`, otherwise `False`.
+
+3. **Constraints**:
+   - Both `s` and `p` will only consist of lowercase letters.
+   - The length of `p` will be less than or equal to the length of `s`.
+   - The maximum length of `s` is 100 characters.
+
+4. **Considerations**:
+   - Remember to account for the circular behavior of `s` where you can "wrap around" to the start of the string after reaching its end.
+   - Focus on optimizing the search within the given constraints for better performance.

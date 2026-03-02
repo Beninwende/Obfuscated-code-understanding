@@ -1,0 +1,23 @@
+**Exercise Title: Calculate Points from Sequential Actions**
+
+**Problem Statement:**
+
+You are tasked with calculating the total points gained from a series of sequential actions. The actions are represented as a series of unique identifiers. Each action has an associated point value that you earn upon performing it. Additionally, if two specific actions are performed consecutively, you can earn bonus points.
+
+You will be given a number of actions performed and two lists. The first list provides the order of actions and the second list provides the points associated with each action. Additionally, you are provided with a list that contains the bonus points for consecutive actions.
+
+**Requirements:**
+
+1. Write a function to accept the following inputs:
+   - An integer `N` representing the number of actions.
+   - A list `Order` of `N` integers that represents the unique identifiers of the actions performed, in sequence.
+   - A list `Points` of `N` integers where each element corresponds to points gained from performing an action from action 1 to action N.
+   - A list `Bonus` of `N-1` integers where each element corresponds to bonus points gained for performing sequential actions. The `i-th` element of `Bonus` will give additional points if action `i` is followed by action `i+1`.
+
+2. Calculate the total points accumulated by:
+   - Summing up the points for each performed action.
+   - Adding bonus points when two specific consecutive actions are performed.
+
+3. Return the total sum of points as an integer.
+
+Focus on implementing the logic to sum the points based on the order of actions and calculate any applicable bonus points.

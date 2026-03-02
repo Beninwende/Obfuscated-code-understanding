@@ -1,0 +1,35 @@
+**Title: Count Positive Sums**
+
+**Problem Statement:**
+
+You are tasked with creating a function that processes a set of integer vectors and determines how many of these vectors meet a specific criterion based on given weights and a constant. Each vector contains a fixed number of integers, and similarly, there is a corresponding vector of integer weights, along with a constant integer value. 
+
+For a vector to be considered valid, the weighted sum of its elements, plus the constant, must be greater than zero. Specifically, given:
+
+- A list of vectors, where each vector contains a fixed number of elements.
+- A weight vector with corresponding weights for each element of the vectors.
+- A constant integer.
+
+Calculate the weighted sum for each vector by multiplying each element of the vector by its corresponding weight, summing the results, and then adding the constant. Count how many vectors produce a positive result.
+
+**Function Requirements:**
+
+- Implement a function that takes the following inputs:
+  - A 2D list of integers representing vectors, where each sub-list is a vector.
+  - A list of integers representing the weight vector.
+  - An integer representing the constant.
+
+- The function should output the count of vectors that have a positive result after applying the described process.
+
+- Assume the following constraints:
+  - All inputs are integers.
+  - There is at least one vector.
+  - Each vector has the same number of elements as the weight vector.
+
+**Constraints to consider:**
+
+- Each value in the vectors and the weight vector is an integer.
+- The number of vectors and the number of weights are both small enough to fit within standard list sizes.
+- The constant value is an integer. 
+
+In this exercise, practice working with loops, list manipulation, and basic arithmetic operations to evaluate the condition and count valid vectors based on the given criteria.

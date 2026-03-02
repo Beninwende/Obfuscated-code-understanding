@@ -1,0 +1,23 @@
+**Title: Sum Steps Till Limit**
+
+**Problem Statement:**
+
+You are given a list of positive integers and a threshold value. Starting from an initial sum of zero, you will increment the sum by adding each integer from the list one by one. Your task is to count how many numbers you can add to this sum before the total exceeds the given threshold value. This includes the initial state where no number has been added yet. 
+
+**Requirements:**
+
+1. Implement a function that takes two inputs:
+   - An integer, indicating the threshold value.
+   - A list of integers, representing the sequence of numbers to add.
+
+2. The function should return the total count of numbers added, including the initial zero sum, that does not exceed the threshold.
+
+3. Use a loop to iteratively add each integer in the list to the running total sum.
+
+4. Continue adding numbers from the list to the sum until adding another number would make the sum exceed the threshold.
+
+5. The solution should handle edge cases where the initial threshold is greater than the sum of all numbers in the list combined. In such cases, return the count of numbers in the list plus one, as all can be added without exceeding the threshold.
+
+6. You should also handle the case where the list of integers is empty.
+
+Consider simple error handling for non-integer or negative inputs.

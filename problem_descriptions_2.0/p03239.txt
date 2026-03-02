@@ -1,0 +1,15 @@
+Title: Find the Minimum Value Within a Limit
+
+Problem Statement:
+You have a list of items, each with an associated value and weight. Your task is to choose the item with the smallest value from those items whose weight does not exceed a specified limit. If no item satisfies the weight requirement, output a specified message.
+
+Requirements:
+1. Implement a function that takes:
+   - An integer `M`, representing the maximum allowable weight.
+   - A list of `N` items, where each item is represented as a pair of integers `(value_i, weight_i)`.
+
+2. The function needs to:
+   - Determine the item with the smallest `value_i` among those where `weight_i` is less than or equal to `M`.
+   - If no item's weight is within the specified limit `M`, the function should return the string "OVER LIMIT".
+
+3. Ensure that all input values are integers and pairs `(value_i, weight_i)` are distinct.

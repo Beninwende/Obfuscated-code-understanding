@@ -1,0 +1,20 @@
+**Title: Character Shifter**
+
+**Problem Statement:**
+
+Create a function that processes a string consisting of uppercase English letters. Given an integer `N`, the function should shift each character of the string `S` forward by `N` positions in the alphabet. The alphabet is circular, meaning after 'Z', it wraps back around to 'A'.
+
+For instance, shifting the letter 'A' by 2 positions results in 'C', and shifting the letter 'Y' by 3 positions results in 'B'.
+
+The purpose of this exercise is to familiarize with basic operations on strings and characters, handling modular arithmetic, and understanding loops for character manipulation.
+
+**Requirements:**
+
+1. Implement a function that takes two parameters: an integer `N` and a string `S`.
+2. The integer `N` indicates the number of positions to shift each character in the string.
+3. The string `S` is composed solely of uppercase English letters.
+4. The function should return the resulting string after shifting each letter in `S` by `N` positions in the alphabet.
+5. If `N` is zero, the function should return the original string.
+6. The alphabet should be treated as circular where 'A' follows 'Z'.
+
+Ensure the solution is efficient in handling strings up to a length of 10,000 characters as specified by the constraints.

@@ -1,0 +1,17 @@
+**Exercise Title: Character Replacement for Maximum Subsequence Match**
+
+**Problem Statement:**
+
+Given two strings, `A` and `B`, your task is to transform the string `A` in such a way that `B` becomes a contiguous subsequence within `A`. You are allowed to change any character in `A`. Determine the minimum number of character changes required to achieve this.
+
+A subsequence is a sequence derived from another sequence where elements can appear in the original order without necessarily being consecutive, but for this exercise, `B` must appear as a consecutive subsequence within `A`.
+
+**Requirements:**
+
+1. Implement a function that takes two strings, `A` and `B`, as inputs.
+2. The function should output the minimum number of character changes necessary to make `B` a consecutive subsequence within `A`.
+3. The function should be efficient given that both strings can have a length between 1 and 1000.
+4. Assume `B` will always be shorter than or equal to `A`.
+5. Both `A` and `B` consist solely of lowercase English letters.
+
+Focus on ensuring that the implemented solution checks for all possible positions within `A` to insert `B` and calculates the number of changes needed efficiently.

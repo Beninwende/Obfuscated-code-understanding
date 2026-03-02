@@ -1,0 +1,15 @@
+**Exercise Title: Unique Element Counter**
+
+**Problem Statement:**
+
+You are tasked with creating a simple program that takes a list of numbers as input and finds how many unique numbers are in the list. Uniqueness means that no two numbers should be the same. The list of numbers is not necessarily sorted, and duplications can occur. Your goal is to count the distinct numbers present in the list.
+
+**Requirements:**
+
+1. Read an integer `N` from input, which represents the number of integers in the list.
+2. Read the following `N` integers, which constitute the list of numbers.
+3. Calculate and return the count of unique numbers in the list.
+4. Ensure your program handles the input and output according to the standard input and output procedures.
+5. Focus on implementing the counting logic efficiently. 
+
+Your task is to produce a single output: the total number of distinct elements in the provided list. Consider this a beginner-level exercise focused on collections, arrays, or any data structure that would help in storing and identifying unique elements from a set of numbers.

@@ -1,0 +1,16 @@
+**Exercise Title: Determine Parity of a Product**
+
+**Problem Statement:**
+
+Create a program that accepts two positive integers and determines whether their product is odd or even. The goal of this exercise is to help you practice working with basic arithmetic operations and conditional statements in programming. 
+
+**Requirements:**
+
+1. Accept two positive integers as input. These integers will be referred to as `x` and `y`.
+2. Compute the product of `x` and `y`.
+3. Determine the parity of the product:
+   - If the product is even, the output should be "Even".
+   - If the product is odd, the output should be "Odd".
+4. Implement the solution using conditional statements to check the parity of the product.
+
+The task is to familiarize yourself with the concept of even and odd numbers and to practice implementing basic input and output operations in a programming language. The exercise does not require handling complex data types, focusing instead on simple arithmetic and logical operations.

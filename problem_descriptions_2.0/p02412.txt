@@ -1,0 +1,27 @@
+### Exercise Title: Counting Unique Triples
+
+#### Problem Statement:
+
+Write a program that counts the number of unique triples (sets of three distinct integers) that can be formed given a range of integers from 1 to a specified number `n`. The three integers in each triple should sum up to a specified value `s`. Each set of integers in a triple should be distinct, and permutations of the same integers should be considered equivalent (i.e., (1, 2, 3) is the same as (3, 2, 1) and should be counted as one).
+
+#### Requirements:
+
+1. Implement a function that takes two integers `n` and `s` as input. The integer `n` represents the upper bound of the range [1, n] from which integers can be chosen, and `s` is the desired sum of each unique triplet.
+
+2. Ensure that the function iteratively or recursively finds all possible distinct triples (x, y, z) where:
+   - `x`, `y`, and `z` are integers such that `1 ≤ x < y < z ≤ n`
+   - `x + y + z = s`
+
+3. The function should return the total count of such unique triples.
+
+4. Consider implementing constraints:
+   - `n` should be at least 3.
+   - `s` should be a non-negative integer.
+
+5. Optimize the solution to avoid unnecessary computations and ensure that all conditions are effectively checked to find valid triples only.
+
+6. Structure the program to handle multiple test cases as input, processing each case independently and terminating when a specified condition (such as input of zeros for `n` and `s`) is met.
+
+7. Output the result for each test case, which is the total number of unique triples that satisfy the conditions.
+
+Focus on writing clear and concise code that effectively demonstrates the use of loops or recursive methods, conditional statements, and basic input/output operations typical in beginner-level programming exercises.

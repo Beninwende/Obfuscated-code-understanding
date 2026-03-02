@@ -1,0 +1,12 @@
+**Exercise Title: Determining the Middle Number**
+
+**Problem Statement:**
+
+You are given two distinct integers, X and Y. Your task is to find an integer M such that M is exactly in the middle of X and Y when ordered. In other words, M should be the same distance from both X and Y. If such an integer cannot be determined (for instance, if X and Y have an even difference), you should specify that no middle integer exists.
+
+**Requirements:**
+
+1. The function should take two integer inputs, X and Y. You can assume these integers are always distinct.
+2. The function should calculate and return the integer M that is equidistant from both X and Y.
+3. If no such integer M exists, the function should return a specified statement indicating the impossibility.
+4. Ensure that your algorithm handles all integer constraints efficiently, especially considering large values.

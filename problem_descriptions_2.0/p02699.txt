@@ -1,0 +1,19 @@
+**Exercise Title: Number Comparison for Safety Check**
+
+**Problem Statement:**
+
+Create a program that compares two integer values and determines a basic safety status based on their comparison. You are given two numbers, A and B. The result depends on whether A is greater than B or not.
+
+- If the value of A is greater than B, the program should output "All Clear".
+- Otherwise, the program should output "Warning".
+
+Your task is to implement the necessary functionality to perform this comparison and produce the appropriate output based on the conditions outlined above.
+
+**Requirement:**
+
+1. Read two integer values A and B from the standard input. A and B will be separated by a space.
+2. Compare these two integers.
+3. Print "All Clear" if A is greater than B.
+4. Print "Warning" if B is greater than or equal to A.
+
+Ensure the solution handles different scenarios considering positive, negative, and zero values for both integers to practice fundamental comparison operations.

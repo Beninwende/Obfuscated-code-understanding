@@ -1,0 +1,19 @@
+### Exercise Title: Swap and Rotate Integers
+
+#### Problem Statement
+
+You are provided with three variables, `a`, `b`, and `c`, each of which holds an integer value. Your task is to perform a series of operations to manipulate the values stored in these variables and then display the final results.
+
+1. Swap the contents of variables `a` and `b`.
+2. Swap the contents of variables `a` and `c`.
+
+After performing these operations, output the values of `a`, `b`, and `c` in that specific order, separated by spaces.
+
+#### Requirements
+
+- You must create a function that takes three integer arguments corresponding to the initial values of `a`, `b`, and `c`.
+- Implement the swaps as described above in the specified order.
+- The function must return or print the modified values of `a`, `b`, and `c` in the correct sequence after all operations are completed.
+- All initial and final values should remain integers.
+
+This exercise focuses on understanding and applying the concept of variable swapping and practicing conditional logic in programming.

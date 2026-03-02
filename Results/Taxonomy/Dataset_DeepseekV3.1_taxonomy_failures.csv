@@ -1,0 +1,1119 @@
+"problem_id","failure_type","pattern","original_with_comments_score","with_without_comments_score","without_var_renaming_score","without_dead_code_score","without_encryption_score","score_drop","example_1_label","example_1_text","example_2_label","example_2_text"
+"p03013","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.8,0.8500000000000001,0.2,0.7,"without_comments","Title: Staircase Climbing with Broken Steps
+
+Main Goal: This code calculates the number of ways to climb a staircase of `n` steps, where you can take either 1 or 2 steps at a time, but certain steps (provided as input) are broken and cannot be stepped on. The result is computed modulo 1,000,000,007.
+
+Key Functions:
+1. Reads input values for the total steps `n` and the number of broken steps `m`.
+2. Checks for an invalid case where two consecutive steps are broken, which makes climbing impossible.
+3. Marks broken steps in an array for quick lookup.
+4. Uses dynamic programming to compute the number of ways to reach each step, where the ways to reach step `i` is the sum of ways to reach steps `i-1` and `i-2`, unless step `i` is broken (then it's 0).
+5. Handles edge cases for small staircases (n=1 and n=2) explicitly.
+6. Outputs the result, which is 0 if consecutive broken steps are found, or the computed number of ways modulo 1,000,000,007 otherwise.","encryption","This Java program calculates the number of ways to traverse a path of length `n` with certain forbidden steps (provided as input `m` and an array `a`). It uses dynamic programming to compute the result, handling edge cases for small `n` and checking for consecutive forbidden steps. The result is either printed directly or decrypted from a hardcoded string if the input contains consecutive forbidden steps. The decryption uses Blowfish with an MD5-hashed key."
+"p03371","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.6,0.8,0.4,0.8,0.8,0.4,"without_comments","Title: Optimal Combination of Pizza Purchases  
+Main Goal: This code calculates the minimum cost to buy at least X A-type pizzas and Y B-type pizzas by considering individual prices (a for A, b for B) and a combo price (c for two half-and-half pizzas, equivalent to one A and one B). It determines the most cost-effective mix of individual and combo purchases.","variable_renaming","Title: Optimal Revenue Calculation for Two-Tier Pricing Model
+
+Main Goal: The code calculates the maximum revenue from selling two products with different pricing tiers based on quantity discounts. It compares individual and bundled pricing strategies to determine the most profitable approach.
+
+Key Functions:
+1. Reads five integer inputs: quantities for two products, bundled price threshold, and individual prices for each product
+2. Determines which product has higher individual price
+3. Calculates base revenue using the optimal pricing strategy
+4. Applies conditional logic to handle quantity discounts for bundled and individual sales
+5. Outputs the maximum achievable revenue by considering all pricing scenarios
+
+The code implements a business logic optimization problem where it maximizes revenue by strategically applying bundled pricing when beneficial and falling back to individual pricing when bundle conditions aren't met."
+"p02640","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.7,0.5,0.9,0.2,0.49999999999999994,"without_comments","Title: Animal Leg Count Validator  
+Main Goal: This code determines whether a given number of heads (numX) and legs (numY) can correspond to a valid combination of two types of animals: cranes (which have 1 head and 2 legs) and turtles (which have 1 head and 4 legs). It calculates the potential number of each animal and checks if the solution is both mathematically correct and physically plausible (i.e., non-negative integer values). The output is ""Yes"" for a valid combination or ""No"" otherwise.","encryption","This Java program is a cryptographic challenge that decrypts hardcoded strings using multiple algorithms (Blowfish, DES, XOR) and checks if two input integers satisfy a specific linear equation. Based on the solution, it prints one of several decrypted messages, likely indicating correctness or providing a flag. The code uses obfuscation techniques like cryptic variable names and arithmetic to hide its intent."
+"p02682","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.75,0.8,0.44999999999999996,0.9,0.9,0.3500000000000001,"without_comments","Title: Maximum Sum from Selecting Numbers with Given Counts
+
+Main Goal: This code calculates the maximum possible sum by selecting a specified number of integers from three groups (positive ones, zeros, and negative ones) in a specific order of priority. It prioritizes selecting all available positive ones first, then zeros, and finally negative ones, to maximize the total sum.
+
+Key Functions:
+1. Reads four integer inputs: counts of positive ones (1), zeros (0), negative ones (-1), and the total numbers to select.
+2. Validates all inputs are non-negative and the total count to select is within valid bounds.
+3. Calculates the sum by first adding all available positive ones, then skipping zeros (as they don't change the sum), and finally subtracting negative ones if necessary.
+4. Outputs the maximum achievable sum based on this selection strategy.","variable_renaming","Title: Calculating Net Value from Three Input Categories with a Limit
+
+Main Goal: This code calculates a net value by processing three input quantities (positive integers) in sequence, up to a specified limit. It first adds the value of the first quantity, then does nothing with the second, and subtracts the value of the third. The result is the sum of the first quantity minus the third quantity, but only up to the number of units allowed by the limit.
+
+Functions:
+1.  Reads four integers from standard input: three quantities (A, B, C) and a limit (N).
+2.  Validates that all inputs are non-negative and that the total of A+B+C does not exceed N or a predefined maximum value.
+3.  Processes the limit N in three stages:
+    -   First, it adds the value of A to the result, consuming that portion of the limit.
+    -   Second, it consumes the value of B from the limit without changing the result.
+    -   Third, it subtracts the value of C from the result, consuming the remaining limit.
+4.  Prints the final result, which is effectively `min(A, N) - min(C, max(N - A - B, 0))`."
+"p02641","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.7,0.8,0.25,0.75,0.8,0.55,"without_comments","Title: Finding the Closest Unused Number
+
+Main Goal: The code finds the integer closest to a given number X that is not present in a provided list. If X is not in the list, it is returned. If it is, the algorithm searches symmetrically outward (X-1, X+1, X-2, X+2, etc.) for the first available number, with a preference for the smaller number in case of a tie.
+
+Key Functions:
+1. Reads an integer `X` (the target) and an integer `N` (the size of a list).
+2. Reads a list of `N` integers and checks if `X` is present in it (`Y=1` if found).
+3. Sorts the list for efficient searching.
+4. If `X` was found, it initiates a two-directional search (increasing and decreasing offsets from `X`) for the closest missing number.
+5. Uses flags `K` and `C` to track if a number was found at the `X-i` (below) or `X+i` (above) offset during each iteration.
+6. Prints the result based on the search outcome, handling various edge cases for when the closest number is above or below `X`.","variable_renaming","The code determines the minimum number of operations needed to make a target number (lIIllllllllllll) the median of a given list of numbers. It reads the target number and list size, then processes the list to check for the presence of the target and finds the closest numbers above and below it. Based on whether the target is present and the positions of these adjacent numbers, it calculates the required operations using specific mathematical formulas. The main goal is to compute the operations for achieving the target median."
+"p02911","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.75,0.6,0.8,0.3,0.45,"without_comments","**Title:** Fast Input Processing for Contest Problem
+
+**Main Goal:** The code efficiently determines which participants in a contest have a positive score after a series of correct answers, using a custom fast input reader for optimal performance.
+
+**Summary Description:** This Java program uses a custom `FastReader` class for efficient input parsing, crucial in programming competitions. It processes a problem where `n` participants start with `k` points. For each of `q` correct answers, a participant gains a point. The program calculates each participant's final score (initial `k` minus total correct answers by others plus their own correct answers) and outputs ""Yes"" if their score is positive, otherwise ""No"".","encryption","Title: Encrypted Response Generator Based on Query Frequency
+
+Main Goal: The code processes a series of queries to determine which elements in an array have been accessed frequently enough to exceed a threshold, then outputs encrypted ""Yes"" or ""No"" responses.
+
+Key Functions:
+1. Initializes constants and decrypts two strings (""Yes"" and ""No"") using a custom Blowfish encryption method
+2. Reads input values for array size (n), threshold (k), and number of queries (q)
+3. Tracks how many times each array element is queried
+4. For each element, checks if its frequency count (adjusted by the total sum of all queries) exceeds the threshold k
+5. Outputs the decrypted ""Yes"" string for elements that meet the threshold, ""No"" for those that don't
+6. Includes helper methods for encryption/decryption and input processing
+
+The core logic determines which array indices were queried sufficiently often relative to the threshold k, using an encrypted output system for the results."
+"p02723","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.9,0.9,0.35,0.55,"without_comments","Title: String Pattern Checker for Specific Format  
+
+Main Goal: The code reads a string input and checks if the characters at positions 2 and 3 are identical, and if the characters at positions 4 and 5 are identical (using 0-based indexing). If both conditions are true, it outputs ""Yes""; otherwise, it outputs ""No"". This is typically used to validate strings with a specific pattern, such as checking formatted codes (e.g., ""ABCCDD"" where CC and DD are pairs).  
+
+Key Functions:  
+1. **Input Handling**: Uses custom `InputReader` for efficient reading of input data (integers, strings, doubles, longs).  
+2. **String Validation**: Compares characters at indices 2–3 and 4–5 to verify matching pairs.  
+3. **Output Management**: Uses `OutputWriter` for optimized printing of results.","encryption","Title: String Comparison and Conditional Output with Obfuscated Encryption
+
+Main Goal: The code reads a string input and checks if the characters at specific indices (determined by obfuscated calculations) are equal. Based on this comparison, it outputs one of two decrypted messages. The core functionality involves using the Blowfish cipher to decrypt hardcoded Base64 strings for the output messages.
+
+Key Functions:
+1. **Initialization (`static` blocks):** Obfuscated arrays (`Ill`, `IIl`, `lIl`) are initialized with values calculated to hide their true purpose (e.g., string lengths, array indices, and constants).
+2. **Decryption (`I` method):** Decrypts a Base64-encoded string using the Blowfish algorithm with an MD5-hashed key.
+3. **String Comparison (`main`):** Compares characters at indices 2, 3, 4, and 5 (derived from `Ill`) of the input string.
+4. **Conditional Output:** Prints the decrypted string ""Correct!"" if the comparisons are true, otherwise prints ""Wrong!"".
+5. **I/O Handling:** Uses custom `InputReader` and `OutputWriter` classes for efficient reading and writing.
+
+The code is heavily obfuscated to conceal its simple purpose: to check an input string for a specific pattern and respond accordingly."
+"p02910","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.9,0.9,0.25,0.55,"without_comments","**Title:** String Pattern Validation for Alternating Characters
+
+**Main Goal:** The code checks if a given string adheres to a specific alternating pattern where characters at even indices must be 'R' and characters at odd indices must be 'L'.
+
+**Summary Description:** This Java program reads an input string and validates whether its characters follow a strict alternating pattern. It verifies that every character at an even index (0-indexed) is not 'L' and every character at an odd index is not 'R'. If any violation is found, it prints ""No"" and exits; otherwise, it prints ""Yes"". The program uses a custom FastReader class for efficient input parsing and includes utility methods for calculating GCD and LCM, though these are unused in the main logic.","encryption","**Title:** Encrypted String Analysis and Conditional Output
+
+**Main Goal:** The code processes an input string to check for specific characters at certain positions and outputs one of three decrypted messages based on these conditions.
+
+**Functions:**
+1. **Initialization:** Static blocks initialize integer arrays (`IIl`, `ll`) and string arrays (`Il`, `I`) with obfuscated values and decrypted strings using custom encryption methods (`l`, `ll`, `I`).
+2. **Decryption:** Methods `l`, `ll`, and `I` decrypt Base64-encoded strings using Blowfish or DES with MD5-hashed keys.
+3. **Input Processing:** The `main` method reads an input string and checks each character. If a character at an even index is 'X' (ASCII 88) or at an odd index is 'T' (ASCII 84), it prints a specific decrypted message and exits.
+4. **Fallback Output:** If no conditions are met, it prints a default decrypted message.
+5. **Helper Methods:** Includes `gcd` and `lcm` for mathematical operations, and `FastReader` for efficient input handling."
+"p02256","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.7,0.3,0.6000000000000001,"without_comments","Title: Finding the Greatest Common Divisor (GCD) of Two Integers
+
+Main Goal: This code calculates the greatest common divisor (GCD) of two integers provided as input. It reads two numbers from the user, processes them to find all common divisors, and then outputs the largest one.
+
+The program works by first reading a line of input and splitting it into two integers. It then handles three cases:
+1. If the first number is smaller, it calculates the remainder of the division (v2 % v1) and finds all divisors of both the remainder and the first number.
+2. If the first number is larger, it calculates the remainder (v1 % v2) and finds all divisors of both the remainder and the second number.
+3. If the numbers are equal, their GCD is the number itself.
+
+Finally, it compares the lists of divisors from both numbers to find all common divisors and prints the maximum value from that list, which is the GCD. The approach uses a method inspired by the Euclidean algorithm but implements it through divisor list comparison rather than recursion.","encryption","The code calculates the greatest common divisor (GCD) of two integers provided as input. It uses a combination of string decoding, modulo operations, and list comparisons to find common divisors, ultimately outputting the largest one. The code includes obfuscated string splitting and initialization logic to set up the delimiter for parsing the input."
+"p02848","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,1.0,0.9,0.7,0.3,0.7,"without_comments","Title: Caesar Cipher Implementation in Java
+
+Main Goal: This code implements a Caesar cipher to encrypt an uppercase alphabetical string by shifting each letter by a given integer value (n). It reads the integer and string input, maps each character to a numerical value (A=0 to Z=25), applies the shift modulo 26 to each value, and then converts the shifted numbers back to their corresponding letters to produce the encrypted output.","encryption","This code is a custom encryption/decryption program that uses a combination of DES and Blowfish ciphers to decode an array of strings. The main goal is to process an input string by mapping each character to a numeric value, applying a shift based on user input, and then outputting a transformed string using pre-decoded values from the encrypted array. The code initializes static arrays with obfuscated values and uses bitwise operations to set indices, making it resistant to straightforward analysis."
+"p03000","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.3,0.6,0.4,0.8,0.6,0.19999999999999996,"without_comments","Title: Counting Bounces Within a Distance Limit
+
+Main Goal: The code calculates the number of times a ball bounces within a specified distance limit. It reads the number of bounces (N), the maximum distance (X), and a list of bounce distances (L). It then simulates the bounces, accumulating the total distance traveled, and counts how many bounces occur before the total distance exceeds X. The result is printed, which includes the starting position (counted as the first bounce at distance 0).","variable_renaming","Title: Counting Elements in Array Until Sum Exceeds Threshold
+
+Main Goal: The code reads two integers (n and k) and an array of n integers. It then counts how many consecutive elements from the start of the array can be added together without exceeding the threshold k. The result is the count of these elements.
+
+Summary Description: This Java program calculates the maximum number of consecutive elements from the beginning of an array that can be summed without exceeding a given threshold. It uses custom fast input reading for efficiency and outputs the count of elements that meet this condition."
+"p02718","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.75,0.9,0.8,0.9,0.4,0.5,"without_comments","Title: Vote Eligibility Checker Based on Popularity Threshold
+
+Main Goal: The code determines whether a set of items (e.g., products or candidates) has enough popular items to meet a required quota. It reads the total number of items (N) and the required quota (M). It then checks if at least M items have a value (e.g., votes or popularity) greater than or equal to a calculated threshold. The threshold is defined as one-quarter of the total sum of all values, divided by M (using ceiling division). The output is ""Yes"" if the quota is met, otherwise ""No"".","encryption","Title: Competitive Programming Solution with Encrypted Strings
+
+Main Goal: The code is a solution for a competitive programming problem that determines if a sufficient number of elements in an array meet a certain threshold condition. It uses encrypted string constants and custom input parsing for efficiency.
+
+Key Functions:
+1. **Initialization**: The `Ill()` and `IIl()` methods initialize integer and string arrays (`ll` and `l`) using obfuscated values and decrypt strings for output messages.
+2. **Decryption**: The `l()` method decrypts a string using DES with an MD5-derived key, while `ll()` uses a simpler XOR-based decryption.
+3. **Core Logic**: The `solve()` method reads an integer `N` (array size) and `M` (threshold count). It checks how many elements in the array `A` are at least `ceil(sum/(4*M))`, where `sum` is the total of all elements. It outputs ""Yes"" if at least `M` elements meet the condition, otherwise ""No"".
+4. **Input Handling**: The `FastScanner` class provides optimized methods for reading various data types, including arrays, with 1-based indexing support."
+"p02268","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.8500000000000001,0.8500000000000001,0.4,0.4,"without_comments","Title: Binary Search Inspired Element Matching Counter
+
+Main Goal: This code counts how many elements from array T are present in array S by using a segmented linear search approach that divides S into four quarters to reduce the number of comparisons.
+
+The program reads two arrays (S and T) from input, then compares elements from T against S. It first ensures the larger array is always S. The core method divides S into four segments and searches each segment linearly only when the target value from T falls within that segment's range. This hybrid approach attempts to optimize search performance by avoiding a full linear scan of S for each element in T, though it doesn't implement a full binary search. The final count of matching elements is returned and printed.","encryption","This code reads two arrays of integers from input, decrypts hardcoded strings to determine splitting delimiters, and then counts the number of common elements between the arrays using a custom binary search-like algorithm. The main goal is to perform an intersection count between two sets of integers with obfuscated string decryption for delimiter configuration."
+"p02687","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.8,0.9,0.9,0.2,0.6000000000000001,"without_comments","Title: Input Handling and String Comparison
+
+Main Goal: The code reads a string input and checks if it is ""ABC"". If so, it outputs ""ARC""; otherwise, it outputs ""ABC"". The primary function is to toggle between these two specific string outputs based on the user's input.
+
+Key Functions:
+1. **Input Handling**: The nested `InputReader` class provides efficient methods for reading different data types (`Int()`, `String()`, `Double()`, `Long()`) from the input stream, handling whitespace and negative numbers.
+2. **String Comparison**: The `main` method uses the `String()` function to read input and performs a simple equality check to determine the output.
+3. **Output**: The result is printed using a `PrintWriter` for buffered output performance.
+
+This code is essentially a simple conditional program built with a custom, robust input parsing utility.","encryption","This code is a Java program that reads a string input from the user and checks if it matches a specific, hardcoded password. The main goal is to act as a simple password verifier. The ""correct"" password and the resulting success/failure messages are obfuscated using a combination of Base64 encoding, XOR operations, and DES encryption to make them difficult to discern from a static analysis of the code. The program outputs a predefined success message if the input matches the password, and a failure message otherwise."
+"p02693","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.9,0.3,0.6000000000000001,"without_comments","Title: Checking for a Multiple in a Range
+
+Main Goal: The code checks if there exists a multiple of a given integer `n` within the closed interval `[a, b]`. It calculates the smallest multiple of `n` that is greater than or equal to `a` and then checks if this multiple falls within the bounds of the interval `[a, b]`. The program outputs ""OK"" if such a multiple exists, otherwise it outputs ""NG"".
+
+Key Functions:
+1. Reads three integers: `n`, `a`, and `b`.
+2. Computes the smallest multiple of `n` that is >= `a`.
+3. Compares this multiple to `b` to determine if it falls within the interval.
+4. Utilizes custom FastScanner and FastWriter classes for efficient input/output operations.","encryption","Title: Encrypted String Comparison Based on Interval Divisibility Check
+
+Main Goal: The code reads three integers (n, a, b) and checks if there exists a multiple of n within the interval [a, b]. It outputs one of two encrypted strings based on whether such a multiple exists.
+
+Key Functions:
+1. Initializes encryption keys and decrypts strings using Blowfish and DES algorithms
+2. Reads input values using a custom FastScanner class
+3. Calculates the smallest multiple of n that is ≥ a
+4. Compares this multiple with b to determine output
+5. Outputs either ""YES"" or ""NO"" (decrypted from encrypted strings) depending on whether the multiple falls within [a,b]
+
+The code uses cryptographic obfuscation to hide the output strings (""YES"" and ""NO"") and includes utility classes for fast I/O operations and string encryption/decryption."
+"p02724","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.35,0.9,0.9,0.9,0.3,0.6000000000000001,"without_comments","**Title**: Efficient Input Handling and Point Calculation
+
+**Main Goal**: The code reads an integer input and calculates a total point value by first converting as many 500-unit chunks as possible into 1000 points each, then converting any remaining 5-unit chunks into 5 points each.
+
+**Summary Description**: This Java program efficiently processes large input numbers using custom I/O classes. It calculates a reward point total where:
+- Every full 500 units are converted to 1000 points
+- Any remaining units in multiples of 5 are converted to 5 points each
+The custom InputReader and OutputWriter classes provide optimized input/output handling for competitive programming scenarios.","encryption","Title: Obfuscated Currency Conversion Calculator
+
+Main Goal: This code calculates the total value of an input integer `x` by applying two conversion rules using hardcoded constants (likely representing currency denominations and rates). The result is stored in an array and printed. The code is heavily obfuscated with bitwise operations and magic numbers to hide the actual values of the constants used in the calculation. It includes custom InputReader and OutputWriter classes for efficient I/O handling."
+"p02731","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.25,0.9,0.6499999999999999,0.3,0.5,0.6000000000000001,"without_comments","This code calculates the maximum possible perimeter of a rectangular fence that can be formed in a grid where '.' represents safe land and 'x' represents marsh. The fence must enclose only safe land, with its border posts on safe land. The main method also includes an unrelated calculation of the cube of (l/3). The primary goal is to solve the ""kMarsh"" problem by efficiently finding the largest valid rectangle.","dead_code","The code reads a double value from standard input, computes its cube after dividing by 3, and prints the result. The main goal is to calculate the volume of a cube whose side length is one-third of the input value. The numerous unused methods and complex, non-functional loops appear to be obfuscation or remnants of a different problem, making them irrelevant to the actual execution."
+"p03474","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.4,0.5,"without_comments","Title: Postal Code Format Validator
+Main Goal: To validate if an input string S adheres to a specific postal code format defined by two integers A and B. The format requires that the string has exactly A digits, followed by a hyphen '-', and then exactly B digits. The code checks that the character at position A is a hyphen and that all other characters in the respective segments are numeric digits. It outputs ""Yes"" if the format is correct, otherwise ""No"".","encryption","Title: String Validation and Conditional Output Based on Encrypted Messages
+
+Main Goal: The code validates an input string format (with two integers and a string) and checks if it matches a specific pattern (likely a hyphenated format like ""XXX-XXXX""). It uses encrypted strings for output messages, decrypting them with XOR and Blowfish encryption. Based on the validation, it prints either ""Yes"" or ""No"".
+
+Key Functions:
+1. `ll()`: Initializes an array `l` with obfuscated integer constants.
+2. `Il()`: Initializes an array `I` with two decrypted strings (""Yes"" and ""No"") using the `I()` and `l()` methods.
+3. `l()`: Decodes a Base64 string and applies an XOR decryption with a given key.
+4. `I()`: Decrypts a string using Blowfish encryption with an MD5-hashed key.
+5. `main()`: Reads input, checks if the character at position `A` is a hyphen (`-`), and validates that the first `A` characters and the next `B` characters contain only digits. Outputs ""Yes"" if valid, ""No"" otherwise."
+"p02420","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.8,0.7,0.9,0.35,0.45000000000000007,"without_comments","Title: Card Shuffling Simulation
+
+Main Goal: This code simulates a series of card shuffling operations on a string of characters, where each shuffle involves cutting the deck at a specified position and moving the cut portion to the end.
+
+Functions:
+1. Reads a string representing a deck of cards and a number of shuffle operations to perform.
+2. For each shuffle, it reads a cut position and performs a ""riffle"" operation by splitting and recombining the deck.
+3. Alternates between using two arrays (`cds` and `cds2`) to store intermediate results of the shuffle.
+4. After all shuffles, it outputs the final arrangement of the cards based on whether an even or odd number of shuffles were performed.
+5. The program continues processing input decks until it encounters a single dash (""-"") which signals termination.","encryption","Title: Encrypted String Processing and Array Shuffling
+
+Main Goal: This code processes input strings by applying a custom shuffling algorithm based on encrypted instructions. It uses base64 decoding and XOR operations for string decryption, and Blowfish encryption for certain strings. The program reads input lines until a specific encrypted exit command is entered, then performs repeated shuffling of string arrays based on user-provided indices, alternating between two arrays to simulate a card shuffling process. The core functionality involves obfuscated string manipulation and array position swapping."
+"p02391","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.3,0.6000000000000001,"without_comments","Title: Comparing Two Integers Within a Specified Range
+
+Main Goal: This Java code reads two integers from the user and compares them to determine if the first number is less than, greater than, or equal to the second number. It also validates that both input numbers are within the range of -1000 to 1000. If the inputs are outside this range, it prompts the user to enter valid numbers.","encryption","Title: Encrypted Comparison Program
+
+Main Goal: This code compares two user-input integers and prints an encrypted message based on their relationship (less than, greater than, equal, or invalid range). The program uses multiple encryption techniques (Blowfish and DES) to decrypt hardcoded strings that contain the comparison result messages.
+
+Key Functions:
+1. Initializes an integer array with obfuscated values for range checking
+2. Decrypts and stores comparison messages using both Blowfish and DES encryption
+3. Compares two input numbers against a valid range [1000, 27625]
+4. Outputs appropriate decrypted messages based on the comparison result
+5. Uses MD5 hashing for key generation and Base64 for encoded cipher text storage
+
+The code employs anti-analysis techniques including obfuscated values and encrypted strings to hide the actual comparison logic and output messages."
+"p02958","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.775,0.9,0.9,0.8,0.2,0.7,"without_comments","Title: Array Adjacent Swap Validation
+
+Main Goal: This code checks if an array can be made non-decreasing (each element <= the next) by swapping at most one pair of adjacent elements.
+
+The program reads an integer `N` and an array `p` of `N` integers. It scans the array to count and record the indices where a ""descent"" occurs (where `p[i] > p[i+1]`). Based on the number of these descents (0, 1, 2, or more), it determines if a single adjacent swap can fix the array:
+- **0 descents**: Array is already sorted (""YES"").
+- **1 descent**: Validates if swapping `p[i]` and `p[i+1]` will not create new violations with neighboring elements.
+- **2 descents**: Checks if swapping the pair at the first descent index will also fix the second descent, ensuring the swap is valid.
+- **>2 descents**: Too many issues for one swap (""NO"").
+
+The result (""YES"" or ""NO"") is printed based on this validation.","encryption","**Title:** Array Descent Pattern Analysis and Decryption Utility
+
+**Main Goal:** The code processes an integer array to detect and classify patterns of non-descending order violations (i.e., where a value is greater than the next one). It uses encrypted/obfuscated strings to output a specific message based on the analysis.
+
+**Summary Description:**
+This program's primary function is to analyze an input sequence of integers for violations of a non-descending order. It counts the number of indices where an element is greater than the next one. Based on the count and the specific positions of these violations, it decrypts and outputs a pre-defined message from an array of encrypted strings (`I`). The code uses a combination of DES, Blowfish, and XOR decryption methods to obfuscate these output strings, which are decrypted and stored in a static array during initialization. The `exec` method is the core logic that reads input, performs the pattern analysis on the array, and selects the appropriate message to decrypt and print."
+"p02582","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.4,0.6499999999999999,0.5,0.44999999999999996,0.4,0.19999999999999996,"without_comments","Title: Counting Consecutive 'R's in a Three-Character String
+
+Main Goal: This code reads a three-character string from the user and counts the number of consecutive 'R' characters (representing ""rock"" in a game context) it finds. The output is an integer based on specific patterns found in the input string.
+
+Functions: The code uses a series of conditional checks (if-else statements) to match the input against predefined patterns. It prints:
+- '3' if the string is ""RRR""
+- '2' for patterns where two 'R's are adjacent (""RRS"" or ""SRR"")
+- '1' for patterns with a single isolated 'R'
+- '0' if no 'R's are present (""SSS"")","dead_code","Title: Rock-Paper-Scissors Outcome Decoder
+
+Main Goal: This code determines the outcome of a three-round Rock-Paper-Scissors match based on a three-character input string where 'R' represents Rock and 'S' represents Scissors (Paper is not used in this implementation).
+
+The program reads a three-character input string and checks various combinations of 'R' (82) and 'S' (83) characters at positions 0, 1, and 2. It uses a helper method I() to compare character ASCII values (82 for 'R', 83 for 'S'). Based on specific patterns of wins/losses represented by these characters, it prints different numerical results (0, 1, 2, or 3) which appear to represent the number of wins or similar scoring in the match scenario. The code contains numerous redundant conditional statements and string length checks that serve no functional purpose and appear to be obfuscation."
+"p02582","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.6499999999999999,0.5,0.44999999999999996,0.4,0.2499999999999999,"without_comments","Title: Counting Consecutive 'R's in a Three-Character String
+
+Main Goal: This code reads a three-character string from the user and counts the number of consecutive 'R' characters (representing ""rock"" in a game context) it finds. The output is an integer based on specific patterns found in the input string.
+
+Functions: The code uses a series of conditional checks (if-else statements) to match the input against predefined patterns. It prints:
+- '3' if the string is ""RRR""
+- '2' for patterns where two 'R's are adjacent (""RRS"" or ""SRR"")
+- '1' for patterns with a single isolated 'R'
+- '0' if no 'R's are present (""SSS"")","encryption","Title: String Pattern Validator with Obfuscated Constants
+
+Main Goal: The code checks if the input string matches specific character patterns at predefined indices and outputs a number based on which pattern is matched. It uses an obfuscated array `l` to store the indices and values for comparison.
+
+Functions:
+1. `I()`: Initializes the static array `l` with six integer values derived from obfuscated expressions and string lengths.
+2. `main(String[] args)`: Reads a string input, then uses a series of conditional checks to compare characters at positions `l[0]`, `l[2]`, and `l[3]` against the values `l[1]` and `l[4]`. Depending on which pattern the input matches, it prints a value from the array `l` (either `l[0]`, `l[2]`, `l[3]`, or `l[5]`). The static block ensures `I()` is called to initialize `l` before `main` executes."
+"p03072","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.5,0.8,0.2,0.3,0.3,0.6000000000000001,"without_comments","Title: Counting Visible Buildings from the West
+
+Main Goal: The code counts the number of buildings visible from the west (left) when looking at a skyline, where a building is visible if it is at least as tall as the tallest building to its left.
+
+Functions:
+1. Reads an integer `n` (number of buildings) and an array `h` of their heights.
+2. Initializes the count `ans` to 1 (the first building is always visible).
+3. Iterates through the array, comparing each building's height to the current maximum height (`num`).
+4. If a building is at least as tall as the current maximum, it is counted as visible and the maximum height is updated.
+5. The `hayami` class is a custom input reader for efficient data parsing in competitive programming.","variable_renaming","This code defines a custom input reader class (`hayami`) for efficient reading of input data in competitive programming scenarios. The main goal is to read an integer array, count how many elements are greater than or equal to all previous elements (non-decreasing sequence check), and output that count. The `hayami` class provides optimized methods for reading strings, integers, and doubles from standard input."
+"p03072","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.5,0.8,0.2,0.3,0.3,0.5,"without_comments","Title: Counting Visible Buildings from the West
+
+Main Goal: The code counts the number of buildings visible from the west (left) when looking at a skyline, where a building is visible if it is at least as tall as the tallest building to its left.
+
+Functions:
+1. Reads an integer `n` (number of buildings) and an array `h` of their heights.
+2. Initializes the count `ans` to 1 (the first building is always visible).
+3. Iterates through the array, comparing each building's height to the current maximum height (`num`).
+4. If a building is at least as tall as the current maximum, it is counted as visible and the maximum height is updated.
+5. The `hayami` class is a custom input reader for efficient data parsing in competitive programming.","dead_code","This code defines a custom input reader class (`hayami`) for efficient reading of input data in competitive programming scenarios. The main goal is to process an integer array and count how many elements are greater than or equal to all previous elements. The `hayami` class provides methods for reading different data types (strings, longs, integers, doubles) with optimized performance, while the `Main` class uses this reader to process input, determine the number of ""record-breaking"" elements in the sequence, and output the result."
+"p03072","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.2,0.3,0.3,0.5,"without_comments","Title: Counting Visible Buildings from the West
+
+Main Goal: The code counts the number of buildings visible from the west (left) when looking at a skyline, where a building is visible if it is at least as tall as the tallest building to its left.
+
+Functions:
+1. Reads an integer `n` (number of buildings) and an array `h` of their heights.
+2. Initializes the count `ans` to 1 (the first building is always visible).
+3. Iterates through the array, comparing each building's height to the current maximum height (`num`).
+4. If a building is at least as tall as the current maximum, it is counted as visible and the maximum height is updated.
+5. The `hayami` class is a custom input reader for efficient data parsing in competitive programming.","encryption","This code defines a custom input reader class (`hayami`) for efficient reading of input data in competitive programming scenarios. The main goal is to read an integer `n` and an array `h` of `n` integers, then compute the number of elements in `h` that are greater than or equal to all previous elements (i.e., the count of ""record"" values where each new record breaks the previous maximum). The result is printed to the standard output."
+"p02392","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.7,0.2,0.7,"without_comments","Title: Checking for Strictly Increasing Order of Three Integers
+
+Main Goal: The code reads three integers from the user and checks if they are in strictly increasing order (a < b < c). It prints ""Yes"" only if this single condition is met. For every other possible relationship between the three numbers (decreasing, equal, or any non-strictly-increasing combination), it prints ""No"". The logic is implemented through a series of exhaustive conditional checks.","encryption","Title: Encrypted Message Decoder and Comparator
+
+Main Goal: This code decrypts a set of encrypted strings during initialization and then uses them to print specific messages based on the comparison of three input integers. The decryption methods employ XOR operations and symmetric ciphers (DES and Blowfish) with keys derived from MD5 hashes.
+
+Key Functions:
+1. `IIl()`: Initializes an integer array `l` with obfuscated values.
+2. `ll()`: Decrypts and stores messages in string array `I` using three different decryption methods.
+3. `l()`: Decrypts a Base64-encoded string using a repeating XOR cipher.
+4. `I()`: Decrypts a Base64-encoded string using the DES cipher.
+5. `Il()`: Decrypts a Base64-encoded string using the Blowfish cipher.
+6. `main()`: Reads three integers, compares them, and prints the corresponding pre-decrypted message from array `I`."
+"p02552","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.8,0.9,0.3,0.5,"without_comments","Title: Basic Input Processing with Conditional Output
+
+Main Goal: The code reads an integer input and prints ""0"" if the input is 1, otherwise it prints ""1"". It serves as a minimal example demonstrating input handling and conditional output.
+
+Key Functions:
+1. The main method uses a custom Foster class to read input and checks if the value equals 1.
+2. The Foster class provides input parsing methods (nextInt, nextLong, etc.) and array utilities.
+3. Additional helper methods include array sorting, bit manipulation, and debug printing utilities, though these are unused in the main logic.","encryption","Title: Obfuscated Conditional Output Program
+
+Main Goal: This code is an obfuscated Java program that, when run, reads an integer input and prints one of two predetermined strings based on whether the input is equal to a specific value (1). The primary functions involve string decryption using XOR and DES algorithms, array initialization with obfuscated values, and input handling. The heavy obfuscation, including encrypted strings and complex static initialization, suggests an intent to hide the program's true purpose and make reverse engineering difficult."
+"p02397","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.8,0.8,0.75,0.3,0.5,"without_comments","Title: Sorting Two Integers in Ascending Order with Termination Conditions
+
+Main Goal: This Java program reads pairs of integers from standard input, prints them in ascending order (smaller number first), and terminates under specific conditions: if the first integer is negative and the second is greater than 10000, if both integers are zero, or after processing 3000 pairs.","encryption","This Java code reads pairs of integers from standard input and prints them in ascending order until a termination condition is met. It uses DES encryption with an MD5-derived key to decode a string that serves as a separator for input parsing. The main goal is to process integer pairs by comparing and ordering them while maintaining obfuscated initialization values through encrypted constants and bitwise operations."
+"p04043","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8500000000000001,0.9,0.7,0.25,0.6000000000000001,"without_comments","Title: Validating a Specific Combination of Three Integers
+
+Main Goal: The code checks whether the three input integers (A, B, and C) form the specific combination of 5, 5, and 7 in any order. It uses a counting mechanism to verify if the inputs meet the criteria of containing exactly two 5s and one 7. The program outputs ""YES"" if the combination is valid, otherwise ""NO"".
+
+Functions:
+1. Reads three integers from user input
+2. Uses conditional checks to count valid occurrences of numbers 5 and 7
+3. Validates if the total count matches the required pattern
+4. Prints the result based on the validation","encryption","Title: Encrypted Message Decryption and Conditional Logic
+
+Main Goal: This code decrypts an encrypted message based on specific input conditions. It uses a combination of DES decryption and XOR operations to reveal hidden strings, which are then printed depending on the results of conditional checks applied to integer inputs.
+
+Key Functions:
+1. `I()`: Performs DES decryption using an MD5-hashed key to decode a Base64-encoded string.
+2. `l()`: Decodes a Base64 string and applies XOR decryption with a repeating key.
+3. `ll()`: Initializes an integer array `l` with obfuscated values used throughout the program.
+4. `Il()`: Initializes a string array `I` by decrypting two encrypted strings using the `I()` and `l()` methods.
+5. `main()`: Reads three integers, applies conditional logic to them, and prints one of the decrypted strings from array `I` based on the result.
+
+The code uses input-dependent conditions to control which decrypted message is displayed, effectively acting as a simple access control or puzzle mechanism."
+"p02778","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8,0.7,0.5,0.3,0.5,"without_comments","**Title:** String Masking Utility
+
+**Main Goal:** The code reads an input string and replaces every character with 'x', effectively masking the entire string.
+
+**Functions:**  
+- The `FastScanner` class provides efficient input parsing for strings and numbers.  
+- The `main` method reads a string, converts it to a char array, replaces all characters with 'x', and prints the result.","encryption","**Title:** Obfuscated String Encryption and Output Program
+
+**Main Goal:** The code reads an input string, replaces all its characters with a specific character (determined by obfuscated logic), and prints the result using an encrypted and obfuscated output format.
+
+**Functions:**
+1.  **FastScanner Class:** A custom, obfuscated input reader designed to parse tokens and numbers quickly from `System.in`.
+2.  **Encryption/Decryption (`I` method):** Decrypts a hard-coded, Base64-encoded string using the DES algorithm with a key derived from an MD5 hash of another hard-coded string (""QuOxs"").
+3.  **Main Method:** Reads an input string, replaces every character in it with the character 'X' (ASCII 88, determined by `ll[0]` which resolves to 88), and prints the result using a format string that was decrypted at startup (the decrypted string is ""%s\n"")."
+"p02396","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.9,0.8500000000000001,0.7,0.3,0.6000000000000001,"without_comments","Title: Reading and Printing Input Until Zero
+
+Main Goal: This Java program reads input lines from the standard input until it encounters a line containing only ""0"" or until 10,000 lines are read. It then prints each of the previously read lines, prefixed with a sequential case number, stopping when it reaches the ""0"" marker.
+
+Key Functions:
+1. Input Reading: Uses a BufferedReader to read lines from System.in.
+2. Storage: Stores up to 10,000 input lines in a String array.
+3. Termination Condition: The first loop breaks immediately upon reading a ""0"", which is not stored.
+4. Output: The second loop prints each stored line with a ""Case X:"" prefix until it encounters the ""0"" in the array.
+5. Exception Handling: Catches and prints potential IOException and NumberFormatException errors.","encryption","Title: Encrypted Input Processing with Conditional Output
+
+Main Goal: This code reads multiple input lines until a specific encrypted stop condition is met, then prints them with a case number. It uses hardcoded encrypted strings and decryption keys to determine control flow.
+
+Key Functions:
+1. Initializes an integer array (l) with obfuscated values for program control
+2. Decrypts two strings (""LK6p7Q+X3ss="" and ""HXcu8KoFZFQ="") using DES encryption with MD5-derived keys
+3. Reads input lines until the first decrypted string (""-1"") is encountered
+4. Prints input lines with case numbers until the second decrypted string (""0"") is found
+5. Handles I/O and number format exceptions
+
+The code essentially processes user input between two encrypted boundary markers and formats the output with sequential case numbers."
+"p02786","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.8,0.9,0.35,0.7,0.9,0.55,"without_comments","This code calculates the total number of attacks required to destroy a monster with a given health value `H` using a recursive splitting strategy. The key function `dfs(h)` uses memoization to compute the result: if the health `h` is 1, it returns 1; otherwise, it recursively splits the health into two halves (by calling `dfs(h/2)`) and returns `2 * dfs(h/2) + 1`. The main goal is to efficiently compute the total attacks needed when each attack splits the monster into two smaller monsters with half the health (rounded down), and the process repeats until all monsters are destroyed.","variable_renaming","The code recursively calculates the number of nodes in a binary tree structure given a maximum depth `n`, using memoization to optimize repeated calculations. The main goal is to compute the total nodes by traversing each level (via integer division by 2) and summing the results, storing intermediate values to avoid redundant computations. The `FastScanner` class handles efficient input parsing for large data sets."
+"p03315","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.8,0.9,0.8,0.2,0.6000000000000001,"without_comments","Title: Plus-Minus Sign Combination Evaluator
+
+Main Goal: This code evaluates a string of four plus ('+') and minus ('-') signs by calculating their combined numerical value, where each '+' represents +1 and each '-' represents -1.
+
+Functions: The program reads a single input string. It then uses a series of conditional checks to match the input against all 16 possible combinations of four characters. Based on the exact match, it directly outputs the pre-calculated sum for that specific combination, which can be -4, -2, 0, 2, or 4. It effectively acts as a hard-coded lookup table for the sum of these sequences.","encryption","This code is a string decryption and comparison program. Its main goal is to decrypt a set of predefined encrypted strings using various cryptographic algorithms (DES, Blowfish, XOR) and then check if a user-input string matches any of them. Based on which decrypted string the input matches, it prints a specific numeric output. The code uses obfuscated array indices and encrypted constants to hide the actual strings and logic from casual inspection."
+"p03854","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.9,0.9,0.8500000000000001,0.3,0.6000000000000001,"without_comments","Title: String Pattern Validation with Depth-First Search
+
+Main Goal: The code checks if a given input string can be constructed by concatenating the words ""dream"", ""dreamer"", ""erase"", and ""eraser"" in any combination. It uses a recursive depth-first search (DFS) algorithm to explore all possible ways to break down the string starting from the beginning, looking for valid word matches at each position. If the entire string can be successfully decomposed, it prints ""YES""; otherwise, it prints ""NO"".","encryption","Title: String Pattern Matching and Conditional Output Based on Decrypted Messages
+
+Main Goal: The code checks if an input string matches specific patterns using a depth-first search (DFS) and outputs one of two decrypted messages based on the result. It initializes an integer array with obfuscated values and a string array with encrypted data. The DFS function searches for two distinct 5-character patterns (""hello"" and ""world"") and one 7-character pattern (""hellow"") within the input. Depending on which patterns are found, it traverses the string in different step sizes. The final output is selected from the string array, which contains messages decrypted using either a simple XOR cipher or a more complex DES cipher with an MD5-derived key."
+"p02753","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.75,0.8,0.9,0.2,0.55,"without_comments","This code processes a grid to find the largest possible perimeter of a rectangle that does not contain any obstacles (marked 'x'). The main goal is to determine if such a rectangle exists and output its perimeter; if not, it outputs ""impossible"". The solution involves precomputing obstacle positions and checking valid horizontal segments across rows to efficiently calculate the maximum perimeter. Additionally, the main method includes a separate check for a string input to determine if it consists entirely of 'A's or 'B's.","encryption","This Java code is an obfuscated program that reads a string input and checks if it is a balanced sequence of parentheses. The main goal is to count the number of open '(' and close ')' brackets in the first four characters of the input. If the count for either type reaches four, it decrypts and prints a ""YES"" message; otherwise, it decrypts and prints a ""NO"" message. The code uses various obfuscation techniques, including encrypted strings, bitwise operations to hide integer values, and custom decryption functions (XOR and DES) to conceal the output messages."
+"p02627","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.9,1.0,0.75,0.05,0.85,"without_comments","Title: Uppercase and Lowercase Letter Detection
+
+Main Goal: The code checks if the input character is an uppercase or lowercase English letter and prints ""A"" for uppercase or ""a"" for lowercase.
+
+Functions: It reads a single string input from the user. The first switch statement checks if the input is any uppercase letter (A-Z); if so, it prints ""A"". The second switch statement checks if the input is any lowercase letter (a-z); if so, it prints ""a"". There is no output for non-letter inputs.","encryption","This code is an obfuscated Java program designed to store and decrypt an array of strings using two different cryptographic methods (Blowfish and DES) and a simple XOR cipher. The main goal is to hide the actual string contents through encryption and then dynamically decrypt them at runtime. The `IIl()` method initializes an array of indices using complex bitwise operations, and the `ll()` method populates a string array by calling decryption methods (`I`, `Il`, `l`) with encrypted payloads and keys. The `main` method is a stub that throws an exception, suggesting this is a library or component meant to be used by other code, not run standalone."
+"p02790","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.35,0.9,0.9,0.9,0.25,0.65,"without_comments","**Title:** String Repetition Based on Numeric Comparison
+
+**Main Goal:** The code reads two strings as numbers, compares their numeric values, and then constructs a new string by repeating the smaller number's string representation as many times as the value of the larger number (or vice versa, depending on the comparison).
+
+**Summary Description:** This Java program takes two input strings, `n` and `m`, interprets them as integers, and determines which one is smaller. It then generates an output string by repeating the smaller number's string a number of times equal to the value of the larger number. For example, if the inputs are ""2"" and ""3"", the output would be ""222"" (the smaller number, ""2"", repeated 3 times). The program uses a custom `FastReader` class for efficient input parsing.","encryption","Title: Encrypted String Concatenation Program
+
+Main Goal: This code reads two integers as strings, compares them, and then constructs a new string by concatenating the smaller integer value repeated (larger integer) times. However, the actual concatenation string is encrypted and decrypted at runtime using DES with an MD5-derived key. The decrypted string (from ""YpouTmjh84A="") is used as the base for concatenation. The code also includes helper methods for encryption/decryption, maximum subarray sum, LCM, and GCD, but these are not utilized in the main logic. The primary function is to output a string built from a secret decrypted value."
+"p02394","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.8,0.7,0.7,0.3,0.5,"without_comments","Title: Coordinate Region Checker with Offset Validation
+
+Main Goal: This code checks if a point (c, d) with an offset (e) lies entirely within one of four specific quadrants relative to a rectangle defined by points (0,0) and (a,b). It reads five integers (a, b, c, d, e) from input, then verifies if the square region around (c,d) with radius e is completely inside the rectangle in a particular quadrant. Based on the signs of a and b, it tests different boundary conditions and prints ""Yes"" if the condition is met for any quadrant, otherwise prints ""No"".","encryption","This Java code is an obfuscated program that decrypts and checks a set of input coordinates to determine the quadrant or origin of a rectangle. The main goal is to read five integers (a, b, c, d, e) from standard input, which likely represent the dimensions and position of two rectangles, and then print a message indicating their spatial relationship (e.g., which quadrant one rectangle is in relative to the other, or if it's at the origin). The code uses multiple decryption methods (Blowfish, DES, XOR) to decode the output strings from an obfuscated form at runtime, making its purpose less immediately obvious."
+"p02418","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.9,0.7,0.3,0.6000000000000001,"without_comments","Title: Circular String Pattern Checker
+Main Goal: The code checks if a given substring (want) exists within a main string (str) in a circular manner, meaning the search wraps around from the end to the beginning of the main string. It handles single-character and multi-character substrings differently, outputting ""Yes"" if found and ""No"" if not.","encryption","Title: String Pattern Matching with Obfuscated Logic and Conditional Output
+
+Main Goal: The code checks if a substring pattern (provided as input) exists within a main input string, using either a simple character match for single-character patterns or a more complex circular search for longer patterns. Based on the result, it outputs one of two precomputed and obfuscated strings, which are decrypted during initialization. The code employs various obfuscation techniques, including base64 decoding, XOR decryption, and Blowfish decryption, to hide its true output messages."
+"p02419","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.9,0.9,0.8,0.4,0.5,"without_comments","Title: Word Occurrence Counter in Text
+
+Main Goal: This code counts the number of times a specific search word appears as a standalone word in subsequent lines of input text.
+
+Functions:
+1. Reads a search word from the first line of input.
+2. Processes subsequent lines of text until it encounters ""END_OF_TEXT"".
+3. Converts all text to lowercase for case-insensitive matching.
+4. Searches for the exact word by checking for matches surrounded by whitespace or at string boundaries.
+5. Counts only whole-word occurrences, ignoring partial matches within larger words.
+6. Outputs the total count of standalone occurrences found in the text.","encryption","Title: Obfuscated Pattern Matching with Encrypted Termination Condition
+
+Main Goal: This code reads multiple lines of input, converts them to lowercase, and searches for occurrences of a specific pattern (derived from the first input line) within subsequent lines. The pattern matching includes checks for surrounding characters (non-space characters) to ensure the pattern is a whole word. The program terminates when it reads a line matching an encrypted string (""end"" after decryption). The final output is the count of valid pattern matches found.
+
+Key Functions:
+1. Initializes static arrays with obfuscated values using bit operations
+2. Decodes a Base64-encrypted string (""FSwqJxgWPTo9DwQ="") using XOR decryption with key ""PbnxW"" to get the termination word ""end""
+3. Processes input lines, comparing each against the first line pattern with boundary checks
+4. Uses complex nested loops and conditionals to validate whole-word matches
+5. Counts and outputs the total number of valid matches before termination"
+"p02801","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.8,0.7,0.2,0.7,"without_comments","Title: Alphabet Character Successor Printer
+
+Main Goal: This code reads a single lowercase letter from the user and prints the next subsequent letter in the English alphabet.
+
+Functions: The program uses a switch-case statement to map each input letter from 'a' to 'y' to its immediate successor (e.g., 'a' -> 'b', 'b' -> 'c'). If the input is 'z', no output is produced as it is the last letter. The code effectively provides the character that follows the input in the alphabetical sequence.","encryption","This Java code is an obfuscated string decryption utility. Its main goal is to initialize an array of encrypted strings and provide methods to decrypt them using different algorithms (Blowfish, DES, and a simple XOR cipher). The code uses complex arithmetic to hide the indices for array initialization and base64-encoded, encrypted strings to conceal its true payload. The static initializer block ensures the decryption keys and the string array are set up when the class is loaded. The `main` method is non-functional and throws an exception, indicating the primary purpose of this code is to serve as a library for storing and retrieving secrets rather than being a standalone application."
+"p03289","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.8,0.8,0.3,0.6000000000000001,"without_comments","This Java program checks if a given input string conforms to a specific pattern: it must start with 'A', contain exactly one 'C' between the second and second-last characters, and have all other characters be lowercase letters. If the string meets these criteria, it prints ""AC""; otherwise, it prints ""WA"".","encryption","Title: Input String Validation and Decryption
+
+Main Goal: The code processes an input string to check if it meets specific criteria, likely for validation or flag checking purposes. It uses encrypted constants and custom decryption methods (Blowfish, DES, XOR) to compare parts of the input. The `solve()` method checks if the input starts and contains certain substrings (decrypted from the `ll` array) and verifies the absence of certain special characters. Based on these checks, it outputs either a success or failure message (also decrypted from the `ll` array). The static initializers (`static {}` blocks) set up the necessary constants and decrypt the strings used for comparison. The utility classes (Edge, Pair, MyComparator, UnionFind) are not used in the main logic and might be remnants or for potential extensions."
+"p02578","Variable_Renaming_Failure","without_comments-variable_renaming < 0.5 (after comments removed)",0.6,0.6499999999999999,0.35,0.6,0.6,0.29999999999999993,"without_comments","Title: Calculating Total Water Accumulation in an Elevation Map
+
+Main Goal: The code calculates the total amount of ""water"" that would accumulate in an elevation map represented by an array. For each position in the array, it determines the maximum elevation to its left (including itself) and then sums the difference between this maximum value and the current elevation. This effectively computes the trapped water if the array represents heights of bars in a histogram, assuming water is contained by the highest bar to the left.
+
+Key Functions:
+1. Reads an integer `n` and an array `a` of size `n`.
+2. Creates an array `max` to store the maximum value encountered from the start up to each index.
+3. Iterates through the array to populate the `max` array with the running maximum.
+4. Calculates the total accumulated value by summing `max[i] - a[i]` for every index `i`.
+5. Outputs the total accumulated value.","variable_renaming","**Title:** Calculating the Total Increments Needed to Make an Array Non-Decreasing
+
+**Main Goal:** The code computes the minimum total increments required to transform an input array into a non-decreasing array, where each element is at least as large as the previous one.
+
+**Explanation:** The algorithm first creates a copy of the input array. It then traverses this copy from left to right, adjusting each element to be the maximum value between itself and the previous element. This ensures the array becomes non-decreasing. Finally, it calculates the sum of the differences between the adjusted values and the original values, which represents the total increments needed. The `Foster` helper class handles input parsing and provides utility methods for debugging and mathematical operations."
+"p03469","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.7,0.8500000000000001,0.8500000000000001,0.3,0.39999999999999997,"without_comments","**Title:** String Replacement Utility
+
+**Main Goal:** The code reads a string input and replaces every occurrence of the substring ""2017"" with ""2018"", then prints the modified string.
+
+**Summary Description:** This Java program functions as a simple string processing tool. Its primary purpose is to transform any input text by updating years from 2017 to 2018. The core logic uses the `String.replaceAll()` method to perform a global find-and-replace operation on the input string. The bulk of the code consists of a custom `hayami` input reader class designed for efficient reading and parsing of input data, handling various data types and closing resources properly.","encryption","This code is an obfuscated Java program that reads a string from standard input, decrypts two hardcoded strings to use as a regex pattern and replacement, and then performs a find-and-replace operation on the input string. The main goal is to replace all occurrences of the word ""dream"" (decrypted from ""ruBC1dDmoJw="") with an empty string (decrypted from ""hBsEeqSeRys="") in the user's input. The program uses custom input handling and DES decryption with MD5-derived keys for string obfuscation."
+"p03455","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.9,0.8,0.25,0.55,"without_comments","**Title: Determine Product Parity from Input Integers**
+
+**Main Goal:** The code reads two integers from standard input and checks if their product is odd or even by examining the parity of the inputs, then prints ""Odd"" or ""Even"" accordingly.
+
+**Summary Description:**
+The program uses a custom `FS` (Fast Scanner) class for efficient input reading. In the `main` method, it reads two integers `a` and `b`. The core logic checks if both integers are odd (`a%2==1 && b%2==1`). If true, it prints ""Odd"" because the product of two odd numbers is odd. Otherwise, it prints ""Even"", as the product involving at least one even number is always even. The `FS` class handles input buffering and parsing to optimize performance.","encryption","This code is an obfuscated Java program that reads two integers from standard input. Its main goal is to check if both integers are congruent to 1 modulo 2 (i.e., if they are both odd numbers). If this condition is true, it prints a decrypted string meaning ""Yes""; otherwise, it prints a decrypted string meaning ""No"". The code uses encryption, static initializers, and a custom input reader to achieve this in a deliberately obscured manner."
+"p02987","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.8,0.75,0.2,0.7,"without_comments","Title: Four-Character String Pattern Checker
+Main Goal: To determine if a four-character input string has exactly two distinct characters, each appearing exactly twice, but not all characters being the same.
+Functions: The code reads a string, converts it to a char array, and checks all possible pair combinations. It outputs ""Yes"" if the string meets the specific pattern (e.g., AABB, ABAB, ABBA) and ""No"" for any other pattern (e.g., AAAA, AAAB, ABCD).","encryption","This Java program is a string obfuscation and conditional branching application. Its main goal is to decrypt a set of predefined, encrypted strings and then use them to print a specific message based on the pattern of characters in a user-input string. The program first initializes an array of integers (`l`) through bitwise operations and an array of strings (`I`) by decrypting Base64-encoded ciphertexts using either DES, Blowfish, or a simple XOR cipher with MD5-derived keys. The `main` method reads a line of input and performs a series of character comparisons on it. Depending on the equality of the first four characters of the input, the program selects and prints one of the decrypted strings from the `I` array."
+"p02415","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6499999999999999,0.8500000000000001,0.8500000000000001,0.8,0.3,0.55,"without_comments","Title: Case Inversion and Space-Preserving String Transformation
+
+Main Goal: This Java program reads a line of input, splits it into words, and inverts the case of each alphabetic character (uppercase becomes lowercase and vice versa) while preserving non-alphabetic characters and spaces. The transformed string is printed only if the total character count (excluding spaces) is less than 1200.
+
+Key Functions:
+1. Reads input using Scanner
+2. Splits input into words while preserving space positions
+3. Processes each character:
+   - Converts uppercase letters to lowercase
+   - Converts lowercase letters to uppercase
+   - Leaves non-alphabetic characters unchanged
+4. Validates total alphabetic/non-alphabetic character count against a 1200 limit before output
+5. Reconstructs and outputs the transformed string with original spacing intact","encryption","Title: Obfuscated String Decryption and Case Inversion
+
+Main Goal: This code is designed to decrypt obfuscated strings using multiple encryption algorithms (Blowfish and DES) and a custom XOR cipher. It then processes user input by inverting the case of each alphabetic character (making uppercase letters lowercase and vice-versa) and prints the result, but only if the total length of the input words meets a certain minimum threshold.
+
+Key Functions:
+1. `l()`: Decodes a Base64 string and then applies a custom XOR decryption using a provided key.
+2. `I()`: Decrypts a string using the Blowfish algorithm with an MD5-hashed key.
+3. `Il()`: Decrypts a string using the DES algorithm with a truncated MD5-hashed key.
+4. `main()`: Reads user input, splits it into words, inverts the case of each letter in each word, and prints the result only if the total character count is above a specific value.
+5. `ll()`: Initializes an array of strings by decrypting hardcoded ciphertexts (which contain constants like the alphabet strings and a separator).
+6. `IIl()`: Initializes an array of integer constants using obfuscated arithmetic to hide their true values."
+"p02401","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.8500000000000001,0.7,0.8,0.3,0.55,"without_comments","Title: Simple Arithmetic Calculator with Input Validation
+
+Main Goal: This code implements a basic arithmetic calculator that reads input lines containing two integers and an operator, performs the specified operation (addition, subtraction, multiplication, or division), and stores the results for later output. The program processes input until it encounters a question mark operator, ensuring that all values are within the valid range of 0 to 20,000 and handling division by zero cases.","encryption","Title: Obfuscated Arithmetic Calculator with Encrypted Operations
+
+Main Goal: This Java code implements a simple arithmetic calculator that reads input lines containing two integers and an operator (+, -, *, /). It performs the operation and outputs results, but uses obfuscation techniques including encrypted strings and complex array indexing to hide the actual operation symbols and program logic.
+
+Key Functions:
+1. Initializes encrypted operation strings (""+"", ""-"", ""*"", ""/"") using Blowfish and DES decryption
+2. Reads input lines in ""a op b"" format from standard input
+3. Validates input numbers are within range (0-9999)
+4. Performs addition, subtraction, multiplication, or division based on the decrypted operator
+5. Outputs results when the input loop terminates (on encountering the ""break"" operation)
+6. Uses complex bit manipulation and array indexing to obscure the program's logic and constants"
+"p02399","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.9,0.8,0.8,0.35,0.55,"without_comments","Title: Division and Modulus Calculator with Input Validation
+
+Main Goal: This Java program reads two integers from standard input, validates their range, and then calculates and prints the integer division result, the modulus (remainder), and the floating-point division result.
+
+Functions:
+1. Reads two integers from the user using BufferedReader and StringTokenizer.
+2. Validates that both integers are within the range [1, 10^9].
+3. Performs three calculations: integer division (a/b), modulus operation (a%b), and floating-point division ((double)a/b).
+4. Outputs the results in the format: [integer_division] [modulus] [floating_point_division].
+5. Handles potential IOException during input operations.","encryption","Title: Obfuscated Input Processing and Division Calculation
+
+Main Goal: This code reads two integers from standard input, performs division and modulus operations, and prints the results. However, it uses obfuscation techniques including encrypted strings and complex array initialization to hide its true purpose and structure.
+
+Key Functions:
+1. Reads and parses two integers from a single input line using a dynamically decrypted delimiter
+2. Validates that the integers are within a specific range (1 to 1,000,000,000)
+3. Calculates and prints the quotient and remainder of the division
+4. Uses DES decryption with MD5-hashed keys to decode obfuscated strings at runtime
+5. Initializes configuration arrays through bit manipulation for obfuscation"
+"p03087","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.9,0.9,0.8,0.3,0.6000000000000001,"without_comments","Title: Counting Occurrences of ""AC"" Substrings in a String with Range Queries
+
+Main Goal: The code processes a string and multiple range queries to efficiently count the number of occurrences of the substring ""AC"" within specified intervals. It precomputes a prefix-sum array to store cumulative counts of ""AC"" occurrences, enabling quick responses to each query by comparing values in the precomputed array. The solution handles edge cases where the query boundaries might affect the count of ""AC"" pairs that span across the interval boundaries.","encryption","Title: Obfuscated String Processing with Encryption
+
+Main Goal: This code processes a string and answers range queries about the occurrences of a specific substring pattern, but it is heavily obfuscated using encryption and hardcoded values to hide its true intent.
+
+The code's primary function is to:
+1. Initialize static arrays `I` and `l` by decrypting hardcoded strings and calculating obfuscated integer values.
+2. Read an integer `N`, a string `S`, and an integer `Q` (number of queries) from input.
+3. Split the string `S` using a separator decrypted and stored in `I[0]`.
+4. Precompute a prefix-sum array `sum` that counts the cumulative occurrences of a specific two-character pattern (the decrypted values of `I[1]` and `I[2]`) in the split array.
+5. For each query, it calculates the number of pattern occurrences within a given range `[first, last]` by comparing values in the `sum` array, using complex conditional logic to handle edge cases."
+"p02400","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.9,0.8,0.25,0.65,"without_comments","Title: Circle Area and Circumference Calculator
+Main Goal: This Java program calculates and outputs the area and circumference of a circle given its radius as input.
+Functions: It continuously reads input lines (each containing a radius value), computes the area (πr²) and circumference (2πr), formats both results to 6 decimal places, and prints them. The program handles standard input and exits gracefully on errors.","encryption","Title: Obfuscated Circle Calculator with Encrypted Strings
+
+Main Goal: This code calculates and prints the area and circumference of a circle based on user-provided radius input, using obfuscation and encryption to hide its string constants.
+
+Key Functions:
+1. Initializes obfuscated integer array (ll()) and string array (Il()) using XOR operations
+2. Decrypts strings using two methods: simple XOR cipher (I()) and Blowfish encryption (l())
+3. Reads radius input from standard input in a loop
+4. Calculates circle area (πr²) and circumference (2πr)
+5. Formats and prints results using the decrypted format strings (""%.6f"" for area, ""%.6f"" for circumference)
+6. Uses exception handling with obfuscated exit codes
+
+The code employs multiple layers of obfuscation including base64 encoding, XOR encryption, and Blowfish encryption to conceal its simple mathematical purpose of calculating circle properties."
+"p03285","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.4,0.8,0.9,0.25,0.2,0.55,"without_comments","Title: Checking If a Number Can Be Expressed as a Sum of 4s and 7s
+
+Main Goal: This code determines if a given integer N can be expressed as a sum of the numbers 4 and 7 (e.g., 4+4+7, 7+7, etc.). It uses a series of conditional checks based on modulo arithmetic to find a solution without resorting to a brute-force algorithm. The program outputs ""Yes"" if such a combination exists, otherwise ""No"".","dead_code","This Java program determines if an input integer N is a ""special number"" by checking a series of complex modular arithmetic conditions. The main goal is to output ""Yes"" or ""No"" based on whether N meets specific criteria related to its divisibility by numbers like 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 20, 21, and 24. The code uses intentionally obfuscated helper methods (e.g., `I` for 'greater than', `l` for 'not equal to') and contains numerous irrelevant, unreachable code blocks (like `"""".length();` and XOR operations) that serve no functional purpose but to complicate analysis."
+"p03285","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.8,0.9,0.25,0.2,0.6000000000000001,"without_comments","Title: Checking If a Number Can Be Expressed as a Sum of 4s and 7s
+
+Main Goal: This code determines if a given integer N can be expressed as a sum of the numbers 4 and 7 (e.g., 4+4+7, 7+7, etc.). It uses a series of conditional checks based on modulo arithmetic to find a solution without resorting to a brute-force algorithm. The program outputs ""Yes"" if such a combination exists, otherwise ""No"".","encryption","Title: Obfuscated Number Classification with Encrypted Output
+
+Main Goal: This code processes an integer input to determine if it meets specific divisibility conditions (likely checking for prime or special numbers) and then outputs an encrypted result. The program uses obfuscation techniques with hardcoded encrypted strings and XOR operations to conceal its true purpose and output messages.
+
+Key Functions:
+1. Initializes an integer array `l` with obfuscated values using bitwise operations
+2. Decrypts two strings using custom XOR and Blowfish encryption methods
+3. Takes an integer input `N` and checks it against multiple complex divisibility conditions
+4. Outputs one of two decrypted strings based on whether `N` met the conditions
+5. Uses Base64 encoding and cryptographic ciphers (Blowfish with MD5 key) for string obfuscation
+
+The code appears to be heavily obfuscated to hide its actual classification logic and output messages, which are only decrypted at runtime."
+"p02953","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.8,0.9,0.3,0.6000000000000001,"without_comments","Title: Array Non-decreasing Order Checker
+
+Main Goal: The code checks if an input array can be made non-decreasing by allowing at most one decrement operation per element (only when necessary). It first processes the array to apply these conditional decrements, then verifies if the resulting array is in non-decreasing order.
+
+Key Functions:
+1. Reads an integer `a` (array size) and an array of `a` integers.
+2. For the first element, it decrements if it's greater than the next element and greater than 1.
+3. For subsequent elements, it decrements if the element is greater than its predecessor and greater than 1.
+4. Finally, it checks if the processed array is non-decreasing and prints ""Yes"" or ""No"" accordingly.","encryption","This Java code appears to be a game logic validator that checks if a sequence of numbers can be transformed into a non-decreasing sequence through specific operations. The main goal is to process an integer input and determine whether the resulting sequence meets certain conditions, outputting one of three possible string messages: ""Yes"", ""No"", or another status.
+
+The code uses obfuscation techniques including encrypted strings, bit manipulation for initialization, and XOR operations for string decryption. It features:
+- A static initializer that sets up integer constants and decrypts output messages
+- Input processing that reads integers and applies transformation rules
+- Validation logic that checks if the sequence is non-decreasing
+- Two decryption methods (l() for XOR decryption and I() for DES decryption) for the output strings"
+"p02416","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.8,0.8,0.55,0.2,0.6000000000000001,"without_comments","Title: Sum of Digits Calculator
+
+Main Goal: This Java program reads input strings from the user and calculates the sum of the digits in each string. It continues processing inputs until the user enters ""0"", which terminates the program.
+
+Functions: The program uses a `BufferedReader` to read lines of input. For each line, it iterates through every character. If the character is a digit from '1' to '9', it converts it to its integer value and adds it to a running total. The final sum for each input string is printed. The program handles potential I/O exceptions and stops when it reads the string ""0"".","encryption","This Java program is a string obfuscation and decryption tool. Its main goal is to read user input from the console, process it by calculating a custom checksum based on specific character values, and compare it to a decrypted, hardcoded target string. The program uses the Blowfish cipher with an MD5-hashed key to decrypt the target string ""DgVr1zxSti4="", which is the expected input."
+"p02402","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.9,0.8,0.9,0.8500000000000001,0.35,0.45000000000000007,"without_comments","Title: Array Analysis and Statistics Calculator
+
+Main Goal: This Java program reads a list of integers, finds the minimum and maximum values, and calculates the cumulative sum of all elements. It outputs the minimum value, maximum value, and total sum.
+
+Key Functions:
+1. Reads input size `n` and a space-separated list of `n` integers.
+2. Finds the index of the minimum value in the array.
+3. Finds the index of the maximum value in the array.
+4. Computes the cumulative sum of all array elements.
+5. Outputs the minimum value, maximum value, and total sum.
+6. Handles input/output and number format exceptions.","encryption","Title: Base64-Decoded String Decryption and Array Analysis
+
+Main Goal: This code reads an integer 'n' and a space-separated list of 'n' integers from standard input. It then finds the minimum and maximum values in the array and calculates the cumulative sum of all elements. The code uses Base64-decoded obfuscated strings for error messages and splitting operations.
+
+Key Functions:
+1. I(): Decrypts a Base64-encoded string using XOR with a key
+2. Il() and l(): Initialize obfuscated integer and string arrays using hardcoded values
+3. main(): Processes input, finds min/max values, calculates cumulative sum
+4. Static block: Initializes the obfuscated arrays when the class loads
+
+The code handles NumberFormatException by printing a decrypted error message and uses obfuscated values for array indexing and string operations."
+"p02403","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.75,0.9,0.9,0.9,0.25,0.65,"without_comments","Title: Rectangle Grid Printer
+
+Main Goal: This Java program reads pairs of integers (height and width) from standard input until it encounters (0,0). For each valid pair (within 1-300 range), it prints a grid of '#' characters with the specified dimensions. Each grid is separated by a blank line. The program validates input ranges and stops execution if invalid dimensions are provided.","encryption","This Java code is designed to read pairs of integers (height and width) from standard input until it encounters (0,0). It validates that each pair is within a specific range (1 to 300). If all inputs are valid, it prints a grid of a specific decrypted character for each input pair. The core functionality involves decrypting a Base64-encoded string using the Blowfish cipher with an MD5-hashed key to obtain the character to be printed. The code uses obfuscated array initializations to set up constants and the decryption key."
+"p02417","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.7,0.2,0.7,"without_comments","Title: Alphabet Character Frequency Counter
+
+Main Goal: This Java program reads all input lines from standard input, counts the frequency of each letter in the alphabet (case-insensitive), and prints the count for each letter from 'a' to 'z'.
+
+Key Functions:
+1. Reads multiple lines of input until EOF (End of File) is reached
+2. Stores input lines in a list for processing
+3. Uses an integer array to track counts for each letter
+4. Processes each character, checking for both uppercase and lowercase letters
+5. Outputs the frequency count for each alphabet letter in the format ""letter : count""","encryption","This Java code is a character frequency counter that reads input lines from standard input, processes them to count occurrences of specific encrypted characters (representing letters or symbols), and outputs the frequency of each. It initializes an array of encrypted strings using DES and Blowfish decryption with MD5-derived keys, then scans the input for matches to these strings, incrementing counters for each found character. The main goal is to analyze input text and report the frequency of predefined encrypted characters."
+"p02629","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8500000000000001,0.9,0.8,0.9,0.4,0.5,"without_comments","Title: Base-26 Number to Alphabet String Converter
+
+Main Goal: This code converts a given long integer into a corresponding string of lowercase letters (a-z) using a base-26 numbering system, where 'a' represents 0 and 'z' represents 25.
+
+Key Functions:
+1. Determines the required string length (k) by finding which base-26 number range the input falls into
+2. Adjusts the input number by subtracting the cumulative count of shorter strings
+3. Converts the adjusted number to a base-26 string representation
+4. Pads the string with leading zeros to ensure consistent length
+5. Maps each base-26 digit to its corresponding lowercase letter (0→a, 1→b, ..., 25→z)
+6. Outputs the final alphabetical string
+
+The code effectively implements a bijective base-26 system (without a zero character) to generate letter sequences similar to Excel column names or numbering systems.","encryption","Title: Encrypted String Mapping and Decoding
+
+Main Goal: The code processes a long integer input to generate a corresponding string by mapping it through a base-26 conversion system, using values from encrypted strings that are decrypted at runtime.
+
+Key Functions:
+1. Initializes static arrays `l` (integer constants) and `I` (encrypted strings) through static initialization blocks
+2. Provides three decryption methods (`Il`, `l`, `I`) using different cryptographic algorithms (Blowfish, DES, XOR) to decrypt the strings in array `I`
+3. In `main()`: 
+   - Takes a long integer input `N`
+   - Determines the appropriate length `k` for base-26 conversion
+   - Converts `N-1` to base-26 and pads with zeros
+   - Maps each base-26 digit to a corresponding lowercase letter (a-z)
+   - Outputs the resulting string
+
+The code essentially performs a numeric-to-alphabetic conversion using encrypted mapping values that are decrypted during execution."
+"p00002","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.9,0.75,0.3,0.6000000000000001,"without_comments","Title: Digit Counter for Sum of Two Integers
+
+Main Goal: This code reads pairs of integers from standard input, calculates their sum, and then outputs the number of digits in that sum (from 1 to 7 digits). It uses a series of conditional checks to determine the digit count by comparing the sum against increasing powers of 10 (10, 100, 1000, etc.). The program continues to process input as long as new integer pairs are provided.","encryption","This Java program is a conditional message decrypter that takes two integer inputs, sums them, and prints a specific decrypted string based on the sum's value range. It initializes an array of encrypted strings using Blowfish and DES decryption with hardcoded keys, then compares the input sum against precomputed threshold values to select and output the corresponding decrypted message. The code uses cryptographic operations and obfuscated constants to hide the actual messages and logic."
+"p03292","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.8,0.3,0.6000000000000001,"without_comments","Title: Finding Minimum Total Distance to a Point Among Three Values
+
+Main Goal: The code calculates the minimum total absolute distance from one of three given points to the other two. It reads three integers, considers each as a potential reference point, computes the sum of absolute differences from that point to the others, and outputs the smallest such sum. This effectively finds the most central point among the three.","encryption","**Title:** Obfuscated Array Minimum Cost Calculation
+
+**Main Goal:** The code calculates the minimum cost to make all elements in an array equal by changing elements to a target value, where the cost for each change is the absolute difference from the target.
+
+**Summary Description:** This heavily obfuscated Java program reads an integer array, then computes the minimum total cost required to make every element in the array equal to a chosen target value. The cost for each element is defined as the absolute difference between its original value and the target. The algorithm iterates through each potential target value (each element in the array) and calculates the total cost for aligning all other elements to it, finally outputting the smallest cost found. The code uses complex bitwise operations and static initializers to hide the true values of key variables, such as the array length and loop starting indices."
+"p02952","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.75,0.9,0.8500000000000001,0.8,0.2,0.7,"without_comments","**Title:** Counting Numbers with Odd Digit Lengths
+
+**Main Goal:** The code counts how many numbers from 1 to N (inclusive) have an odd number of digits.
+
+**Summary Description:** The program reads an integer N, iterates through all numbers from 1 to N, converts each number to a string, and checks if the string's length is odd. It increments a counter for each number that meets this criterion and finally prints the total count.","encryption","Title: Obfuscated Number Counter with String and Encryption Utilities  
+
+Main Goal: The code counts numbers from 1 to N that have a specific digit length property, using obfuscated constants and encrypted strings.  
+
+Key Functions:  
+1. Initializes obfuscated integer constants (Il[]) and encrypted strings (I[]) via static blocks.  
+2. Reads input N, then counts numbers where the digit length is divisible by 2 (excluding remainder 1).  
+3. Includes utility methods for XOR-based decryption (I()) and DES decryption (ll()) for string obfuscation.  
+4. Provides a FastScanner class for efficient input parsing (integers, longs, doubles, arrays).  
+5. Uses encrypted strings for output (""Yes""/""No"" in printlnYN), decrypted at runtime.  
+
+The core logic solves a constrained counting problem while heavily using obfuscation techniques."
+"p02577","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.9,0.2,0.7,"without_comments","Title: Divisibility Check by 9 for a Number String
+
+Main Goal: The code reads a string of digits, calculates the sum of its digits, and checks if the sum is divisible by 9. It outputs ""Yes"" if it is divisible, otherwise ""No"".
+
+Key Functions:
+1. Reads input efficiently using a custom `InputReader` class.
+2. Converts the input string into a character array.
+3. Iterates through each character, converting it to a digit and summing them.
+4. Uses the modulo operator to check divisibility by 9.
+5. Prints the result (""Yes"" or ""No"") to the output.","encryption","Title: Input Validation and Conditional Output Based on Checksum
+
+Main Goal: The code reads a string input, calculates a checksum by summing the ASCII values of its characters (with an offset), and then outputs one of two decrypted messages based on whether the checksum is divisible by a specific number. The messages are decrypted using a custom DES-based decryption method with MD5-derived keys. The code uses obfuscation techniques, such as hardcoded encrypted strings and bitwise operations, to hide its true purpose and values."
+"p02639","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.4,0.8,0.8,0.35,0.7,0.45000000000000007,"without_comments","**Title**: Finding the First Missing Positive Integer in a Sequence
+
+**Main Goal**: The code reads five long integers and checks which is the first missing integer in the sequence 1, 2, 3, 4, 5. It outputs the first missing number found and terminates immediately.
+
+**Summary Description**: The program reads five input values (X1 to X5) and checks them sequentially against the expected values 1 through 5. If any value does not match its expected integer (e.g., X3 != 3), it prints that expected integer (3) and exits. If all values match their expected integers, the program terminates without output. The `FastScanner` class provides efficient input parsing for various data types.","dead_code","The code defines a custom `FastScanner` class for efficient input reading and a `Main` class. The main goal is to read five long integers, subtract 1 to 5 from them respectively, and print the index (1 to 5) of the first value that becomes zero after subtraction. If none are zero, it prints nothing. The `FastScanner` provides optimized methods for reading various data types."
+"p02771","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.8,0.9,0.8,0.2,0.6000000000000001,"without_comments","Title: Checking for Exactly One Pair of Equal Integers
+Main Goal: The code reads three integers and checks if exactly two of them are equal (forming a unique pair) while the third is different. It prints ""Yes"" if there is exactly one such pair, and ""No"" otherwise (i.e., if all numbers are different or all are the same).
+Functions: The program uses a series of conditional statements to compare the three input values. It first checks for the case where all numbers are distinct and outputs ""No"". It then checks the three possible scenarios where exactly one pair exists (a==b, a==c, or b==c) and outputs ""Yes"" for each. Finally, it checks the case where all numbers are identical and outputs ""No"".","encryption","Title: Encrypted Message Decoder Based on Input Comparison
+
+Main Goal: This code compares three integer inputs and prints a specific decrypted message based on their equality pattern (all unique, two equal, or all equal). It uses two decryption methods: a simple XOR cipher (I method) and a DES cipher (l method). The actual messages are encrypted and stored in an array, which is initialized using static blocks that set up necessary indices and decrypt the strings. The code demonstrates basic cryptography and conditional logic."
+"p02407","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.2,0.8,0.7,0.9,0.3,0.5,"without_comments","Title: Reverse Input Number Sequences
+
+Main Goal: This Java program reads input sequences of integers and prints each sequence in reverse order. It processes input lines in pairs: the first line of a pair specifies the count of numbers, and the second line contains the actual numbers separated by spaces. The program reads these pairs continuously until the end of input.
+
+Key Functions:
+1. Reads input line by line from standard input
+2. Alternates between reading a count line and a data line
+3. Parses the count (first line) to determine how many numbers to process
+4. Splits the data line (second line) into individual integers
+5. Stores integers in a list and prints them in reverse order
+6. Handles multiple sequences in the input stream
+
+The code effectively reverses the order of number sequences provided through standard input, outputting each reversed sequence on a separate line.","encryption","Title: Encrypted String Processing and Reversal Program
+
+Main Goal: This Java program reads input lines, processes them by extracting integers based on encrypted delimiters, reverses the extracted list, and outputs the reversed sequence. It uses multiple encryption methods (DES, Blowfish, XOR) with hardcoded keys to decrypt configuration strings at initialization.
+
+Key Functions:
+1. Initializes encrypted string constants using DES, Blowfish, and XOR decryption methods
+2. Processes input lines to extract integer values using decrypted delimiter strings
+3. Reverses the extracted integer list and outputs it with decrypted separator strings
+4. Handles initial configuration line that specifies the number of subsequent data lines
+
+The code appears to be obfuscated with hardcoded encryption and uses array manipulation for configuration values rather than clear literals."
+"p03282","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.4,0.9,0.8,0.9,0.4,0.5,"without_comments","Title: Finding the K-th Character in a String with Special Handling for '1's
+
+Main Goal: The code reads a string S and a long integer K. It iterates through each character of S. For every '1' encountered, it decrements K by 1. If K becomes zero or less after a '1', it prints '1' and stops. For any other character (non-'1'), it immediately prints that character and stops. Essentially, it finds the first non-'1' character in S, but only after ""consuming"" K number of '1's. If the entire string is traversed without finding a non-'1', the behavior is undefined by the provided loop. The numerous custom print methods are utility functions for output but are not directly relevant to the core logic.","encryption","The code is an obfuscated Java program that reads a string and a long integer from the user. Its main goal is to find the first non-'1' character in the input string after a given number of iterations (K). It iterates through the string, decrementing K for each '1' encountered. When K reaches zero, it prints the integer '2'. If a non-'1' character is found before K is exhausted, it prints that character. The code uses extensive obfuscation techniques, including base64 decoding, XOR decryption, and DES decryption to hide string constants and control flow."
+"p02406","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.6,0.3,0.6000000000000001,"without_comments","Title: Number Filter for Digits Containing '3'
+
+Main Goal: The code prints all numbers from 3 up to a given integer `n` (where 3 ≤ n ≤ 10000) that contain the digit '3' in any place. It checks for numbers divisible by 3, numbers ending with 3, and numbers where the digit '3' appears in the tens, hundreds, or thousands place. The output is a space-separated list of these numbers.","encryption","Title: Obfuscated Number Filter with Hardcoded Constants  
+
+Main Goal: The code processes an integer input `n` and prints numbers from a base value (3) up to `n` that meet specific divisibility and digit extraction conditions, using hardcoded constants (l[0]=3, l[1]=28672, l[2]=106, l[3]=291, l[4]=28672) derived from obfuscated expressions. It checks numbers in ranges against these constants with modulo and division operations to determine which ones to output. The static initializer `I()` sets these constants through bitwise and arithmetic operations to hide their actual values."
+"p02412","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.8,0.7,0.8,0.4,0.4,"without_comments","Title: Counting Unique Triplets Summing to a Target
+
+Main Goal: This Java program reads multiple pairs of integers (n, x) from standard input until (0,0) is encountered. For each pair, it counts the number of unique triplets (a, b, c) where all are distinct integers between 1 and n, and their sum equals x. The results for all input pairs are printed at the end.
+
+Key Functions:
+1. Reads input continuously using BufferedReader.
+2. For each (n, x) pair, it checks if x is too small (less than 6) and immediately returns 0.
+3. Otherwise, it uses three nested loops to generate all possible triplets (a, b, c) where 1 ≤ a,b,c ≤ n.
+4. For valid triplets (distinct values summing to x), it checks against a list of previously found triplets to ensure uniqueness (considering different orderings of the same numbers as duplicates).
+5. Stores the count of unique triplets for each input pair and prints all results when input ends.","encryption","Title: Combination Counter for Three Distinct Numbers Summing to X
+
+Main Goal: This Java program reads multiple pairs of integers (n, x) from standard input. For each pair, it counts the number of unique combinations of three distinct integers (each between 1 and n) that sum to x, where each combination is considered unique regardless of order. The program uses XOR-based string decoding for input parsing and includes obfuscated array initialization."
+"p02957","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.6,0.6,0.3,0.6000000000000001,"without_comments","Title: Finding the Middle Integer Between Two Numbers
+
+Main Goal: This code reads two integers, ensures the first is the smaller one, and checks if their sum is even. If so, it calculates and prints the integer exactly midway between them. If the sum is odd, it prints ""IMPOSSIBLE"" since no integer midpoint exists. The code includes a custom input reader for efficiency.","encryption","This code is a custom input reader and processor in Java. The main goal is to read two integers from standard input, compare them, and then either output a calculated value if their sum is even, or output a decoded error message if their sum is odd. The code uses obfuscation techniques, including a custom input stream reader class (`hayami`) and a Base64-encoded, XOR-encrypted string for the error message."
+"p03042","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8500000000000001,1.0,0.9,0.3,0.55,"without_comments","Title: Date Format Ambiguity Checker
+Main Goal: To determine if a 4-digit input string can be interpreted as a valid date format in either MMYY or YYMM format, or both, and output the appropriate classification.
+
+The code reads a 4-character string, splits it into two 2-digit parts, and checks if both parts are numeric. It then evaluates whether each part represents a valid month (01-12). Based on these validations, it classifies the input as:
+- ""AMBIGUOUS"" (both parts are valid months)
+- ""MMYY"" (first part is valid month, second is not)
+- ""YYMM"" (second part is valid month, first is not)
+- ""NA"" (neither part is a valid month or input isn't numeric)","encryption","Title: Encrypted String Pattern Validator
+
+Main Goal: This code validates an input string by splitting it into two parts and checking if each part matches a set of predefined encrypted values. It uses multiple decryption methods (XOR, Blowfish, and DES) to decode stored patterns and compares them against the user input to determine validation outcomes.
+
+Key Functions:
+1. Initializes an array of encrypted strings using three decryption methods
+2. Splits user input into two parts using hardcoded indices
+3. Validates both parts against predefined patterns using regex
+4. Checks if parts match specific decrypted values from the initialized array
+5. Outputs one of four validation messages based on which parts match the expected values
+
+The code essentially acts as a validator for what appears to be a two-part code system, potentially for authentication or classification purposes, using obfuscated encryption techniques to hide the actual validation patterns."
+"p03644","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.6499999999999999,0.8,0.5,0.45,0.1999999999999999,"without_comments","Title: Determining the Smallest Power of Two Greater Than or Equal to N
+
+Main Goal: This code reads an integer input (N) and finds the smallest power of two that is greater than or equal to N. It uses a series of conditional checks to map ranges of input values to their corresponding power-of-two result, providing an efficient, hardcoded solution for inputs up to 100. For example, an input of 5 (which falls in the range 3 < N ≤ 7) results in an output of 4.","encryption","Title: Input Range to Value Mapper
+
+Main Goal: This code maps an integer input (N) to a predefined output value based on which range it falls into. The ranges and corresponding output values are obfuscated using arithmetic and bitwise operations on an array that is initialized in a static block. The program reads an integer from standard input and prints the value associated with its range."
+"p02772","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.8,0.3,0.6000000000000001,"without_comments","**Title:** Even Number Validation for Divisibility by 3 or 5
+
+**Main Goal:** The code checks a list of integers. If any even number in the list is NOT also divisible by either 3 or 5, the overall result is ""DENIED"". Otherwise, the result is ""APPROVED"".
+
+**Summary Description:** This program reads a sequence of integers from the standard input. Its primary function is to verify that every even number in this sequence is divisible by either 3 or 5. If it finds a single even number that fails this check, it outputs ""DENIED"". If all even numbers pass the check, it outputs ""APPROVED"".","encryption","Title: Obfuscated Document Validation Checker
+
+Main Goal: This code checks if a list of document numbers (provided as input) are valid according to specific divisibility rules. It uses obfuscation and encryption to hide the two possible output strings: ""Valid"" and ""Invalid"".
+
+Key Functions:
+1. **Initialization**: Static blocks initialize obfuscated integer arrays and decrypt the output strings (""Valid"" and ""Invalid"") using Blowfish and DES encryption with hardcoded keys.
+2. **Input Processing**: The custom `Scanner` class reads integers from the standard input.
+3. **Validation Logic**: For each input number, it checks if it is divisible by 2 (`lIl[1]`) but NOT divisible by 3 (`lIl[2]`) or 5 (`lIl[3]`). If any number fails this check, the result is set to ""Invalid"".
+4. **Output**: Prints ""Valid"" only if all numbers pass the check; otherwise, prints ""Invalid"".
+
+The code is heavily obfuscated with meaningless variable names, encrypted strings, and arithmetic operations used to hide the actual values and logic."
+"p03493","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8500000000000001,0.9,0.3,0.6000000000000001,"without_comments","Title: Counting '1' Characters in Input String  
+Main Goal: This Java program reads a string input and counts the number of '1' characters it contains. It uses a custom input reader class (hayami) for efficient reading, splits the input string into individual characters, iterates through them, and increments a counter for each '1' found before printing the total count.","encryption","This Java code reads input from the standard input, splits it using a specific delimiter, and counts the number of elements that are equal to a certain target string. The main goal is to count occurrences of the word ""problem"" in the input text. The code uses obfuscation techniques, including base64 decoding and XOR decryption, to hide the delimiter (""."") and target string (""problem"") from plain view in the source code. The `hayami` class is a custom input reader optimized for performance in competitive programming scenarios."
+"p00005","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.7,0.8,0.8,0.35,0.8,0.45000000000000007,"without_comments","This code calculates the greatest common divisor (GCD) and the least common multiple (LCM) of two given long integers. It reads pairs of numbers from the standard input in a loop. For each pair, it finds the LCM by iteratively adding the larger number to itself until it becomes a multiple of the smaller one. The GCD is then found either by a direct divisibility check or by searching for the largest common divisor from the midpoint of the smaller number down to 1. The results for each pair are printed as ""GCD LCM"".","dead_code","Title: Greatest Common Divisor and Least Common Multiple Calculator
+
+Main Goal: This code calculates the greatest common divisor (GCD) and least common multiple (LCM) of two input numbers, but it contains significant logical errors and obfuscated control flow that prevent it from functioning correctly.
+
+The code attempts to read two long integers and then uses a convoluted series of loops and conditional checks to compute the results. It employs helper methods (I, Il, ll, l) to evaluate comparison results in a confusing manner. The core logic is flawed with misplaced break statements, unreachable code, and incorrect mathematical operations. For instance, it tries to find the LCM by repeatedly adding the original number instead of using the standard formula (LCM(a, b) = |a * b| / GCD(a, b)). The numerous meaningless string length checks and return statements further obfuscate the code, making it non-functional for its intended purpose."
+"p00011","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.75,0.9,0.3,0.6000000000000001,"without_comments","Title: Bar Swapping Simulation for Column Rearrangement
+
+Main Goal: To determine the final positions of columns after processing a series of bar swaps, and then output the original column numbers in their new order.
+
+The code reads the number of columns and bars (swaps) from input. It then processes each bar swap: for each column, it tracks how it moves through successive swaps (if a column is involved in a swap, it changes to the other column's position). Finally, it inverts this mapping to find which original column ended up in each final position, printing the results. Essentially, it simulates a sequence of pairwise swaps and reverses the transformation to output the original identifiers in their new order.","encryption","Title: Encrypted String Processing and Array Mapping
+
+Main Goal: This code reads two integers (number of columns and bars) and a series of bar data from standard input. It processes encrypted strings to set up error messages and then uses the input data to map and rearrange indices, finally outputting the rearranged results. The core functionality involves decrypting hardcoded strings using Blowfish and DES encryption with MD5-derived keys to set up internal state and error messages. The primary operations include reading input, parsing data into arrays, performing index swapping based on bar connections, and printing the transformed indices."
+"p02835","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.9,0.3,0.6000000000000001,"without_comments","**Title**: Blackjack Outcome Checker
+
+**Main Goal**: The code reads three integers as input and determines whether their sum is at most 21 (outputting ""win"") or exceeds 21 (outputting ""bust""), simulating a simple Blackjack hand evaluation.
+
+**Summary Description**: This Java program takes three integer inputs, sums them, and prints ""win"" if the total is 21 or less, or ""bust"" if it exceeds 21. It includes a custom FastScanner class for efficient input reading and uses a PrintWriter for output.","encryption","**Title:** Encrypted Conditional Output Based on Input Sum
+
+**Main Goal:** The code reads three integers, sums them, and prints an encrypted message based on whether the sum is less than or equal to a threshold (22).
+
+**Summary Description:** This Java program uses a custom `FastScanner` for efficient input reading and an `AtCoder` class that decrypts two strings using the Blowfish cipher with MD5-derived keys. It reads three integers, checks if their sum is <= 22, and prints the corresponding decrypted message (""Yes"" or ""No""). The code employs obfuscation techniques like encrypted strings and hardcoded constants to hide its simple logic."
+"p02410","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6499999999999999,0.8500000000000001,0.75,0.8,0.35,0.5000000000000001,"without_comments","Title: Matrix-Vector Multiplication with Input Validation
+
+Main Goal: This Java program reads two integers 'n' and 'm' to define the dimensions of a matrix and a vector. It then reads an n x m matrix and an m x 1 vector from standard input, validates that all input values are within the allowed range (0-1000), performs matrix-vector multiplication, and outputs the resulting n x 1 vector. The program includes safeguards to terminate processing if input constraints are violated.","encryption","This code is a matrix multiplication program that reads two integers (n, m) for matrix dimensions, an n x m matrix A, and a vector b of size m. It validates that inputs are within specific numeric ranges, then computes and prints the product vector c = A * b. The code uses obfuscation techniques, including encrypted string constants and a static initializer that sets up an array of integer values and decrypts strings for internal use (like delimiters for input splitting) using custom decryption methods (I, l, Il) with Blowfish, DES, and XOR ciphers. The main goal is to perform secure and validated matrix multiplication with hidden operational parameters."
+"p02612","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.9,0.9,0.8,0.4,0.5,"without_comments","Title: Rounding Up to the Next Thousand
+
+Main Goal: This code calculates the amount needed to round a given integer up to the nearest thousand, but only for values up to 10,000. It reads an integer input and then checks which thousand-range it falls into. The output is the difference between the upper bound of that range and the input number, effectively showing how much must be added to reach the next multiple of 1000. For example, an input of 1400 would output 600 (2000 - 1400).","encryption","Title: Obfuscated Number Range Check and Difference Calculator
+
+Main Goal: The code calculates the difference between an input number (N) and the next higher predefined threshold value stored in an array. It uses obfuscated constants to define these thresholds.
+
+Functions:
+1. Initialization (I() method): Initializes an array 'l' with 10 hardcoded, obfuscated integer values using bitwise operations to hide their true values.
+2. Input Processing (main() method): Reads an integer input 'N' from the user.
+3. Range Checking: Compares 'N' against the values in the 'l' array using a series of if-else statements to determine which range it falls into.
+4. Output: Prints the difference between the identified threshold value and the input 'N'. Essentially, it finds the smallest value in the array that is greater than or equal to 'N' and outputs the gap between them."
+"p02405","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.8500000000000001,0.9,0.9,0.3,0.55,"without_comments","Title: Pattern Generator for Grids of Varying Dimensions  
+
+Main Goal: This Java program reads pairs of integers (H and W) representing grid dimensions. For each pair, it prints a checkerboard-like pattern of '#' and '.' characters. The pattern alternates between rows starting with '#' and rows starting with '.', ensuring adjacent characters (horizontally and vertically) are always different. The program terminates when both H and W are zero.  
+
+Key Functions:  
+1. Continuously reads input dimensions until a sentinel value (0,0) is encountered.  
+2. Handles even and odd dimensions for both height (H) and width (W) to construct the pattern correctly.  
+3. Uses nested loops and conditional checks to generate alternating rows of ""#."" and "".#"" sequences.  
+4. Ensures proper line breaks and outputs a blank line after each grid pattern.","encryption","Title: Obfuscated ASCII Art Generator with Encrypted Strings
+
+Main Goal: This code is an obfuscated program that reads pairs of integers (H and W) from standard input and uses them to print a specific pattern of characters to form ASCII art. The program continues to read input until it receives ""0 0"".
+
+Key Functions:
+1. The `main` method contains complex, nested conditional logic that uses the input dimensions (H and W) to determine which specific encrypted string to print and how many times to print it, constructing rows of the pattern.
+2. The `I`, `l`, and `Il` methods are decryption routines that use XOR, Blowfish, and DES algorithms, respectively, to decrypt base64-encoded strings stored in the `I` array using hard-coded keys.
+3. The static initializer blocks (`static {}` and `ll()`) populate the `l` array with obfuscated integer constants and the `I` array with decrypted strings that represent the characters used to build the output pattern (e.g., likely characters like '-', '|', '+', etc., for drawing boxes).
+4. The `IIl()` method initializes the `l` array with values calculated through bitwise operations and arithmetic to hide their true purpose as indices and flags.
+
+In essence, this is a heavily obfuscated implementation that decrypts its output strings at runtime to print a grid-based pattern based on the input dimensions."
+"p02411","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.9,0.9,0.8,0.8,0.3,0.6000000000000001,"without_comments","Title: Student Grade Evaluation System
+
+Main Goal: This code processes student exam scores (midterm, final, and retake) to determine and output their letter grades based on predefined criteria. It continuously reads input scores until a termination condition (all scores being -1) is met.
+
+Key Functions:
+1. Reads three integer inputs per iteration: midterm (m), final (f), and retake (r) scores
+2. Terminates when all three inputs are -1
+3. Calculates total score from midterm and final exams
+4. Assigns grades based on score thresholds:
+   - 'A' for total ≥ 80
+   - 'B' for 65 ≤ total < 80
+   - 'C' for 50 ≤ total < 65 OR 30 ≤ total < 50 with retake ≥ 50
+   - 'D' for 30 ≤ total < 50 with retake < 50
+   - 'F' for missing exam(s) or total < 30
+5. Handles edge cases where exams are missed (score of -1) by automatically assigning 'F'","encryption","Title: Encrypted Grade Evaluation System
+
+Main Goal: This code processes student exam scores (midterm, final, and retake) to determine their letter grades. It uses encrypted strings and multiple decryption methods (Blowfish, DES, XOR) to obfuscate the grade outputs (""F"", ""A"", ""B"", ""C"", ""D"") and protect the logic from casual inspection. The program reads input scores until it receives three -1 values, then applies a series of conditional checks to evaluate and print the appropriate grade."
+"p03243","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6499999999999999,0.8500000000000001,0.75,0.6499999999999999,0.2,0.6500000000000001,"without_comments","Title: Next Repdigit Finder
+
+Main Goal: This code reads an integer input and finds the smallest repdigit number (like 111, 222, etc.) that is greater than or equal to the input. It checks which range the input falls into between 100 and 999 and outputs the corresponding upper bound of that range, which is always a three-digit repdigit. For inputs greater than 888, it outputs 999.","encryption","Title: Encrypted String Decryption and Range-Based Output
+
+Main Goal: This code decrypts a hidden string using Blowfish encryption with an MD5-derived key and then uses a series of integer ranges to conditionally output values based on user input. The integers are obfuscated through complex bitwise operations.
+
+Key Functions:
+1. `Il()`: Initializes an array `l` with 13 obfuscated integer values.
+2. `l()`: Initializes a string array `I` and stores a single decrypted string in it.
+3. `I(String, String)`: A utility function that decrypts a Base64-encoded string using the Blowfish algorithm. The key for decryption is generated by creating an MD5 hash of the provided key string.
+4. `main(String[])`: Reads an integer from the user. It then checks which pre-calculated range (from the `l` array) the input falls into and prints the upper bound of that range. If an exception occurs during input parsing, it prints the single decrypted string from the `I` array."
+"p03109","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6499999999999999,0.9,0.9,0.8,0.2,0.7,"without_comments","Title: Date Comparison for Era Determination
+
+Main Goal: The code reads a date string in the format ""YYYY/MM/DD"" and determines whether it belongs to the Heisei era (before May 1, 2019) or the TBD era (on or after May 1, 2019) by comparing each date component sequentially.
+
+Key Functions:
+1. Reads input date string and splits it into year, month, and day components
+2. Compares year component first - if less than 2019, marks as Heisei era
+3. If year is 2019, checks month component - if greater than 4 (May or later), marks as TBD
+4. If month is April (4), checks day component - if greater than 30, marks as TBD
+5. Outputs ""Heisei"" for dates before May 1, 2019, or ""TBD"" for dates on or after May 1, 2019","encryption","This Java code is an obfuscated program that processes a sequence of integers from standard input to determine a specific pattern. The main goal is to check the input against several hardcoded conditions and print one of several decrypted messages based on which condition is met first. The code uses static initializers to set up an array of integer constants (`l`) and an array of encrypted strings (`I`). These strings are decrypted at runtime using custom XOR (`l` method) and cryptographic methods (`Il` for DES, `I` for Blowfish). The core logic in the `main` method splits the input line, parses the integers, and uses counters to track the sequence, ultimately printing a message that corresponds to the matched condition. If no condition is met, a default message is printed. The heavy obfuscation suggests the code is designed to be difficult to analyze and reverse-engineer."
+"p02700","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.8,0.8,0.3,0.6000000000000001,"without_comments","Title: Turn-Based Battle Simulator
+
+Main Goal: This code simulates a turn-based battle between two characters. It determines if the first character (with health A and attack B) can defeat the second character (with health C and attack D) before being defeated itself.
+
+Functions:
+1. Input Validation: Reads four integer inputs (A, B, C, D) and checks if they are within the valid range of 1 to 100.
+2. Battle Simulation: Executes a loop where the first character attacks the second, and then the second character counterattacks if it survives.
+3. Result Determination: Prints ""Yes"" if the first character wins, or ""No"" if the second character wins.","encryption","Title: Encrypted String Decryption and Conditional Logic
+
+Main Goal: This code decrypts three encrypted strings using a custom method and then uses them in a conditional game simulation based on user input. The program checks if input values are within a valid range and then simulates a battle scenario where two entities attack each other until one is defeated, outputting a corresponding decrypted message.
+
+Key Functions:
+1. Initializes an integer array `l` with specific values derived from bitwise operations and string lengths.
+2. Decrypts strings using a DES cipher with an MD5-hashed key, stored in array `I`.
+3. Reads four integers from the user and validates they are within the range 1-100.
+4. Simulates a turn-based battle: entity A attacks entity C each turn, while entity A's health decreases by D each turn. If C is defeated first, it outputs the first decrypted string; if A is defeated first, it outputs the second decrypted string.
+
+The decrypted strings are error messages and outcome messages, making this a simple game with encrypted output strings."
+"p02258","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.8,0.9,0.8,0.4,0.4,"without_comments","Title: Maximum Successive Difference Finder in a Sequence
+
+Main Goal: The code reads a sequence of integers and computes the maximum positive difference between any two elements where the smaller element appears before the larger one (similar to the ""Best Time to Buy and Sell Stock"" problem).
+
+Key Functions:
+1. Reads input data, first taking the count (n) and then the sequence of n integers.
+2. Initializes tracking variables for the current minimum value (min), current maximum value (max), and the best result found so far (result).
+3. Iterates through the sequence, dynamically updating the min and max values when beneficial.
+4. Implements a flag (min_flag) to control when to reset the current comparison window.
+5. Handles an edge case for the last two elements explicitly to ensure correctness.
+6. Outputs the maximum positive difference found.","encryption","This code attempts to find the maximum profit (largest positive difference) from a sequence of stock prices provided as input. However, it is heavily obfuscated with misleading variable names, a complex and uninitialized array `l`, and convoluted logic, making it difficult to understand and likely non-functional. The main goal is to read a series of integers (prices), then compute and print the maximum difference between a later price and an earlier price (buy low, sell high). The code contains numerous bugs, including uninitialized variables and incorrect array handling, which would prevent it from working correctly."
+"p02847","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.2,0.7,"without_comments","This code reads a string input representing a day of the week (e.g., ""SUN"", ""MON"") and calculates the number of days remaining until Sunday. It uses a custom FastReader class for efficient input parsing and prints the result, which is `7 - [index of the input day]`.","encryption","**Title:** Encrypted String Lookup and Index Calculation
+
+**Main Goal:** The code reads an input string from the user, compares it against a predefined list of decrypted strings, and outputs the number of strings in the list that come after (or are equal to) the input string.
+
+**Key Functions:**
+1. **Initialization:** The `Ill()` and `lIl()` methods initialize arrays with obfuscated values and decrypt a set of strings using either DES or Blowfish encryption with MD5-derived keys.
+2. **Decryption:** The `I()` and `ll()` methods handle decryption of the hardcoded strings using different algorithms (DES and Blowfish respectively).
+3. **Input Processing:** The `FastReader` class provides utilities for reading various data types from input.
+4. **Main Logic:** The `main` method builds an array of decrypted strings, reads an input string, searches for its position in the array, and prints the count of strings from that position to the end."
+"p04012","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.9,0.8,0.25,0.65,"without_comments","Title: Character Frequency Parity Checker
+Main Goal: The code checks if every letter in the input string (converted to lowercase implicitly) appears an even number of times. It counts the frequency of each letter and then verifies if all counts are even, printing ""Yes"" if they are and ""No"" otherwise.","encryption","Title: Character Frequency Validator with Encrypted Messages
+
+Main Goal: The code checks if the input string has each letter's frequency divisible by 3, and prints one of two decrypted messages based on the result.
+
+Key Functions:
+1. Initializes an array `l` with 28 numeric values through obfuscated calculations
+2. Decrypts two Base64-encoded strings using Blowfish encryption with MD5-derived keys
+3. Counts occurrences of each letter (a-z) in the input string
+4. Validates if all letter counts are divisible by 3
+5. Prints ""Correct!"" if validation passes, ""Wrong!"" if it fails
+
+The code uses character frequency analysis to determine which pre-decrypted message to display, functioning as a simple validation system."
+"p02675","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.25,0.9,0.9,0.9,0.2,0.7,"without_comments","Title: Japanese Number Suffix Classifier
+
+Main Goal: This Java program classifies a given integer input (1 to 999) into one of three Japanese number suffix categories (""hon"", ""pon"", or ""bon"") based on its last digit.
+
+Functions: 
+1. Reads an integer input from the user
+2. Determines the appropriate suffix based on the last digit:
+   - ""hon"" for numbers ending with 2,4,5,7,9
+   - ""pon"" for numbers ending with 0,1,6,8  
+   - ""bon"" for numbers ending with 3
+3. Handles single-digit, two-digit, and three-digit numbers by checking the last character of the input string
+4. Outputs the corresponding Japanese suffix classification","encryption","This code is an obfuscated Java program that acts as a decoder and classifier for user-input numbers. Its main goal is to take an integer input, categorize it based on its value and specific digits, and then print a corresponding decoded message string. The messages are encrypted and stored in an array, which is decrypted at runtime using either the DES or Blowfish cipher algorithms, or a simple XOR cipher, depending on the specific string. The code uses complex bitwise operations to hide the true values of its control variables, making its logic difficult to follow directly."
+"p03998","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.5,0.6,0.7,0.3,0.2,"without_comments","Title: Simulating a Three-Player Card Game with Turn-Based Rules
+
+Main Goal: This code simulates a three-player card game where players take turns based on the cards they draw. The program determines which player is eliminated first (by running out of cards) and declares the winner as the last remaining player.
+
+Key Functions:
+1. Reads three input strings (Sa, Sb, Sc) representing each player's card deck
+2. Uses a state machine (variable 'x') to track the current player's turn (A, B, or C)
+3. Processes cards sequentially: each card drawn (a, b, or c) determines the next player's turn
+4. Checks for elimination: when a player's deck is exhausted, that player loses
+5. Outputs the winner (A, B, or C) when one player remains with cards","encryption","This code is an obfuscated string decryption and state machine program. Its main goal is to process three input strings by simulating a state machine that transitions based on the input characters. The program uses encrypted strings stored in an array, which are decrypted at runtime using custom XOR (`Il`), Blowfish (`l`), and DES (`I`) cipher methods. The state machine logic in the `main` method checks the inputs against specific characters (decrypted to be 'A', 'B', and 'C') to determine which input string is exhausted first, then prints a corresponding result (also a decrypted string). The heavy obfuscation, including encrypted strings and arithmetic for index values, is likely intended to hinder analysis and hide the program's true purpose, which appears to be a competitive challenge or a simple game logic emulator."
+"p03147","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.9,0.4,0.5,"without_comments","This code calculates the minimum number of operations required to reduce all elements of an integer array to zero. Each operation involves selecting a contiguous non-zero segment, finding the minimum value within that segment, and subtracting that value from every element in the segment. The algorithm processes the array by identifying these contiguous segments and repeatedly applying the subtraction operation until all elements are zero. The total count of these operations is the final output.","encryption","This Java code appears to be an obfuscated solution for calculating the minimum number of operations to reduce an array of non-negative integers to all zeros. The main goal is to process the array by repeatedly subtracting the smallest non-zero value from contiguous non-zero segments, counting these subtractions as operations. The code uses encryption, bit manipulation, and a TreeSet to track values, but its true purpose is heavily obscured by unnecessary cryptographic functions and complex initialization routines."
+"p02259","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.8500000000000001,0.8,0.44999999999999996,0.45000000000000007,"without_comments","Title: Bubble Sort Implementation with Swap Count
+
+Main Goal: This code reads an array of integers, sorts it using the Bubble Sort algorithm, prints the sorted array, and outputs the number of swaps performed during the sorting process.
+
+Functions:
+1. Reads input efficiently using a custom FastScanner class for parsing.
+2. Implements Bubble Sort by repeatedly scanning the array from right to left and swapping adjacent elements if they are in the wrong order.
+3. Tracks the number of swaps (count) made during the sorting process.
+4. Prints the sorted array with space-separated values and the total swap count on a new line.
+
+The FastScanner class provides optimized input reading methods to handle large data sets efficiently.","encryption","This code reads an array of integers, sorts it using bubble sort, and outputs the sorted array and the number of swaps performed. The implementation uses obfuscation techniques, including encrypted strings and bitwise arithmetic, to conceal constant values like `0`, `1`, and the space character."
+"p02729","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.9,0.75,0.5,0.2,0.7,"without_comments","Title: Combination Counter for Two Sets
+
+Main Goal: This code calculates the total number of ways to choose two distinct elements from two separate sets, where the order of selection does not matter (combinations). It reads two integers N and M representing the sizes of two sets. The code computes the sum of combinations C(N, 2) and C(M, 2) using nested loops to count pairs, handling edge cases where either set has 1 or fewer elements (resulting in 0 combinations for that set). The final output is the total count of all possible unordered pairs from both sets.","encryption","Title: Obfuscated Triangular Number Calculation
+
+Main Goal: This code calculates the sum of the first (N-1) and (M-1) triangular numbers, but only if both N and M are greater than 1. The value is stored in variable 'a' and printed.
+
+Key Functions:
+1. Initializes a static array 'l' with values [256, 1] through obfuscated calculations
+2. Reads two integers N and M from user input
+3. If both N>1 and M>1: calculates triangular numbers for (N-1) and (M-1) and sums them
+4. If only one input >1: calculates the triangular number for that input only
+5. If both inputs ≤1: resets 'a' to initial value 256"
+"p02887","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.8,0.9,0.6,0.35,0.45000000000000007,"without_comments","**Title:** Counting Consecutive Character Groups in a String
+
+**Main Goal:** The code calculates the number of contiguous segments of identical characters in a given string.
+
+**Summary Description:** This Java program reads an integer `n` and a string `S` of length `n`. It initializes a counter to 1, representing the first segment. It then iterates through the string, comparing each character to the previous one. Whenever a character differs from its predecessor, it increments the counter. The final count, which is the number of segments where consecutive characters are the same, is printed. The `FastScanner` class is a helper for efficient input reading.","encryption","Title: Obfuscated String Compression Counter
+
+Main Goal: The code counts the number of character changes (transitions) in a given string, starting from a specific obfuscated index. It initializes an array `l` with hardcoded values to determine the starting index and a reference character, then iterates through the string to count how many times the current character differs from the previous one. The result is printed as the answer. The `FastScanner` class handles efficient input reading, and the code uses various obfuscation techniques to hide its simple logic."
+"p03632","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.6,0.8,0.9,0.8,0.4,0.4,"without_comments","Title: Interval Overlap Length Calculator  
+Main Goal: This code calculates the length of the overlap between two intervals on a number line. It reads four integers representing the start and end points of two intervals (a-b and c-d) and uses conditional logic to determine which of the five possible overlap scenarios applies. The result is the length of the overlapping segment, or zero if there is no overlap.","encryption","Title: Interval Overlap Length Calculator with Deliberate Exception
+
+Main Goal: This code calculates the length of the overlap between two intervals on a number line, defined by their start and end points (a, b) and (c, d). It uses a series of conditional checks to determine the relationship between the intervals and compute the correct overlap. If there is no overlap between the intervals, the code deliberately causes a NullPointerException by accessing an uninitialized array element (`l[0]`), which is a form of obfuscated error handling. A static initializer block calls method `I()` to initialize the array `l` with a single element, whose value is calculated through a complex, obfuscated expression that ultimately results in 0."
+"p02706","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.6499999999999999,0.7,0.8500000000000001,0.35,0.29999999999999993,"without_comments","Title: Calculating Remaining Days After Allocating Tasks
+
+Main Goal: The code reads two integers `n` (total days) and `m` (number of tasks), followed by a list of `m` integers (days required per task). It checks if the total days required by all tasks exceeds `n`. If so, it outputs `-1`; otherwise, it outputs the remaining free days (`n - total_task_days`).
+
+Key Functions: 
+1. `solve()`: Core logic that computes and outputs the result.
+2. Helper methods (`ni()`, `na()`, etc.): Efficient input handling for competitive programming.
+3. `run()`: Initializes I/O and executes the solution.","encryption","Title: Encrypted Input Processing and Sum Calculation
+
+Main Goal: The code reads encrypted input values, decrypts them using a Blowfish cipher with an MD5-derived key, and calculates the sum of a list of integers. It then compares this sum to a given integer 'n' and outputs the difference (n - sum) if the sum is less than or equal to n, otherwise it outputs -1.
+
+Key Functions:
+1. Il() and l(): Initialize constants and decrypt the main input string
+2. I(): Decrypts strings using Blowfish cipher with MD5 key
+3. solve(): Reads integers n and m, reads m integers into an array, sums them, and outputs n - sum or -1
+4. ni(), nl(), ns(): Input reading methods for integers, longs, and strings
+5. run(): Sets up input/output streams and executes the solution
+
+The code uses obfuscation techniques including encrypted strings, constant arrays, and bit manipulation to hide its actual purpose of processing input and performing simple arithmetic calculations."
+"p02921","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8500000000000001,0.7,0.25,0.65,"without_comments","Title: Character Matching Counter in Strings
+
+Main Goal: This code compares two three-character strings and counts how many characters are in the same position. It outputs the count (3, 2, 1, or 0) based on the number of matching characters at corresponding indices.
+
+Functions:
+1.  Reads two input strings from the user.
+2.  Converts the strings to character arrays for index-based comparison.
+3.  Uses conditional checks to determine the number of matching characters at the same positions (index 0, 1, and 2).
+4.  Prints ""3"" if all characters match, ""2"" if any two pairs match, ""1"" if any single character matches, or ""0"" if no characters are in the correct position.","encryption","This Java code is a password strength checker that compares two input strings (likely a password and a confirmation) and outputs a strength rating based on character matching. It initializes an array of encrypted messages using DES and Blowfish ciphers with hardcoded keys. The main function compares the input strings character-by-character and prints one of four pre-decrypted messages indicating password strength: from an exact match to a complete mismatch."
+"p02909","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.3,0.9,0.8,0.8,0.2,0.7,"without_comments","**Title: Weather Condition Predictor**  
+**Main Goal:** The code predicts the next weather condition based on the current input. It takes a weather string (""Sunny"", ""Cloudy"", or ""Rainy"") and outputs the subsequent weather state in a cyclic pattern: Sunny → Cloudy → Rainy → Sunny.
+
+**Functions:**  
+1. **Main Logic:** Reads input and maps ""Sunny"" to ""Cloudy"", ""Cloudy"" to ""Rainy"", and ""Rainy"" to ""Sunny"".  
+2. **Utility Methods:** Includes helper functions for printing (`p`, `pp`), copying strings (`stringCopy`), and finding min/max of three integers (`min`, `max`).  
+3. **FastScanner:** A custom input reader for efficient parsing of tokens, numbers, and strings from System.in.  
+
+**Summary:** The core functionality is a simple weather state transition system, while the utility methods and FastScanner support general-purpose operations for potential extensions.","encryption","This code is a Java program that uses a custom FastScanner for input and decrypts hardcoded strings to compare with user input. The main goal is to check if the input string matches one of the decrypted strings and print a corresponding decrypted response. It employs multiple encryption methods (DES and Blowfish) and obfuscation techniques to hide the actual strings and logic."
+"p03814","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.5,0.9,0.8,0.3,0.3,0.6000000000000001,"without_comments","**Title:** Finding the Longest Substring Starting with 'A' and Ending with 'Z'
+
+**Main Goal:** The code's primary objective is to read an input string, find the longest contiguous substring that starts with the character 'A' and ends with the character 'Z', and then print the length of that substring.
+
+**Summary Description:**
+The code uses a `FastScanner` for efficient input reading. It converts the input string into a character array and then uses two pointers, `f` (front) and `b` (back). The `f` pointer is incremented from the start of the string until the first occurrence of 'A' is found. The `b` pointer is decremented from the end of the string until the first occurrence of 'Z' is found. The result is the distance between these two pointers (`b - f + 1`), which is the length of the substring from the first 'A' to the last 'Z'.","dead_code","**Title:** Fast Input Scanner with String Trimming Functionality
+
+**Main Goal:** The code provides a custom fast input scanner for efficient reading of input data and includes a main method that trims non-alphabetic characters from the ends of a string.
+
+**Functions:**
+1. **FastScanner Class:** A custom scanner that uses buffered input for faster reading of tokens, longs, integers, and doubles from System.in.
+2. **Main Method:** Reads a string, trims leading and trailing non-alphabetic characters (outside A-Z range), and outputs the length of the remaining substring.
+
+The helper methods (I, Ill, lll, etc.) are boolean comparison utilities used throughout the code for condition checks."
+"p03814","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.8,0.3,0.3,0.6000000000000001,"without_comments","**Title:** Finding the Longest Substring Starting with 'A' and Ending with 'Z'
+
+**Main Goal:** The code's primary objective is to read an input string, find the longest contiguous substring that starts with the character 'A' and ends with the character 'Z', and then print the length of that substring.
+
+**Summary Description:**
+The code uses a `FastScanner` for efficient input reading. It converts the input string into a character array and then uses two pointers, `f` (front) and `b` (back). The `f` pointer is incremented from the start of the string until the first occurrence of 'A' is found. The `b` pointer is decremented from the end of the string until the first occurrence of 'Z' is found. The result is the distance between these two pointers (`b - f + 1`), which is the length of the substring from the first 'A' to the last 'Z'.","encryption","**Title:** Fast Input Scanner with String Processing
+
+**Main Goal:** The code provides a custom fast input scanner for efficient reading and parsing of input data, and then processes a string to find the distance between two specific characters.
+
+**Functions:**
+1. **FastScanner Class:** A custom scanner that uses byte-level reading for fast input processing. It includes methods to read integers, longs, doubles, and strings, with built-in checks for printable characters and number formatting.
+2. **String Processing in Main:** Reads a string input, then searches from both ends to find the first occurrence of two specific characters (predefined in the `l` array), and calculates the distance between them.
+3. **Obfuscation:** The code uses obfuscated integer arrays (`ll` and `l`) to store constants and configuration values, making the logic less straightforward to read."
+"p02707","Dead_Code_Failure","without_comments-dead_code < 0.5 (after comments removed)",0.7,0.9,0.8,0.35,0.3,0.55,"without_comments","**Title:** Counting Direct Subordinates in a Tree Structure
+
+**Main Goal:** The code counts the number of direct subordinates (immediate children) for each node in a tree where node 1 is the root.
+
+**Summary Description:** This Java program reads an integer `N` (number of nodes) and a list of `N-1` integers representing the parent of each node from node 2 to node N. It then calculates and outputs the number of direct children for each node from 1 to N. The solution uses a frequency array where each index represents a node, and it increments the count for a node whenever that node appears as a parent in the input list.","dead_code","Title: Frequency Counter for Input Numbers
+
+Main Goal: The code reads a series of integers and counts the frequency of each number (from 1 to N) that appears in the input.
+
+The program starts by reading an integer N, which represents the upper bound of numbers to track. It then processes N-1 additional integers (from the second to the Nth input). For each of these numbers, it increments a counter in an array at the index corresponding to the number. Finally, it outputs the frequency counts for numbers 1 through N.
+
+The FastScanner class provides efficient input parsing methods for different data types, handling various edge cases like signs and whitespace. The helper methods (I, IIl, l, Il, etc.) are utility functions for comparisons that make the input parsing logic more concise."
+"p02707","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.9,0.8,0.35,0.3,0.6000000000000001,"without_comments","**Title:** Counting Direct Subordinates in a Tree Structure
+
+**Main Goal:** The code counts the number of direct subordinates (immediate children) for each node in a tree where node 1 is the root.
+
+**Summary Description:** This Java program reads an integer `N` (number of nodes) and a list of `N-1` integers representing the parent of each node from node 2 to node N. It then calculates and outputs the number of direct children for each node from 1 to N. The solution uses a frequency array where each index represents a node, and it increments the count for a node whenever that node appears as a parent in the input list.","encryption","Title: Frequency Counter with Obfuscated Constants
+
+Main Goal: The code reads an integer `N` and a sequence of `N` integers, then counts the frequency of each integer in the range [1, N] and prints the results.
+
+Key Functions:
+1. **Initialization:** Obfuscated static blocks (`l()`, `IIl()`, `ll()`) use encryption and bitwise operations to define constants like `MOD` and array lengths, hiding their true values (e.g., `MOD = 1000000007`).
+2. **Input Handling:** The `FastScanner` class provides methods to read various data types (int, long, double, String) efficiently, including decryption for obfuscated strings.
+3. **Frequency Counting:** The `solve()` method creates an array `num` of size `N+1`, increments the count at the index corresponding to each input number, and prints the frequencies for indices 1 to N.
+4. **Obfuscation Techniques:** Constants are hidden using base64 decoding, XOR operations, and DES decryption with hardcoded keys to deter reverse engineering."
+"p02705","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.55,0.8,0.8,0.8500000000000001,0.44999999999999996,0.3500000000000001,"without_comments","**Title:** Calculate Circle Circumference with Fast Input Handling
+
+**Main Goal:** The code reads an integer radius value from standard input and computes the circumference of a circle using the formula `2 * π * radius`, then prints the result.
+
+**Functions:**
+- The `main` method uses a custom `FastScanner` for efficient input reading, retrieves the radius integer, and outputs the calculated circumference.
+- The `FastScanner` class provides optimized methods for reading various data types (e.g., `nextInt()`, `nextLong()`) by buffering input and handling parsing.
+- A utility `gcd` method (unused in main logic) computes the greatest common divisor of two integers using the Euclidean algorithm.","encryption","**Title:** Obfuscated Circle Circumference Calculator
+
+**Main Goal:** The code calculates and prints the circumference of a circle given a radius input, using an obfuscated value for π (pi).
+
+**Summary Description:** This Java program reads an integer radius from standard input, multiplies it by a pre-calculated value (2, derived from the length of a string), and then by 3.141592 to compute the circumference. The code is heavily obfuscated with unnecessary methods, static blocks, and arrays to hide its simple purpose. It includes a custom `FastScanner` class for input handling and a `gcd` method that is never used, serving as distractions."
+"p02880","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.7,0.9,0.9,0.8,0.2,0.7,"without_comments","Title: Single-Digit or Multiplication Table Number Checker
+
+Main Goal: The code checks if a given integer N (between 1 and 81) can be found in the standard 9x9 multiplication table. It returns ""Yes"" if N is a single-digit number (1-9) or if it is a product from the table (i.e., divisible by a number d and within the valid range for that divisor, d*1 to d*9). Otherwise, it returns ""No"".","encryption","Title: Conditional Message Decryption and Selection Based on Input
+
+Main Goal: The code decrypts a set of predefined encrypted strings and selects one based on the input integer value (N) provided by the user. It uses a combination of symmetric encryption (DES, Blowfish) and XOR operations for decryption.
+
+Key Functions:
+1. **Initialization (`IIl`, `ll`)**: The static blocks initialize an integer array `l` with obfuscated values and a string array `I` by decrypting hard-coded ciphertexts using keys and different algorithms (DES, Blowfish, XOR).
+2. **Decryption (`I`, `Il`, `l`)**: Three methods handle decryption: `I` uses DES, `Il` uses Blowfish, and `l` uses a simple XOR cipher with Base64 decoding.
+3. **Logic (`solve`)**: The core function checks the input `N` against multiple conditional ranges and divisibility rules. Based on which condition is met, it selects and returns a corresponding decrypted string from the array `I`.
+4. **Execution Flow**: The `main` method reads the integer input, constructs the Main object, executes the `solve` logic, and prints the selected decrypted message."
+"p02659","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.5,0.9,0.9,0.8,0.25,0.65,"without_comments","**Title**: Multiplying an Integer by a Decimal Number with Precision Handling
+
+**Main Goal**: To accurately multiply a long integer `A` by a decimal number `B` (provided as a string with a decimal point) by converting it into an integer representation to avoid floating-point precision errors.
+
+**Summary Description**: The code reads a long integer `A` and a decimal string `B`, removes the decimal point from `B` to convert it into an integer, multiplies `A` by this integer, and then divides by 100 to correctly account for the two decimal places originally in `B`. This approach ensures precise calculation without floating-point inaccuracies. The `FastScanner` class provides efficient input parsing for various data types.","encryption","**Title:** Obfuscated Java Code for Calculating Percentage of a Product
+
+**Main Goal:** The code reads two numbers, where the second input is a string with obfuscated decimal point characters, and calculates the product of the two numbers divided by 100 (effectively finding `A * (B / 100)`).
+
+**Key Functions:**
+1.  **Obfuscation Decryption:** Uses custom methods `l()` and `Il()` (which perform XOR and DES decryption, respectively) with hard-coded keys to decode the strings `"".""` and `"",""` from their encrypted forms stored in the static array `l[]`. This is necessary to process the second input number correctly.
+2.  **Input Parsing:** The `FastScanner` class provides methods to read various data types (long, int, double, string) from standard input, handling edge cases like signs and decimal points.
+3.  **Core Calculation:** The `solve()` method reads a long `A` and a string for `B`. It processes the string for `B` by replacing the obfuscated comma character with the obfuscated dot character (to handle European-style decimal formatting) before converting it to a long. Finally, it calculates and prints `(A * B) / 100`.
+
+**Summary:** This is a heavily obfuscated program designed to read two numbers and compute a percentage (A multiplied by B%). The obfuscation techniques include encrypted strings, bitwise operations to hide constant values, and custom encryption/decryption methods to conceal the decimal point characters used in input parsing."
+"p02260","Encryption_Failure","without_comments-encryption < 0.5 (after comments removed)",0.8,0.9,0.9,0.9,0.3,0.6000000000000001,"without_comments","**Title: Selection Sort Implementation with Swap Count**
+
+**Main Goal:** This code performs a selection sort on an input array and counts the number of swaps required to sort it.
+
+**Summary Description:** The code reads an integer `N` and an array of `N` integers. It then sorts the array using the selection sort algorithm, which works by repeatedly finding the minimum element from the unsorted part and swapping it with the first unsorted element. The variable `sw` is incremented each time a swap is performed. Finally, the sorted array is printed as a space-separated string, followed by the total number of swaps. The `FastScanner` class is a helper for efficient input reading.","encryption","Title: Selection Sort Implementation with Obfuscated String Handling
+
+Main Goal: This code performs a selection sort on an array of integers input by the user, counts the number of swaps performed during the sort, and prints both the sorted array and the swap count.
+
+Key Functions:
+1. **Main Method:** Reads an integer `N` and an array of `N` integers. It then sorts the array using the selection sort algorithm, counting each time elements are swapped. Finally, it prints the sorted array and the total number of swaps.
+2. **Selection Sort:** The algorithm iterates through the array, finds the minimum element in the unsorted part, and swaps it with the first element of the unsorted part. The `sw` variable is incremented for each swap performed.
+3. **Obfuscated Initialization:** The `ll()` and `Il()` methods, called from a static block, initialize global arrays `ll` and `l` using bitwise operations and string decryption to hide their true values (e.g., `ll[0]` is 0 and `l[0]` is a space character "" "").
+4. **String Decryption (`I` method):** Decodes a Base64-encoded string and then applies a XOR cipher using a provided key to reveal its plaintext content, which is used for formatting the output.
+5. **FastScanner Class:** A custom input reader for efficient parsing of input data, handling integers, longs, doubles, and strings. It includes obfuscated constants for buffer size and control flow.
+6. **parseArray Method:** Converts the sorted integer array into a formatted string, using the decrypted string (a space) from the `l` array as a delimiter between elements."

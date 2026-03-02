@@ -1,0 +1,21 @@
+**Exercise Title: Recursive List Navigation**
+
+**Problem Statement:**
+
+Create a function that navigates through a series of string lists representing different paths, based on a set of rules. You will be given three lists of characters, representing points on a path. Each path can be navigated by following certain rules, determining which path to follow next.
+
+The navigation process is defined as follows:
+1. Start from the first character in the first list.
+2. Depending on the character you encounter, determine the next path to follow.
+3. If you encounter the first path's character (say 'x'), move to the beginning of the first list.
+4. Similarly, if you encounter the second path's character (say 'y'), navigate to the beginning of the second list.
+5. Finally, if you encounter the third path's character (say 'z'), switch to the beginning of the third list.
+6. Continue this process until you reach the end of any list. When you reach the end of a list, output which list ends first.
+
+**Requirements:**
+
+- Implement a function `navigate_paths(path1, path2, path3)` that takes three lists of characters as input.
+- Assume each list can only contain the characters 'x', 'y', or 'z'.
+- You start navigating from the first list of characters. Based on the character, decide the next path to continue.
+- The function should return a string 'First', 'Second', or 'Third' indicating which list ends first as a result of following the navigation rules.
+- Avoid using global variables, use recursive or iterative approaches to implement the navigation logic.

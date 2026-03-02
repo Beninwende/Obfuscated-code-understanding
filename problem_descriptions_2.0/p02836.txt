@@ -1,0 +1,18 @@
+**Exercise Title: Character Substitution to Form a Symmetric Array**
+
+**Problem Statement:**
+
+Arrays with a symmetric property are highly valued for their balanced structure. An array is considered symmetric if it reads the same from left to right as it does from right to left. Your task is to modify a given integer array to make it symmetric with the minimum number of single element substitutions.
+
+Given an integer array `A`, determine the minimum number of substitutions required to transform it into a symmetric array.
+
+**Requirements:**
+
+1. The array `A` consists of integers, each between `0` and `1000` (inclusive).
+2. The length of `A` will be between `1` and `200` (inclusive).
+
+1. Your solution should calculate the minimum number of single element substitutions needed to make the array symmetric. 
+2. You may only modify one element at a time in the array during each substitution.
+3. Output the minimum number of substitutions required.
+
+4. The program should read input from the user in the specified format and produce the required output.

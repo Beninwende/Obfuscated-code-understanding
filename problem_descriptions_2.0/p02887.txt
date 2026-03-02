@@ -1,0 +1,14 @@
+**Exercise Title: Counting Unique Consecutive Characters**
+
+**Problem Statement:**
+
+You are given a string composed of lowercase English letters. Your task is to process this string and count the number of unique consecutive characters. In other words, for each character that is the same as the previous one, consider it as a single entity.
+
+**Requirements:**
+
+1. Write a function that takes a single input: a string \( S \).
+2. The function should traverse the string from the beginning to the end.
+3. Count the number of unique consecutive characters in the string. If a character is the same as its immediate predecessor, they should be considered one entity for counting purposes.
+4. Return the count of these unique consecutive characters.
+
+Focus on optimizing your solution to perform efficiently even for larger strings. The function should handle edge cases where the string can be as short as one character or consist of repeated sequences of characters.

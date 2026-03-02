@@ -1,0 +1,226 @@
+{
+  "top10_success": [
+    {
+      "problem_id": "p02701",
+      "lines_of_code": 84,
+      "shannon_entropy": 4.254828,
+      "cyclomatic_complexity_total": 32,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 84,
+      "function_count": 9,
+      "rank": 1,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p03470",
+      "lines_of_code": 103,
+      "shannon_entropy": 4.100647,
+      "cyclomatic_complexity_total": 31,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 103,
+      "function_count": 10,
+      "rank": 2,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02898",
+      "lines_of_code": 160,
+      "shannon_entropy": 3.568807,
+      "cyclomatic_complexity_total": 49,
+      "cyclomatic_complexity_max": 15,
+      "lizard_nloc": 160,
+      "function_count": 10,
+      "rank": 3,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p03160",
+      "lines_of_code": 237,
+      "shannon_entropy": 3.368857,
+      "cyclomatic_complexity_total": 48,
+      "cyclomatic_complexity_max": 20,
+      "lizard_nloc": 237,
+      "function_count": 13,
+      "rank": 4,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02393",
+      "lines_of_code": 43,
+      "shannon_entropy": 3.267381,
+      "cyclomatic_complexity_total": 25,
+      "cyclomatic_complexity_max": 25,
+      "lizard_nloc": 43,
+      "function_count": 1,
+      "rank": 5,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02831",
+      "lines_of_code": 81,
+      "shannon_entropy": 3.978976,
+      "cyclomatic_complexity_total": 19,
+      "cyclomatic_complexity_max": 19,
+      "lizard_nloc": 81,
+      "function_count": 1,
+      "rank": 6,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02835",
+      "lines_of_code": 116,
+      "shannon_entropy": 4.210547,
+      "cyclomatic_complexity_total": 34,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 116,
+      "function_count": 11,
+      "rank": 7,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02259",
+      "lines_of_code": 122,
+      "shannon_entropy": 4.998427,
+      "cyclomatic_complexity_total": 36,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 122,
+      "function_count": 9,
+      "rank": 8,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p02766",
+      "lines_of_code": 99,
+      "shannon_entropy": 3.982178,
+      "cyclomatic_complexity_total": 28,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 99,
+      "function_count": 10,
+      "rank": 9,
+      "group": "top10_success"
+    },
+    {
+      "problem_id": "p03161",
+      "lines_of_code": 240,
+      "shannon_entropy": 3.345346,
+      "cyclomatic_complexity_total": 48,
+      "cyclomatic_complexity_max": 20,
+      "lizard_nloc": 240,
+      "function_count": 13,
+      "rank": 10,
+      "group": "top10_success"
+    }
+  ],
+  "top10_failure": [
+    {
+      "problem_id": "p02687",
+      "lines_of_code": 149,
+      "shannon_entropy": 3.609833,
+      "cyclomatic_complexity_total": 45,
+      "cyclomatic_complexity_max": 15,
+      "lizard_nloc": 149,
+      "function_count": 9,
+      "rank": 1,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p02390",
+      "lines_of_code": 60,
+      "shannon_entropy": 3.731931,
+      "cyclomatic_complexity_total": 11,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 60,
+      "function_count": 1,
+      "rank": 2,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03107",
+      "lines_of_code": 70,
+      "shannon_entropy": 4.516046,
+      "cyclomatic_complexity_total": 15,
+      "cyclomatic_complexity_max": 15,
+      "lizard_nloc": 70,
+      "function_count": 1,
+      "rank": 3,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p02717",
+      "lines_of_code": 126,
+      "shannon_entropy": 4.500613,
+      "cyclomatic_complexity_total": 37,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 126,
+      "function_count": 12,
+      "rank": 4,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03242",
+      "lines_of_code": 58,
+      "shannon_entropy": 4.413902,
+      "cyclomatic_complexity_total": 15,
+      "cyclomatic_complexity_max": 15,
+      "lizard_nloc": 58,
+      "function_count": 1,
+      "rank": 5,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03449",
+      "lines_of_code": 36,
+      "shannon_entropy": 4.680198,
+      "cyclomatic_complexity_total": 24,
+      "cyclomatic_complexity_max": 21,
+      "lizard_nloc": 36,
+      "function_count": 2,
+      "rank": 6,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p02753",
+      "lines_of_code": 109,
+      "shannon_entropy": 4.087967,
+      "cyclomatic_complexity_total": 31,
+      "cyclomatic_complexity_max": 22,
+      "lizard_nloc": 109,
+      "function_count": 4,
+      "rank": 7,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03282",
+      "lines_of_code": 40,
+      "shannon_entropy": 4.823774,
+      "cyclomatic_complexity_total": 50,
+      "cyclomatic_complexity_max": 21,
+      "lizard_nloc": 40,
+      "function_count": 22,
+      "rank": 8,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03469",
+      "lines_of_code": 97,
+      "shannon_entropy": 5.009537,
+      "cyclomatic_complexity_total": 32,
+      "cyclomatic_complexity_max": 11,
+      "lizard_nloc": 97,
+      "function_count": 10,
+      "rank": 9,
+      "group": "top10_failure"
+    },
+    {
+      "problem_id": "p03315",
+      "lines_of_code": 17,
+      "shannon_entropy": 4.534903,
+      "cyclomatic_complexity_total": 17,
+      "cyclomatic_complexity_max": 17,
+      "lizard_nloc": 17,
+      "function_count": 1,
+      "rank": 10,
+      "group": "top10_failure"
+    }
+  ]
+}

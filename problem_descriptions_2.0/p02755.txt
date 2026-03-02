@@ -1,0 +1,32 @@
+**Exercise Title: Calculate Pre-Tax Amount from Discount Values**
+
+**Problem Statement:**
+
+Create a function that calculates the original price of a product before any discount, given the discounted prices for two discount rates. The function will receive two discounted amounts resulting from applying different discounts on the original price. The goal is to determine the original price that would produce these discounted amounts when applying the specified discount rates. The discounts are always rounded down to the nearest integer.
+
+Your task is to write a function that takes in three arguments: two integers as the discounted amounts and two integers as the respective discount rates, and returns the original price. The original price should be a positive integer. If multiple original prices satisfy the conditions, return the smallest one. If no price satisfies the conditions, return -1.
+
+**Requirements:**
+
+1. Implement a function that takes in four integer arguments:
+   - `discounted_amount1`: The amount after applying the first discount.
+   - `discount_rate1`: The percentage rate of the first discount.
+   - `discounted_amount2`: The amount after applying the second discount.
+   - `discount_rate2`: The percentage rate of the second discount.
+
+2. Calculate the possible original price such that applying `discount_rate1` results in `discounted_amount1` and applying `discount_rate2` results in `discounted_amount2`.
+
+3. The original price before discounts must be a positive integer.
+
+4. The discounted amount after applying the discount is calculated by:
+   - `floor(original_price * discount_rate1 / 100) = discounted_amount1`
+   - `floor(original_price * discount_rate2 / 100) = discounted_amount2`
+
+5. Return the smallest original price that satisfies both conditions. If no such original price exists, return -1.
+
+6. Assume that:
+   - Both discount rates and discounted amounts are positive integers.
+   - Discount rates are between 1 and 100 inclusive.
+   - The discounted amounts can vary within a reasonable range to ensure a valid search space for the original price.
+
+Focus on implementing this calculation efficiently and correctly to handle all edge cases within the constraints provided.

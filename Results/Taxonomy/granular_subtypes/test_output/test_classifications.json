@@ -1,0 +1,66 @@
+{
+  "test_size": 5,
+  "total_failures": 5,
+  "failures_by_type": {
+    "Encryption_Failure": 2,
+    "Variable_Renaming_Failure": 3
+  },
+  "failures_by_subtype": {
+    "Algorithm_misunderstanding": 3,
+    "Obfuscation_narrative": 2
+  },
+  "failures_by_type_and_subtype": [
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 2
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    }
+  ],
+  "classifications": [
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "index": 0,
+      "problem_id": "p03013",
+      "failure_type": "Encryption_Failure",
+      "granular_subtype": "Obfuscation_narrative",
+      "raw_response": "Obfuscation_narrative"
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "index": 1,
+      "problem_id": "p03371",
+      "failure_type": "Variable_Renaming_Failure",
+      "granular_subtype": "Algorithm_misunderstanding",
+      "raw_response": "Algorithm_misunderstanding"
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "index": 2,
+      "problem_id": "p02640",
+      "failure_type": "Encryption_Failure",
+      "granular_subtype": "Obfuscation_narrative",
+      "raw_response": "Obfuscation_narrative"
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "index": 3,
+      "problem_id": "p02682",
+      "failure_type": "Variable_Renaming_Failure",
+      "granular_subtype": "Algorithm_misunderstanding",
+      "raw_response": "Algorithm_misunderstanding"
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "index": 4,
+      "problem_id": "p02641",
+      "failure_type": "Variable_Renaming_Failure",
+      "granular_subtype": "Algorithm_misunderstanding",
+      "raw_response": "Algorithm_misunderstanding"
+    }
+  ]
+}

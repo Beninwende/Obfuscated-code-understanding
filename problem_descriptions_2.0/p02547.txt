@@ -1,0 +1,16 @@
+**Title: Determine Consecutive String Pairs**
+
+**Problem Statement:**
+
+You're given a list of string pairs. Your task is to determine whether there exists at least one series of three consecutive pairs in the list where both strings in each pair are identical. Specifically, you need to check if there is a sequence where the first and second strings are identical for three consecutive pairs in the list.
+
+**Requirements:**
+
+1. Write a function that takes an integer `n` and a list of string pairs.
+2. The integer `n` represents the number of string pairs in the list.
+3. Each string pair consists of two strings.
+4. The function should output "Yes" if there is at least one instance where the string pairs exhibit identical strings for three consecutive pairs. Otherwise, output "No".
+5. Ensure the function efficiently handles checking the consecutive criteria for larger inputs.
+6. Consider using fundamental programming constructs, such as loops and conditionals, to solve the problem.
+
+Focus on implementing the function to correctly identify consecutive identical string pairs while practicing iteration and conditional checks.

@@ -1,0 +1,16 @@
+**Exercise Title: Identify Matching Pairs**
+
+**Problem Statement:**
+
+Create a program that receives a set of three integer numbers, each in the range from 1 to 9 inclusive. Your task is to determine if there is exactly one pair among these numbers where two of them are equal, while the third number is different. If such a pair exists, the set is considered valid, and you should indicate this with a specific output statement.
+
+**Requirements:**
+
+1. Implement a function that accepts three integers as input.
+2. The integers will always be in the inclusive range [1, 9].
+3. Your function should check whether there are exactly two numbers that are the same, with the remaining number being different.
+4. If this condition is met, your function should return an output indicating a successful detection of the pair.
+5. If no such pair exists, your function should return an alternative output indicating no detection.
+6. Consider edge cases where all numbers are the same, or all numbers are different, and handle them appropriately. 
+
+*Note: Ensure that the logic used to determine the condition is efficient and only checks necessary combinations.*

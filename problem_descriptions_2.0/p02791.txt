@@ -1,0 +1,19 @@
+**Exercise Title: Count Elements Less Than or Equal to Minimum**
+
+**Problem Statement:**
+
+Write a program that processes a list of integers and identifies the elements that are less than or equal to the smallest element encountered so far in the list. Your task is to determine how many such elements exist in the list.
+
+Given an integer list, your goal is to perform the following operations:
+
+1. Traverse through each element in the list.
+2. Track the minimum value encountered as you progress through the list.
+3. Count the number of elements that are less than or equal to the minimum value encountered up to that point in the list.
+
+**Requirements:**
+
+- Implement a function to count the elements that are less than or equal to the minimum value encountered up to each point in the list.
+- The program should read from the standard input and output the count of such elements to the standard output.
+- Ensure the function handles lists of varying lengths efficiently.
+- Consider the initial minimum value as larger than any possible input value.
+- Focus on efficient traversal and updating mechanisms to maintain performance on longer lists.

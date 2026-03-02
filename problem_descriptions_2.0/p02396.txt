@@ -1,0 +1,26 @@
+### Exercise: Number Formatter
+
+#### Problem Statement
+You are tasked with creating a simple command-line program that repeatedly processes individual pieces of input data. The program should read and format integer data inputs, maintaining a sequence order for display. This exercise will help you practice handling input and output operations efficiently.
+
+#### Requirements
+1. **Input**:
+   - The program will continuously read integer inputs.
+   - The input sequence is terminated by a specified limit value, which indicates that there are no more inputs to process and should not be included in the output.
+
+2. **Process**:
+   - For each integer input, generate a formatted output displaying its position in the sequence and its value.
+
+3. **Output**:
+   - For each valid input (excluding the terminal limit value), output the format: 
+     ```
+     Entry x: y
+     ```
+     - `x` represents the entry number in the processing sequence, beginning from 1 and incrementing for each new input.
+     - `y` represents the integer value of the input.
+
+4. **Constraints**:
+   - The input integer values will be positive and fall within a specific range.
+   - Input may consist of up to a large number of entries. Ensure your solution handles this efficiently.
+
+Begin by implementing the program logic to read and process input, apply the correct formatting and handle termination based on the given end signal. Keep the program efficient and maintain clarity in your code organization.

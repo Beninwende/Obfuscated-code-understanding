@@ -1,0 +1,17 @@
+group,problem_id,success_rate,lines_of_code,cyclomatic_complexity_total,cyclomatic_complexity_max,density,shannon_entropy,function_count,max_nesting_depth,has_recursion,magic_number_count,has_custom_io,non_ascii_identifier_count,static_field_count,task_type
+success,p03470,0.6054,103,31,11,0.300971,4.100647,10,5,1,4,1,0,1,sort
+success,p02701,0.6020,84,32,11,0.380952,4.254828,9,4,1,4,1,0,1,count
+success,p02898,0.5612,160,49,15,0.30625,3.568807,10,5,1,4,1,0,0,count
+success,p03160,0.5442,237,48,20,0.202532,3.368857,13,7,1,3,1,0,3,other
+success,p02393,0.5204,43,25,25,0.581395,3.267381,1,3,0,0,0,0,0,sort
+success,p02259,0.5034,122,36,11,0.295082,4.998427,9,5,1,4,1,0,1,sort
+success,p02835,0.5000,116,34,11,0.293103,4.210547,11,4,1,7,1,0,1,sum
+success,p02831,0.5000,81,19,19,0.234568,3.978976,1,6,0,5,0,0,0,other
+failure,p03469,0.1497,97,32,11,0.329897,5.009537,10,4,1,6,1,0,1,string
+failure,p02753,0.1429,109,31,22,0.284404,4.087967,4,6,0,3,0,0,1,unique
+failure,p03242,0.1395,58,15,15,0.258621,4.413902,1,5,0,20,0,0,0,string
+failure,p03449,0.1395,36,24,21,0.666667,4.680198,2,4,1,0,0,0,2,sum
+failure,p02390,0.1259,60,11,11,0.183333,3.731931,1,4,0,9,0,0,0,other
+failure,p03107,0.1259,70,15,15,0.214286,4.516046,1,6,0,0,0,0,0,count
+failure,p02687,0.1190,149,45,15,0.302013,3.609833,9,6,1,4,1,0,0,other
+failure,p02717,0.1122,126,37,11,0.293651,4.500613,12,5,1,4,1,0,6,other

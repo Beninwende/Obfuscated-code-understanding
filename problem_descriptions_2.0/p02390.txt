@@ -1,0 +1,17 @@
+**Exercise Title: Number Breakdown into Components**
+
+**Problem Statement:**
+
+Write a function that receives a positive integer and breaks it down into three separate components. Specifically, decompose a given integer into three parts: a larger component, a middle component, and a smaller component. Each part is derived through specific calculations and must fulfill predefined constraints. The goal is to understand how to systematically break down a number into meaningful segments.
+
+**Requirements:**
+
+1. Implement a function that takes a single positive integer as input.
+2. Calculate the largest component by dividing the input number by a specific divisor.
+3. Determine the middle component by finding the remainder when the input number is divided by the divisor, then further dividing this remainder using another divisor.
+4. The smallest component is calculated by finding the remainder when the middle calculation is performed.
+5. Return or print the three components, separated by a clearly defined delimiter.
+6. Ensure each component fulfills its respective constraint, ensuring the middle and smaller components are less than their corresponding divisors.
+7. The function should be designed to handle a variety of input values within the given range.
+
+Key concepts practiced in this exercise include integer division, remainder calculation, and parsing and structuring output according to constraints.

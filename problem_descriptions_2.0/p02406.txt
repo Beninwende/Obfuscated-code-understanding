@@ -1,0 +1,25 @@
+**Exercise Title: Loop Replacement Challenge**
+
+**Problem Statement:**
+
+In this exercise, you are required to simulate the behavior of a specific sequence generator using loops instead of alternative control flow statements like `goto`. The original program uses a `goto` structure to generate and print certain numbers in a sequence. Your task is to implement a program that generates the same sequence using standard loop constructs and conditional statements, without the use of `goto` or `break` from additional conditional checks.
+
+**Requirements:**
+
+1. **Functionality**:
+   - Create a function that accepts a single integer, `n`.
+   - The function iterates over all integers from `1` to `n`.
+   - For each integer, check two conditions:
+     1. If the integer is divisible by `3`, add it to the output list.
+     2. If the integer contains the digit `3` in any of its digits, add it to the output list.
+   - Output the integers in a single line, separated by a space, ensuring there is a leading space before the first integer.
+
+2. **Implementation Details**:
+   - The use of any form of `goto` statements or similar constructs is prohibited. Focus on using loop structures such as `while`, `for`, or `do-while`.
+   - Use conditional statements like `if-else` to replicate the flow control.
+   - Ensure that the program runs efficiently within the given constraints.
+
+3. **Constraints**:
+   - The input integer `n` will be between `3` and `10000`.
+
+By completing this exercise, you'll gain a better understanding of how to manage program flow using loops and conditionals, adhering to structured programming practices.

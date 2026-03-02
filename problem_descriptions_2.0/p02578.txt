@@ -1,0 +1,23 @@
+**Exercise Title: Calculate Minimum Adjustments for Increasing Array**
+
+**Problem Statement:**
+
+You are given a sequence of positive integers, representing the heights of objects arranged in a line. Your task is to ensure that the sequence is non-decreasing by making the minimum total adjustments. An adjustment involves adding a non-negative integer value to any of the heights in the sequence. The goal is to determine the minimum sum of all these adjustments required to achieve the non-decreasing order.
+
+**Requirements:**
+
+1. Write a function that receives an integer N and an array of integers representing the heights.
+2. The function should compute the minimum total adjustments needed to make the sequence non-decreasing.
+3. Ensure that your solution is efficient and handles the constraints effectively.
+
+**Constraints:**
+
+- 1 ≤ N ≤ 200,000 (N is the number of heights in the sequence)
+- 1 ≤ Height[i] ≤ 1,000,000,000 (Each element represents a height which is a positive integer)
+
+**Instructions:**
+
+- The function should read the number of objects and their heights.
+- Iterate through the list of heights to determine where adjustments need to be made.
+- Calculate the total sum of necessary adjustments to ensure the sequence is non-decreasing.
+- Print the minimum total adjustments as the output.

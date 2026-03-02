@@ -1,0 +1,18 @@
+### Exercise Title: Find the Earliest Triple-Digit Number Formed by Repeating a Single Digit
+
+#### Problem Statement
+You are tasked with writing a program that finds the smallest three-digit number, greater than or equal to a given number, where all the digits are identical. 
+
+A three-digit number with identical digits is formed by repeating a single digit three times (e.g., 111, 222, ..., 999). Given an integer, determine the smallest number that meets these criteria and is greater than or equal to the given integer.
+
+#### Requirements
+- Create a function `find_earliest_repeating_digit_number` that:
+  - Takes in a single integer parameter, `num`, which represents a three-digit number.
+  - Determines the smallest three-digit number with all identical digits that is greater than or equal to `num`.
+  - Returns this smallest number.
+
+- Ensure that your solution:
+  - Accepts integers ranging from 100 to 999.
+  - Properly handles edge cases, such as when the given number already consists of identical digits.
+  
+Implement your function to adhere to the above requirements, focusing on string manipulation or arithmetic operations to achieve the desired outcome.

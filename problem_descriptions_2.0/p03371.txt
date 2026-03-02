@@ -1,0 +1,25 @@
+### Exercise Title: "Custom Recipe Cost Calculator"
+
+#### Problem Statement:
+You are tasked with creating a program that computes the minimum cost to prepare a specific number of dishes for an event. You have three types of ingredient packs available for purchase. The requirements for preparing each type of dish can vary in terms of the number of ingredient packs needed. Additionally, there is a special pack that can be divided into two halves to fulfill needs partially for two different types of dishes.
+
+Your task is to determine the least amount of money needed to prepare the required number of each type of dish by strategically purchasing the available ingredient packs. It is allowable to have leftover ingredients as long as the requirement for the dishes is fulfilled.
+
+#### Requirements:
+- Implement a function to calculate the minimum cost based on the following:
+  - Cost of each type of ingredient pack and special pack.
+  - Quantities of each dish type required.
+  - Ingredient packs needed:
+    - Type-A pack costs `P_A` units.
+    - Type-B pack costs `P_B` units.
+    - Special pack costs `P_C` units.
+  - Each Special pack can be split into two halves, beneficial for creating one half Type-A dish and one half Type-B dish.
+
+- Consider all possible combinations of purchases:
+  - Buying individual packs for each type of dish separately.
+  - Purchasing special packs for maximum efficiency.
+  - A combination of both strategies may provide the optimal cost.
+
+- Function must accurately output the minimum cost required to fulfill the dish requirements using given packs. Assume that packs can be bought infinitely.
+
+Your solution should handle all possible inputs within specified constraints, efficiently calculating the minimum expense without exceeding time limits.

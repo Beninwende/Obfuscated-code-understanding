@@ -1,0 +1,19 @@
+**Title: Character Replacement in Strings**
+
+**Problem Statement:**
+
+You are given two strings, A and B, which consist of lowercase English letters and have the same length. Your task is to convert string A into string B by performing a certain operation any number of times.
+
+**Operation:**
+
+- Choose one character of string A and replace it with a different character.
+
+Determine the minimum number of operations required to transform string A into string B.
+
+**Requirements:**
+
+- Implement a function that takes two strings, A and B, as input.
+- The function should return an integer representing the minimum number of operations needed to convert string A to string B.
+- Both strings A and B will have a length between 1 and 100,000 (inclusive).
+- Both strings A and B consist only of lowercase English letters.
+- The length of strings A and B will always be the same.

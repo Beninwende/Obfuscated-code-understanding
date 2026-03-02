@@ -1,0 +1,16 @@
+**Exercise Title: Counting Direct Subordinates**
+
+**Problem Statement:** 
+
+In this exercise, you are going to write a program that processes a list of hierarchical relationships between a group of entities. Each entity has a unique ID starting from 1 up to a given number N. Every entity, except the entity numbered 1, directly reports only to one other entity, whose ID is smaller than its own. Your task is to determine how many entities directly report to each entity.
+
+You'll be given the total number of entities, N, and a series of entries which denote the relationship of each entity to its immediate superior. Specifically, you’ll be provided with an integer list where the entry for entity i (2 ≤ i ≤ N) specifies the ID of the entity to whom it reports directly. For each entity, from 1 to N, calculate the number of immediate subordinates it has.
+
+**Requirements:**
+
+1. Read an integer N from input which specifies the number of entities.
+2. Read a sequence of integers which represents the ID of the entity each member 2 through N directly reports to.
+3. For each entity numbered from 1 to N, output the number of entities it directly supervises on a new line.
+4. Optimize for time and memory usage given the constraints.
+
+5. Implement the logic in any standard programming language, ensuring proper input and output handling according to the problem specification.

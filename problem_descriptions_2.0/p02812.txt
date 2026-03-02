@@ -1,0 +1,20 @@
+**Exercise Title: Count Specific Substring in a String**
+
+**Problem Statement:**
+
+Write a program that takes a string composed of uppercase English letters and counts how many times a specific substring occurs within it. The substring to be counted is of a fixed length and given as a constant. Your task is to implement a function that identifies these occurrences within the main string as contiguous sequences.
+
+**Requirements:**
+
+1. Define a constant substring that your program will count within a given string.
+2. The function should take two inputs:
+   - An integer `N` representing the length of the string.
+   - A string `S` consisting of uppercase English letters.
+
+3. The output should be a single integer representing the number of times the specific substring occurs as contiguous sequences in the string `S`.
+
+4. Ensure that the solution efficiently handles the constraints and terminates correctly.
+
+5. You are not allowed to use any built-in functions for substring counting.
+
+Focus on iterating over the string to find matches and increment a counter each time a match is found. This exercise will help reinforce fundamental concepts of string manipulation, iteration, and condition checking in programming.

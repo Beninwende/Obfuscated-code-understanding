@@ -1,0 +1,21 @@
+**Exercise Title: Calculating the Aggregate GCD in 3D Grids**
+
+**Problem Statement:**
+
+You are tasked with computing a particular mathematical property over three-dimensional grids. Specifically, you're interested in calculating the sum of the greatest common divisor (GCD) of three numbers. Consider a 3D grid where each dimension ranges from 1 to a given integer N.
+
+Write a program that calculates the sum of the GCD of all possible combinations of three integers (a, b, c) within this grid, where each integer ranges from 1 to N. Your task is to efficiently compute this sum over the ranges specified.
+
+**Requirements:**
+
+1. Implement a function to calculate the GCD of two integers using the Euclidean algorithm.
+2. Extend the above function to calculate the GCD of three integers by using the two-argument version in a nested fashion.
+3. Iterate over all possible combinations of a, b, and c within the range 1 to N.
+4. Accumulate the sum of the GCDs for each combination.
+5. Output the calculated sum.
+
+**Constraints:**
+
+- The input is a single integer N (1 ≤ N ≤ 100).
+- Utilize efficient loops and calculations to ensure performance remains optimal even at higher values within the constraint.
+- Ensure your program reads from standard input and writes to standard output.

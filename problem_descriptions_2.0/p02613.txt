@@ -1,0 +1,24 @@
+**Exercise Title: Count Specific Strings in a List**
+
+**Problem Statement:**
+
+You are given a list of strings containing specific keywords. Your task is to count how many times each keyword appears in the list. Create a program that processes this list and counts each occurrence of the designated keywords. The designated keywords are: "RED", "BLUE", "GREEN", and "YELLOW".
+
+**Requirements:**
+
+1. Read an integer, `N`, representing the number of elements in the list.
+2. Read `N` strings into a list.
+3. Count how many times each of the following keywords appears in the list: 
+   - "RED"
+   - "BLUE"
+   - "GREEN"
+   - "YELLOW"
+4. Output the count of each keyword in the following format:
+   - "RED x C_RED"
+   - "BLUE x C_BLUE"
+   - "GREEN x C_GREEN"
+   - "YELLOW x C_YELLOW"
+   Where `C_RED`, `C_BLUE`, `C_GREEN`, and `C_YELLOW` are the counts of the keywords "RED", "BLUE", "GREEN", and "YELLOW" in the list, respectively.
+5. Assume that the input will only consist of the aforementioned keywords and will follow the constraints provided. Make sure your solution can efficiently handle the given constraints.
+
+This exercise aims to practice iterating over lists, counting specific occurrences, and producing output based on the counted data.

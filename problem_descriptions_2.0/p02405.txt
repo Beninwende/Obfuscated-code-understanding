@@ -1,0 +1,27 @@
+### Exercise Title: Create a Patterned Grid
+
+#### Objective:
+
+Write a program that generates a rectangular grid pattern based on given dimensions. The grid should alternate between two characters, creating a checkerboard-like appearance.
+
+#### Problem Statement:
+
+Your task is to create a function that takes two inputs: the number of rows (R) and the number of columns (C). Using these dimensions, generate a grid pattern where each position alternates between two symbols of your choice (e.g., 'A' and 'B'). The top-left corner should start with the first symbol. The alternating pattern should continue both horizontally across each row and vertically down each column.
+
+#### Requirements:
+
+1. Define a function `generate_grid(R, C, symbol1, symbol2)` where:
+   - `R` is the number of rows.
+   - `C` is the number of columns.
+   - `symbol1` is the first character to use in the pattern.
+   - `symbol2` is the second character to use in the pattern.
+
+2. The function should return a string representation of the patterned grid, with each row followed by a newline character.
+
+3. Ensure that the grid starts with `symbol1` at the top-left corner.
+
+4. The grid should alternate quickly between `symbol1` and `symbol2` both horizontally and vertically.
+
+5. The output should handle any positive integer values for R and C greater than zero.
+
+This exercise will help you understand loops, conditionals, and string manipulation, along with practicing the creation of patterned outputs in a matrix format.

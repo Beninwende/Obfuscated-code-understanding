@@ -1,0 +1,14 @@
+**Exercise Title: Count Eligible Values**
+
+**Problem Statement:**
+
+Create a program that verifies whether you can select a specific number of items from a list based on a defined selection criterion. You will be given a list of integer values and a selection threshold. Your task is to determine if at least a specified number of these values meet or exceed the selection threshold.
+
+**Requirements:**
+
+1. Read the input values: the total number of items (N), the number of items to be selected (M), and a list of N integer values.
+2. Calculate the total sum of all the integer values in the list.
+3. Compute the selection threshold value using the given formula: threshold = total_sum / (4 * M).
+4. Count how many integer values in the list are greater than or equal to this selection threshold.
+5. Determine if this count is at least M. 
+6. Print "Eligible" if you can select M items that meet the selection threshold, otherwise print "Ineligible".

@@ -1,0 +1,17 @@
+### Exercise Title: Calculate the Lowest Common Multiple
+
+#### Problem Statement
+You are tasked with creating a function that helps distribute resources evenly. Given two numbers, your function should find the smallest number that can be divided evenly by both. This problem is frequently applicable in scenarios like packaging, where items must fit perfectly into boxes of different sizes.
+
+#### Requirements
+- Implement a function that accepts two integer inputs.
+- The function should calculate and return the smallest common multiple of the two numbers.
+- Assume both numbers are positive integers and are not equal.
+- The goal is to practice finding the lowest common multiple, a fundamental concept in mathematics, utilizing basic programming skills such as input reading, arithmetic operations, and mathematical functions.
+
+#### Constraints
+- The input integers will always be greater than 0.
+- The two numbers will always be different.
+- All input values are integers.
+
+This exercise is designed to practice basic arithmetic operations, logic implementation, and understanding of mathematical concepts in programming.

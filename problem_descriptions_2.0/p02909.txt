@@ -1,0 +1,12 @@
+### Exercise Title: Determine the Next Item in a Cyclic Sequence
+
+### Problem Statement:
+You are given a sequence of different items that repeat in a specific cyclic order. Your task is to determine what the next item in the sequence will be based on the current item provided as input.
+
+### Requirements:
+1. Define a cyclic sequence containing a predefined list of items. Example items might include "first", "second", "third", or any other set of items.
+2. The input will be a single string representing any one item in the sequence.
+3. Implement a function that takes this input and returns the next item in the cycle. The order is cyclic, meaning if the current item is the last in the sequence, the next item will be the first.
+4. Your function should correctly handle the entire cycle without running into errors or exceeding boundaries.
+
+Focus on using arrays or lists to handle the cycle, and ensure your function is efficient and easy to understand. Aim to use loops or conditional statements to navigate through the sequence effectively.

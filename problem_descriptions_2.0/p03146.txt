@@ -1,0 +1,26 @@
+**Exercise Title: Array Modifications and Pattern Detection**
+
+**Problem Statement:**
+
+Create a sequence of numbers based on an initial input value and a given modification rule. Your task is to iteratively apply the modification rule on the sequence until a specific condition is met. Specifically, you should monitor the sequence for the first time a number reappears.
+
+**Detailed Requirements:**
+
+1. **Initial Setup**:
+   - You are given an initial integer `x` as input. This is the first element of the sequence.
+
+2. **Sequence Rule**:
+   - Generate the sequence elements using the following modification rule: 
+     - If the current number is odd, multiply it by 3 and add 1.
+     - If the current number is even, divide it by 2.
+
+3. **Termination and Output**:
+   - Continue applying the rule to generate new numbers until the sequence encounters a repeat of any previously generated number.
+   - Determine the position in the sequence when this repeat occurs for the first time.
+   - Output the position index (1-based index) where this repetition first appears. Note that the sequence starts with `x` at index 1.
+
+4. **Constraints**:
+   - Assume the input integer `x` is a positive integer.
+
+**Objective**:
+The goal of the exercise is to implement the sequence generation and apply the modification rules efficiently, while ensuring detection of the repeating number correctly. Track the sequence carefully to identify the point of repetition and output the correct index. This exercise tests your understanding of loops, conditional statements, and data structures used for tracking and comparing elements.

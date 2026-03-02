@@ -1,0 +1,17 @@
+**Exercise Title: Validate Ingredient Mixture**
+
+**Problem Statement:**
+You have been given a task to validate a mixture of two types of ingredients in a container. Each unit of Ingredient A contributes a fixed amount to the total weight, and each unit of Ingredient B contributes a different fixed amount to the total weight. You are informed that there is a total of T units of ingredients in the container, contributing to a total weight of W. Your task is to determine if there is a possible combination of units of Ingredient A and Ingredient B that satisfies the given total number of units and total weight.
+
+**Requirements:**
+- You must create a function that takes two integer inputs, T (total units of ingredients) and W (total weight of the mixture).
+- Determine if there is a combination of units of Ingredient A and Ingredient B that results in exactly T units contributing to a weight of exactly W.
+- If such a combination exists, return "Possible".
+- If no such combination exists, return "Impossible".
+
+Constraints:
+- 1 ≤ T ≤ 100
+- 1 ≤ W ≤ 100
+- The weight contributions for one unit of Ingredient A and Ingredient B are different but constant (you can assume Ingredient A contributes 'a' weight units and Ingredient B contributes 'b' weight units, where 'a' and 'b' are predefined constants not exceeding 10).
+
+Note: Focus on fundamental programming concepts such as iteration, condition checking, and mathematical reasoning to solve this problem.

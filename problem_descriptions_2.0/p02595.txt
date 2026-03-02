@@ -1,0 +1,21 @@
+Title: Counting Points Within a Distance
+
+Problem Statement:
+You are given a list of points in a two-dimensional space, each defined by integer coordinates (x, y). The task is to count how many of these points lie within or on an imaginary circle, centered at the origin (0, 0) with a specified maximum distance (radius) from the origin. The distance of a point from the origin is calculated using the Euclidean distance formula. Your goal is to determine the number of points that fall within this specified range.
+
+Requirements:
+1. Create a function that accepts the following parameters:
+   - An integer, representing the maximum allowed distance from the origin.
+   - A list of tuples, where each tuple contains two integers representing the x and y coordinates of a point.
+   
+2. Calculate the Euclidean distance from the origin for each provided point using the formula sqrt(x^2 + y^2).
+
+3. Compare the calculated distance with the specified maximum distance. 
+
+4. Count and return the number of points where the calculated distance is less than or equal to the maximum distance.
+
+Consider corner cases such as:
+- Points located directly on the x-axis or y-axis.
+- Points with negative and positive coordinates. 
+
+Note: Avoid using floating-point arithmetic if possible, and consider using comparison of squared values to prevent precision issues.

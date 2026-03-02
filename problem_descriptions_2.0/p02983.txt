@@ -1,0 +1,20 @@
+Title: Calculate Minimum Remainder from Multiplying Consecutive Integers
+
+Problem Statement:
+Design a function that accepts a list of non-negative integers and performs the following operation:
+Determine two distinct integers `a` and `b` from the list such that `a < b`. Calculate the product of `a` and `b`, and then determine the remainder when this product is divided by a given integer `d`. Your task is to find and return the smallest possible remainder that can be obtained from the list.
+
+Requirements:
+1. The function should take two arguments:
+   - A list of non-negative integers, which can contain duplicates.
+   - A positive integer `d`, which serves as the divisor.
+   
+2. Ensure that the list always contains at least two distinct elements, and the integer `d` is always a positive integer.
+
+3. For the selected pair `(a, b)`, calculate `(a * b) mod d` and track the minimum remainder observed.
+
+4. Return the minimum remainder obtainable from any valid pair `(a, b)`.
+
+5. Optimize the function to handle lists efficiently, considering that the product can grow large and the divisor might be significantly smaller than the elements. 
+
+This exercise will help you practice fundamental concepts such as iterating over collections, using modulo operation, and optimizing multiple nested loops in a problem-solving context.

@@ -1,0 +1,19 @@
+**Exercise Title: Count and Calculate the Percentage of Odd Numbers**
+
+**Problem Statement:**
+
+You are tasked with writing a program that will help understand the occurrence of odd numbers in a specific range. Given a single positive integer `N`, your task is to determine how many odd numbers exist between 1 and `N` (inclusive) and then compute the percentage these odd numbers constitute in the full range.
+
+**Requirements:**
+
+1. Read an integer `N` from user input, which represents the upper limit of the range starting from 1.
+
+2. Determine the total count of odd numbers between 1 and `N`, inclusive.
+
+3. Calculate the percentage that the odd numbers represent of the total numbers from 1 to `N`.
+
+4. Output the percentage as a decimal value rounded to at least ten decimal places.
+
+5. Ensure your program handles the largest expected value of `N` efficiently while producing accurate results.
+
+This exercise focuses on using loops to iterate over ranges, simple arithmetic operations to count and calculate percentages, and basic input/output operations. Additionally, it involves understanding rounding and precision handling in numerical outputs.

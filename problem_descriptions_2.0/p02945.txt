@@ -1,0 +1,15 @@
+**Title: Find the Largest Result**
+
+**Problem Statement:**
+
+You are given two integers, X and Y. Your task is to determine the largest result among the following three mathematical operations: summing X and Y, subtracting Y from X, and multiplying X by Y. Implement a program that computes these values and outputs the greatest one.
+
+**Requirements:**
+
+1. Read two integer inputs, X and Y.
+2. Compute the sum of X and Y.
+3. Compute the result of subtracting Y from X.
+4. Compute the product of X and Y.
+5. Find and output the largest value among the results from steps 2, 3, and 4.
+
+Ensure your implementation handles both positive and negative integers within reasonable limits. Your program should accurately determine the largest number from the calculated results and output this value. Focus on fundamental programming concepts such as arithmetic operations, conditional comparisons, and input/output handling.

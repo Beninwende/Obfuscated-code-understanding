@@ -1,0 +1,26 @@
+**Exercise Title: Player Score Evaluation Game**
+
+**Problem Statement:**
+
+In a multiplayer quiz competition, you need to create a simple program to manage the players' scores at the end of the game. The game begins with each player holding an initial amount of points. Throughout the competition, correct answers given by any player affect the scores of all other players.
+
+The rules are as follows:
+- The game involves `N` players.
+- Each player starts with `K` points.
+- Whenever a player answers a question correctly, all other players lose 1 point.
+- After all questions have been answered, any player with 0 or fewer points is eliminated.
+
+Your task is to write a function that determines whether each player survived the game based on the number of correct answers given.
+
+**Requirements:**
+
+1. Implement a method to initialize the game with the following parameters:
+   - `N`: an integer representing the number of players.
+   - `K`: an integer representing the initial points each player has.
+   - `Q`: an integer representing the total number of correct answers given during the game.
+   - A list of integers, where each integer represents the player who answered a specific question correctly in sequence.
+
+2. After processing all the correct answers, the function should output a list of strings:
+   - For each player, output "Yes" if they have more than 0 points and survived, otherwise output "No". Evaluate this for all players in order from 1 to N.
+
+Ensure the solution is efficient and can handle large input sizes, given the constraints of the problem. Focus on applying basic logic, loops, and conditionals in your programming solution.

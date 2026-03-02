@@ -1,0 +1,15 @@
+**Exercise Title: Dynamic String Repetition and Comparison**
+
+**Problem Statement:**
+
+Create a program that constructs two special strings from given positive integers `x` and `y`. The first string is formed by repeating the string representation of `x`, `y` times. The second string is formed by repeating the string representation of `y`, `x` times. Your task is to compare these two strings and determine which one is lexicographically smaller. Your program should output this smaller string. If both strings are equal, output either one.
+
+**Requirements:**
+
+1. Define two integers `x` and `y` that are both positive and no greater than a specified maximum value.
+2. Generate two strings:
+   - The first string consists of `y` consecutive repetitions of the character representation of `x`.
+   - The second string consists of `x` consecutive repetitions of the character representation of `y`.
+3. Compare the two strings lexicographically and output the smaller one.
+4. If the strings are equal, the output should still be either of the strings.
+5. Ensure the program handles edge cases where `x` and `y` could be equal or at extremes of the given constraint range.

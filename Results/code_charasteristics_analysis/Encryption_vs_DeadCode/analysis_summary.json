@@ -1,0 +1,77 @@
+{
+  "model": "deepseek-r1",
+  "baseline": "Without_Comments",
+  "description_type": "Description_Simple",
+  "mean_drop_by_variant": {
+    "With_Comments": {
+      "mean_drop": -0.016,
+      "median_drop": 0.0,
+      "std_drop": 0.5057113801369315,
+      "n": 250,
+      "wilcoxon_p": 0.6914624612740131
+    },
+    "DeadCode": {
+      "mean_drop": -0.016,
+      "median_drop": 0.0,
+      "std_drop": 0.5289083096340991,
+      "n": 250,
+      "wilcoxon_p": 0.6837074391519793
+    },
+    "Encryption": {
+      "mean_drop": 0.24,
+      "median_drop": 0.0,
+      "std_drop": 0.6118823416311342,
+      "n": 250,
+      "wilcoxon_p": 3.8820182689653345e-09
+    },
+    "Variable_Renaming": {
+      "mean_drop": -0.012,
+      "median_drop": 0.0,
+      "std_drop": 0.5018525679918355,
+      "n": 250,
+      "wilcoxon_p": 0.6472715069443633
+    }
+  },
+  "mean_loc_cc_by_variant": {
+    "Without_Comments": {
+      "mean_loc": 99.36,
+      "mean_cc": 33.268
+    },
+    "With_Comments": {
+      "mean_loc": 123.064,
+      "mean_cc": 33.044
+    },
+    "DeadCode": {
+      "mean_loc": 185.292,
+      "mean_cc": 61.704
+    },
+    "Encryption": {
+      "mean_loc": 153.924,
+      "mean_cc": 37.536
+    },
+    "Variable_Renaming": {
+      "mean_loc": 114.204,
+      "mean_cc": 34.12
+    }
+  },
+  "regression": {
+    "coefficients": {
+      "const": 1.2389040495262997,
+      "LOC": 0.0013259893782085533,
+      "CC_total": -0.0017084580863532283,
+      "variant_With_Comments": 0.0670599681729033,
+      "variant_DeadCode": 0.034272556890422745,
+      "variant_Encryption": -1.1860017074626772,
+      "variant_Variable_Renaming": 0.05546120265138514
+    },
+    "pvalues": {
+      "const": 4.94100097762455e-11,
+      "LOC": 0.4743560773646257,
+      "CC_total": 0.7941578768571437,
+      "variant_With_Comments": 0.7672819269833567,
+      "variant_DeadCode": 0.886311387466652,
+      "variant_Encryption": 3.677705436516844e-08,
+      "variant_Variable_Renaming": 0.8030978745431151
+    }
+  }
+}

@@ -1,0 +1,24 @@
+**Title: Count Integer Distance Pairs**
+
+**Problem Statement:**
+
+In this exercise, you are required to determine the number of distinct pairs of points in a given multi-dimensional space that are a specific integer distance apart. Each point is represented by a set of coordinates. Your task is to identify all pairs of points from the list that yield an integer distance when calculated using the Euclidean distance formula.
+
+**Requirements:**
+
+1. Define a function `count_integer_distance_pairs(n, d, coordinates)` where `n` is the number of points, `d` is the number of dimensions for each point, and `coordinates` is a list containing the coordinates of each point.
+
+2. The Euclidean distance between two points `(x1, x2, ..., xd)` and `(y1, y2, ..., yd)` in a d-dimensional space is determined by the formula: 
+   \[
+   \text{distance} = \sqrt{(x1-y1)^2 + (x2-y2)^2 + ... + (xd-yd)^2}
+   \]
+
+3. Compute the distances between each pair of points `(i, j)` such that `i < j` and determine if the distance is an integer.
+
+4. Return the total number of pairs `(i, j)` having integer Euclidean distance apart.
+
+5. Ensure that:
+   - The dimensions `d` of each point are equal for all given points.
+   - Each coordinate value is an integer.
+
+Focus on implementing basic input validation, looping through possible pairs, and applying mathematical operations to compute the required distances. Validate your implementation by ensuring the function correctly identifies all the pairs with integer distances given any valid input.

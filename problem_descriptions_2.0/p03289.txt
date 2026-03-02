@@ -1,0 +1,13 @@
+**Title: Evaluate String Conditions**
+
+**Problem Statement:**
+
+You are given a string `S`. Your task is to determine if the string `S` satisfies a specific set of conditions. These conditions are based on the characters present in the string.
+
+**Requirements:**
+
+1. The first character of the string `S` must be the uppercase letter 'A'.
+2. There must be exactly one occurrence of the uppercase letter 'C' between the third character from the start and the character just before the last one (inclusive).
+3. All other characters in the string, except the specified 'A' and 'C', must be lowercase English letters.
+
+Your function should evaluate the given string `S` against these conditions and return an appropriate result based on whether all the conditions are satisfied or not.

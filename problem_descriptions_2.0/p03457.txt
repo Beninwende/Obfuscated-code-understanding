@@ -1,0 +1,24 @@
+### Exercise Title: Calculate Travel Path Validity
+
+#### Problem Statement
+
+Develop a function that validates a travel plan in a 2D plane. Imagine a character starting at the origin point (0, 0) on a grid. Your task is to determine if movements to subsequent destinations at specified times can be achieved. The character can only move one unit horizontally or vertically per unit of time.
+
+Given the sequence of times and points, decide whether it's possible for the character to reach each destination point at the given time, following these rules:
+
+- The character starts at point (0, 0) at time 0.
+- The character can move to any adjacent grid point on each time step, meaning from (x, y) to: (x+1, y), (x-1, y), (x, y+1), or (x, y-1).
+
+#### Requirements
+
+1. Design a function `can_complete_trip(trip_data)` that takes a list of tuples as input. Each tuple represents `(time, x-coordinate, y-coordinate)` for each destination point.
+   
+2. The function should return `"Yes"` if the character can complete the trip as planned, otherwise return `"No"`.
+
+3. Validate each movement step between consecutive time points ensuring:
+   - The sum of the distances (in x and y directions) to be covered should be less than or equal to the difference in time.
+   - The difference in x and y coordinates should maintain a valid parity for even and odd times (i.e., the sum of the x and y coordinates should be even at even time steps, and odd at odd time steps).
+
+4. Ensure the function operates efficiently even for larger input sizes, considering constraints where the number of points could be large. 
+
+Focus on implementing the solution using basic programming constructs like loops, conditionals, and arithmetic operations. The challenge is to manage the validation for reaching each destination point correctly and efficiently.

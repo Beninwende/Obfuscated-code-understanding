@@ -1,0 +1,14 @@
+**Exercise Title: Counting Substrings**
+
+**Problem Statement:**
+
+Write a program that processes a series of queries on a given sequence of characters. You are provided with a string consisting of specific characters and you need to answer several queries about specific substrings of this string. For each query, determine how many times a certain pattern occurs in these substrings.
+
+**Requirements:**
+
+1. Read a string of characters. The string will consist of a defined set of characters.
+2. You will receive multiple queries. Each query will provide you with indices representing the start and end points of a substring (inclusive) from the given string.
+3. For each query, you need to compute how many times a specific two-character sequence appears as a substring within the designated range of the string.
+4. Output the result for each query on a separate line.
+
+Ensure that your solution efficiently handles the maximum constraints on the length of the string and number of queries. Consider the use of any strategies that may optimize computation for multiple queries on the same input data.

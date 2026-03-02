@@ -1,0 +1,21 @@
+**Exercise Title: Detecting Consecutive Similarities**
+
+**Problem Statement:**
+
+In this exercise, you are tasked with implementing a function that evaluates a sequence of characters to determine whether it contains consecutive identical characters. The sequence is represented as a string. Your goal is to check for the presence of consecutive identical characters and output a result based on their presence or absence.
+
+Specifically, you are required to implement a function `evaluate_sequence(sequence: str) -> str` that will inspect the given sequence and return "Similar" if there are any consecutive identical characters, or "Different" if there are none.
+
+**Requirements:**
+
+1. The input will be a single string, `sequence`, consisting of between 2 to 10 characters. The characters in the string can be any printable ASCII characters.
+
+2. Your solution should efficiently iterate through the string to identify any pair of consecutive identical characters.
+
+3. If such a pair is found, the function should return the string "Similar".
+
+4. If no consecutive identical pairs exist in the string, the function should return the string "Different".
+
+5. Ensure the function handles edge cases such as the minimum length of the string efficiently.
+
+Focus on developing a solution that clearly identifies consecutive identical characters and appropriately determines the string's result based on this condition.

@@ -1,0 +1,16 @@
+# Exercise: Factor Pair Digit Counting
+
+## Problem Statement
+
+You are given a positive integer `X`. Your task is to identify two positive integers, `P` and `Q`, such that `X = P × Q`. For these integers, define the function `G(P, Q)` as the larger of the following: the number of digits in the decimal notation of `P`, and the number of digits in the decimal notation of `Q`. Your goal is to determine the minimum value of `G(P, Q)` among all possible pairs `(P, Q)` that satisfy the given equation.
+
+## Requirements
+
+1. **Input**:
+   - A single positive integer `X`.
+
+2. **Output**:
+   - Print the minimum value of `G(P, Q)`.
+
+3. **Constraints**:
+   - Consider all possible positive integer pairs `(P, Q)` such that `P × Q = X`.

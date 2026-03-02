@@ -1,0 +1,26 @@
+**Title: Expanding Digits over Time**
+
+**Problem Statement:**
+
+You are tasked with analyzing a sequence that begins as a string consisting of digits from 1 to 9. Each day, this string undergoes a transformation according to specific rules based on the digits it contains:
+
+- Each digit '2' in the string is expanded into '22'.
+- Each digit '3' is expanded into '333'.
+- Each digit '4' is expanded into '4444'.
+- Each digit '5' is expanded into '55555'.
+- Each digit '6' is expanded into '666666'.
+- Each digit '7' is expanded into '7777777'.
+- Each digit '8' is expanded into '88888888'.
+- Each digit '9' is expanded into '999999999'.
+- The digit '1' remains unchanged as '1'.
+
+Your task is to determine a specific character in this continually evolving string after simulating the changes for a large number of days.
+
+**Requirement:**
+
+1. Implement a function that receives an initial string composed of digits from 1 to 9.
+2. The function should also receive an integer K representing the position of the character you need to identify in the string after a specified number of days.
+3. The string's transformation rules cause rapid growth in length, making it impractical to simulate each transformation completely for an extensive period. Therefore, your function should deduce the character at the K-th position without constructing the full string.
+4. Consider computational efficiency and handle large values for the number of days to simulate effectively.
+
+Your function should determine and return the character found at the K-th position after a predetermined number of days of transformation.

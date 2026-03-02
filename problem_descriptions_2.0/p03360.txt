@@ -1,0 +1,21 @@
+# Exercise: Maximize an Integer List After Doubling
+
+## Problem Statement
+
+You have a list containing three positive integers. Your task is to maximize the sum of these integers by performing a specified operation a certain number of times. The operation is defined as choosing any integer from the list and doubling its value. 
+
+Your goal is to find the largest possible sum of the integers in the list after performing the operation the given number of times.
+
+## Requirements
+
+- Implement a function that receives four inputs: three integers representing the elements of the list and one integer that indicates the number of operations you are allowed to perform.
+- For each operation, select one integer from the list and double its value to maximize the sum of the list after all operations have been performed.
+- Return the largest possible sum after completing all operations. 
+
+## Constraints
+
+- Each integer in the list is between 1 and 50 (inclusive).
+- The number of allowed operations is between 1 and 10 (inclusive).
+- Ensure to handle calculations efficiently to avoid unnecessary computations.
+
+Write a program or a function that accomplishes the above task.

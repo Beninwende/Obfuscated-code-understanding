@@ -1,0 +1,21 @@
+**Exercise Title: Determine the Validity of a Dance Sequence**
+
+**Problem Statement:**
+
+You are tasked to analyze a dance sequence described by a string composed of four distinct movements: 'L', 'R', 'U', and 'D'. The sequence must adhere to specific rules to be considered valid. Analyzing such sequences helps in understanding and applying string manipulation and conditional checking concepts.
+
+A string is termed valid if and only if it satisfies these conditions:
+
+1. All characters in odd-numbered positions (1st, 3rd, 5th, etc.) must be either 'R', 'U', or 'D'.
+2. All characters in even-numbered positions (2nd, 4th, 6th, etc.) must be either 'L', 'U', or 'D'.
+
+Your task is to implement a function that evaluates a given string and determines whether it is valid according to the specified conditions. If the sequence is valid, the function should return "Valid"; if not, it should return "Invalid".
+
+**Requirements:**
+
+- Implement a function that takes a single string as input.
+- The string will contain only the characters 'L', 'R', 'U', and 'D'.
+- The function should evaluate the string based on the above rules.
+- Return "Valid" if the string satisfies the conditions; otherwise, return "Invalid".
+
+This exercise encourages practicing conditional logic, string indexing, and iteration through characters in a string.

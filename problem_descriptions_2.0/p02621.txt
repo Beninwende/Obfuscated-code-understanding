@@ -1,0 +1,13 @@
+**Exercise Title: Simple Arithmetic Series**
+
+**Problem Statement:**
+
+Create a function that receives an integer input, calculates a specific arithmetic series using the given number, and prints the result. The series is defined by the sum of the number, the square of the number, and the cube of the number. Your task is to implement this calculation and display the result.
+
+**Requirements:**
+
+- Define a function that accepts a single integer parameter.
+- Calculate the sum of the number itself, its square, and its cube.
+- Print the calculated result as an integer.
+
+Ensure that your function handles only valid inputs within the defined range. The focus of this exercise is on arithmetic operations, utilizing mathematical expressions, and understanding basic function definitions.

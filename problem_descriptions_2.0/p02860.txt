@@ -1,0 +1,21 @@
+**Exercise Title: Checking Repeated Concatenation of Strings**
+
+**Problem Statement:**
+
+You are given a positive integer `L` representing the length of a string and a string `str` consisting of lowercase English letters. Your task is to determine if the string `str` can be split into two identical, consecutive substrings of equal length.
+
+In other words, you need to check if there exists a string `T`, such that `T + T` equals `str`.
+
+**Requirements:**
+
+1. Read an integer `L`, which represents the length of the provided string `str`.
+2. Read the string `str` of length `L` consisting of lowercase English letters.
+3. Determine if the string is the result of concatenating two identical substrings of equal length.
+4. If such a substring exists, output "Yes"; otherwise, output "No".
+
+Remember to handle the following fundamental programming concepts:
+- String manipulation and comparison
+- Logical reasoning to check for specific patterns within the string
+- Utilize basic input/output operations to interact with the user
+
+Ensure the solution effectively verifies if splitting the string into two equal parts will result in the same substring repeated twice.

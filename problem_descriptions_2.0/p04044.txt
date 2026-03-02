@@ -1,0 +1,21 @@
+**Exercise Title: Order and Concatenate Strings**
+
+**Problem Statement:**
+
+You are provided with a list of strings. Your task is to concatenate these strings in an order that results in the lexicographically smallest possible concatenated string. 
+
+A string is lexicographically smaller than another if it would appear first in a dictionary. For example, "apple" is lexicographically smaller than "banana".
+
+The function should arrange the strings in the optimal order and then concatenate them to produce the smallest possible string by lexicographical order.
+
+**Requirements:**
+
+- Implement a function that takes a list of strings as input.
+- Determine the best order to concatenate the strings to achieve the smallest lexicographical result.
+- Concatenate the strings in that order.
+- Return the resulting concatenated string.
+
+**Constraints:**
+
+- Each string consists of only lowercase alphabetical characters.
+- You are guaranteed to have at least one string in the list.

@@ -1,0 +1,83 @@
+Rank,Problem_ID,Success_Rate,Success_Count,Failure_Count,Total_Evaluations,Description_Preview
+1,p02701,65.78%,148,77,225,"**Exercise Title: Unique Words Counter**
+
+**Problem Statement:**
+
+Design a program that reads a list of words and determines how many distinct or unique words exist in the list. Each word is guarantee"
+2,p03470,61.78%,139,86,225,"**Exercise Title: Unique Element Counter**
+
+**Problem Statement:**
+
+You are tasked with creating a simple program that takes a list of numbers as input and finds how many unique numbers are in the lis"
+3,p02898,60.00%,135,90,225,"**Title: Determine Eligible Riders for an Attraction**
+
+**Problem Statement:**
+
+You are tasked with creating a program that evaluates a list of individuals and determines how many meet a specific crit"
+4,p03160,58.67%,132,93,225,"**Exercise Title: Calculate Optimal Path with Minimal Cost**
+
+**Problem Statement:**
+
+You are managing a sequence of activities, each described by a numeric value. The goal is to navigate through thes"
+5,p02393,55.56%,125,100,225,"Title: Number Sorting Challenge
+
+Problem Statement:
+Create a program that takes a set of three integers as input and rearranges them so that they are presented in ascending order. The goal of this exe"
+6,p02831,55.56%,125,100,225,"### Exercise Title: Calculate the Lowest Common Multiple
+
+#### Problem Statement
+You are tasked with creating a function that helps distribute resources evenly. Given two numbers, your function should"
+7,p02835,53.78%,121,104,225,"### Exercise Title: Sum Evaluation and Conditional Output
+
+### Problem Statement
+Write a program that takes three integers as input. Your task is to evaluate the sum of these integers. If the sum of t"
+8,p02259,53.33%,120,105,225,"### Title: Practice with Swapping Elements in an Array
+
+#### Problem Statement:
+Create a function that takes a list of integers and performs swapping operations based on a simple condition. Your task "
+9,p02766,52.89%,119,106,225,"**Exercise Title: Counting Digits in Different Bases**
+
+**Problem Statement:**
+
+Create a function that calculates the number of digits required to represent a given number in a specified base. The fun"
+10,p03161,51.56%,116,109,225,"Exercise: Minimum Jump Cost Problem Statement: You are given a sequence of stones, each with a height. A frog starts on the first stone and needs to jump to the last stone by making jumps between near"
+11,p00003,51.56%,116,109,225,"### Exercise: Determine if a Triangle is Right-angled
+
+#### Problem Statement
+
+Create a program that determines whether a triangle, given by the lengths of its three sides, is a right-angled triangle."
+12,p03448,51.11%,115,110,225,"**Exercise Title: Coin Combination Counting**
+
+**Problem Statement:**
+
+You are tasked with creating a program to determine how many unique ways you can select different numbers of three types of items"
+13,p02260,51.11%,115,110,225,"# Simple Array Sorting
+
+## Problem Statement
+
+Create a program that sorts a list of numbers in ascending order using a basic sorting algorithm. The sorting algorithm you choose should repeatedly compa"
+14,p03293,50.67%,114,111,225,"**Exercise Title: String Rotation Comparison**
+
+**Problem Statement:**
+
+You are tasked with creating a function that determines whether two given strings can be made identical by rotating one of them."
+15,p02388,50.22%,113,112,225,"Exercise Title: Cube Calculation Problem Statement: Write a program that calculates the cube of a given integer. The program should take an integer as input and compute its cube, then print the result"
+16,p02995,49.78%,112,113,225,"**Exercise Title:** Counting Numbers Not Divisible by Two Values
+
+**Problem Statement:**
+
+You are given a range of integers defined by two numbers `start` and `end`, inclusive. Additionally, two divis"
+17,p02934,49.78%,112,113,225,"### Exercise Title: Calculate Reciprocal of Sums
+
+## Problem Statement
+Your task is to write a program that calculates the multiplicative inverse of the sum of the multiplicative inverses of a sequenc"
+18,p02982,49.33%,111,114,225,"**Title: Count Integer Distance Pairs**
+
+**Problem Statement:**
+
+In this exercise, you are required to determine the number of distinct pairs of points in a given multi-dimensional space that are a sp"
+19,p02414,48.44%,109,116,225,Exercise: Matrix Multiplication Problem Statement: Write a program that performs matrix multiplication. The program will read two matrices: matrix 𝐴 A with dimensions 𝑛 × 𝑚 n×m and matrix 𝐵 B with dim
+20,p00001,48.44%,109,116,225,"### Exercise Title: Sort and Identify Top Three Numbers
+
+#### Problem Statement:
+You are given a list of ten integers. Your task is to write a program that identifies and displays the three largest nu"

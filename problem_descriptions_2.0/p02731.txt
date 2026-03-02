@@ -1,0 +1,17 @@
+**Exercise Title: Calculate Maximum Cuboid Volume**
+
+**Problem Statement:**
+
+The task is to calculate the maximum possible volume of a rectangular cuboid with given constraints. You will be provided with a positive integer value `L`, representing the sum of the cuboid's dimensions. Your goal is to determine how to optimally divide this sum among the three dimensions of the cuboid to obtain the maximum possible volume. Note that the dimensions do not need to be whole numbers.
+
+**Requirements:**
+
+1. Read an integer `L` from the input. This integer represents the total sum of the three dimensions of a rectangular cuboid.
+
+2. Calculate the maximum possible volume of the cuboid by optimally distributing the sum `L` across its three dimensions. Each dimension must be a positive number.
+
+3. Output the maximum volume, ensuring that the result meets a high degree of precision. The result should be correct within an absolute or relative error of at most \(10^{-6}\).
+
+4. The solution should handle inputs efficiently, adhering to the given constraints.
+
+Remember, the goal is to practice dividing a numeric sum optimally across multiple variables to maximize a mathematical function, in this case, the volume of a geometric shape. Focus on understanding the relationship between the dimensions of the cuboid and how changes to these dimensions affect its volume.

@@ -1,0 +1,14 @@
+**Exercise Title: Check for Specific Digit in a Range**
+
+**Problem Statement:**
+
+Write a program to determine if a given number within a specified range contains a specific digit. You are required to decide whether this specific digit appears anywhere within the given number. If the digit is found, output "Found"; otherwise, output "Not Found".
+
+**Requirements:**
+
+1. The input will be a positive integer within a given range and a single-digit integer to check for.
+2. Define a function that takes two parameters: the number to be checked and the specific digit to look for.
+3. Ensure the function returns a string "Found" if the digit is present in the number, and "Not Found" otherwise.
+4. Consider the input constraints when implementing your solution, ensuring that your approach is efficient within these bounds. The number will be a positive integer not exceeding four digits, and the specific digit will be a single digit from 0 to 9.
+
+Bear in mind the fundamental programming concepts: handling input and output, using conditions to check for the presence of a character, and ensuring the solution is scalable and comprehensible.

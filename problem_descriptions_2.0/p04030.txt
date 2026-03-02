@@ -1,0 +1,26 @@
+**Exercise Title: Implement a Basic Text Editor Simulation**
+
+**Problem Statement:**
+
+You are tasked with creating a basic text editor that supports a simplified set of operations using three specific keys: insert character 'A', insert character 'B', and delete the last character (backspace). Initially, the editor is blank, represented by an empty string. Each operation modifies the current string displayed in the editor based on the key pressed:
+
+1. The 'A' key inserts the character 'A' at the end of the string.
+2. The 'B' key inserts the character 'B' at the end of the string.
+3. The 'Backspace' key removes the last character from the string if the string is not empty. If the string is empty, no action is taken.
+
+You will be given a sequence of keystrokes as a string, where each character represents a key pressed according to the following rules:
+- 'A' for the 'A' key
+- 'B' for the 'B' key
+- 'C' for the backspace key
+
+Your task is to determine the final string displayed in the editor after all keystrokes have been executed.
+
+**Requirement:**
+
+- Implement a function or method that takes an input string representing the sequence of keystrokes.
+- Simulate the changes to the editor's string based on these keystrokes.
+- Return the final string that appears on the editor after processing all keystrokes.
+
+Note: 
+- The input string length will be between 1 and 15 characters.
+- The input will only contain characters 'A', 'B', and 'C'.

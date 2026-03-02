@@ -1,0 +1,26 @@
+# Simple Array Sorting
+
+## Problem Statement
+
+Create a program that sorts a list of numbers in ascending order using a basic sorting algorithm. The sorting algorithm you choose should repeatedly compare and swap elements within the list to achieve the desired order. The program should track and return the number of swaps made during the sorting process.
+
+## Requirements
+
+1. **Input:**
+   - The program should first take an integer input representing the number of elements, `N`, which defines the length of the list.
+   - The second input line should contain `N` integers separated by whitespace, representing the elements of the list to be sorted.
+
+2. **Output:**
+   - The first line of output should print the sorted list, with elements separated by spaces.
+   - The second line of output should be an integer representing the total number of swap operations performed to sort the list.
+
+3. **Constraints:**
+   - Ensure that the list sorting is done in-place without utilizing extra arrays.
+   - You may assume `1 ≤ N ≤ 100`.
+   - All numbers are assumed to be integers within a reasonable range for typical list sorting tasks. 
+
+4. **Functionality:**
+   - Implement one of the fundamental sorting algorithms: Bubble Sort, Insertion Sort, or Selection Sort. Ensure the sorting algorithm is coded without reliance on built-in sort functions.
+   - Accurately count and report the number of times elements in the list are swapped during the sort.
+
+Following the requirements will test your basic understanding of list manipulation, iteration over data, and a fundamental understanding of sorting algorithms.

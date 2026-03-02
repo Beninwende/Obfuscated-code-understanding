@@ -1,0 +1,38 @@
+**Exercise Title: Calculate Years to Reach Savings Goal**
+
+**Problem Statement:**
+
+Imagine you have a starting amount of money in a savings account. The account earns interest every year at a fixed annual rate. Your task is to determine how many years it will take for the savings to reach or exceed a desired goal amount, provided no additional contributions are made to the savings after the initial deposit.
+
+You need to create a function that calculates the number of years necessary for the account balance to reach or surpass a target amount, given the initial savings amount and the annual interest rate.
+
+**Requirements:**
+
+1. **Function Signature:**
+
+   - Define a function `years_to_goal(initial_savings, target_amount, interest_rate)`.
+
+2. **Inputs:**
+
+   - `initial_savings`: An integer representing the initial amount of money in the savings account.
+   - `target_amount`: An integer representing the desired amount of savings you want to achieve.
+   - `interest_rate`: A floating-point number representing the annual interest rate (in percentage) the savings account earns.
+
+3. **Outputs:**
+
+   - Return an integer representing the number of years it takes for the savings balance to reach or exceed the `target_amount` for the first time.
+
+4. **Implementation Details:**
+
+   - The interest is compounded annually, meaning the balance grows by the interest rate applied to the previous year's balance at the end of each year.
+   - When calculating interest, round down any fractions of a currency unit.
+   - Ensure that the balance update and comparison to the target amount take place at the end of each year.
+   - Assume that the `initial_savings`, `target_amount`, and interest calculation result are all integers after rounding down fractional values.
+
+5. **Constraints:**
+
+   - `initial_savings` will be a positive integer.
+   - `target_amount` will be a positive integer greater than or equal to `initial_savings`.
+   - `interest_rate` will be a positive floating-point number representing a percentage.
+  
+Your task is to implement this function to help track the time needed to reach savings goals efficiently.

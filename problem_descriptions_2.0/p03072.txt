@@ -1,0 +1,22 @@
+**Exercise Title: Counting Visible Peaks**
+
+**Problem Statement:**
+
+You are tasked with determining which peaks are visible in a range of hills. Imagine a sequence of hills lined up in a row. Each hill has a specific height, and they are numbered sequentially from left to right. A hill is considered "visible" if it is taller than all the hills that come before it in the sequence. The first hill is always visible as there are no preceding hills before it.
+
+Your task is to write a function that counts how many of these hills are visible based on the criteria outlined.
+
+**Requirements:**
+
+1. Implement a function that takes an integer `N` and an array of integers as input. The integer `N` represents the number of hills, and the array contains the heights of the hills in their order of appearance.
+
+2. The function should output a single integer which represents the number of visible hills.
+
+3. Consider a hill visible if it is the first hill or if its height is greater than or equal to the heights of all hills before it in the array.
+
+4. Ensure your function handles all edge cases within the given constraints:
+
+   - `1 <= N <= 20` 
+   - `1 <= Height <= 100`
+
+Your solution should effectively keep track of the maximum height encountered as you iterate through the array and update the count of visible hills accordingly. Ensure that the logic correctly evaluates the visibility criteria for each hill.

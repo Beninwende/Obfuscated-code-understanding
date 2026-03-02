@@ -1,0 +1,31 @@
+**Exercise Title: Maximum Value Ingredient Fusion**
+
+**Problem Statement:**
+
+You are given a collection of ingredients, each with a distinct integer value. The task is to systematically combine these ingredients until only one remains. When two ingredients are combined, they produce a new ingredient with a value equal to the average of the two original values. The goal is to determine the maximum possible value of the final ingredient remaining after all compositions are completed.
+
+**Requirements:**
+
+1. **Input Handling:**
+   - Accept an integer `N`, representing the number of ingredients.
+   - Accept `N` integers which represent the values of the ingredients.
+
+2. **Composition Process:**
+   - Begin with `N` individual ingredients.
+   - In each step, select two ingredients with values `x` and `y`.
+   - Remove `x` and `y` from consideration and add a new ingredient with value `(x + y) / 2`.
+   - Repeat the above step until only a single ingredient remains.
+
+3. **Output:**
+   - Output the maximum possible value of the last remaining ingredient.
+   - Ensure the output is precise to within a small error margin, specifically the absolute or relative error must be less than or equal to \(10^{-5}\).
+
+4. **Constraints:**
+   - `2 \leq N \leq 50`
+   - Each ingredient value is an integer within the range `[1, 1000]`.
+
+5. **Objective:**
+   - Develop a method to optimally combine the ingredients to achieve the maximum final value.
+   - You only need to provide the final value, and it must be appropriately formatted to ensure precision requirements are met. 
+
+Focus on systematically interacting with the ingredients in such a way that maximizes the potential final outcome using fundamental programming concepts, such as loops, conditionals, and mathematical operations.

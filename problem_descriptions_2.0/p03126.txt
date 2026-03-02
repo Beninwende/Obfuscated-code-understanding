@@ -1,0 +1,15 @@
+**Exercise Title: Determine Common Preferences**
+
+**Problem Statement:**
+In this exercise, you must analyze a set of preferences collected from a group of individuals. Each individual has specified which items from a list they prefer. Your task is to determine how many items are universally preferred by everyone in the group.
+
+You have a list of preferences from `N` individuals. Each individual reports which of `M` items they like. The items are uniquely identified by numbers from 1 to `M`. Each individual's preference list contains distinct item numbers indicating which items they like. Your task is to identify how many items are liked by all individuals in the group.
+
+**Requirements:**
+
+1. Read the total number of individuals `N` and the total number of items `M`.
+2. For each individual, read their preference list, which contains a count `K_i` followed by `K_i` distinct integers representing the items they prefer.
+3. Calculate and return the number of items that appear in every individual's preference list, which means items liked by all `N` people.
+4. Implement the solution using a programming language of your choice, focusing on fundamental concepts such as arrays/lists and basic iteration.
+
+Your solution should correctly handle the input format and provide the correct count of universally liked items. Keep your code efficient and simple, adhering to the given constraints.

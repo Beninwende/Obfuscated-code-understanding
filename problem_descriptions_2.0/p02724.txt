@@ -1,0 +1,16 @@
+Title: Maximum Happiness Points Calculation
+
+Problem Statement:  
+You are tasked with designing a simple algorithm that calculates the maximum number of happiness points that can be earned based on a unique points earning system. For this exercise, you will work with two types of collectible items: Item A and Item B. Collecting Item A grants a substantial number of happiness points, while collecting Item B provides a smaller, but still valuable, number of happiness points. Given a total number of units you can collect, your goal is to determine the optimal mix of Item A and Item B to maximize the total happiness points.
+
+Requirements:  
+1. Each unit of Item A contributes a high number of happiness points to your total score.
+2. Each unit of Item B contributes a lower number of happiness points compared to Item A.
+3. You will be given a total number of units you can collect (denoted as `totalUnits`), and you need to decide how many units of Item A and Item B to collect to maximize the number of happiness points.
+4. The program should output the maximum number of happiness points achievable with the given `totalUnits`.
+
+Constraints:  
+- `totalUnits` is a non-negative integer.
+- There is no limit on the number of Item A or Item B units you can choose to collect apart from the maximum set by `totalUnits`.
+
+The objective of this exercise is to practice your ability to determine an optimal solution through logical decision-making and mathematical calculations while enhancing your understanding of basic programming structures and input/output operations.

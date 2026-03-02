@@ -1,0 +1,13 @@
+**Exercise Title: Identifying Middle Values in Sequences**
+
+**Problem Statement:**
+You are given a list of integers `a` containing `n` elements. Your task is to identify a specific pattern in the list: count how many elements `a[i]` (where 1 < i < n-1) are the middle value when compared with their immediate neighbors in the sequence.
+
+**Requirements:**
+1. Write a function that takes a list of integers `a`.
+2. The function should iterate through each element `a[i]` in the list, such that `1 < i < n-1`.
+3. Compare the element `a[i]` with its two neighbors `a[i-1]` and `a[i+1]`.
+4. Determine if `a[i]` is the middle value among the three numbers.
+5. Return the count of elements that are the middle value compared to their two neighbors.
+
+The exercise focuses on practicing list manipulation, iteration, and comparison operations without requiring external context or specific domain knowledge.

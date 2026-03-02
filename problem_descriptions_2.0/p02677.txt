@@ -1,0 +1,24 @@
+**Exercise Title: Calculate the Distance Between Two Moving Points**
+
+**Problem Statement:**
+
+In this exercise, you will calculate the distance between two moving points. Imagine two rods, each with a length attached at one end to the same origin point (0, 0) on a 2D Cartesian plane. These rods rotate at different speeds around this origin, forming angles with the positive x-axis. The first rod completes one full rotation in `T1` minutes, and the second rod completes one in `T2` minutes.
+
+At a given time instant specified by `t` minutes, calculate the distance between the free endpoints of these two rods (i.e., the distance from the end of the first rod to the end of the second rod).
+
+**Requirements:**
+
+1. Implement a function that takes input values:
+   - `L1`: the length of the first rod (an integer).
+   - `L2`: the length of the second rod (an integer).
+   - `T1`: the time in minutes it takes for the first rod to complete one full rotation (an integer).
+   - `T2`: the time in minutes it takes for the second rod to complete one full rotation (an integer).
+   - `t`: the time in minutes at which the distance should be calculated (an integer).
+
+2. Output the distance between the endpoints of the two rods (a floating-point number).
+
+3. Ensure that the output is accurate to at least 10 decimal places. 
+
+4. Assume all measurements are in minutes and centimeters, and that the functions of the angles of rotation are continuous and proportional.
+
+By the end of this exercise, you should be able to apply trigonometric functions to compute the distance between two points based on their respective angular velocities and time-based positioning on a rotational path.

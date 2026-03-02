@@ -1,0 +1,20 @@
+**Exercise Title: Validate Date and Determine Time Period**
+
+**Problem Statement:**
+
+Create a program that checks whether a given date falls within a specific timeline. The input will be a date provided in the format yyyy-mm-dd. Your task is to determine whether this date fits within a certain time threshold by comparing it to a set reference date.
+
+You should write a function that performs the following tasks:
+1. Accept a date string in the format yyyy-mm-dd.
+2. Compare this date to a reference date of your choosing.
+3. If the given date is earlier than or equal to the reference date, print a message indicating it fits within the timeline.
+4. If the given date is later, print a different message indicating it falls outside the timeline.
+
+**Requirements:**
+
+- Utilize standard date manipulation concepts and methods available in your programming language to handle and compare dates.
+- Implement input parsing to correctly interpret the provided date string as a valid date object or equivalent structure.
+- Ensure your code handles basic error checking like invalid date formats.
+- Structure your code so that the comparison logic is clear and testable.
+
+This exercise will help solidify understanding of date handling and basic comparisons in programming.

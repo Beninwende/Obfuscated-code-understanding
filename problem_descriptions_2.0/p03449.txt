@@ -1,0 +1,21 @@
+**Exercise Title: Array Sum in Two Steps**
+
+**Problem Statement:**
+
+You are given two arrays, each containing `N` positive integers representing the number of items in the corresponding positions. Your goal is to determine the maximum sum of items you can collect by performing the following steps:
+
+1. Decide on a position `P` (0 ≤ P < N) to split the array journey.
+2. From the starting position (position 0) to the position `P`, sum all items in the first array. 
+3. From position `P` to the end of the arrays (position N-1), sum all items in the second array.
+
+You must calculate the maximum possible sum of items you can collect by choosing the optimal split position `P`. 
+
+**Requirements:**
+
+1. Implement a function that takes two lists of integers as input, corresponding to the two arrays of items. Both lists have the same length `N`.
+2. Compute the maximum sum based on the described steps.
+3. Return the maximum sum as the result.
+4. Ensure the function efficiently handles the arrays within the constraints provided.
+5. Assume each integer in the arrays is within the range of 1 to 100 inclusive. 
+
+Your task is to complete this exercise by writing a function that adheres to these requirements, focusing on correct computation and optimal performance.

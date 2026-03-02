@@ -1,0 +1,16 @@
+**Title: Calculate the Minimum Difference Between Two Groups**
+
+**Problem Statement:**
+
+You have a series of numbers, each associated with a unique index. Your task is to divide these numbers into two groups based on a specified dividing point. The first group should contain all numbers with indices less than or equal to the dividing point, while the second group should contain all numbers with indices greater than the dividing point.
+
+For a given dividing point, calculate the sum of the numbers in each group, and then find the absolute difference between these sums. Consider all possible dividing points and determine the minimum possible absolute difference between the sums of the two groups.
+
+**Requirements:**
+
+1. Implement a function that takes a list of integers, representing the numbers, as input.
+2. The function should iterate over all possible dividing points to compute the sum of numbers on each side of the dividing point.
+3. For each dividing point, calculate the absolute difference between the sums of the two groups.
+4. The function must return the smallest absolute difference found across all dividing points.
+5. Assume all elements in the list are integers and the list contains at least two elements.
+6. Optimize the calculation to handle larger lists efficiently, avoiding unnecessary recomputation of sums where applicable.

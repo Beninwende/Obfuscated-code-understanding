@@ -1,0 +1,25 @@
+## Exercise: Counting Connections
+
+### Problem Statement
+You are given a task to manage a network of nodes and connections. In this network, there are `N` nodes, and some connections that link these nodes. Each connection is bidirectional, meaning it links two nodes both ways. Your task is to determine how many connections are directly associated with each node.
+
+### Requirements
+1. Implement a function that accepts two integers, `N` (the number of nodes) and `M` (the number of connections), followed by `M` pairs of integers representing the nodes connected by each connection.
+2. For each node, compute the number of connections associated with it.
+3. Return a list where each element at index `i` contains the number of connections for node `i+1`.
+
+### Input
+- A single integer `N` (2 ≤ N ≤ 50), representing the number of nodes.
+- A single integer `M` (1 ≤ M ≤ 50), representing the number of connections.
+- Next, `M` pairs of integers. Each pair contains two integers `u` and `v`, representing a connection between nodes `u` and `v` (1 ≤ u, v ≤ N and u ≠ v). Connections are bidirectional.
+
+### Output
+- A list of integers, where each integer at index `i` corresponds to the number of connections node `i+1` is connected to.
+
+### Example Description
+You have a network with nodes. For each pair of nodes, they can have zero or more direct connections. Calculate how many direct connections each node in this network has.
+
+### Constraints
+- Nodes are labeled from 1 to N.
+- Each connection is bidirectional, meaning if a connection exists between nodes `u` and `v`, it is valid in both directions.
+- The input guarantees no connection will link a node to itself, i.e., `u` is never equal to `v` in any given connection.

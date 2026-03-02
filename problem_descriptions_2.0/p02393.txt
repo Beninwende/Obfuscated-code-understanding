@@ -1,0 +1,10 @@
+Title: Number Sorting Challenge
+
+Problem Statement:
+Create a program that takes a set of three integers as input and rearranges them so that they are presented in ascending order. The goal of this exercise is to practice sorting a small set of numbers while managing input and output requirements effectively.
+
+Requirements:
+1. Your program should accept three integers as input, provided in a single line and separated by spaces.
+2. Rearrange and output these integers in ascending order in a single line.
+3. Ensure that the integers in your output are also separated by a single space.
+4. The program must be able to handle any trio of integers, each ranging from 1 to 10,000 inclusive.

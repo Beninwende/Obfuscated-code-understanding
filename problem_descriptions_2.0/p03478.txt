@@ -1,0 +1,21 @@
+**Title: Calculate the Sum of Selected Numbers**
+
+**Problem Statement:**
+
+Design a function that calculates the sum of numbers within a specified range. Your function should accept three integer parameters: `max_limit`, `min_digit_sum`, and `max_digit_sum`.
+
+1. The `max_limit` represents the maximum value of the number range starting from 1 (inclusive).
+2. The `min_digit_sum` and `max_digit_sum` define the lower and upper bounds, respectively, for the sum of the digits of each number.
+
+The primary task is to compute and return the sum of all numbers between 1 and `max_limit` (inclusive) whose digits' sum falls within the range of `min_digit_sum` and `max_digit_sum` (inclusive).
+
+**Requirement:**
+
+- Create a function that performs the following:
+  - Iterate through each number from 1 to `max_limit`.
+  - For each number, calculate the sum of its digits.
+  - Check if this digit sum lies between `min_digit_sum` and `max_digit_sum` (inclusive).
+  - If the condition is met, add the number to the total sum.
+  - Return the total sum after examining all numbers up to `max_limit`.
+
+This exercise aims to practice loops, conditional statements, and basic arithmetic operations with numbers.

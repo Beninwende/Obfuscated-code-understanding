@@ -1,0 +1,14 @@
+**Title: Repainting Adjacent Blocks**
+
+**Problem Statement:**
+Given a string that represents a series of colored blocks arranged in a row, where each character is either 'A' or 'B' signifying the color of the respective block, your task is to transform the series of blocks so that no two adjacent blocks have the same color. You can accomplish this by repainting some of the blocks in the row. Determine the minimum number of blocks that need to be repainted to achieve the desired alternating color pattern.
+
+**Requirements:**
+- Implement a function that accepts a string consisting solely of the characters 'A' and 'B'.
+- The function should calculate and return the minimum number of blocks that need to be repainted to ensure that no two adjacent blocks have the same color.
+- Ensure that the solution efficiently handles long strings, considering constraints on input size similar to typical competitive programming problems.
+
+Consider the following aspects while implementing the solution:
+- Consecutive blocks of the same color must be handled.
+- The pattern must alternate strictly between 'A' and 'B'.
+- Focus on optimizing the solution for performance, especially for strings up to a length of 100,000 characters.

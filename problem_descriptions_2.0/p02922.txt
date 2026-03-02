@@ -1,0 +1,17 @@
+Title: Calculating Required Resources
+
+Problem Statement:
+You are tasked with managing resources in a project. There is a limited number of initial resources available. We need to increase the available resources to meet or exceed a required amount by adding increments from additional resources. Each increment adds more resources to the current total. Your job is to determine the minimum number of increments, using the provided additional resources, required to meet or exceed the required total.
+
+Requirement:
+- Develop a function that calculates the minimum number of increments required to achieve or surpass the target resources.
+- The function should take two inputs: 
+  1. The number of resources added in each increment.
+  2. The required total number of resources.
+- Initially, there is one resource available.
+- Implement an algorithm that incrementally adds resources until the required total is reached or exceeded.
+- Ensure your solution handles boundary conditions specified by the constraints effectively, using efficient logic to minimize increments.
+
+Constraints:
+- The resources added per increment and the required total number of resources are integers within a specified range.
+- Provide your solution in a way that allows it to return the minimum number of increments in an efficient manner for any valid input within the specified range.

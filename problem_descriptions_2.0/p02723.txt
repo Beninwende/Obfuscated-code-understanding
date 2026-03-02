@@ -1,0 +1,16 @@
+**Exercise Title: Check for Pattern Match in a String**
+
+**Problem Statement:**
+
+You are given a string of fixed length containing only lowercase English letters. Your task is to write a function that checks if the string follows a specific pattern. The string is said to follow the pattern if certain characters in predefined positions are equal. Specifically, determine whether the characters at certain specified positions in the string match the given condition.
+
+**Requirements:**
+
+1. Implement a function that takes a string as input.
+2. The string will always be of a predefined fixed length.
+3. Using only comparison operations, identify if the string matches the required pattern:
+   - Check if specific positions in the string have equal characters (e.g., the characters at positions X and Y are the same, characters at positions W and Z are the same, etc.).
+4. Output "Match" if the string satisfies the pattern; otherwise, output "No Match".
+5. Ensure that your code handles the predefined fixed length of the string and works efficiently within the given constraints.
+
+This exercise will help in practicing string manipulation, indexing, and basic conditional logic.

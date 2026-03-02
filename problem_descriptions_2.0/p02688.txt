@@ -1,0 +1,21 @@
+**Exercise Title: Finding Unoccupied Units**
+
+**Problem Statement:**
+
+You are given a certain number of units, each numbered consecutively from 1 to a specified value N. Additionally, you have a list of different groups, where each group occupies a subset of these units. The task is to determine how many units remain unoccupied by any group.
+
+**Requirements:**
+
+1. You will receive two integer inputs: 
+   - The first integer N represents the total number of units.
+   - The second integer G indicates the number of groups.  
+
+2. For each group, you will receive the following:
+   - An integer M_i which tells you how many units the i-th group occupies.
+   - A list of M_i integers which represent the specific units occupied by the i-th group.
+
+3. Your goal is to evaluate all the inputs and determine how many of the units from 1 to N are not occupied by any group.
+
+4. You need to read the input and then print a single integer, which represents the number of units that are unoccupied.
+
+Focus on fundamental programming concepts such as looping through arrays, handling collections of data to eliminate duplicates, and basic input/output handling.

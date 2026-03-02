@@ -1,0 +1,23 @@
+**Exercise Title: Find the Maximum of a List Excluding Each Element**
+
+**Problem Statement:**
+
+You are given a list of integers. For each integer in the list, you need to determine the maximum value of the integers excluding the current element under consideration. In other words, compute the maximum value for the subset of the list that excludes the current integer.
+
+Your task is to create a function that takes a list of integers as input and returns a new list where each element is the maximum of the other elements in the original list.
+
+**Requirements:**
+
+1. Implement a function `find_max_excluding_self()` that takes a list of integers as input.
+   
+2. The function should return a new list containing the maximum values of the original list, excluding the element at each respective index.
+
+3. The input list will always contain at least two elements, ensuring that there is always at least one element to compare with.
+
+4. The integers in the list will be non-negative, and you should not assume any specific order about the values in the list.
+
+5. Optimize the solution to avoid unnecessary complexity, ensuring it handles large lists efficiently.
+
+Focus on understanding how to iterate over the list and manage comparisons to effectively find the required maxima while excluding each element in turn.
+
+This exercise will help you practice iterating over data structures, using conditional logic, and understanding how to manage list indices.

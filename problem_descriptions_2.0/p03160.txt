@@ -1,0 +1,31 @@
+**Exercise Title: Calculate Optimal Path with Minimal Cost**
+
+**Problem Statement:**
+
+You are managing a sequence of activities, each described by a numeric value. The goal is to navigate through these activities from the start position to an end position while minimizing the incurred cost. 
+
+For each step, you may move forward by taking either one or two steps from your current position. The cost of moving is determined by the absolute difference between the values of the current activity and the activity you move to.
+
+Design a function that calculates the minimum possible total cost incurred to reach from the starting activity to the last activity in the sequence.
+
+**Requirements:**
+
+1. Implement a function that accepts an integer array, where each element represents an activity with its associated value.
+2. The function should return the minimum total cost to traverse from the first activity to the last activity in the array.
+3. You can either move to the next immediate activity (one step) or skip an activity (two steps).
+4. The cost of moving between activities is defined as the absolute difference between their values.
+
+**Constraints:**
+
+- The array will have at least two elements.
+- Each element in the array will be a positive integer.
+
+**Input Format:**
+
+- An integer array representing the values of the activities.
+
+**Output Format:**
+
+- An integer representing the minimum total cost to travel from the start to the end of the activity array.
+  
+Ensure that your solution efficiently handles the input size and constraints for optimal performance.

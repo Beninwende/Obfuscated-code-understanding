@@ -1,0 +1,15 @@
+model,stability
+Dataset_DeepseekV3.1,0.622793
+Dataset_GPT3.5,0.504407
+Dataset_GPT4o,0.603007
+Dataset_Gemini,0.651227
+Dataset_LlamaVL,0.244027
+Dataset_O4-mini,0.642113
+Dataset_Qwen3VL,0.400633
+Dataset_codellama,0.230952
+Dataset_deepseek-r1,0.653613
+Dataset_mistral,0.479453
+Dataset_qwencoder32B,0.610683
+Dataset_starchat,0.383507
+Dataset_starcoder,0.131615
+Llama70b_Generation,0.486747

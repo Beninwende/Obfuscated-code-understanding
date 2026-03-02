@@ -1,0 +1,19 @@
+**Exercise Title: Counting Anagrams in a List**
+
+**Problem Statement:**
+Develop a function that receives a list of strings and determines how many unique pairs of strings are anagrams of each other. An anagram is a rearrangement of the letters of a string into a new sequence, using every character exactly once. Two strings are anagrams if they consist of the same characters with the same frequencies.
+
+**Requirements:**
+
+1. Implement a function that:
+   - Takes a list as input, where each element is a string consisting only of lowercase English letters.
+   - Returns an integer representing the number of unique pairs of indices \(i\) and \(j\), where the \(i\)th and \(j\)th strings are anagrams. Ensure \(i < j\).
+
+2. Ensure the function handles cases where:
+   - The list contains at least two strings. 
+   - All strings are distinct.
+   - The function does not consider empty strings, and all string lengths are greater than zero.
+
+3. Focus on efficient algorithms to handle large inputs, optimizing performance while identifying anagram pairs. 
+
+By solving this exercise, you will practice working with string manipulation, frequency counting, and optimizing the performance of nested computations.

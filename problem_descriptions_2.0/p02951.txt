@@ -1,0 +1,23 @@
+### Exercise: Water Transfer in Two Containers
+
+#### Problem Statement
+You have two containers for storing liquid. Container 1 can hold up to a specific maximum volume, while Container 2 currently holds a certain volume of liquid. Your task is to transfer as much liquid as possible from Container 2 to Container 1 without exceeding the capacity of Container 1. After the transfer, determine how much liquid is left in Container 2.
+
+#### Requirements
+1. Write a function that takes three integer arguments: a, b, and c.
+   - `a` represents the maximum capacity of Container 1.
+   - `b` represents the current volume of liquid in Container 1.
+   - `c` represents the current volume of liquid in Container 2.
+   
+2. Perform the transfer operation:
+   - Calculate how much more liquid Container 1 can hold.
+   - Transfer that amount of liquid from Container 2 to Container 1, or if Container 2 holds less than that amount, transfer all the liquid from Container 2.
+
+3. The function should return an integer, which is the volume of liquid remaining in Container 2 after the transfer.
+
+#### Constraints
+- All input values are integers.
+- The current volume in Container 1 and the maximum capacity are such that \( b \leq a \).
+- The values of a, b, and c are positive integers.
+
+Implement this functionality by ensuring clarity in defining how the transfer is calculated, using simple arithmetic operations to determine the liquid's volume left in Container 2 post-transfer.

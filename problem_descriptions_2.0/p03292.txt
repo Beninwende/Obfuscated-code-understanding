@@ -1,0 +1,27 @@
+**Exercise Title: Calculate Minimum Operation Cost**
+
+**Problem Statement:**
+
+You are given three numbers, which represent different tasks with associated values. Your objective is to complete all tasks in a sequence such that the total operation cost is minimized.
+
+The rules for calculating the cost are:
+1. You can choose any one task to start with at zero cost.
+2. Once you complete a task, the cost to move to the next task is determined by the absolute difference between the values of the current task and the next task.
+
+Write a function to compute the minimum total cost required to complete all tasks.
+
+**Requirements:**
+
+1. Define a function that takes three integers as input. These integers represent the values of the tasks.
+2. The function should compute and return the minimum total operation cost to complete all tasks.
+3. Use the absolute value function to calculate the difference in task values when computing costs.
+4. Ensure the function minimizes the sum of costs through the correct task order.
+5. Assume no additional input validations are required beyond the constraints provided.
+6. Focus on efficient computation to ensure minimal time complexity.
+
+**Constraints:**
+
+- Each task value is an integer.
+- Task values are between 1 and 100 inclusive. 
+
+Make sure to write clear and concise logic to determine the optimal sequence for completing tasks to achieve the minimum cost.

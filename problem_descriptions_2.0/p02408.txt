@@ -1,0 +1,26 @@
+**Title: Calculate Missing Ingredients**
+
+**Problem Statement:**
+
+You are tasked with assisting a chef in the kitchen by ensuring all necessary ingredients are available. The chef provides you with a list of essential ingredients needed for a special recipe but only has a partial stock available. Your job is to identify which ingredients are missing from the stock.
+
+You are given a list of essential ingredients that the chef requires, and another input of ingredients that are currently available in the kitchen. Your task is to determine and return the list of missing ingredients the chef needs to complete the dish.
+
+**Requirements:**
+
+1. **Input:**
+   - The first input indicates the number of essential ingredients, `m`, that the recipe requires.
+   - The next `m` lines each contain the name of an essential ingredient.
+   - The following input indicates the number of available ingredients, `n`, that are currently in stock.
+   - The next `n` lines each contain the name of an available ingredient in the kitchen.
+
+2. **Output:**
+   - Print each missing ingredient needed for the recipe, one per line.
+   - The output list should maintain the order of the essential ingredients provided.
+
+**Guidelines:**
+
+- Implement a method to compare the list of essential ingredients against the list of available ingredients.
+- Ensure the solution is generic so it can handle any list of ingredients.
+- Focus on using basic data structures to store and compare the lists.
+- The goal is to practice handling and comparing lists, as well as iterating through collections effectively.

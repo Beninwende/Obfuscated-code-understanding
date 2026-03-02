@@ -1,0 +1,17 @@
+### Exercise Title: Compare Element Matches
+
+#### Problem Statement
+
+You are given two sequences of equal length containing characters. Each character represents a distinct category. Your task is to compare the sequences and count how many positions contain matching characters.
+
+#### Requirements
+
+1. Implement a function that takes two sequences, `sequence1` and `sequence2`, each consisting of characters. Both sequences have the same length.
+
+2. The function should count and return the number of positions where the characters in `sequence1` and `sequence2` are identical.
+
+3. Ensure your implementation effectively handles sequences with any combination of characters.
+
+4. Focus on using basic control structures and string manipulation to solve the problem.
+
+Remember, this exercise is designed to practice conditional statements and loops in programming. Aim for a clear and efficient solution.

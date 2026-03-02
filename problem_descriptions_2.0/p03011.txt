@@ -1,0 +1,13 @@
+**Exercise Title: Minimum Pair Sum**
+
+**Problem Statement:**
+
+Write a function that takes three integer inputs and determines the smallest possible sum of any two of these numbers. Your task is to efficiently calculate this minimum sum and return it. The goal is to practice basic decision-making in programming and use of conditional statements to compare integer values.
+
+**Requirements:**
+
+1. The function should accept three integer parameters, each representing a positive integer.
+2. Determine which two integers from the provided inputs, when added together, will yield the smallest possible result.
+3. Return this minimum sum as the output.
+4. Each input integer will be between 1 and 100, inclusive.
+5. Ensure the function handles all cases within these constraints efficiently and correctly by using conditional logic to compare values.

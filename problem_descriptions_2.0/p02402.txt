@@ -1,0 +1,23 @@
+### Exercise: Find Extremes and Calculate Total
+
+**Problem Statement:**
+
+Create a program that processes a list of integers and calculates three key metrics: the smallest integer, the largest integer, and the total sum of the integers in the list.
+
+**Requirements:**
+
+1. **Input Specification:**
+   - You will receive an integer that represents the number of integers in the list. This will be followed by the respective list of integers.
+
+2. **Output Specification:**
+   - The program should output three values in a single line:
+      - The smallest value in the list.
+      - The largest value in the list.
+      - The sum of all the values in the list.
+   - Each value should be separated by a single space.
+
+3. **Constraints:**
+   - The number of integers will always be greater than zero.
+   - The values of the integers can be negative, zero, or positive and will be within a reasonable range suitable for standard integer operations.
+
+Your task is to write the program that handles these requirements. You are encouraged to leverage fundamental programming concepts to achieve this, including loops for iterating over the list, conditional statements for finding extremes, and simple arithmetic operations for calculating the sum. Remember to handle edge cases, such as the list containing all the same numbers.

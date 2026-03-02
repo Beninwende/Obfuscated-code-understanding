@@ -1,0 +1,19 @@
+**Exercise Title: Identify Unique Characters in a Triplet**
+
+**Problem Statement:**
+
+Create a program that analyzes a string of exactly three characters to determine whether there is variation among them. The string will only consist of two types of characters, 'X' and 'Y'. Your task is to determine if there is at least one 'X' and one 'Y' present in the string.
+
+The goal is to check whether the string comprises a combination of both characters, not solely one type. If at least one 'X' and one 'Y' are found, consider that a variation is present.
+
+**Requirements:**
+
+1. Write a function that accepts a string of length three containing only the characters 'X' and 'Y'.
+   
+2. The function should analyze the string and output:
+   - "Variation" if the string contains at least one 'X' and one 'Y'.
+   - "No Variation" if the string contains only 'X' or only 'Y' throughout.
+
+3. Ensure your solution is efficient and follows best practices for string manipulation. 
+
+Through this exercise, you will practice basic string handling, condition checking, and decision making based on character content within a fixed-length input.

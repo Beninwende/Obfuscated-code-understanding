@@ -1,0 +1,20 @@
+**Exercise Title: Cost-Efficient Path to a Target**
+
+**Problem Statement:**
+
+You are tasked with simulating a journey across a sequence of positions in a single dimension, starting from a given point with the objective of reaching one of two target spots with the lowest possible cost. Each position is represented as a number along a line of numbers from 0 to N.
+
+Initially, you begin your journey at a specific starting position. Along this line, certain positions have toll markers, and moving to a position with a toll incurs a cost of 1 point. Your task is to determine the minimum total cost required to reach one of the target positions without going beyond the confines of the starting and target points.
+
+You can move between adjacent positions either to the right or to the left. The two target positions are the first and the last positions (0 and N), and the goal is to reach either with the least amount of tolls crossed.
+
+**Requirements:**
+
+1. Define a function that takes in 3 integers, N, M, and X, representing the length of the line, the number of tolls, and your starting position, respectively.
+2. You will also be provided with a list of M integers that indicate the positions where tolls are located.
+3. The function should compute and return the minimum toll cost required to reach either position 0 or N.
+4. Ensure no toll positions coincide with your starting position or any of the target positions.
+5. Use basic controls like loops and conditionals to simulate potential pathways and the associated toll costs.
+6. Consider edge cases such as no intervening tolls between the start and a target position for optimal performance.
+   
+Apply fundamental programming constructs such as arrays/lists, loops, and conditional checks to solve this problem efficiently.

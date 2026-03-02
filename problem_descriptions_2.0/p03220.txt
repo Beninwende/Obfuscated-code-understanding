@@ -1,0 +1,28 @@
+**Exercise Title: Find the Minimum Difference Index**
+
+**Problem Statement:**
+
+You are given a list of integers and a target number. Your task is to find the index of the element in the list that has the smallest absolute difference from the target number. If there are multiple elements with the same smallest difference, return the index of the first such element.
+
+The goal of this exercise is to practice working with arrays, loops, and mathematical operations involving absolute values and differences.
+
+**Requirements:**
+
+1. Design a function that accepts two inputs:
+   - A list of integers.
+   - An integer representing the target number.
+
+2. Iterate through the list to compute the absolute difference between each element and the target number.
+
+3. Determine the element with the smallest absolute difference from the target. Track the index of this element.
+
+4. Ensure that if there are multiple elements with the same minimum difference, the function returns the index of the first occurrence.
+
+5. The function should output an integer, which is the index of the desired element in the input list.
+
+**Constraints:**
+
+- The list can contain up to 1000 integers.
+- Each integer in the list can range from -10,000 to 10,000.
+- The target number can also range from -10,000 to 10,000.
+- There will always be at least one element in the list.

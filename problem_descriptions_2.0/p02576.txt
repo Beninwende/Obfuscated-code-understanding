@@ -1,0 +1,21 @@
+**Exercise Title: Calculate Total Time for Batch Production**
+
+**Problem Statement:**
+
+You are working with machinery in a factory that produces items in batches. The factory operates based on specific constraints: the machine can produce a maximum of `B` items in a single batch, and each batch takes `T` minutes to complete. You need to calculate the total time required to produce exactly `N` items using this machine.
+
+Your task is to write a function that determines how long, in minutes, it will take to produce the given number of items while considering the machine's limitation of batch production.
+
+**Requirements:**
+
+1. Define a function that takes three parameters: `N` (the total number of items needed), `B` (the maximum items the machine can produce per batch), and `T` (the time in minutes required to complete a single batch).
+   
+2. The function should calculate and return the minimum total time needed to produce exactly `N` items.
+
+3. Consider that if the number of items `N` exceeds a single batch size `B`, multiple batches will be needed, each taking `T` minutes. Ensure to account for any remainder items that require an additional batch if they do not perfectly divide into full batches.
+
+4. The function must handle cases where `N`, `B`, and `T` are positive integers within a reasonable range, specifically `1 ≤ N, B, T ≤ 1000`.
+
+5. Ensure the logic is efficient and handles edge cases, such as when the required number of items `N` is exactly divisible by the batch size `B` and when `N` is much larger than `B`.
+
+The goal of this exercise is to practice using basic arithmetic operations, control structures like loops or conditionals, and understanding modular arithmetic and ceiling division concepts within problem-solving.

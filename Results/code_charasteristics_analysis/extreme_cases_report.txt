@@ -1,0 +1,452 @@
+====================================================================================================
+EXTREME CASES ANALYSIS REPORT
+====================================================================================================
+
+This report identifies:
+1. Problems CLOSEST TO UNIVERSAL SUCCESS (highest success rates across all LLMs and prompts)
+2. Problems CLOSEST TO UNIVERSAL FAILURE (lowest success rates across all LLMs and prompts)
+
+====================================================================================================
+TOP 20 PROBLEMS - CLOSEST TO UNIVERSAL SUCCESS
+====================================================================================================
+
+1. Problem ID: p02701
+   Success Rate: 65.78%
+   Successes: 148 / 225
+   Failures: 77 / 225
+   Description: **Exercise Title: Unique Words Counter**
+
+**Problem Statement:**
+
+Design a program that reads a list of words and determines how many distinct or unique words exist in the list. Each word is guaranteed to be composed of lowercase English letters, and the list size and word length are defined by cert...
+----------------------------------------------------------------------------------------------------
+
+2. Problem ID: p03470
+   Success Rate: 61.78%
+   Successes: 139 / 225
+   Failures: 86 / 225
+   Description: **Exercise Title: Unique Element Counter**
+
+**Problem Statement:**
+
+You are tasked with creating a simple program that takes a list of numbers as input and finds how many unique numbers are in the list. Uniqueness means that no two numbers should be the same. The list of numbers is not necessarily s...
+----------------------------------------------------------------------------------------------------
+
+3. Problem ID: p02898
+   Success Rate: 60.00%
+   Successes: 135 / 225
+   Failures: 90 / 225
+   Description: **Title: Determine Eligible Riders for an Attraction**
+
+**Problem Statement:**
+
+You are tasked with creating a program that evaluates a list of individuals and determines how many meet a specific criterion for participation in an event or activity. Each individual has a unique attribute measured num...
+----------------------------------------------------------------------------------------------------
+
+4. Problem ID: p03160
+   Success Rate: 58.67%
+   Successes: 132 / 225
+   Failures: 93 / 225
+   Description: **Exercise Title: Calculate Optimal Path with Minimal Cost**
+
+**Problem Statement:**
+
+You are managing a sequence of activities, each described by a numeric value. The goal is to navigate through these activities from the start position to an end position while minimizing the incurred cost. 
+
+For ea...
+----------------------------------------------------------------------------------------------------
+
+5. Problem ID: p02393
+   Success Rate: 55.56%
+   Successes: 125 / 225
+   Failures: 100 / 225
+   Description: Title: Number Sorting Challenge
+
+Problem Statement:
+Create a program that takes a set of three integers as input and rearranges them so that they are presented in ascending order. The goal of this exercise is to practice sorting a small set of numbers while managing input and output requirements eff...
+----------------------------------------------------------------------------------------------------
+
+6. Problem ID: p02831
+   Success Rate: 55.56%
+   Successes: 125 / 225
+   Failures: 100 / 225
+   Description: ### Exercise Title: Calculate the Lowest Common Multiple
+
+#### Problem Statement
+You are tasked with creating a function that helps distribute resources evenly. Given two numbers, your function should find the smallest number that can be divided evenly by both. This problem is frequently applicable ...
+----------------------------------------------------------------------------------------------------
+
+7. Problem ID: p02835
+   Success Rate: 53.78%
+   Successes: 121 / 225
+   Failures: 104 / 225
+   Description: ### Exercise Title: Sum Evaluation and Conditional Output
+
+### Problem Statement
+Write a program that takes three integers as input. Your task is to evaluate the sum of these integers. If the sum of the three integers is greater than or equal to a specific threshold value, return a designated messag...
+----------------------------------------------------------------------------------------------------
+
+8. Problem ID: p02259
+   Success Rate: 53.33%
+   Successes: 120 / 225
+   Failures: 105 / 225
+   Description: ### Title: Practice with Swapping Elements in an Array
+
+#### Problem Statement:
+Create a function that takes a list of integers and performs swapping operations based on a simple condition. Your task is to iterate over the list and if two consecutive elements are in the wrong order (i.e., the preced...
+----------------------------------------------------------------------------------------------------
+
+9. Problem ID: p02766
+   Success Rate: 52.89%
+   Successes: 119 / 225
+   Failures: 106 / 225
+   Description: **Exercise Title: Counting Digits in Different Bases**
+
+**Problem Statement:**
+
+Create a function that calculates the number of digits required to represent a given number in a specified base. The function will take two integer inputs: the number to be represented and the base for the representation...
+----------------------------------------------------------------------------------------------------
+
+10. Problem ID: p03161
+   Success Rate: 51.56%
+   Successes: 116 / 225
+   Failures: 109 / 225
+   Description: Exercise: Minimum Jump Cost Problem Statement: You are given a sequence of stones, each with a height. A frog starts on the first stone and needs to jump to the last stone by making jumps between nearby stones. The frog can jump from stone i to any stone j such that i < j ≤ i + K, where K is a maxim...
+----------------------------------------------------------------------------------------------------
+
+11. Problem ID: p00003
+   Success Rate: 51.56%
+   Successes: 116 / 225
+   Failures: 109 / 225
+   Description: ### Exercise: Determine if a Triangle is Right-angled
+
+#### Problem Statement
+
+Create a program that determines whether a triangle, given by the lengths of its three sides, is a right-angled triangle. A right-angled triangle is defined as a triangle in which one of the angles is exactly 90 degrees. ...
+----------------------------------------------------------------------------------------------------
+
+12. Problem ID: p03448
+   Success Rate: 51.11%
+   Successes: 115 / 225
+   Failures: 110 / 225
+   Description: **Exercise Title: Coin Combination Counting**
+
+**Problem Statement:**
+
+You are tasked with creating a program to determine how many unique ways you can select different numbers of three types of items to achieve an exact target total value. Given a certain number of items of each type and their resp...
+----------------------------------------------------------------------------------------------------
+
+13. Problem ID: p02260
+   Success Rate: 51.11%
+   Successes: 115 / 225
+   Failures: 110 / 225
+   Description: # Simple Array Sorting
+
+## Problem Statement
+
+Create a program that sorts a list of numbers in ascending order using a basic sorting algorithm. The sorting algorithm you choose should repeatedly compare and swap elements within the list to achieve the desired order. The program should track and retu...
+----------------------------------------------------------------------------------------------------
+
+14. Problem ID: p03293
+   Success Rate: 50.67%
+   Successes: 114 / 225
+   Failures: 111 / 225
+   Description: **Exercise Title: String Rotation Comparison**
+
+**Problem Statement:**
+
+You are tasked with creating a function that determines whether two given strings can be made identical by rotating one of them. A rotation involves moving the first character of the string to the end, effectively shifting all o...
+----------------------------------------------------------------------------------------------------
+
+15. Problem ID: p02388
+   Success Rate: 50.22%
+   Successes: 113 / 225
+   Failures: 112 / 225
+   Description: Exercise Title: Cube Calculation Problem Statement: Write a program that calculates the cube of a given integer. The program should take an integer as input and compute its cube, then print the result. Requirements: Read an integer input from the user. Calculate the cube of the input integer. Print ...
+----------------------------------------------------------------------------------------------------
+
+16. Problem ID: p02995
+   Success Rate: 49.78%
+   Successes: 112 / 225
+   Failures: 113 / 225
+   Description: **Exercise Title:** Counting Numbers Not Divisible by Two Values
+
+**Problem Statement:**
+
+You are given a range of integers defined by two numbers `start` and `end`, inclusive. Additionally, two divisor values `divA` and `divB` are provided. The task is to determine how many numbers within the given...
+----------------------------------------------------------------------------------------------------
+
+17. Problem ID: p02934
+   Success Rate: 49.78%
+   Successes: 112 / 225
+   Failures: 113 / 225
+   Description: ### Exercise Title: Calculate Reciprocal of Sums
+
+## Problem Statement
+Your task is to write a program that calculates the multiplicative inverse of the sum of the multiplicative inverses of a sequence of given integers.
+
+Given a sequence containing `N` integers, your goal is to compute the followin...
+----------------------------------------------------------------------------------------------------
+
+18. Problem ID: p02982
+   Success Rate: 49.33%
+   Successes: 111 / 225
+   Failures: 114 / 225
+   Description: **Title: Count Integer Distance Pairs**
+
+**Problem Statement:**
+
+In this exercise, you are required to determine the number of distinct pairs of points in a given multi-dimensional space that are a specific integer distance apart. Each point is represented by a set of coordinates. Your task is to id...
+----------------------------------------------------------------------------------------------------
+
+19. Problem ID: p02414
+   Success Rate: 48.44%
+   Successes: 109 / 225
+   Failures: 116 / 225
+   Description: Exercise: Matrix Multiplication Problem Statement: Write a program that performs matrix multiplication. The program will read two matrices: matrix 𝐴 A with dimensions 𝑛 × 𝑚 n×m and matrix 𝐵 B with dimensions 𝑚 × 𝑙 m×l. It should compute the product of these matrices and print the resulting matrix 𝐶 ...
+----------------------------------------------------------------------------------------------------
+
+20. Problem ID: p00001
+   Success Rate: 48.44%
+   Successes: 109 / 225
+   Failures: 116 / 225
+   Description: ### Exercise Title: Sort and Identify Top Three Numbers
+
+#### Problem Statement:
+You are given a list of ten integers. Your task is to write a program that identifies and displays the three largest numbers from this list in descending order. These three numbers represent the highest values among the...
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+BOTTOM 20 PROBLEMS - CLOSEST TO UNIVERSAL FAILURE
+====================================================================================================
+
+1. Problem ID: p02687
+   Success Rate: 10.67%
+   Successes: 24 / 225
+   Failures: 201 / 225
+   Description: **Exercise Title: Simple Toggle Between Two States**
+
+**Problem Statement:**
+
+You are responsible for managing a light switch that alternates between two states: "ON" and "OFF". The switch changes its state every time it is toggled. Your task is to write a function that determines the current state ...
+----------------------------------------------------------------------------------------------------
+
+2. Problem ID: p02390
+   Success Rate: 11.11%
+   Successes: 25 / 225
+   Failures: 200 / 225
+   Description: **Exercise Title: Number Breakdown into Components**
+
+**Problem Statement:**
+
+Write a function that receives a positive integer and breaks it down into three separate components. Specifically, decompose a given integer into three parts: a larger component, a middle component, and a smaller component...
+----------------------------------------------------------------------------------------------------
+
+3. Problem ID: p03107
+   Success Rate: 11.56%
+   Successes: 26 / 225
+   Failures: 199 / 225
+   Description: **Exercise Title: Counting Character Pairs**
+
+**Problem Statement:**
+
+You are given a string composed exclusively of two distinct characters, 'A' and 'B'. Your task is to count how many pairs of 'A' and 'B' can be formed. A pair can consist of any 'A' and any 'B', regardless of their positions in th...
+----------------------------------------------------------------------------------------------------
+
+4. Problem ID: p02717
+   Success Rate: 11.56%
+   Successes: 26 / 225
+   Failures: 199 / 225
+   Description: ### Exercise Title: Swap and Rotate Integers
+
+#### Problem Statement
+
+You are provided with three variables, `a`, `b`, and `c`, each of which holds an integer value. Your task is to perform a series of operations to manipulate the values stored in these variables and then display the final results.
+...
+----------------------------------------------------------------------------------------------------
+
+5. Problem ID: p03242
+   Success Rate: 12.44%
+   Successes: 28 / 225
+   Failures: 197 / 225
+   Description: **Exercise Title: Basic Character Replacement in Strings**
+
+**Problem Statement:**
+
+In this exercise, you will transform a given string by replacing specific characters. The task is to take an input string consisting solely of lowercase letters 'a' and 'b'. Your objective is to replace every 'a' wit...
+----------------------------------------------------------------------------------------------------
+
+6. Problem ID: p03449
+   Success Rate: 13.33%
+   Successes: 30 / 225
+   Failures: 195 / 225
+   Description: **Exercise Title: Array Sum in Two Steps**
+
+**Problem Statement:**
+
+You are given two arrays, each containing `N` positive integers representing the number of items in the corresponding positions. Your goal is to determine the maximum sum of items you can collect by performing the following steps:
+
+...
+----------------------------------------------------------------------------------------------------
+
+7. Problem ID: p02753
+   Success Rate: 15.56%
+   Successes: 35 / 225
+   Failures: 190 / 225
+   Description: **Exercise Title: Identify Unique Characters in a Triplet**
+
+**Problem Statement:**
+
+Create a program that analyzes a string of exactly three characters to determine whether there is variation among them. The string will only consist of two types of characters, 'X' and 'Y'. Your task is to determine...
+----------------------------------------------------------------------------------------------------
+
+8. Problem ID: p03282
+   Success Rate: 15.56%
+   Successes: 35 / 225
+   Failures: 190 / 225
+   Description: **Title: Expanding Digits over Time**
+
+**Problem Statement:**
+
+You are tasked with analyzing a sequence that begins as a string consisting of digits from 1 to 9. Each day, this string undergoes a transformation according to specific rules based on the digits it contains:
+
+- Each digit '2' in the str...
+----------------------------------------------------------------------------------------------------
+
+9. Problem ID: p03469
+   Success Rate: 16.00%
+   Successes: 36 / 225
+   Failures: 189 / 225
+   Description: ### Exercise Title: Modify Year in Date String
+
+### Problem Statement
+
+You are tasked with modifying date strings to correct an existing error. Each string represents a date in the "yyyy/mm/dd" format. However, the year is incorrect in these strings and needs to be updated.
+
+Your program should take...
+----------------------------------------------------------------------------------------------------
+
+10. Problem ID: p03315
+   Success Rate: 16.00%
+   Successes: 36 / 225
+   Failures: 189 / 225
+   Description: **Exercise Title: Counting Changes in a Sequence**
+
+**Problem Statement:**
+
+You are given a sequence of operations represented by a string of characters. Each operation either increases or decreases a counter, initially set to zero. Your task is to determine the final value of the counter after perf...
+----------------------------------------------------------------------------------------------------
+
+11. Problem ID: p02783
+   Success Rate: 16.89%
+   Successes: 38 / 225
+   Failures: 187 / 225
+   Description: **Exercise Title: Dividing Items into Groups**
+
+**Problem Statement:**
+
+Imagine you have a collection of items that you want to distribute evenly into groups. Each group should ideally have the same number of items. If there are any leftover items that cannot fit evenly into these groups, they shoul...
+----------------------------------------------------------------------------------------------------
+
+12. Problem ID: p02724
+   Success Rate: 16.89%
+   Successes: 38 / 225
+   Failures: 187 / 225
+   Description: Title: Maximum Happiness Points Calculation
+
+Problem Statement:  
+You are tasked with designing a simple algorithm that calculates the maximum number of happiness points that can be earned based on a unique points earning system. For this exercise, you will work with two types of collectible items: ...
+----------------------------------------------------------------------------------------------------
+
+13. Problem ID: p02612
+   Success Rate: 17.33%
+   Successes: 39 / 225
+   Failures: 186 / 225
+   Description: **Exercise Title: Calculating the Smallest Number of Currency Notes**
+
+**Problem Statement:**
+
+You are tasked with calculating the number of currency notes needed to cover a certain amount using notes of a single denomination. Given an integer amount, determine the smallest number of currency notes ...
+----------------------------------------------------------------------------------------------------
+
+14. Problem ID: p02639
+   Success Rate: 17.33%
+   Successes: 39 / 225
+   Failures: 186 / 225
+   Description: **Exercise Title: Find the Missing Item**
+
+**Problem Statement:**
+
+You are given a list of five items, each originally labeled with a unique value from 1 to 5. One of these items is replaced with a special marker, represented by the number 0. Your task is to determine the original label of the item ...
+----------------------------------------------------------------------------------------------------
+
+15. Problem ID: p03220
+   Success Rate: 17.33%
+   Successes: 39 / 225
+   Failures: 186 / 225
+   Description: **Exercise Title: Find the Minimum Difference Index**
+
+**Problem Statement:**
+
+You are given a list of integers and a target number. Your task is to find the index of the element in the list that has the smallest absolute difference from the target number. If there are multiple elements with the sam...
+----------------------------------------------------------------------------------------------------
+
+16. Problem ID: p03013
+   Success Rate: 17.78%
+   Successes: 40 / 225
+   Failures: 185 / 225
+   Description: **Exercise Title: Counting Ways to Reach a Target Number Using Steps**
+
+**Problem Statement:**
+
+You need to determine the number of different ways to reach a target number `T` from the starting point `0` using a set of allowed steps. You are given a target number `T` and a list of positive integers ...
+----------------------------------------------------------------------------------------------------
+
+17. Problem ID: p02731
+   Success Rate: 17.78%
+   Successes: 40 / 225
+   Failures: 185 / 225
+   Description: **Exercise Title: Calculate Maximum Cuboid Volume**
+
+**Problem Statement:**
+
+The task is to calculate the maximum possible volume of a rectangular cuboid with given constraints. You will be provided with a positive integer value `L`, representing the sum of the cuboid's dimensions. Your goal is to d...
+----------------------------------------------------------------------------------------------------
+
+18. Problem ID: p03854
+   Success Rate: 17.78%
+   Successes: 40 / 225
+   Failures: 185 / 225
+   Description: **Exercise Title: Building a Target String**
+
+**Problem Statement:**
+
+You are given a sequence of unique words and an initially empty string. Your task is to determine whether it is possible to form a given target string by appending these words to the empty string any number of times. Each appendin...
+----------------------------------------------------------------------------------------------------
+
+19. Problem ID: p03071
+   Success Rate: 18.22%
+   Successes: 41 / 225
+   Failures: 184 / 225
+   Description: ## Exercise Title: Maximum Sum Using Two Numbers
+
+### Problem Statement
+You are given two integers, `X` and `Y`. Your task is to select two numbers, either from `X`, `Y`, or a combination of both, such that the sum of these two numbers is maximized. You can pick the same number twice or choose one n...
+----------------------------------------------------------------------------------------------------
+
+20. Problem ID: p02407
+   Success Rate: 18.22%
+   Successes: 41 / 225
+   Failures: 184 / 225
+   Description: **Exercise Title: Basic List Reversal**
+
+**Problem Statement:**
+
+Write a function that receives a list of numbers and returns a new list with the elements in reverse order. This exercise is aimed at practicing basic list manipulation and indexing. 
+
+**Requirements:**
+
+1. Define a function that takes...
+----------------------------------------------------------------------------------------------------
+

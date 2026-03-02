@@ -1,0 +1,115 @@
+Comprehension Level
+==================
+
+We assume that robustness to literal encryption indicates semantic understanding;
+robustness to dead code but not encryption indicates structural understanding;
+and robustness only to comment and variable-name changes indicates lexical understanding.
+
+Transform categories (pair sets)
+------------------------------
+- Encryption pairs: any pair where "encryption" is in {transform1, transform2} (5 per problem).
+- Dead-code (no encryption) pairs: "dead_code" in {transform1, transform2} and "encryption" not in the pair (4 per problem).
+- Lexical pairs: only variants {original_description, with_comments, without_comments, variable_renaming} (6 per problem).
+
+Per-model scores (averaged over problems)
+-----------------------------------------
+- s_enc(M)  = mean similarity over all encryption pairs
+- s_dead(M) = mean similarity over all dead-code (no encryption) pairs
+- s_lex(M)  = mean similarity over all lexical pairs
+
+Comprehension level (threshold tau, e.g. 0.5)
+---------------------------------------------
+- Semantic:   s_enc(M) >= tau  (understands well all variants including encryption)
+- Structural: s_enc(M) < tau and s_dead(M) >= tau  (loses at encryption, ok on dead code)
+- Lexical:    s_dead(M) < tau  (drops at dead code; at best stable on comment/renaming)
+
+Comprehension Level
+===================
+
+We characterize how deeply a model understands code by its robustness to
+increasingly demanding transformations. We define three comprehension levels
+(lexical, structural, semantic) and assign each model to one level using the
+same pairwise description similarities used for stability.
+
+Motivation
+----------
+If a model remains consistent when only comments or variable names change, it
+exhibits at least lexical sensitivity. If it remains consistent under dead-code
+injection but not under literal encryption, it reflects structural understanding
+without full semantic invariance to obfuscated literals. If it remains
+consistent even when string literals are encrypted, we treat it as exhibiting
+semantic-level understanding. Thus we order the levels as: lexical (weakest),
+structural, semantic (strongest).
+
+Computation
+-----------
+For each (model, problem) we have 15 pairwise similarity scores: one for each
+unordered pair of the six variants (original_description, with_comments,
+without_comments, variable_renaming, dead_code, encryption). We group these
+15 pairs into three non-overlapping categories:
+
+(1) Encryption pairs (5 per problem)
+    Every pair where at least one of the two variants is "encryption". These
+    are: (original, encryption), (with_comments, encryption), (without_comments,
+    encryption), (variable_renaming, encryption), (dead_code, encryption).
+    These pairs test whether the model keeps consistent descriptions when
+    string literals are obfuscated.
+
+(2) Dead-code pairs (4 per problem)
+    Pairs that involve "dead_code" but do not involve "encryption". These
+    are: (original, dead_code), (with_comments, dead_code), (without_comments,
+    dead_code), (variable_renaming, dead_code). These pairs test consistency
+    when irrelevant code is added, without changing literals.
+
+(3) Lexical pairs (6 per problem)
+    Pairs that use only the four "surface" variants: original_description,
+    with_comments, without_comments, variable_renaming. So neither dead_code
+    nor encryption appears in the pair. There are C(4,2) = 6 such pairs:
+    (original, with_comments), (original, without_comments), (original,
+    variable_renaming), (with_comments, without_comments), (with_comments,
+    variable_renaming), (without_comments, variable_renaming). These pairs
+    test consistency under comment and variable-name changes only.
+
+For each model M we then compute three aggregate scores by averaging over
+all problems: s_enc(M) is the mean of all encryption-pair similarities (5×|P|
+values), s_dead(M) the mean of all dead-code-pair similarities (4×|P| values),
+and s_lex(M) the mean of all lexical-pair similarities (6×|P| values). Each
+score is in [0,1].
+
+Assignment (threshold tau = 0.5): Semantic if s_enc(M) >= tau; else
+Structural if s_dead(M) >= tau; else Lexical. Thus each model receives a
+single, hierarchically defined comprehension level suitable for comparison
+and reporting in empirical evaluations.
+
+Mathematical formulation
+------------------------
+Notation: Let P be the set of problems and V = {orig, com, nocom, var, dead, enc}
+the six variants (original_description, with_comments, without_comments,
+variable_renaming, dead_code, encryption). For model M and problem P, denote
+by s_M,P(i,j) the pairwise similarity Sim(D_M(c_i), D_M(c_j)) for the pair
+of variants (i,j), with i < j.
+
+Pair sets per problem P (disjoint subsets of the 15 pairs):
+  E_P = {(i,j) : enc in {i,j}}           (encryption pairs; |E_P| = 5)
+  D_P = {(i,j) : dead in {i,j}, enc not in {i,j}}  (dead-code pairs; |D_P| = 4)
+  L_P = {(i,j) : {i,j} subset of {orig,com,nocom,var}}  (lexical pairs; |L_P| = 6)
+
+Per-model scores (averaged over all problems and the corresponding pairs):
+  s_enc(M)  = (1/(5|P|))  sum_{P in P} sum_{(i,j) in E_P}  s_M,P(i,j)
+  s_dead(M) = (1/(4|P|))  sum_{P in P} sum_{(i,j) in D_P}  s_M,P(i,j)
+  s_lex(M)  = (1/(6|P|))  sum_{P in P} sum_{(i,j) in L_P}  s_M,P(i,j)
+
+Comprehension level of M (threshold tau in [0,1]):
+  Level(M) = Semantic   if s_enc(M) >= tau;
+            Structural if s_enc(M) < tau and s_dead(M) >= tau;
+            Lexical    otherwise.
+
+Summary (simple)
+----------------
+We show the model the same code in different disguises (different names,
+with or without comments, with extra useless code, or with hidden text).
+If it still says the same thing about the code every time, even when the
+text is hidden, we say it understands deeply (Semantic). If it gets mixed
+up only when the text is hidden, we say it understands the structure
+(Structural). If it gets mixed up when we add useless code or change
+names, we say it only gets the surface (Lexical).

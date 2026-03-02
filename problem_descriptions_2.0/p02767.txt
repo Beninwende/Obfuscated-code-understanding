@@ -1,0 +1,23 @@
+**Exercise Title: Calculate Minimal Energy Consumption**
+
+**Problem Statement:**
+
+You are tasked with organizing a meeting for a group of individuals. Each individual lives on a straight line at a specific coordinate. To ensure equal opportunity for all to attend, the meeting location should minimize the overall energy consumption of the group.
+
+Each coordinate position where a person lives is identified by an integer, and similarly, the meeting can be held at any integer coordinate. The energy a person uses to attend the meeting is represented by the square of the distance they travel from their home coordinate to the meeting coordinate.
+
+Your goal is to find the optimal meeting coordinate such that the total energy expenditure by all individuals is minimized.
+
+**Requirements:**
+
+1. Define a function that receives two inputs:
+   - An integer `N` representing the number of individuals.
+   - A list of integers representing the coordinates of each individual's home.
+
+2. Compute the total energy expenditure for each possible meeting coordinate, which is any integer within the range of the given home coordinates.
+
+3. Return the minimum total energy expenditure across all possible meeting coordinates.
+
+4. Ensure efficiency to handle the upper limits of the constraints, where up to 100 individuals have their home coordinates ranging from 1 to 100.
+
+Focus on using basic programming principles such as loops, conditionals, and arithmetic operations to solve the task. Remember to consider how to iterate over potential meeting points and calculate the sum of squared distances effectively. This exercise is intended to foster understanding of optimization strategies and arithmetic manipulations.

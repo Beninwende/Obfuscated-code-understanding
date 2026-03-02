@@ -1,0 +1,15 @@
+**Exercise Title: Counting Digits in Different Bases**
+
+**Problem Statement:**
+
+Create a function that calculates the number of digits required to represent a given number in a specified base. The function will take two integer inputs: the number to be represented and the base for the representation. The function should output the count of digits needed for this representation.
+
+**Requirements:**
+
+1. Define a function that takes two parameters: an integer `number` and an integer `base`.
+2. The `number` parameter represents the number you need to convert.
+3. The `base` parameter is the base to which the number should be converted. It must be an integer between 2 and 10, inclusive.
+4. Ensure that the function computes how many digits are needed to represent `number` in the specified `base`.
+5. Output the digit count as an integer.
+
+Consider implementing the function with efficient handling for large numbers, taking into account proper integer operations without directly converting the number to a string in the target base. Use mathematical operations if needed. Make sure that your implementation is able to handle the largest inputs specified by typical constraints in other scenarios.

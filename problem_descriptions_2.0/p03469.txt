@@ -1,0 +1,27 @@
+### Exercise Title: Modify Year in Date String
+
+### Problem Statement
+
+You are tasked with modifying date strings to correct an existing error. Each string represents a date in the "yyyy/mm/dd" format. However, the year is incorrect in these strings and needs to be updated.
+
+Your program should take a string as input, which incorrectly contains a year "XXXX" at the start. Your task is to replace this year with "YYYY". You should then output the corrected date string.
+
+### Requirements
+
+1. **Input:**  
+   - The input will be a single string that represents a date. The date follows the format "yyyy/mm/dd" and is always of length 10.
+   - The year "XXXX" is the first four characters of the string, representing an incorrect year.
+
+2. **Output:**  
+   - Output the date string with the year "XXXX" replaced with "YYYY".
+
+3. **Constraints:**
+   - The date string always follows the exact "yyyy/mm/dd" format.
+   - The month ("mm") and day ("dd") are valid calendar values (e.g., "01" for January, "02" for February, etc., and days range from "01" to "31" as per calendar norms).
+   - The task is solely to replace the first four characters of the string with "YYYY".
+
+4. **Implementation Note:**
+   - Focus on string manipulation techniques to solve this problem.
+   - The solution should efficiently replace the first four characters without altering the rest of the string.
+
+This exercise practices basic string manipulation and is intended to help solidify your understanding of working with substring operations in programming.

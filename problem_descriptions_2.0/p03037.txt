@@ -1,0 +1,21 @@
+Title: ID Card Access Evaluation
+
+Problem Statement:
+Imagine you have a collection of numbered ID cards, each card uniquely identified by a number ranging from 1 to N. Additionally, you have a series of access points called gates. Each gate has its set of criteria, defining the range of ID card numbers that can pass through it. A card can pass through a gate if its number falls within the given range for that gate.
+
+The goal of this exercise is to determine how many individual ID cards can traverse all the gates. In other words, you want to find out the count of ID cards that fall within every range specified by each gate’s criteria.
+
+Requirements:
+- Create a function to read the number of ID cards (N) and the number of gates (M).
+- Each gate is described by two numbers, L_i and R_i, representing the inclusive range of ID card numbers that can pass through that gate.
+- Calculate which ID cards satisfy all gate conditions simultaneously.
+- The output should be the total number of such ID cards.
+
+Constraints:
+- N is a positive integer representing the total number of unique ID cards.
+- M is a positive integer indicating the number of gates.
+- For each gate:
+  - L_i and R_i are integers with 1 ≤ L_i ≤ R_i ≤ N, specifying the range of permissible ID cards.
+- Ensure your solution efficiently handles up to the maximum constraints.
+
+Note: Aim for a clear, concise function that computes the number of ID cards satisfying all gate requirements without additional dependencies or libraries.

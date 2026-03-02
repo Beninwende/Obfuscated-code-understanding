@@ -1,0 +1,16 @@
+Title: Common Elements Counter
+
+Problem Statement:
+Create a program to determine the count of common elements between two given lists of integers. You will be provided with two lists: List A and List B. Your task is to find how many elements from List B are present in List A. Both lists may contain unique integers.
+
+Requirements:
+1. Define a function `common_elements_count(list_a, list_b)` that takes two lists of integers as input: `list_a` and `list_b`.
+2. The function should return an integer representing the count of elements in `list_b` that are also present in `list_a`.
+3. Perform the element comparison in an efficient manner.
+4. Ensure your code handles edge cases such as when one or both lists are empty.
+5. Do not assume that the input lists are sorted. Your solution should work works irrespective of the order of elements.
+
+Focus on the fundamental programming concepts of:
+- List manipulation and iteration
+- Conditionals and basic count accumulation 
+- Efficient searching within lists to minimize computational time

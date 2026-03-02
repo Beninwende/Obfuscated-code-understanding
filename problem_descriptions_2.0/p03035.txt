@@ -1,0 +1,27 @@
+**Exercise Title: Determine Ticket Price Based on Age**
+
+**Problem Statement:**
+
+Create a function that calculates the ticket price based on the age of a visitor. Different age groups have different pricing rules which determine how much they need to pay for a standard entry ticket.
+
+You are required to implement a function `calculate_ticket_price` that takes two parameters:
+1. `age` (integer): The age of the visitor.
+2. `base_price` (integer): The standard price of the ticket.
+
+The pricing rules are as follows:
+- Individuals aged 0 to 4 years are admitted free of charge.
+- Individuals aged 5 to 12 years pay half the base price.
+- Individuals aged 13 years and older pay the full base price.
+
+**Requirements:**
+- Implement the function `calculate_ticket_price(age, base_price)`.
+- Return the ticket price as an integer based on the given rules.
+- Ensure your function can handle any valid input within reasonable constraints.
+- Consider edge cases such as minimum and maximum age values.
+
+**Constraints:**
+- \(0 \leq \text{age} \leq 120\)
+- \(10 \leq \text{base\_price} \leq 200\)
+- The `base_price` is an integer.
+
+Your task is to compute and return the ticket price according to these rules, given the `age` and `base_price` of the visitor. Focus on handling the conditions and returning the correct amount.

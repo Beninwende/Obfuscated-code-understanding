@@ -1,0 +1,22 @@
+**Exercise Title: Button Light-Up Sequence**
+
+**Problem Statement:**
+
+You are designing a simple game involving a sequence of buttons. Imagine you have `N` buttons laid out in a row, numbered from `1` to `N`. You start with Button `1` in the "on" state, while all other buttons are initially "off." Your goal is to check if you can turn on Button `2` by following given transitions. Each button has a specific mapping that determines which button will turn on next when the current button is pressed.
+
+- When Button `i` is pressed while it’s on, the light of Button `i` turns off, and the button numbered `a_i` turns on, where `1 ≤ a_i ≤ N`. This mapping is fixed and provided as input.
+- If you press a button that is off, the state remains unchanged.
+
+The task is to determine if you can turn on Button `2` by starting from Button `1` and pressing the buttons according to the mappings provided. If it is possible, calculate the minimum number of button presses required to achieve this.
+
+**Requirements:**
+
+1. Develop a function to determine if Button `2` can be turned on by pressing the buttons starting from Button `1` according to the provided button mapping.
+
+2. If it is possible to turn on Button `2`, compute the minimum number of presses required to achieve this.
+
+3. If Button `2` cannot be turned on, the function should indicate that it is impossible.
+
+4. Your function should be efficient, capable of handling up to `10^5` buttons.
+
+Design the function such that it processes input data and provides the necessary output according to the requirements. Pay attention to edge cases and ensure that the solution is robust and handles large input sizes efficiently.

@@ -1,0 +1,26 @@
+**Title: Palindrome Substring Checker**
+
+**Problem Statement:**
+
+Design a function that verifies whether a given string has a certain structure involving palindromic segments. A string is considered valid if it satisfies the following conditions:
+
+1. The string itself must be a palindrome.
+2. The first half of the string, excluding the middle character, must be a palindrome.
+3. The second half of the string, excluding the middle character, must also be a palindrome.
+
+Implement a function that checks these conditions and returns a boolean result indicating whether all criteria are met.
+
+**Requirements:**
+
+1. Implement a function named `isStructuredPalindrome` that takes a single string input.
+2. The function should efficiently verify if the entire string is a palindrome.
+3. Then, it should check if the substring from the start to the middle (not inclusive of the middle character) is a palindrome.
+4. Finally, check if the substring from the middle to the end (not inclusive of the middle character) is a palindrome.
+5. The function must return `True` if all conditions are met, and `False` otherwise.
+
+**Constraints:**
+
+- The input string consists of lowercase English letters.
+- The length of the string is an odd number between 3 and 99 (inclusive).
+
+By completing this exercise, you will enhance your understanding of string manipulation, palindrome checking, and applying conditional logic.

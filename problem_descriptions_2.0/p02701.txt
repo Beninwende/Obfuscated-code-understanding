@@ -1,0 +1,19 @@
+**Exercise Title: Unique Words Counter**
+
+**Problem Statement:**
+
+Design a program that reads a list of words and determines how many distinct or unique words exist in the list. Each word is guaranteed to be composed of lowercase English letters, and the list size and word length are defined by certain constraints.
+
+**Requirements:**
+
+1. Implement a function `countUniqueWords` that will take an integer and a list of strings as inputs.
+   
+2. The input integer represents the size of the list. The list contains words, each word consisting solely of lowercase English letters.
+
+3. Your task is to count and return the number of unique words in the list. Words which occur multiple times should only be counted once for the purpose of determining uniqueness.
+
+4. Ensure that your solution can handle:
+   - Lists containing a large number of words.
+   - Words of varying lengths within the defined constraints.
+
+By completing this exercise, you will practice using data structures effectively to manage and assess unique values within a dataset.

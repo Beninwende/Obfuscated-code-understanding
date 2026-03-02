@@ -1,0 +1,28 @@
+{
+  "by_failure_type_and_subtype": [
+    {
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 2
+    },
+    {
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    }
+  ],
+  "by_model_failure_type_and_subtype": [
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Encryption_Failure",
+      "subtype": "Obfuscation_narrative",
+      "count": 2
+    },
+    {
+      "model": "Dataset_DeepseekV3.1",
+      "failure_type": "Variable_Renaming_Failure",
+      "subtype": "Algorithm_misunderstanding",
+      "count": 3
+    }
+  ]
+}

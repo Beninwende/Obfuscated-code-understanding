@@ -1,0 +1,14 @@
+### Title: Practice with Swapping Elements in an Array
+
+#### Problem Statement:
+Create a function that takes a list of integers and performs swapping operations based on a simple condition. Your task is to iterate over the list and if two consecutive elements are in the wrong order (i.e., the preceding element is greater than the succeeding element), swap them. Repeat this process until no more swaps are needed. The list should be sorted in ascending order by the end of these operations. Additionally, you need to count and display the total number of swaps made throughout this process.
+
+#### Requirements:
+1. Define a function that takes a list of integers as input.
+2. Implement an algorithm that iterates over the list to compare each pair of consecutive elements.
+3. Swap the consecutive elements if the first one is greater than the second one. Continue this process until the list is sorted.
+4. Keep a count of how many swaps are performed during the entire sorting process.
+5. After sorting is complete, return the sorted list and the number of swaps performed as separate outputs.
+6. The function should handle a list containing up to 100 integers efficiently.
+
+Utilize basic programming constructs like loops, conditionals, and arrays to achieve the solution. This exercise aims to reinforce understanding of list manipulation and sorting techniques in programming.

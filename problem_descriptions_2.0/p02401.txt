@@ -1,0 +1,16 @@
+### Title: Basic Arithmetic Operations Program
+
+#### Problem Statement:
+Create a program that performs basic arithmetic operations on two integers. The program should be able to take two integer values and an arithmetic operator as input and produce the result of the operation as output. The operators that the program should handle include addition, subtraction, multiplication, and integer division. The program will repeatedly read input until it encounters a special stop signal, where it should terminate without performing any operations for that input.
+
+#### Requirements:
+- Design a function that reads two integers and an arithmetic operator in sequence.
+- The operators supported by the function are:
+  - Addition ('+'): Compute the sum of the two integers.
+  - Subtraction ('-'): Compute the difference between the two integers.
+  - Multiplication ('*'): Compute the product of the two integers.
+  - Division ('/'): Compute the quotient of integer division of the first integer by the second integer. The result should be rounded down to the nearest integer.
+- The function should continuously read and process inputs.
+- The input sequence ends when a specific operator, '?', is encountered. Upon reading this operator, the program should terminate immediately without processing further.
+- Ensure that the program doesn't attempt division by zero.
+- Assume integer inputs are within the range 0 to 20,000, and ensure the program handles these ranges appropriately.

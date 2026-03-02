@@ -1,0 +1,18 @@
+**Title: Calculate Minimum Difference**
+
+**Problem Statement:**
+
+You are given two integers, `A` and `B`. The goal is to find the smallest possible positive difference between `A` and any multiple of `B`. To achieve this, you may repeatedly perform the following operation any number of times:
+
+- Calculate the absolute difference between `A` and the closest multiple of `B`.
+
+Keep applying the operation until the smallest possible result is achieved. 
+
+**Requirements:**
+
+1. Implement a function that accepts two integers, `A` and `B`.
+2. The output should be the smallest positive difference between `A` and any multiple of `B`.
+3. Ensure the solution is efficient and can handle large values of `A` and `B`.
+4. Consider that both `A` and `B` are guaranteed to be non-negative and within the range of [0, 10^18].
+
+Your task is to create a function that calculates and returns this minimum difference.

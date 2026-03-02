@@ -1,0 +1,20 @@
+**Exercise Title: Ordering and Serving Times**
+
+**Problem Statement:**
+
+You are tasked with managing the ordering process for a series of dishes at a restaurant. When an order is placed, it can only happen at times that are multiples of 10, and only one dish can be ordered at a time. You must calculate and plan the sequence and timing of these orders to minimize the overall waiting time for the last dish.
+
+**Requirements:**
+
+1. You will receive a list of integers representing the time it takes for each of five different dishes to be prepared and served.
+
+2. Implement a function that calculates the best possible order to place the orders for these dishes, such that the last dish is served at the earliest possible time.
+
+3. Your function should consider:
+   - Orders can only be placed at times which are multiples of 10.
+   - You can place a new order exactly when the previous dish is delivered.
+   - Only one order can be processed at a time.
+
+4. Return the minimum possible time by which the last dish can be delivered.
+
+Focus on optimizing the sequence of dish preparation to achieve the earliest delivery time of all ordered dishes. Consider all possible permutations of dish ordering to ensure the minimum time is calculated.

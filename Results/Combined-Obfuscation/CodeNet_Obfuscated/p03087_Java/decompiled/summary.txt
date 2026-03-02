@@ -1,0 +1,20 @@
+Summary for /Users/lionel.nikiema/Desktop/combined_dataset/Results/Comprehensive_OBFUS_Analysis/CodeNet_Obfuscated/p03087_Java/obfuscated.jar
+Decompiled with CFR 0.152
+
+
+FastScanner
+----------------------------
+
+IIlIlIIllIIl(java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+AtCoder
+----------------------------
+
+IIIIlllIlIIl(java.lang.String java.lang.String )
+  Unable to fully structure code
+llIIlIIllIIl(java.lang.String java.lang.String )
+  Unable to fully structure code
+llIlIIlllIIl(java.lang.String java.lang.String )
+  Unable to fully structure code

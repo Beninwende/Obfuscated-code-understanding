@@ -1,0 +1,19 @@
+**Exercise Title: Count Even Halving Operations**
+
+**Problem Statement:**
+
+You are given a collection of positive integers. Your task is to determine how many times you can repeatedly halve all the integers in the collection. Each operation consists of replacing all even integers in the collection by half their value. The operation can only be performed if all integers in the collection are even.
+
+Your goal is to write a function that returns the maximum number of such operations that can be applied to the collection.
+
+**Requirements:**
+
+1. Create a function that takes a list of integers as its parameter.
+2. The function should continuously divide all integers by 2 as long as all numbers in the list are even.
+3. Count and return the number of successful division operations that can be executed on the list.
+4. If any integer is odd, further division operations cannot proceed.
+
+This exercise practices:
+- Handling collections and looping through elements.
+- Conditional operations and logical checks.
+- Basic arithmetic operations and understanding constraints on data types.

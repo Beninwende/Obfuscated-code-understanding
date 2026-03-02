@@ -1,0 +1,19 @@
+**Exercise Title:** Counting Numbers Not Divisible by Two Values
+
+**Problem Statement:**
+
+You are given a range of integers defined by two numbers `start` and `end`, inclusive. Additionally, two divisor values `divA` and `divB` are provided. The task is to determine how many numbers within the given range cannot be evenly divided by either `divA` or `divB`.
+
+**Requirements:**
+
+1. You need to develop a function that takes four integer inputs: `start`, `end`, `divA`, and `divB`.
+
+2. The function should calculate the total count of integers in the interval `[start, end]` that are NOT divisible by either `divA` or `divB`.
+
+3. Implement a mechanism to find the least common multiple (LCM) of two numbers, as it might be useful in calculations. You can use the relation between LCM and greatest common divisor (GCD) for this.
+
+4. Ensure your function handles large values efficiently, considering that `start` and `end` can range up to extremely high values.
+
+5. The function should return a single integer representing the count of numbers in the specified range that are not divisible by `divA` or `divB`. 
+
+This exercise practices efficient number processing within a large range, the use of GCD and LCM, as well as nested logic for conditions on divisible numbers.

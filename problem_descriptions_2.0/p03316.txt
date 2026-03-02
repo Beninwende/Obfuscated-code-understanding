@@ -1,0 +1,23 @@
+**Exercise Title: Sum of Digits Check**
+
+**Problem Statement:**
+
+Create a function that takes a single positive integer as an input and performs the following operations:
+
+1. Calculate the sum of its digits.
+2. Determine if this sum is a divisor of the original integer.
+
+Your function should return a boolean value indicating whether the sum of the digits divides the number without any remainder. The function should print `True` if the sum of the digits divides the number and `False` otherwise.
+
+**Requirements:**
+
+1. Implement a function named `isDivisibleByDigitSum`.
+2. The function should take one integer parameter, `number`, which represents the input number.
+3. Convert the integer into its individual digits and calculate the sum of these digits.
+4. Check if the sum of the digits is a divisor of the input number.
+5. The function should return `True` if the condition is met, otherwise it should return `False`.
+
+Consider the efficiency of your solution, especially for larger numbers within the provided constraints.
+
+**Constraints:**
+- The input number will be a positive integer within the range of 1 to 1,000,000,000.

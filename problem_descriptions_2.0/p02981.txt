@@ -1,0 +1,27 @@
+**Exercise Title: Calculate Minimum Travel Cost**
+
+**Problem Statement:**
+
+You are tasked with helping a group of friends determine the most cost-effective way to travel between two locations. The options are to either use a bus service or walk the distance. Each friend has two choices:
+
+1. **Bus Service:** Each friend can choose to pay a certain fare to use the bus. The fare is the same for each friend.
+2. **Walking:** The entire group can choose to walk, which would incur a collective fixed charge.
+
+Your task is to write a function that calculates the minimum total cost for the group to travel, choosing between the bus fare for all or the collective charge for walking. 
+
+**Requirements:**
+
+1. Implement a function that takes three parameters:
+   - `num_friends`: The number of friends in the group.
+   - `bus_fare`: The fare each friend would pay if they opt for the bus service.
+   - `walk_charge`: The total fixed charge for the whole group if they decide to walk.
+
+2. The function should return the minimum total cost required for the group to travel to their destination using the more economical option.
+
+**Considerations:**
+
+- All input values are positive integers.
+- Ensure that the solution efficiently handles the given range of inputs.
+- The function should correctly compare the cost of all friends taking the bus versus the entire group walking.
+
+By designing this function, you will practice basic arithmetic operations, the `min` function for comparison, and gaining skills in considering multiple options to achieve optimal solutions in a problem statement.

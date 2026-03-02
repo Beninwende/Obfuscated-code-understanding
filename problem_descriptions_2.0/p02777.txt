@@ -1,0 +1,19 @@
+**Exercise Title: Count Remaining Items**
+
+**Problem Statement:**
+
+You are given two types of items, A and B. Each type has multiple quantities. You will receive a request to remove one item from the collection, specifying which type of item has to be removed. Your task is to calculate the remaining quantities of each type after fulfilling the request to remove an item.
+
+**Requirements:**
+
+1. Initialize the total number of items for each type based on the given integers, representing the count of type A and type B items.
+
+2. You will receive a request that specifies which type of item (either A or B) needs to be removed.
+
+3. Ensure that only one item is removed from the specified type; decrement the count for that type by one.
+
+4. Return the updated quantities of type A and type B items.
+
+5. The problem must handle different counts for items A and B and should correctly adjust the numbers based on the request.
+
+6. Implement basic input and output handling to read initial quantities and the type of item to be removed. Provide the result by printing the final counts of the items.

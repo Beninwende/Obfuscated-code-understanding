@@ -1,0 +1,23 @@
+**Exercise Title: Character Filtering and Counting**
+
+**Problem Statement:**
+
+Create a function that processes a given string composed of uppercase English letters. The function should identify and count the longest contiguous sequence of specific characters within this string. These characters are defined in a set of interest. The aim is to find the maximum length of such a sequence.
+
+**Requirements:**
+
+1. Implement a function that accepts a single string as input.
+
+2. Within this function, identify contiguous sequences of characters from the specified set: {'A', 'C', 'G', 'T'}.
+
+3. Track the length of these sequences and determine the longest one.
+
+4. Return the length of the longest contiguous sequence found within the string.
+
+5. Assume the input string will have a length constraint between 1 and 10 characters inclusive.
+
+6. The input string will consist solely of uppercase English letters.
+
+7. No file I/O is required; the function should be designed for use in a script or interactive console.
+
+Focus on using basic iteration and conditional statements to achieve this task, making it a suitable exercise for those practicing control structures, loops, and string manipulation.

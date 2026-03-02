@@ -1,0 +1,19 @@
+**Exercise Title: Counting Odd-Digit Numbers**
+
+**Problem Statement:**
+
+Write a function that takes an integer, `N`, as input and returns the count of positive integers, up to `N`, that contain an odd number of digits. In base ten, a number's "digit count" is defined as the number of numerical characters it has. Ignore leading zeros if present.
+
+The task involves iterating through numbers, identifying those with an odd number of digits, and calculating their total count. This requires understanding numerical ranges and basic digit analysis without performing unnecessary computations.
+
+**Requirements:**
+
+1. Implement a single function that receives an integer parameter `N`.
+   
+2. The function should calculate and return the number of positive integers up to `N` that have an odd number of digits.
+
+3. Avoid using unnecessary nested loops or advanced data structures; the aim is to practice basic control structures and conditions.
+
+4. The function must work efficiently for values of `N` up to 100,000, ensuring quick response times.
+
+5. Do not assume any specific programming language. Make sure the function logic is easily translatable across common programming languages like Python, Java, C++, etc.

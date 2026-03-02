@@ -1,0 +1,13 @@
+**Exercise Title: Basic Character Replacement in Strings**
+
+**Problem Statement:**
+
+In this exercise, you will transform a given string by replacing specific characters. The task is to take an input string consisting solely of lowercase letters 'a' and 'b'. Your objective is to replace every 'a' with 'x' and every 'b' with 'y'.
+
+**Requirements:**
+
+1. Write a function that accepts a string of lowercase characters composed only of the letters 'a' and 'b'.
+2. The function should return a new string where each occurrence of 'a' is replaced with 'x' and each occurrence of 'b' is replaced with 'y'.
+3. Assume that the string contains at least one character and all characters are either 'a' or 'b'.
+
+Focus on using fundamental string manipulation techniques to achieve the desired transformation. Avoid using complex libraries or built-in functions that directly solve the problem.

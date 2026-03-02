@@ -1,0 +1,18 @@
+**Exercise Title: String Truncation with Suffix**
+
+**Problem Statement:**
+
+Create a function that processes a string based on its length and a specified maximum length limit. Given an integer `maxLength` and a string `inputString`, your task is to potentially shorten the string as follows:
+
+1. If the length of `inputString` is less than or equal to `maxLength`, return `inputString` unchanged.
+2. If the length of `inputString` exceeds `maxLength`, truncate the string after `maxLength` characters and append a specified suffix to the end of the truncated string.
+
+**Requirements:**
+
+- Implement a function `truncateString(maxLength, inputString, suffix)` that works as described.
+- `maxLength` is an integer between 1 and 100 (inclusive).
+- `inputString` is a string consisting of lowercase English letters, with a length between 1 and 100 (inclusive).
+- `suffix` is a string that should be appended to the truncated version of `inputString` when the truncation occurs.
+- Ensure the function returns the appropriate string based on the problem statement rules.
+
+Focus on understanding string manipulation, conditional logic, and handling input/output operations appropriately.

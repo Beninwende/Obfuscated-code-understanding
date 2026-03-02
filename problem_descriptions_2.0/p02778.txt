@@ -1,0 +1,21 @@
+**Exercise Title: Basic String Transformation**
+
+**Problem Statement:**
+
+You are provided with a string. Your task is to transform the string such that every character in it is replaced with a specified character. Given is a string S. Replace every character in S with x and print the result. Create a function that takes two inputs - the original string and the replacement character - and outputs the transformed string.
+
+**Requirements:**
+
+1. The function should accept two parameters:
+   - A string, which contains only lowercase English letters.
+   - A replacement character, which is also a lowercase English letter.
+
+2. The function should particularly focus on:
+   - Iterating through each character in the input string.
+   - Replacing each character with the specified replacement character.
+
+3. Return or print the transformed string where every character has been replaced by the specified character.
+
+4. Ensure your solution handles strings with lengths ranging from 1 to 100 characters.
+
+This exercise aims to practice string manipulation fundamentals by iterating over strings and replacing characters.

@@ -1,0 +1,22 @@
+**Exercise Title: Find the Nearest Number Not in a Given List**
+
+**Problem Statement:**
+
+You are given a target integer value and a list of integer elements. Your task is to implement a function that finds the nearest integer to the target value, which is not present in the given list of integers. If there are multiple integers at the same nearest distance, choose the smallest integer among them.
+
+**Requirements:**
+
+1. Implement a function that takes two inputs:
+   - A target integer `T`.
+   - A list of integers `L`.
+
+2. Identify the integer `R` which fulfills the following criteria:
+   - `R` should not be in the list `L`.
+   - `R` should have the smallest absolute difference from the target integer `T`.
+   - If there are multiple such integers with the same distance from `T`, `R` should be the smallest among them.
+
+3. Consider edge cases such as:
+   - When the list `L` is empty.
+   - When `T` might be at the boundaries of possible integer values.
+
+4. Output or return the integer `R` that satisfies these conditions. Ensure your code is efficient and correctly handles all constraints and edge cases.

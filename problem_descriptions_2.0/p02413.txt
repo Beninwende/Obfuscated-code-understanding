@@ -1,0 +1,23 @@
+**Exercise Title: Array Sum Calculation**
+
+**Problem Statement:**
+
+Create a program that performs some simple calculations on a rectangular array (2D array) of integers. The program should take a number of rows and columns and then accept a list of integers to fill the 2D array. Your task is to calculate the sum of all integers in each row, as well as the sum of all integers in each column. Additionally, calculate the total sum of all integers in the entire array.
+
+**Requirements:**
+
+1. The program should start by accepting two integers as inputs, representing the number of rows and the number of columns in the 2D array.
+
+2. Next, the program should accept integers to fill the 2D array, based on the dimensions provided.
+
+3. The program should then calculate the sum of all numbers in each row and display these sums.
+
+4. Following the row sums, calculate the sum of all numbers in each column and display these sums.
+
+5. Finally, calculate the total sum of all numbers in the 2D array and display this total sum.
+
+- Ensure the program correctly handles edge cases with different sizes of arrays.
+- No restrictions are placed on the format of the program output as long as all requested sums (row sums, column sums, and total sum) are clearly displayed.
+- The input array will contain non-negative integers.
+
+Focus on understanding basic array manipulation and arithmetic operations while implementing this task.

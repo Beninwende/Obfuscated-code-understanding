@@ -1,0 +1,27 @@
+**Exercise Title: Track Cookie Consumption**
+
+**Problem Statement:**
+In this exercise, you will simulate a cookie-eating sequence involving two individuals. Let's call them Person A and Person B. Both have a certain number of cookies to begin with. The task is to model how the cookies are consumed over a specified number of actions. The eating sequence follows a specific order:
+
+1. If Person A has at least one cookie, they eat one.
+2. If Person A has no cookies but Person B has at least one, Person B eats one.
+3. If neither has cookies, no action is taken.
+
+Your goal is to determine how many cookies each person has remaining after all actions have been executed.
+
+**Requirements:**
+
+1. Write a function to input three parameters: 
+   - `cookiesA` (the initial number of cookies Person A has).
+   - `cookiesB` (the initial number of cookies Person B has).
+   - `actions` (the number of cookie-eating actions to perform).
+
+2. The function should simulate the action sequence detailed above for a given number of steps.
+
+3. After performing all actions, the function should return the number of cookies remaining for Person A and Person B as a tuple or similar data structure that your chosen programming language supports.
+
+4. Make use of conditionals and loops to simulate the process efficiently, taking into account that the number of cookies and actions can be large.
+
+5. Your solution should handle edge cases, such as when either person starts with zero cookies or when the number of actions exceeds the total number of cookies available.
+
+The exercise aims to strengthen understanding of basic control flow, large number handling, and function design, all fundamental skills in programming.

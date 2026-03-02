@@ -1,0 +1,12 @@
+Title: Determine the Missing Number
+
+Problem Statement:
+You are given two unique numbers, A and B, chosen from the set {1, 2, 3}. Your task is to identify and output the third number in this set that is not equal to A or B. The numbers A and B are guaranteed to be distinct from each other and within the specified range.
+
+Requirements:
+1. Implement a function or program that takes two inputs, A and B.
+2. Ensure that the inputs are integers within the range 1 to 3.
+3. Use logic to determine the number that is not A or B from the set {1, 2, 3}.
+4. Output the remaining number as the solution.
+
+By completing this task, you will practice conditional logic and arithmetic operations to solve a simple problem of identifying the missing number from a defined set. This exercise reinforces the understanding of sets, basic operations, and logical reasoning in programming.

@@ -1,0 +1,22 @@
+**Exercise Title: Splitting a Total into Categories**
+
+**Problem Statement:**
+
+You are tasked with writing a simple program that divides a given total amount into categories based on fixed unit values. The task is to determine if it's possible to split a given total exact using a specified number of categories, and if so, represent the total as a sum of integer multiples of these unit values.
+
+Given a total amount `T` and a number `C` representing the categories, you are required to check if it's possible to express `T` using exactly `C` units where each unit value is restricted to one of three fixed values: `A`, `B`, and `C`. 
+
+Your program should identify one possible way to achieve this split, or determine that it's impossible.
+
+**Requirements:**
+
+1. The function should take two inputs: an integer `C` (number of categories) and an integer `T` (total amount).
+2. Use three fixed unit values: `A`, `B`, and `C`.
+3. Determine if it is possible to represent `T` using exactly `C` units combining any number of multiples of `A`, `B`, and `C`.
+4. If possible, output a tuple `(x, y, z)` where:
+   - `x` is the number of units of value `A`,
+   - `y` is the number of units of value `B`,
+   - `z` is the number of units of value `C`.
+5. If it's not possible to represent `T` with exactly `C` units, the function should return a tuple indicating that with `-1, -1, -1`. 
+
+Your task is to implement an efficient solution to determine the presence of a valid category split and show one such instance if it exists. Prioritize a clear and logical strategy that explores all possibilities effectively within typical constraints.

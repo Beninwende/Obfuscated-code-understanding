@@ -1,0 +1,24 @@
+**Exercise Title: "Dice and Coin Simulation"**
+
+**Problem Statement:**
+
+You are given a task to simulate a simple game involving a fair die and a coin. The goal is to calculate the probability of achieving a specific score in this game.
+
+The game is described as follows:
+
+1. Roll an N-sided fair die, which results in an integer between 1 and N, each with equal likelihood.
+2. The score is initially set to the number obtained from the die roll.
+3. As long as the score is less than a specified value X, continue to flip a fair coin:
+   - If the coin shows heads, double the current score.
+   - If the coin shows tails, the score resets to 0 and the game ends immediately.
+4. The game is won if you manage to reach or exceed the score X before the score resets to 0.
+
+**Requirements:**
+
+- Write a program that simulates this game multiple times and calculates the probability of winning the game.
+- The program should take two integer inputs, N (the number of sides on the die) and X (the target score).
+- Compute and output the probability of reaching at least the score X before the score resets to 0.
+- Ensure your solution efficiently handles large input values where N and X could be up to 100,000.
+- Your output should be precise, with an absolute or relative error at most \(10^{-9}\). 
+
+By solving this exercise, you will be practicing basic probability concepts, the use of loops for simulation, and managing cumulative sums for probability calculations. Focus on efficiently implementing the solution.

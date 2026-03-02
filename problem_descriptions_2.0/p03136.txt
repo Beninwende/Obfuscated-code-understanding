@@ -1,0 +1,20 @@
+**Title: List of Integers Sum Comparison**
+
+**Problem Statement:**
+
+You are given a list of integers. Your task is to determine whether the largest integer in the list is strictly less than the sum of the remaining integers in the list. If so, print "Yes"; otherwise, print "No". This exercise tests your ability to manipulate lists, find the maximum value, and compare sums.
+
+**Requirements:**
+
+1. Read an integer, `n`, which represents the number of integers in the list.
+2. Read a list of `n` integers.
+3. Find the largest integer in the list.
+4. Calculate the sum of the integers in the list, excluding the largest integer.
+5. Compare the largest integer to the sum of the remaining integers:
+   - If the largest integer is strictly less than the sum of the other integers, print "Yes".
+   - Otherwise, print "No".
+
+**Constraints:**
+
+- The number of integers, `n`, will be at least 2.
+- Each integer in the list will be a positive value.

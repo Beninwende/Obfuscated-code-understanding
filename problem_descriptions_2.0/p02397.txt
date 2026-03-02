@@ -1,0 +1,15 @@
+**Title: Sort Numbers in Ascending Order**
+
+**Problem Statement:**
+
+Write a program to sort two given numbers in ascending order. Your task is to implement a function that accepts two numbers and returns them sorted from the smallest to the largest.
+
+**Requirements:**
+
+1. Develop a function that accepts two integer input parameters.
+2. Compare the two numbers and determine their order.
+3. Return the two numbers in ascending order.
+4. Ensure your program handles all valid integer inputs.
+5. Do not include any form of input/output operations in your function apart from the requirement to return output as specified.
+
+Focus on applying comparison and conditional logic to achieve the desired result. This exercise will help reinforce basic operations with variables, conditionals, and return statements.

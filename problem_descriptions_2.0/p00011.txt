@@ -1,0 +1,17 @@
+### Exercise: Simple List Swapping
+
+#### Problem Statement
+Write a program that performs a series of swapping operations on a list of integers. The integers in the list are initialized in ascending order from 1 to n. You will receive a series of swap operations, where each operation specifies two positions in the list. Your task is to apply each swap operation in order and return the final state of the list.
+
+#### Requirements
+1. **Initialize List**: Create a list of integers starting from 1 to n.
+2. **Read Swap Operations**: You will receive a series of swap operations, each defined by two positions (a, b) in the list. The positions are 1-indexed.
+3. **Perform Swaps**: For each swap operation, interchange the elements at the specified positions in the list.
+4. **Output**: Print the final state of the list after all swap operations have been applied.
+
+Remember:
+- The initial list size, `n`, will be defined as an input.
+- Each position specified in swap operations will always be valid, within the bounds of the list.
+- You must handle up to a reasonable number of swaps to demonstrate the concept, but don’t worry about extreme optimizations for very large lists or numbers of swaps. 
+
+Focus on practicing basic list manipulation and iterating over a series of operations.

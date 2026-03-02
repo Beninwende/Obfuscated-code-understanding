@@ -1,0 +1,19 @@
+**Title: Counting Approved and Rejected Requests**
+
+**Problem Statement:**
+
+You are tasked with managing customer service requests. Each request can either be approved or rejected. Your job is to calculate two key metrics for a daily report:
+
+1. The total number of requests that were approved at least once.
+2. The total number of rejections that occurred before a request was first approved.
+
+To accomplish this, you will receive several requests, each associated with a specific requester ID and a status indicating whether the request was approved or rejected. The goal is to track the number of different requester IDs with at least one approval, and to count how many times requests were rejected before their first approval per requester ID.
+
+**Requirements:**
+
+- Implement a function that accepts a series of request entries. Each entry contains a requester ID and a status (either "approved" or "rejected").
+- Track the number of unique requester IDs that have been approved at least once.
+- Count and accumulate the number of rejections that occur for each requester ID before their first approval.
+- Output the total number of approved requester IDs and the accumulated rejections before the first approval. 
+
+Make sure your program efficiently handles multiple entries and processes them to provide the results as described.

@@ -1,0 +1,21 @@
+**Title: Compare Two Numbers**
+
+**Problem Statement:**
+
+Create a program that takes two numerical inputs and determines the mathematical relationship between them. Specifically, the program should identify if the first number is less than, greater than, or equal to the second number. The program should then output this relationship as text.
+
+**Requirements:**
+
+1. Accept two numerical values as input from the user. These values will be entered on the same line, separated by a space.
+
+2. Compare the two numbers to determine if the first number is:
+   - Less than the second number
+   - Greater than the second number
+   - Equal to the second number
+
+3. Output the relationship discovered between these two numbers in textual format:
+   - If the first number is less, print "<"
+   - If the first number is greater, print ">"
+   - If both numbers are the same, print "=" 
+
+No additional libraries or functions are required. Focus on implementing basic input handling and control structures to solve this problem.

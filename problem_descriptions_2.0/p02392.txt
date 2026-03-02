@@ -1,0 +1,13 @@
+**Exercise Title: Check Sorted Order**
+
+**Problem Statement:**
+
+Write a program that reads three integers and verifies if they are in increasing order. Your task is to determine if the numbers appear in sequential ascending order strictly. If the numbers are strictly increasing from the first to the third, print "Yes"; otherwise, print "No".
+
+**Requirements:**
+
+1. Create a function that accepts three integer parameters. 
+2. Implement logic within the function to check if the integers are in a strictly increasing order (i.e., the second integer is greater than the first, and the third integer is greater than the second).
+3. The function should return "Yes" if the integers are in strictly increasing order and "No" otherwise.
+4. Ensure that the integers being input meet the constraints of being non-negative and within a reasonable range to avoid overflow.
+5. The program should focus on basic comparison operations and execution of conditional statements to provide a clear and straightforward solution.

@@ -1,0 +1,26 @@
+**Exercise Title: Sorting and Alternating Sum Calculation**
+
+**Problem Statement:**
+
+Write a program that processes an array of integers using the following procedure:
+
+1. You are given a list of integers, where each integer represents a value.
+2. The goal is to divide these integers between two hypothetical players, Player A and Player B, who alternate picking one integer at a time from the list. Player A picks first.
+3. The order in which the players pick is determined by the descending order of integers from the list. 
+4. Both players aim to maximize the sum of the integers they have picked.
+
+Your task is to compute the difference between the sum of integers picked by Player A and the sum of integers picked by Player B once all integers are distributed according to the described procedure.
+
+**Requirements:**
+
+- Implement a function that takes an integer array as its input.
+- Your function should:
+  - Sort the array in descending order.
+  - Distribute the integers between Player A and Player B alternately.
+  - Calculate the sums for both Player A and Player B.
+  - Return the difference between the sum of Player A's integers and Player B's integers.
+
+- Consider edge cases where the array may have a minimal number of elements or large values.
+- Focus on using basic programming concepts like loops, conditionals, and array manipulation for solving this problem. 
+
+Note: The input array will always have at least one element, and each element in the array is a positive integer.

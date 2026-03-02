@@ -1,0 +1,22 @@
+**Title: Count Specific Words in a Text**
+
+**Problem Statement:**
+
+Create a program that reads a specific keyword and a block of text, then determines how many times the keyword appears within the text. The program should handle input until a special termination string is encountered.
+
+The text input comprises sentences with words separated by spaces and may span multiple lines. The keyword and words in the text are case-insensitive, meaning "Word" and "word" should be considered the same.
+
+
+**Requirements:**
+
+1. Implement a function that, given a keyword and text block, counts the occurrence of this keyword in the text.
+
+2. The text will end with the termination string "STOP", which signifies the end of the input and should not be considered part of the word count.
+
+3. Both the keyword and the words in the text comparison must be treated as case-insensitive, ensuring consistency in counting regardless of the text's capitalization.
+
+4. Focus on reading and processing input efficiently, considering variable text lengths and line breaks.
+
+5. Output the total count of occurrences of the keyword found in the text before the "STOP" string.
+
+This exercise will help you practice basic string manipulation, input processing, and case-insensitive comparison in programming.

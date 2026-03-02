@@ -1,0 +1,17 @@
+**Exercise Title: Counting Specific Values**
+
+**Problem Statement:**
+
+You have a sequence of digits containing only the numbers 0 and 1. Your task is to determine how many times the digit '1' appears in this sequence.
+
+Create a function that accepts a single string input, which consists of characters '0' and '1'. The function should count and return the number of '1's present in this input string.
+
+**Requirements:**
+
+1. The input string will be non-empty and will only contain the characters '0' and '1'.
+   
+2. Develop a function that processes the input string and calculates the number of '1's in it.
+
+3. Return an integer indicating how many times '1' appears in the string.
+
+This exercise is intended to practice basic string manipulation and counting specific characters within a string.

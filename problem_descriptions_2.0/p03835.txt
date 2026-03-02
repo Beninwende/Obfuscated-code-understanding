@@ -1,0 +1,28 @@
+**Exercise Title: Calculating the Sum of Three Non-Negative Integers**
+
+**Problem Statement:**
+
+Write a function that calculates the number of ways three non-negative integers, A, B, and C, can be chosen such that their sum equals a given integer, N. Each integer can range from 0 to a maximum value, M. The function should determine how many unique combinations of A, B, and C satisfy this condition.
+
+**Requirements:**
+
+1. **Input:**
+   - Two integers, M and N, where 0 ≤ M, N ≤ a reasonable upper limit.
+ 
+2. **Function Specification:**
+   - The function should take two parameters, M and N.
+   - Inside the function, define three variables, A, B, and C, each capable of taking integer values ranging from 0 to M.
+   - Calculate all possible combinations of values for A, B, and C such that the sum A + B + C equals N.
+
+3. **Output:**
+   - Return the total count of unique (A, B, C) combinations where the sum is exactly equal to N.
+
+4. **Constraints:**
+   - Ensure that the solution efficiently handles the maximum potential input sizes specified by the constraints.
+   - The values of A, B, and C must be integers within the specified range from 0 to M.
+
+5. **Implementation Details:**
+   - You may use nested loops to iterate through the possible values of A, B, and C.
+   - Ensure that your solution considers all permutations where the order of elements affects the uniqueness of each combination.
+
+By resolving this exercise, you will practice creating nested loops, conditional statements, and understanding the importance of constraints in combinatorial problems. This exercise will enhance your ability to manipulate loops and conditionals to solve mathematical problems using programming logic.

@@ -1,0 +1,32 @@
+{
+  "subtypes": [
+    "Algorithm_misunderstanding",
+    "Algorithm_confusion",
+    "Functional_inaccuracy",
+    "Minimal_code_understanding",
+    "Structural_description_only",
+    "Wrong_IO_interpretation",
+    "Semantic_drift",
+    "Hallucination_unrelated",
+    "Obfuscation_narrative",
+    "Empty_or_template",
+    "Creative_or_offtask",
+    "Refusal_or_meta"
+  ],
+  "family_code_related": [
+    "Algorithm_misunderstanding",
+    "Algorithm_confusion",
+    "Functional_inaccuracy",
+    "Minimal_code_understanding",
+    "Structural_description_only",
+    "Wrong_IO_interpretation",
+    "Semantic_drift"
+  ],
+  "family_unrelated": [
+    "Hallucination_unrelated",
+    "Obfuscation_narrative",
+    "Empty_or_template",
+    "Creative_or_offtask",
+    "Refusal_or_meta"
+  ]
+}

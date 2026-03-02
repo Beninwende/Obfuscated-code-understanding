@@ -1,0 +1,23 @@
+**Exercise Title: Check If Number Exists in Range as a Multiple**
+
+**Problem Statement:**
+
+Your task is to write a function that determines whether any multiple of a given number exists within a specified range. Specifically, you need to check if there is at least one integer within a given range that is a multiple of a specified target number. If such a multiple exists within the range, the function should return "FOUND", otherwise it should return "NOT FOUND".
+
+**Requirements:**
+
+1. Implement a function named `check_multiple_in_range` that receives three integer arguments: `target`, `lower`, and `upper`.
+
+2. The `target` argument represents the number for which multiples need to be checked. It is always a positive integer.
+
+3. The `lower` argument is the inclusive lower bound of the range. This is where the search for the multiple will begin.
+
+4. The `upper` argument is the inclusive upper bound of the range. This is where the search for the multiple will end.
+
+5. Your function should return the string "FOUND" if there is at least one integer within the range `[lower, upper]` that is a multiple of `target`. Otherwise, it should return "NOT FOUND".
+
+6. Ensure that the function efficiently checks the range to determine if such a multiple exists.
+
+7. Consider constraints on the values but make sure the function can handle a reasonable range and values within typical bounds of integers. Do not consider inputs where `lower` > `upper`.
+
+**Note:** Focus on practicing loops and conditional statements while keeping the logic clean and straightforward for beginners. Avoid any form of input/output handling outside of the specified function, as testing and validation will be handled separately.

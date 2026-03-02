@@ -1,0 +1,24 @@
+**Exercise Title: Calculate the Circumference of a Circle**
+
+**Problem Statement:**  
+Create a program that calculates the circumference of a circle given its radius. The program should use the formula for the circumference of a circle and print the result.
+
+**Requirements:**
+
+1. **Input:**  
+   - The program should read an integer from the user, which represents the radius of a circle. You can assume the input will always be a positive integer.
+
+2. **Processing:**  
+   - Use the formula for the circumference of a circle:  
+     \(C = 2 \times \pi \times R\)  
+     where \(C\) is the circumference and \(R\) is the radius of the circle.  
+   - Use an appropriate value for \(\pi\), maintaining a precision that is suitable for the calculation of the circumference.
+
+3. **Output:**  
+   - Print the resulting circumference of the circle. Ensure the printed value is either a float or double to maintain precision.
+
+4. **Constraints:**  
+   - The radius \(R\) will be a positive integer, and its value will be constrained within reasonable limits to ensure calculations remain precise.  
+   - Your program's output should be precise, allowing for a small margin of absolute or relative error, not exceeding 0.01.
+
+By completing this exercise, you will practice working with basic arithmetic operations, understanding of how to use constants in computations, and formatting numeric output for precision.

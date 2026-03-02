@@ -1,0 +1,5 @@
+failure_type,count,percentage
+Comment_Dependency,60,3.49
+Variable_Renaming_Failure,350,20.35
+Dead_Code_Failure,334,19.42
+Encryption_Failure,976,56.74

@@ -1,0 +1,24 @@
+**Exercise Title: Count Unique Categories**
+
+**Problem Statement:**
+
+You are provided with a list of numeric values. Each value belongs to a specific category based on a defined range. Your task is to determine how many unique categories are represented in the list, both considering special conditions for some values and not considering them.
+
+Each category is determined by the following ranges:
+- Value 1-399 : Category A
+- Value 400-799 : Category B
+- Value 800-1199 : Category C
+- Value 1200-1599 : Category D
+- Value 1600-1999 : Category E
+- Value 2000-2399 : Category F
+- Value 2400-2799 : Category G
+- Value 2800-3199 : Category H
+
+Values 3200 and above can be associated with any of the above categories or can be left unclassified. 
+
+Given N values, find the minimum and maximum possible numbers of unique categories. The minimum is based on standard classification according to the ranges above. The maximum takes into account the flexible nature of values 3200 and above, allowing each such value to potentially be in a previously unused category.
+
+**Requirements:**
+- Write a function that accepts a list of integer values and outputs two numbers:
+  - The first number should represent the minimum possible number of unique categories present in the list.
+  - The second number should represent the maximum possible number of unique categories considering the flexible nature of values equal to or greater than 3200.

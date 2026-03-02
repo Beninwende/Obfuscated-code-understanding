@@ -1,0 +1,15 @@
+**Exercise Title: Maximum Element Difference**
+
+**Problem Statement:**
+
+You are given an array of integers that represents a series of numerical values. Your task is to determine the maximum difference between any two distinct elements within this array. The difference is calculated as the absolute value between these two elements. The goal is to identify the pair of numbers that, when their absolute difference is computed, yields the largest possible result.
+
+**Requirements:**
+
+1. Implement a function that takes an array of integers as input.
+
+2. The function should iterate through this array, comparing each element with every other element to compute the absolute difference between them.
+
+3. Track and return the maximum absolute difference identified.
+
+Ensure the function efficiently compares elements, considering pairs only once, and handles the constraints appropriately to avoid unnecessary calculations. Practice basic array traversal techniques and conditional logic to solve this problem.

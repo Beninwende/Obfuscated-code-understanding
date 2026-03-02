@@ -1,0 +1,14 @@
+**Exercise Title: Syllable Sequence Checker**
+
+**Problem Statement:**
+
+In this exercise, you will write a program to check if three given phrases can form a specific syllable sequence pattern. The pattern requires the phrases to have specific syllable counts in sequence to form a valid result. The goal is to verify if the three phrases can be arranged to match the specified pattern of syllable counts.
+
+**Requirements:**
+
+1. You will be given three integers, `X`, `Y`, and `Z`, each representing the syllable count of a different phrase.
+2. Determine if these three phrases can be arranged to form a sequence with the specific pattern of 5 syllables, 7 syllables, and 5 syllables.
+3. If the sequence can be formed, output "VALID". Otherwise, output "INVALID".
+4. The input integers `X`, `Y`, and `Z` are such that \(1 \leq X, Y, Z \leq 10\). These represent syllable counts of the phrases.
+
+Your task is to implement a function that reads the syllable counts and checks if the phrases can be reordered to match the desired pattern.

@@ -1,0 +1,26 @@
+### Exercise: Determine if a Triangle is Right-angled
+
+#### Problem Statement
+
+Create a program that determines whether a triangle, given by the lengths of its three sides, is a right-angled triangle. A right-angled triangle is defined as a triangle in which one of the angles is exactly 90 degrees. Use the Pythagorean Theorem, which states that in a right-angled triangle with sides \(a\), \(b\), and hypotenuse \(c\), the relationship \(a^2 + b^2 = c^2\) holds true.
+
+The program should process multiple sets of side lengths, and for each set, it should output "YES" if the sides can form a right-angled triangle, or "NO" otherwise.
+
+#### Requirements
+
+1. **Input:** 
+   - The program should first read an integer \(N\), indicating the number of sets of side lengths to process.
+   - For each set, read three positive integers representing the side lengths of a triangle.
+
+2. **Constraints:**
+   - \( 1 \leq \text{{length of any side}} \leq 1,000 \)
+   - \( N \leq 1,000 \)
+
+3. **Output:**
+   - For each set of side lengths, output either "YES" if the sides form a right-angled triangle, or "NO" if they do not.
+
+4. **Implementation Notes:**
+   - You must check all combinations of sides to determine which one might be the hypotenuse and verify the Pythagorean theorem.
+   - Handle each data set independently and ensure efficient calculation since \(N\) can be large.
+
+Develop this program by focusing on core programming skills such as input reading, conditional logic, sorting, and mathematical operations to derive a solution.

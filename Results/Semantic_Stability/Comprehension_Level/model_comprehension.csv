@@ -1,0 +1,15 @@
+model,s_enc,s_dead,s_lex,comprehension_level
+Dataset_DeepseekV3.1,0.51392,0.7043,0.659183,Semantic
+Dataset_GPT3.5,0.42396,0.5821,0.51965,Structural
+Dataset_GPT4o,0.4973,0.69315,0.631,Structural
+Dataset_Gemini,0.60484,0.66545,0.6804,Semantic
+Dataset_LlamaVL,0.26376,0.2488,0.2244,Lexical
+Dataset_O4-mini,0.59242,0.709475,0.638617,Semantic
+Dataset_Qwen3VL,0.363033,0.39375,0.437633,Lexical
+Dataset_codellama,0.19026,0.248217,0.253753,Lexical
+Dataset_deepseek-r1,0.58984,0.724725,0.65935,Semantic
+Dataset_mistral,0.42844,0.545,0.478267,Structural
+Dataset_qwencoder32B,0.53567,0.671592,0.632867,Semantic
+Dataset_starchat,0.338933,0.439167,0.385123,Lexical
+Dataset_starcoder,0.1357,0.131401,0.1287,Lexical
+Llama70b_Generation,0.40464,0.549525,0.513317,Structural

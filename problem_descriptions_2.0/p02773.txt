@@ -1,0 +1,18 @@
+**Exercise Title: Frequency Counter with Lexicographical Sorting**
+
+**Problem Statement**
+
+You are required to develop a program that processes a list of words and identifies the words that appear most frequently. If there are multiple words with the same maximum frequency, list them in lexicographical order.
+
+Your task is to write a function that takes a list of strings as input, counts the frequency of each unique string, and identifies which string(s) appear most frequently. If there is more than one string with the maximum frequency, output all such strings ordered lexicographically.
+
+**Requirements**
+
+1. Implement a function that accepts a list of strings.
+2. Count how many times each string appears in the list.
+3. Identify the maximum occurrence count among all strings.
+4. Gather all strings that appear with this maximum occurrence count.
+5. Sort these gathered strings in lexicographical order.
+6. Return the sorted list of strings as the final result. 
+
+This exercise will help you understand the use of data structures for counting frequency, handling input/output, determining maximum counts, and sorting strings alphabetically.

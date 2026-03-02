@@ -1,0 +1,21 @@
+**Exercise Title: Pairwise Product Sum**
+
+**Problem Statement:**
+
+You have a list containing a set of numbers. Your task is to compute the sum of the products of all pairs of distinct numbers in the list. A pair consists of any two different numbers, and the order of the numbers in the pair is unimportant; each pair contributes only once to the sum.
+
+To achieve this, compare each possible pair of distinct numbers from the list, compute their product, and add these products to determine the final sum.
+
+**Requirements:**
+
+1. Write a function that accepts a single list of integers as input. The integers will be non-negative.
+
+2. Compute the sum of the products of every possible pair of distinct integers from the list.
+
+3. Return the computed sum as an integer.
+
+4. Constraints:
+   - The input list will contain between 2 and 50 integers, inclusive.
+   - Each integer in the list will have a value between 0 and 100, inclusive.
+
+Ensure your function efficiently iterates through all pair combinations and accurately computes results for all valid inputs within the specified constraints.

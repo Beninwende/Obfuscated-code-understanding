@@ -1,0 +1,26 @@
+**Title: Basic Queue Simulation with Task Processing**
+
+**Problem Statement:**
+
+Create a program that simulates a basic task processing system utilizing a simple queue. Imagine that tasks are lined up and each task has a specific execution time required for its completion. The system processes tasks one at a time, but it can only spend a fixed duration of time on a single task before it needs to move on to the next task. If a task is not completed within the allotted time, it is placed at the end of the queue with its remaining time, to be continued in the next round. The program should continue cycling through tasks until all tasks are completed.
+
+**Requirements:**
+
+1. The program needs to accept the following inputs:
+   - An integer `n` representing the number of tasks.
+   - An integer `t` representing the maximum duration that can be spent on each task during one cycle.
+   - For each task, a unique identifier `id` and an integer `time` indicating the time required to complete the task.
+
+2. Utilize a queue data structure to manage the tasks. Initially, all tasks should be placed in the queue in the order they are received.
+
+3. The program should process the tasks in a round-robin manner:
+   - Remove a task from the front of the queue.
+   - Simulate processing the task for up to `t` units of time.
+   - If the task completes within `t` units of time, log the task's identifier and the time at which it was completed.
+   - If the task is not completed within the allotted time, calculate the remaining time for the task, and reinsert the task at the end of the queue with the updated remaining time.
+
+4. The output should be a list of task identifiers and their corresponding completion times, displayed in the order of task completion.
+
+5. Ensure the program can handle up to 100,000 tasks and a maximum execution time for each task up to 50,000 units. The sum of all task times combined will not exceed 1,000,000 units.
+
+This exercise will help you develop skills in using queues, managing task states, and implementing basic scheduling algorithms.

@@ -1,0 +1,23 @@
+**Exercise Title: Generate a Patterned Box**
+
+**Problem Statement:**
+
+Your task is to create a function that generates a patterned box of a specified height and width using a given character. The box should be constructed from a repeated single-character symbol. This exercise will help you practice working with loops and input handling. The function should print the box pattern based on the given dimensions until specified termination conditions are met.
+
+**Requirements:**
+
+1. Create a function that accepts multiple input datasets.
+2. Each dataset consists of:
+   - An integer `height` representing the height of the box.
+   - An integer `width` representing the width of the box.
+   - A single character `symbol` used to draw the box.
+
+3. The function will continuously accept datasets and draw boxes based on the following conditions:
+   - When both `height` and `width` are zero, the function should terminate and not draw a box.
+   - For each non-zero dataset, generate a rectangle pattern using the provided `symbol` of the given `height` and `width`.
+   - After drawing each box, there should be a line break before the next box is drawn.
+
+4. Ensure basic input validation for the `height` and `width` to be positive integers before attempting to draw the pattern.
+5. The drawing of the box should visually represent the dimensions specified.
+
+6. Manage the inputs and outputs via user interaction in a reasonable order to mimic real-world applications.

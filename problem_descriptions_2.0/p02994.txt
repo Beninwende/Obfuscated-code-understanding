@@ -1,0 +1,16 @@
+**Exercise Title: Adjusting the Sum**
+
+**Problem Statement:**
+
+You have a sequence of `N` integers, starting at a value `L`. Each integer in the sequence is incrementally increased by the integer's order in the sequence. The sequence is defined as: `L, L+1, L+2, ..., L+(N-1)`. 
+
+You are tasked with removing precisely one integer from this sequence so that the sum of the remaining integers is as close as possible to the original sum of all `N` integers.
+
+Your goal is to determine the new sum of the sequence after removing the optimal integer that results in the smallest possible absolute difference from the original total sum.
+
+**Requirements:**
+
+1. Write a function that takes two inputs, `N` (the number of integers in the sequence) and `L` (the starting value of the sequence).
+2. Compute the original sum of all `N` integers in the sequence.
+3. Identify which single integer to remove to ensure that the new sum, after removal, has the smallest possible deviation from the original sum.
+4. Return the new sum that is closest to the original sum. This sum should be uniquely determined.

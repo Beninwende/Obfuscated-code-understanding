@@ -1,0 +1,20 @@
+**Title: Investment Growth Calculator**
+
+**Problem Statement:**
+
+You have invested an initial amount of money into an investment account that grows at a fixed interest rate compounded weekly. Every week, the interest is calculated on the current balance and added back into the account, with the total then rounded up to the nearest whole unit currency value. Your task is to determine the balance of the investment account after a given number of weeks.
+
+**Requirements:**
+
+1. Implement a function that calculates and returns the amount in the investment account after a specified number of weeks.
+2. The initial investment amount and the weekly interest rate must be specified as input arguments.
+3. The function must accept:
+   - A floating-point or integer representing the initial investment amount.
+   - A floating-point representing the weekly interest rate (expressed as a percentage).
+   - An integer representing the number of weeks.
+4. The calculation involves applying the interest rate to the current account balance each week, rounding the result up to the nearest whole unit currency value after adding the interest.
+5. Ensure that the function handles edge cases, including zero weeks and no initial investment.
+6. The result should be returned as an integer representing the rounded-up total amount in the investment account after the given period.
+7. No sample inputs or outputs should be given; focus on implementing the function logic.
+
+This exercise practices fundamental programming concepts such as iteration, arithmetic calculations, handling of floating-point numbers, and rounding operations.

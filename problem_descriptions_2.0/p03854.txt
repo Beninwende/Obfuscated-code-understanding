@@ -1,0 +1,28 @@
+**Exercise Title: Building a Target String**
+
+**Problem Statement:**
+
+You are given a sequence of unique words and an initially empty string. Your task is to determine whether it is possible to form a given target string by appending these words to the empty string any number of times. Each appending operation can only use one entire word from the list of words provided.
+
+The goal is to replicate the target string exactly using any combination and sequence of the given words. Remember, you are allowed to repeat words multiple times, but must utilize them entirely in each operation.
+
+**Requirements:**
+
+1. Implement a function that takes as inputs:
+   - A list of available words, where each element is a string consisting of lowercase English letters.
+   - A target string, consisting of lowercase English letters.
+
+2. Your function should output:
+   - "YES" if it is possible to build the target string using the given words.
+   - "NO" if it is not possible to construct the target string with the available words.
+
+3. Constraints:
+   - The length of the target string will be between 1 and 100,000 characters.
+   - Each word in the list will have a minimum length of 1 and a maximum length of 10 characters.
+   - All characters will be lowercase English letters.
+  
+4. The words in the list are guaranteed to be unique.
+
+**Objective:**
+
+Ensure that the algorithm efficiently checks combinations and sequences of the available words to determine if the target string can be accurately assembled. The solution should be optimized to handle the given constraints, particularly with respect to the potential length of the target string.

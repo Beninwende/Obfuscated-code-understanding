@@ -1,0 +1,444 @@
+{
+  "total": 86,
+  "seed": 42,
+  "by_model": {
+    "DeepSeek": [
+      "p03013",
+      "p03011",
+      "p02971",
+      "p02675",
+      "p03075",
+      "p03102",
+      "p02706",
+      "p02411",
+      "p00011",
+      "p02922",
+      "p03285",
+      "p02953",
+      "p02259",
+      "p02958",
+      "p03001",
+      "p02994",
+      "p04030",
+      "p02983",
+      "p03293",
+      "p02398",
+      "p02613",
+      "p02711",
+      "p03292",
+      "p03316",
+      "p02988",
+      "p02570",
+      "p02399",
+      "p03136"
+    ],
+    "Gemini": [
+      "p03471",
+      "p02401",
+      "p04030",
+      "p03041",
+      "p02917",
+      "p02397",
+      "p02409",
+      "p02995",
+      "p03434",
+      "p02971",
+      "p02717",
+      "p02916",
+      "p02705",
+      "p02394",
+      "p03315",
+      "p02257",
+      "p03043",
+      "p02577",
+      "p03282",
+      "p03075",
+      "p02785",
+      "p02687",
+      "p02899",
+      "p02657",
+      "p02627",
+      "p02420",
+      "p02410",
+      "p03060"
+    ],
+    "O4": [
+      "p02719",
+      "p02988",
+      "p02257",
+      "p02971",
+      "p02707",
+      "p02404",
+      "p02783",
+      "p03478",
+      "p03493",
+      "p02268",
+      "p03457",
+      "p02701",
+      "p02407",
+      "p04044",
+      "p03289",
+      "p02773",
+      "p03220",
+      "p03042",
+      "p02835",
+      "p02935",
+      "p02947",
+      "p02400",
+      "p02982",
+      "p02578",
+      "p03086",
+      "p03315",
+      "p02909",
+      "p03060",
+      "p03435",
+      "p02570"
+    ]
+  },
+  "flat": [
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03013"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03011"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02971"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02675"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03075"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03102"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02706"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02411"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p00011"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02922"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03285"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02953"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02259"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02958"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03001"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02994"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p04030"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02983"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03293"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02398"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02613"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02711"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03292"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03316"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02988"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02570"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p02399"
+    },
+    {
+      "model": "DeepSeek",
+      "problem_id": "p03136"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03471"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02401"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p04030"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03041"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02917"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02397"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02409"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02995"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03434"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02971"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02717"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02916"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02705"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02394"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03315"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02257"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03043"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02577"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03282"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03075"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02785"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02687"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02899"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02657"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02627"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02420"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p02410"
+    },
+    {
+      "model": "Gemini",
+      "problem_id": "p03060"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02719"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02988"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02257"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02971"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02707"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02404"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02783"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03478"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03493"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02268"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03457"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02701"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02407"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p04044"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03289"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02773"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03220"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03042"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02835"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02935"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02947"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02400"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02982"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02578"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03086"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03315"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02909"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03060"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p03435"
+    },
+    {
+      "model": "O4",
+      "problem_id": "p02570"
+    }
+  ]
+}

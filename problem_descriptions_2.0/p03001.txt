@@ -1,0 +1,21 @@
+Title: Calculating Rectangle Division Properties
+
+Problem Statement: 
+Your task is to create a function that receives input parameters for the width and height of a rectangle, and a point located within or on the border of this rectangle. The rectangle is positioned in a 2D coordinate plane with its bottom-left corner at the origin (0,0). The vertices of the rectangle are: (0,0), (W,0), (W,H), and (0,H). Once you receive the x and y coordinates of a point inside or on the boundary of this rectangle, you must compute the largest possible area of one of the two regions created by a line passing through the point and completely dividing the rectangle. 
+
+Moreover, you need to determine if there are multiple distinct lines that could partition the rectangle such that one of the regions has the maximum possible area. You must output both the maximum area and an indicator of whether there are multiple valid dividing lines.
+
+Requirements:
+- Implement a function that receives four integers: the width (W) and height (H) of the rectangle, and the x and y coordinates of the specified point.
+- The function should compute and return the maximum possible area of one part of the rectangle after it's divided by a line through the given point. The result should have a precision up to nine decimal places.
+- Additionally, return a boolean value (or integer flag) indicating whether there are multiple valid ways to achieve this maximal area when dividing the rectangle with distinct lines.
+- Consider edge cases such as when the point is at the center of the rectangle or along one of its edges.
+- Ensure that the program can handle the largest possible inputs as specified in the constraints to verify correctness and efficiency.
+
+Constraints:
+- 1 ≤ W, H ≤ 10^9
+- 0 ≤ x ≤ W
+- 0 ≤ y ≤ H
+- All inputs (W, H, x, y) are integers. 
+
+The returned maximum area should be considered correct when its absolute or relative error does not exceed 10^-9.

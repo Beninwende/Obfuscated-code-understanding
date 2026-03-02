@@ -1,0 +1,23 @@
+**Exercise Title: Counting Occurrences in Repeated Patterns**
+
+**Problem Statement:**
+
+You are given a task to count specific occurrences in a repeated pattern. Consider a series of items that consist of two distinct types: Type X and Type Y. These items are arranged in a row, following a specific repeating sequence over a very large number of placements. Each complete sequence consists of several consecutive Type X items followed by several consecutive Type Y items.
+
+You are required to determine how many Type X items are present in the first M items of the sequence.
+
+**Requirements:**
+
+1. Implement a function that accepts three integer parameters:
+   - M: The total number of initial items to consider (1 ≤ M ≤ 10^18).
+   - C: The number of Type X items in one complete sequence.
+   - D: The number of Type Y items in one complete sequence.
+   
+2. The sequence always repeats after the combination of C Type X items and D Type Y items. 
+   Ensure that C + D > 0, with C and D both being non-negative integers.
+
+3. Your function should calculate and return the total number of Type X items among the first M items in the sequence.
+
+4. Ensure your solution handles the constraints effectively and computes the result efficiently considering the large input sizes.
+
+Focus on utilizing mathematical principles to avoid iterating through each item due to extremely large input possibilities.
