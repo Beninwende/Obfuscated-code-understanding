@@ -1,18 +1,18 @@
+# Secrets
+.env
+*.env.local
+secrets.env
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-.Python
-*.so
 .venv/
 venv/
-env/
 
-# IDE / OS
+# OS / IDE
+.DS_Store
 .idea/
 .vscode/
-.DS_Store
 
-# Optional: uncomment to avoid committing large data if you copy it in
-# Data/
-# GENERATION_Datasets/
+# Logs
+*.log

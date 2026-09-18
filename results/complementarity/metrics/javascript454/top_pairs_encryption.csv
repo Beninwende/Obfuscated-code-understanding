@@ -1,0 +1,14 @@
+rank,model1,model2,model1_key,model2_key,n_valid,union_pct,both_pct,only1_pct,only2_pct,single1_pct,single2_pct,both,only1,only2
+1,GPT-4o,Qwen3.7,gpt4o,qwen37_plus,89,86.5169,58.4270,12.3596,15.7303,70.7865,74.1573,52,11,14
+2,QwenCoder,GLM-5,qwencoder32b,glm5,89,85.3933,46.0674,10.1124,29.2135,56.1798,75.2809,41,9,26
+3,GPT-4o,DeepSeek-R1,gpt4o,deepseek_r1,89,84.2697,56.1798,14.6067,13.4831,70.7865,69.6629,50,13,12
+4,GPT-4o,GLM-5,gpt4o,glm5,89,84.2697,61.7978,8.9888,13.4831,70.7865,75.2809,55,8,12
+5,GPT-4o,Kimi-K2.7,gpt4o,kimi_k25,89,84.2697,61.7978,8.9888,13.4831,70.7865,75.2809,55,8,12
+6,DeepSeek-V4-Pro,Kimi-K2.7,deepseek_v4_pro,kimi_k25,89,84.2697,61.7978,8.9888,13.4831,70.7865,75.2809,55,8,12
+7,QwenCoder,Qwen3.7,qwencoder32b,qwen37_plus,89,84.2697,46.0674,10.1124,28.0899,56.1798,74.1573,41,9,25
+8,QwenCoder,Kimi-K2.7,qwencoder32b,kimi_k25,89,84.2697,47.1910,8.9888,28.0899,56.1798,75.2809,42,8,25
+9,GPT-4o,DeepSeek-V3.1,gpt4o,deepseek_v31,89,83.1461,60.6742,10.1124,12.3596,70.7865,73.0337,54,9,11
+10,Mistral,Qwen3.7,mistral,qwen37_plus,89,83.1461,39.3258,8.9888,34.8315,48.3146,74.1573,35,8,31
+11,DeepSeek-V3.1,QwenCoder,deepseek_v31,qwencoder32b,89,83.1461,46.0674,26.9663,10.1124,73.0337,56.1798,41,24,9
+12,QwenCoder,Claude-5,qwencoder32b,claude_sonnet_5,89,83.1461,47.1910,8.9888,26.9663,56.1798,74.1573,42,8,24
+13,Qwen3.7,Claude-5,qwen37_plus,claude_sonnet_5,89,83.1461,65.1685,8.9888,8.9888,74.1573,74.1573,58,8,8

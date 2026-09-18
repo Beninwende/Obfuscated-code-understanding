@@ -1,5 +1,0 @@
-Verification: balanced_taxonomy.csv
-  OK: 37
-  Errors: 0
-
-No errors.

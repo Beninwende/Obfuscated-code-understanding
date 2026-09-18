@@ -1,0 +1,15 @@
+public class Main {
+    public static int getPosition(int[] a, int n, int m) {
+        for (int i = 0; i < n; i++) {
+            a[i] = a[i] / m + (a[i] % m != 0 ? 1 : 0);
+        }
+        int result = -1, maxx = -1;
+        for (int i = n - 1; i >= 0; i--) {
+            if (maxx < a[i]) {
+                maxx = a[i];
+                result = i;
+            }
+        }
+        return result + 1;
+    }
+}

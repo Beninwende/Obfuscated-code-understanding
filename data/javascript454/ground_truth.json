@@ -1,0 +1,2726 @@
+[
+    {
+        "Sub Directory": "mbpp_0408",
+        "task_id": 408,
+        "title": "MBPP/408",
+        "Description": "Write a function to find k number of pairs which consist of one element from the first array and one element from the second array."
+    },
+    {
+        "Sub Directory": "mbpp_0031",
+        "task_id": 31,
+        "title": "MBPP/31",
+        "Description": "Write a function to find the top k integers that occur most frequently from given arrays of sorted and distinct integers using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0342",
+        "task_id": 342,
+        "title": "MBPP/342",
+        "Description": "Write a function to find the smallest range that includes at-least one element from each of the given arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0635",
+        "task_id": 635,
+        "title": "MBPP/635",
+        "Description": "Write a function to push all values into a heap and then pop off the smallest values one at a time."
+    },
+    {
+        "Sub Directory": "mbpp_0159",
+        "task_id": 159,
+        "title": "MBPP/159",
+        "Description": "Write a function to print the season for the given month and day."
+    },
+    {
+        "Sub Directory": "mbpp_0771",
+        "task_id": 771,
+        "title": "MBPP/771",
+        "Description": "Write a function to check if the given expression is balanced or not."
+    },
+    {
+        "Sub Directory": "mbpp_0323",
+        "task_id": 323,
+        "title": "MBPP/323",
+        "Description": "Write a function to re-arrange the given array in alternating positive and negative items."
+    },
+    {
+        "Sub Directory": "mbpp_0843",
+        "task_id": 843,
+        "title": "MBPP/843",
+        "Description": "Write a function to find the nth super ugly number from a given prime array of size k using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0004",
+        "task_id": 4,
+        "title": "MBPP/4",
+        "Description": "Write a function to find the largest integers from a given array of numbers using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0039",
+        "task_id": 39,
+        "title": "MBPP/39",
+        "Description": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different."
+    },
+    {
+        "Sub Directory": "mbpp_0245",
+        "task_id": 245,
+        "title": "MBPP/245",
+        "Description": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0189",
+        "task_id": 189,
+        "title": "MBPP/189",
+        "Description": "Write a javascript function to find the first missing positive number."
+    },
+    {
+        "Sub Directory": "mbpp_0496",
+        "task_id": 496,
+        "title": "MBPP/496",
+        "Description": "Write a function to find the smallest integers from a given array of numbers using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0822",
+        "task_id": 822,
+        "title": "MBPP/822",
+        "Description": "Write a function to return true if the password is valid."
+    },
+    {
+        "Sub Directory": "mbpp_0522",
+        "task_id": 522,
+        "title": "MBPP/522",
+        "Description": "Write a function to find the longest bitonic subsequence for the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0069",
+        "task_id": 69,
+        "title": "MBPP/69",
+        "Description": "Write a function to check whether array contains the given sublist or not."
+    },
+    {
+        "Sub Directory": "mbpp_0108",
+        "task_id": 108,
+        "title": "MBPP/108",
+        "Description": "Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0372",
+        "task_id": 372,
+        "title": "MBPP/372",
+        "Description": "Write a function to sort a given array of elements in ascending order using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0123",
+        "task_id": 123,
+        "title": "MBPP/123",
+        "Description": "Write a function to sum all amicable numbers from 1 to a specified number."
+    },
+    {
+        "Sub Directory": "mbpp_0209",
+        "task_id": 209,
+        "title": "MBPP/209",
+        "Description": "Write a function to delete the smallest element from the given heap and then insert a new item."
+    },
+    {
+        "Sub Directory": "mbpp_0747",
+        "task_id": 747,
+        "title": "MBPP/747",
+        "Description": "Write a function to find the longest common subsequence for the given three string sequence."
+    },
+    {
+        "Sub Directory": "mbpp_0223",
+        "task_id": 223,
+        "title": "MBPP/223",
+        "Description": "Write a function to check for majority element in the given sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0776",
+        "task_id": 776,
+        "title": "MBPP/776",
+        "Description": "Write a function to count those characters which have vowels as their neighbors in the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0515",
+        "task_id": 515,
+        "title": "MBPP/515",
+        "Description": "Write a function to check if there is a subset with sum divisible by m."
+    },
+    {
+        "Sub Directory": "mbpp_0838",
+        "task_id": 838,
+        "title": "MBPP/838",
+        "Description": "Write a javascript function to find minimum number swaps required to make two binary strings equal."
+    },
+    {
+        "Sub Directory": "mbpp_0423",
+        "task_id": 423,
+        "title": "MBPP/423",
+        "Description": "Write a function to solve gold mine problem."
+    },
+    {
+        "Sub Directory": "mbpp_0940",
+        "task_id": 940,
+        "title": "MBPP/940",
+        "Description": "Write a function to sort the given array by using heap sort."
+    },
+    {
+        "Sub Directory": "mbpp_0315",
+        "task_id": 315,
+        "title": "MBPP/315",
+        "Description": "Write a javascript function to find the first maximum length of even word."
+    },
+    {
+        "Sub Directory": "mbpp_0074",
+        "task_id": 74,
+        "title": "MBPP/74",
+        "Description": "Write a function to check whether it follows the sequence given in the patterns array."
+    },
+    {
+        "Sub Directory": "mbpp_0834",
+        "task_id": 834,
+        "title": "MBPP/834",
+        "Description": "Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order."
+    },
+    {
+        "Sub Directory": "mbpp_0501",
+        "task_id": 501,
+        "title": "MBPP/501",
+        "Description": "Write a javascript function to find common divisor between two numbers in a given pair."
+    },
+    {
+        "Sub Directory": "mbpp_0938",
+        "task_id": 938,
+        "title": "MBPP/938",
+        "Description": "Write a function to find three closest elements from three sorted arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0306",
+        "task_id": 306,
+        "title": "MBPP/306",
+        "Description": "Write a function to find the maximum sum of increasing subsequence from prefix till ith index and also including a given kth element which is after i, i.e., k > i ."
+    },
+    {
+        "Sub Directory": "mbpp_0524",
+        "task_id": 524,
+        "title": "MBPP/524",
+        "Description": "Write a function to find the sum of maximum increasing subsequence of the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0550",
+        "task_id": 550,
+        "title": "MBPP/550",
+        "Description": "Write a javascript function to find the maximum element in a sorted and rotated array."
+    },
+    {
+        "Sub Directory": "mbpp_0901",
+        "task_id": 901,
+        "title": "MBPP/901",
+        "Description": "Write a function to find the smallest multiple of the first n numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0926",
+        "task_id": 926,
+        "title": "MBPP/926",
+        "Description": "Write a function to find n-th rencontres number."
+    },
+    {
+        "Sub Directory": "mbpp_0811",
+        "task_id": 811,
+        "title": "MBPP/811",
+        "Description": "Write a function to check if two arrays of tuples are identical or not."
+    },
+    {
+        "Sub Directory": "mbpp_0523",
+        "task_id": 523,
+        "title": "MBPP/523",
+        "Description": "Write a function to check whether a given string has a capital letter, a lower case letter, a number and specified length using lambda function."
+    },
+    {
+        "Sub Directory": "mbpp_0850",
+        "task_id": 850,
+        "title": "MBPP/850",
+        "Description": "Write a function to check if a triangle of positive area is possible with the given angles."
+    },
+    {
+        "Sub Directory": "mbpp_0463",
+        "task_id": 463,
+        "title": "MBPP/463",
+        "Description": "Write a function to find the maximum product subarray of the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0453",
+        "task_id": 453,
+        "title": "MBPP/453",
+        "Description": "Write a javascript function to find the sum of even factors of a number."
+    },
+    {
+        "Sub Directory": "mbpp_0469",
+        "task_id": 469,
+        "title": "MBPP/469",
+        "Description": "Write a function to find the maximum profit earned from a maximum of k stock transactions"
+    },
+    {
+        "Sub Directory": "mbpp_0247",
+        "task_id": 247,
+        "title": "MBPP/247",
+        "Description": "Write a function to find the longest palindromic subsequence in the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0382",
+        "task_id": 382,
+        "title": "MBPP/382",
+        "Description": "Write a function to find the number of rotations in a circularly sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0854",
+        "task_id": 854,
+        "title": "MBPP/854",
+        "Description": "Write a function which accepts an arbitrary array and converts it to a heap using heap queue algorithm."
+    },
+    {
+        "Sub Directory": "mbpp_0755",
+        "task_id": 755,
+        "title": "MBPP/755",
+        "Description": "Write a function to find the second smallest number in array."
+    },
+    {
+        "Sub Directory": "mbpp_0060",
+        "task_id": 60,
+        "title": "MBPP/60",
+        "Description": "Write a function to find the maximum length of the subsequence with difference between adjacent elements for the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0107",
+        "task_id": 107,
+        "title": "MBPP/107",
+        "Description": "Write a javascript function to count hexadecimal numbers for a given range."
+    },
+    {
+        "Sub Directory": "mbpp_0149",
+        "task_id": 149,
+        "title": "MBPP/149",
+        "Description": "Write a function to find the longest subsequence such that the difference between adjacents is one for the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0239",
+        "task_id": 239,
+        "title": "MBPP/239",
+        "Description": "Write a function to find the number of possible sequences of length n such that each of the next element is greater than or equal to twice of the previous element but less than or equal to m."
+    },
+    {
+        "Sub Directory": "mbpp_0689",
+        "task_id": 689,
+        "title": "MBPP/689",
+        "Description": "## write a function to find the minimum number of jumps to reach the end of the array for the given array of integers where each element represents the max number of steps that can be made forward from that element. > indented block > indented block"
+    },
+    {
+        "Sub Directory": "mbpp_0466",
+        "task_id": 466,
+        "title": "MBPP/466",
+        "Description": "Write a function to find the peak element in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0826",
+        "task_id": 826,
+        "title": "MBPP/826",
+        "Description": "Write a javascript function to find the type of triangle from the given sides."
+    },
+    {
+        "Sub Directory": "mbpp_0121",
+        "task_id": 121,
+        "title": "MBPP/121",
+        "Description": "Write a function to find the triplet with sum of the given array"
+    },
+    {
+        "Sub Directory": "mbpp_0349",
+        "task_id": 349,
+        "title": "MBPP/349",
+        "Description": "Write a javascript function to check whether the given string is a binary string or not."
+    },
+    {
+        "Sub Directory": "mbpp_0129",
+        "task_id": 129,
+        "title": "MBPP/129",
+        "Description": "Write a function to calculate magic square."
+    },
+    {
+        "Sub Directory": "mbpp_0485",
+        "task_id": 485,
+        "title": "MBPP/485",
+        "Description": "Write a function to find the largest palindromic number in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0597",
+        "task_id": 597,
+        "title": "MBPP/597",
+        "Description": "Write a function to find kth element from the given two sorted arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0628",
+        "task_id": 628,
+        "title": "MBPP/628",
+        "Description": "Write a function to replace all spaces in the given string with character * array item * array item * array item * array item '%20'."
+    },
+    {
+        "Sub Directory": "mbpp_0397",
+        "task_id": 397,
+        "title": "MBPP/397",
+        "Description": "Write a function to find the median of three specific numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0863",
+        "task_id": 863,
+        "title": "MBPP/863",
+        "Description": "Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers."
+    },
+    {
+        "Sub Directory": "mbpp_0152",
+        "task_id": 152,
+        "title": "MBPP/152",
+        "Description": "Write a function to sort the given array by using merge sort."
+    },
+    {
+        "Sub Directory": "mbpp_0054",
+        "task_id": 54,
+        "title": "MBPP/54",
+        "Description": "Write a function to sort the given array by using counting sort."
+    },
+    {
+        "Sub Directory": "mbpp_0648",
+        "task_id": 648,
+        "title": "MBPP/648",
+        "Description": "Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th value in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0971",
+        "task_id": 971,
+        "title": "MBPP/971",
+        "Description": "Write a function to find the maximum number of segments of lengths a, b and c that can be formed from n."
+    },
+    {
+        "Sub Directory": "mbpp_0685",
+        "task_id": 685,
+        "title": "MBPP/685",
+        "Description": "Write a javascript function to find sum of prime numbers between 1 to n."
+    },
+    {
+        "Sub Directory": "mbpp_0885",
+        "task_id": 885,
+        "title": "MBPP/885",
+        "Description": "Write a javascript function to check whether the two given strings are isomorphic to each other or not."
+    },
+    {
+        "Sub Directory": "mbpp_0548",
+        "task_id": 548,
+        "title": "MBPP/548",
+        "Description": "Write a function to find the length of the longest increasing subsequence of the given sequence."
+    },
+    {
+        "Sub Directory": "mbpp_0256",
+        "task_id": 256,
+        "title": "MBPP/256",
+        "Description": "Write a javascript function to count the number of prime numbers less than a given non-negative number."
+    },
+    {
+        "Sub Directory": "mbpp_0468",
+        "task_id": 468,
+        "title": "MBPP/468",
+        "Description": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array."
+    },
+    {
+        "Sub Directory": "mbpp_0918",
+        "task_id": 918,
+        "title": "MBPP/918",
+        "Description": "Write a function to count coin change."
+    },
+    {
+        "Sub Directory": "mbpp_0531",
+        "task_id": 531,
+        "title": "MBPP/531",
+        "Description": "Write a function to find minimum number of coins that make a given value."
+    },
+    {
+        "Sub Directory": "mbpp_0751",
+        "task_id": 751,
+        "title": "MBPP/751",
+        "Description": "Write a function to check if the given array represents min heap or not."
+    },
+    {
+        "Sub Directory": "mbpp_0622",
+        "task_id": 622,
+        "title": "MBPP/622",
+        "Description": "Write a function to find the median of two sorted arrays of same size."
+    },
+    {
+        "Sub Directory": "mbpp_0702",
+        "task_id": 702,
+        "title": "MBPP/702",
+        "Description": "Write a function to find the minimum number of elements that should be removed such that amax-amin<=k."
+    },
+    {
+        "Sub Directory": "mbpp_0448",
+        "task_id": 448,
+        "title": "MBPP/448",
+        "Description": "Write a function to calculate the sum of perrin numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0714",
+        "task_id": 714,
+        "title": "MBPP/714",
+        "Description": "Write a javascript function to count the number of distinct power of prime factor of given number."
+    },
+    {
+        "Sub Directory": "mbpp_0717",
+        "task_id": 717,
+        "title": "MBPP/717",
+        "Description": "Write a function to calculate the standard deviation."
+    },
+    {
+        "Sub Directory": "mbpp_0181",
+        "task_id": 181,
+        "title": "MBPP/181",
+        "Description": "Write a function to find the longest common prefix in the given set of strings."
+    },
+    {
+        "Sub Directory": "mbpp_0516",
+        "task_id": 516,
+        "title": "MBPP/516",
+        "Description": "Write a function to sort array of elements using radix sort."
+    },
+    {
+        "Sub Directory": "mbpp_0846",
+        "task_id": 846,
+        "title": "MBPP/846",
+        "Description": "Write a function to find the minimum number of platforms required for a railway\\/bus station."
+    },
+    {
+        "Sub Directory": "mbpp_0853",
+        "task_id": 853,
+        "title": "MBPP/853",
+        "Description": "Write a javascript function to find sum of odd factors of a number."
+    },
+    {
+        "Sub Directory": "mbpp_0386",
+        "task_id": 386,
+        "title": "MBPP/386",
+        "Description": "Write a function to find out the minimum no of swaps required for bracket balancing in the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0020",
+        "task_id": 20,
+        "title": "MBPP/20",
+        "Description": "Write a function to check if the given number is woodball or not."
+    },
+    {
+        "Sub Directory": "mbpp_0032",
+        "task_id": 32,
+        "title": "MBPP/32",
+        "Description": "Write a javascript function to find the largest prime factor of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0122",
+        "task_id": 122,
+        "title": "MBPP/122",
+        "Description": "Write a function to find n’th smart number."
+    },
+    {
+        "Sub Directory": "mbpp_0395",
+        "task_id": 395,
+        "title": "MBPP/395",
+        "Description": "Write a javascript function to find the first non-repeated character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0492",
+        "task_id": 492,
+        "title": "MBPP/492",
+        "Description": "Write a function to search an element in the given array by using binary search."
+    },
+    {
+        "Sub Directory": "mbpp_0684",
+        "task_id": 684,
+        "title": "MBPP/684",
+        "Description": "Write a javascript function to count occurences of a character in a repeated string."
+    },
+    {
+        "Sub Directory": "mbpp_0856",
+        "task_id": 856,
+        "title": "MBPP/856",
+        "Description": "Write a javascript function to find minimum adjacent swaps required to sort binary array."
+    },
+    {
+        "Sub Directory": "mbpp_0001",
+        "task_id": 1,
+        "title": "MBPP/1",
+        "Description": "Write a function to find the minimum cost path to reach (m, n) from (0, 0) for the given cost matrix cost[][] and a position (m, n) in cost[][]."
+    },
+    {
+        "Sub Directory": "mbpp_0071",
+        "task_id": 71,
+        "title": "MBPP/71",
+        "Description": "Write a function to sort array of elements using comb sort."
+    },
+    {
+        "Sub Directory": "mbpp_0231",
+        "task_id": 231,
+        "title": "MBPP/231",
+        "Description": "Write a function to find the maximum sum in the given right triangle of numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0283",
+        "task_id": 283,
+        "title": "MBPP/283",
+        "Description": "Write a javascript function to check whether the frequency of each digit is less than or equal to the digit itself."
+    },
+    {
+        "Sub Directory": "mbpp_0351",
+        "task_id": 351,
+        "title": "MBPP/351",
+        "Description": "Write a javascript function to find the first element occurring k times in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0374",
+        "task_id": 374,
+        "title": "MBPP/374",
+        "Description": "Write a function to print all permutations of a given string including duplicates."
+    },
+    {
+        "Sub Directory": "mbpp_0415",
+        "task_id": 415,
+        "title": "MBPP/415",
+        "Description": "Write a javascript function to find a pair with highest product from a given array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0428",
+        "task_id": 428,
+        "title": "MBPP/428",
+        "Description": "Write a function to sort the given array by using shell sort."
+    },
+    {
+        "Sub Directory": "mbpp_0506",
+        "task_id": 506,
+        "title": "MBPP/506",
+        "Description": "Write a function to calculate the permutation coefficient of given p(n, k)."
+    },
+    {
+        "Sub Directory": "mbpp_0576",
+        "task_id": 576,
+        "title": "MBPP/576",
+        "Description": "Write a javascript function to check whether an array is subarray of another or not."
+    },
+    {
+        "Sub Directory": "mbpp_0721",
+        "task_id": 721,
+        "title": "MBPP/721",
+        "Description": "Write a function to find a path with the maximum average over all existing paths for the given square matrix of size n*n."
+    },
+    {
+        "Sub Directory": "mbpp_0769",
+        "task_id": 769,
+        "title": "MBPP/769",
+        "Description": "Write a javascript function to get the difference between two arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0922",
+        "task_id": 922,
+        "title": "MBPP/922",
+        "Description": "Write a function to find a pair with the highest product from a given array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0034",
+        "task_id": 34,
+        "title": "MBPP/34",
+        "Description": "Write a javascript function to find the missing number in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0130",
+        "task_id": 130,
+        "title": "MBPP/130",
+        "Description": "Write a function to find the item with maximum frequency in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0377",
+        "task_id": 377,
+        "title": "MBPP/377",
+        "Description": "Write a javascript function to remove all occurrences of a character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0898",
+        "task_id": 898,
+        "title": "MBPP/898",
+        "Description": "Write a function to extract specified number of elements from a given array, which follow each other continuously."
+    },
+    {
+        "Sub Directory": "mbpp_0937",
+        "task_id": 937,
+        "title": "MBPP/937",
+        "Description": "Write a function to count the most common character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0029",
+        "task_id": 29,
+        "title": "MBPP/29",
+        "Description": "Write a javascript function to find the element occurring odd number of times."
+    },
+    {
+        "Sub Directory": "mbpp_0207",
+        "task_id": 207,
+        "title": "MBPP/207",
+        "Description": "Write a function to count the longest repeating subsequences such that the two subsequences don’t have same string characters at same positions."
+    },
+    {
+        "Sub Directory": "mbpp_0304",
+        "task_id": 304,
+        "title": "MBPP/304",
+        "Description": "Write a javascript function to find element at a given index after number of rotations."
+    },
+    {
+        "Sub Directory": "mbpp_0438",
+        "task_id": 438,
+        "title": "MBPP/438",
+        "Description": "Write a function to count bidirectional tuple pairs."
+    },
+    {
+        "Sub Directory": "mbpp_0620",
+        "task_id": 620,
+        "title": "MBPP/620",
+        "Description": "Write a function to find the largest subset where each pair is divisible."
+    },
+    {
+        "Sub Directory": "mbpp_0661",
+        "task_id": 661,
+        "title": "MBPP/661",
+        "Description": "Write a function to find the maximum sum that can be formed which has no three consecutive elements present."
+    },
+    {
+        "Sub Directory": "mbpp_0781",
+        "task_id": 781,
+        "title": "MBPP/781",
+        "Description": "Write a javascript function to check whether the count of divisors is even or odd."
+    },
+    {
+        "Sub Directory": "mbpp_0842",
+        "task_id": 842,
+        "title": "MBPP/842",
+        "Description": "Write a function to find the number which occurs for odd number of times in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0131",
+        "task_id": 131,
+        "title": "MBPP/131",
+        "Description": "Write a javascript function to reverse only the vowels of a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0498",
+        "task_id": 498,
+        "title": "MBPP/498",
+        "Description": "Write a javascript function to find gcd of two positive integers."
+    },
+    {
+        "Sub Directory": "mbpp_0510",
+        "task_id": 510,
+        "title": "MBPP/510",
+        "Description": "Write a function to find the number of subsequences having product smaller than k for the given non negative array."
+    },
+    {
+        "Sub Directory": "mbpp_0659",
+        "task_id": 659,
+        "title": "MBPP/659",
+        "Description": "Write a javascript function to print duplicants from array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0175",
+        "task_id": 175,
+        "title": "MBPP/175",
+        "Description": "Write a function to verify validity of a string of parentheses."
+    },
+    {
+        "Sub Directory": "mbpp_0188",
+        "task_id": 188,
+        "title": "MBPP/188",
+        "Description": "Write a javascript function to check whether the given number can be represented by product of two squares or not."
+    },
+    {
+        "Sub Directory": "mbpp_0481",
+        "task_id": 481,
+        "title": "MBPP/481",
+        "Description": "Write a function to determine if there is a subset of the given set with sum equal to the given sum."
+    },
+    {
+        "Sub Directory": "mbpp_0899",
+        "task_id": 899,
+        "title": "MBPP/899",
+        "Description": "Write a javascript function to check whether an array can be sorted or not by picking only the corner elements."
+    },
+    {
+        "Sub Directory": "mbpp_0916",
+        "task_id": 916,
+        "title": "MBPP/916",
+        "Description": "Write a function to find if there is a triplet in the array whose sum is equal to a given value."
+    },
+    {
+        "Sub Directory": "mbpp_0672",
+        "task_id": 672,
+        "title": "MBPP/672",
+        "Description": "Write a function to find maximum of three numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0691",
+        "task_id": 691,
+        "title": "MBPP/691",
+        "Description": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple array."
+    },
+    {
+        "Sub Directory": "mbpp_0891",
+        "task_id": 891,
+        "title": "MBPP/891",
+        "Description": "Write a javascript function to check whether the given two numbers have same number of digits or not."
+    },
+    {
+        "Sub Directory": "mbpp_0068",
+        "task_id": 68,
+        "title": "MBPP/68",
+        "Description": "Write a javascript function to check whether the given array is monotonic or not."
+    },
+    {
+        "Sub Directory": "mbpp_0172",
+        "task_id": 172,
+        "title": "MBPP/172",
+        "Description": "Write a function to find the occurence of characters 'std' in the given string 1. array item 1. array item 1. array item 2. array item 2. array item 2. array item"
+    },
+    {
+        "Sub Directory": "mbpp_0192",
+        "task_id": 192,
+        "title": "MBPP/192",
+        "Description": "Write a javascript function to check whether a string has atleast one letter and one number."
+    },
+    {
+        "Sub Directory": "mbpp_0227",
+        "task_id": 227,
+        "title": "MBPP/227",
+        "Description": "Write a function to find minimum of three numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0663",
+        "task_id": 663,
+        "title": "MBPP/663",
+        "Description": "Write a function to find the largest possible value of k such that k modulo x is y."
+    },
+    {
+        "Sub Directory": "mbpp_0876",
+        "task_id": 876,
+        "title": "MBPP/876",
+        "Description": "Write a javascript function to find lcm of two positive integers."
+    },
+    {
+        "Sub Directory": "mbpp_0018",
+        "task_id": 18,
+        "title": "MBPP/18",
+        "Description": "Write a function to remove characters from the first string which are present in the second string."
+    },
+    {
+        "Sub Directory": "mbpp_0520",
+        "task_id": 520,
+        "title": "MBPP/520",
+        "Description": "Write a function to find the lcm of the given array elements."
+    },
+    {
+        "Sub Directory": "mbpp_0179",
+        "task_id": 179,
+        "title": "MBPP/179",
+        "Description": "Write a function to find if the given number is a keith number or not."
+    },
+    {
+        "Sub Directory": "mbpp_0819",
+        "task_id": 819,
+        "title": "MBPP/819",
+        "Description": "Write a function to count the frequency of consecutive duplicate elements in a given array of numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0364",
+        "task_id": 364,
+        "title": "MBPP/364",
+        "Description": "Write a function to find the number of flips required to make the given binary string a sequence of alternate characters."
+    },
+    {
+        "Sub Directory": "mbpp_0541",
+        "task_id": 541,
+        "title": "MBPP/541",
+        "Description": "Write a function to find if the given number is abundant or not."
+    },
+    {
+        "Sub Directory": "mbpp_0711",
+        "task_id": 711,
+        "title": "MBPP/711",
+        "Description": "Write a javascript function to check whether the product of digits of a number at even and odd places is equal or not."
+    },
+    {
+        "Sub Directory": "mbpp_0815",
+        "task_id": 815,
+        "title": "MBPP/815",
+        "Description": "Write a function to sort the given array without using any sorting algorithm. the given array consists of only 0, 1, and 2."
+    },
+    {
+        "Sub Directory": "mbpp_0836",
+        "task_id": 836,
+        "title": "MBPP/836",
+        "Description": "Write a function to find length of the subarray having maximum sum."
+    },
+    {
+        "Sub Directory": "mbpp_0070",
+        "task_id": 70,
+        "title": "MBPP/70",
+        "Description": "Write a function to find whether all the given tuples have equal length or not."
+    },
+    {
+        "Sub Directory": "mbpp_0136",
+        "task_id": 136,
+        "title": "MBPP/136",
+        "Description": "Write a function to calculate electricity bill."
+    },
+    {
+        "Sub Directory": "mbpp_0195",
+        "task_id": 195,
+        "title": "MBPP/195",
+        "Description": "Write a javascript function to find the first position of an element in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0316",
+        "task_id": 316,
+        "title": "MBPP/316",
+        "Description": "Write a function to find the index of the last occurrence of a given number in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0326",
+        "task_id": 326,
+        "title": "MBPP/326",
+        "Description": "Write a function to get the word with most number of occurrences in the given strings array."
+    },
+    {
+        "Sub Directory": "mbpp_0532",
+        "task_id": 532,
+        "title": "MBPP/532",
+        "Description": "Write a function to check if the two given strings are permutations of each other."
+    },
+    {
+        "Sub Directory": "mbpp_0603",
+        "task_id": 603,
+        "title": "MBPP/603",
+        "Description": "Write a function to get a lucid number smaller than or equal to n."
+    },
+    {
+        "Sub Directory": "mbpp_0733",
+        "task_id": 733,
+        "title": "MBPP/733",
+        "Description": "Write a function to find the index of the first occurrence of a given number in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0793",
+        "task_id": 793,
+        "title": "MBPP/793",
+        "Description": "Write a javascript function to find the last position of an element in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0907",
+        "task_id": 907,
+        "title": "MBPP/907",
+        "Description": "Write a function to print the first n lucky numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0480",
+        "task_id": 480,
+        "title": "MBPP/480",
+        "Description": "Write a javascript function to find the maximum occurring character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0571",
+        "task_id": 571,
+        "title": "MBPP/571",
+        "Description": "Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k."
+    },
+    {
+        "Sub Directory": "mbpp_0617",
+        "task_id": 617,
+        "title": "MBPP/617",
+        "Description": "Write a function to check for the number of jumps required of given length to reach a point of form (d, 0) from origin in a 2d plane."
+    },
+    {
+        "Sub Directory": "mbpp_0709",
+        "task_id": 709,
+        "title": "MBPP/709",
+        "Description": "Write a function to count unique keys for each value present in the tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0806",
+        "task_id": 806,
+        "title": "MBPP/806",
+        "Description": "Write a function to find maximum run of uppercase characters in the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0953",
+        "task_id": 953,
+        "title": "MBPP/953",
+        "Description": "Write a javascript function to find the minimun number of subsets with distinct elements."
+    },
+    {
+        "Sub Directory": "mbpp_0030",
+        "task_id": 30,
+        "title": "MBPP/30",
+        "Description": "Write a javascript function to count all the substrings starting and ending with same characters."
+    },
+    {
+        "Sub Directory": "mbpp_0338",
+        "task_id": 338,
+        "title": "MBPP/338",
+        "Description": "Write a javascript function to count the number of substrings with same first and last characters."
+    },
+    {
+        "Sub Directory": "mbpp_0923",
+        "task_id": 923,
+        "title": "MBPP/923",
+        "Description": "Write a function to find the length of the shortest string that has both str1 and str2 as subsequences."
+    },
+    {
+        "Sub Directory": "mbpp_0113",
+        "task_id": 113,
+        "title": "MBPP/113",
+        "Description": "Write a function to check if a string represents an integer or not."
+    },
+    {
+        "Sub Directory": "mbpp_0134",
+        "task_id": 134,
+        "title": "MBPP/134",
+        "Description": "Write a javascript function to check whether the last element of given array is even or odd after performing an operation p times."
+    },
+    {
+        "Sub Directory": "mbpp_0275",
+        "task_id": 275,
+        "title": "MBPP/275",
+        "Description": "Write a javascript function to find the position of the last removed element from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0286",
+        "task_id": 286,
+        "title": "MBPP/286",
+        "Description": "Write a function to find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times."
+    },
+    {
+        "Sub Directory": "mbpp_0311",
+        "task_id": 311,
+        "title": "MBPP/311",
+        "Description": "Write a javascript function to set the left most unset bit."
+    },
+    {
+        "Sub Directory": "mbpp_0355",
+        "task_id": 355,
+        "title": "MBPP/355",
+        "Description": "Write a javascript function to count the number of rectangles in a circle of radius r."
+    },
+    {
+        "Sub Directory": "mbpp_0575",
+        "task_id": 575,
+        "title": "MBPP/575",
+        "Description": "Write a javascript function to find nth number in a sequence which is not a multiple of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0657",
+        "task_id": 657,
+        "title": "MBPP/657",
+        "Description": "Write a javascript function to find the first digit in factorial of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0828",
+        "task_id": 828,
+        "title": "MBPP/828",
+        "Description": "Write a function to count alphabets,digits and special charactes in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0047",
+        "task_id": 47,
+        "title": "MBPP/47",
+        "Description": "Write a javascript function to find the last digit when factorial of a divides factorial of b."
+    },
+    {
+        "Sub Directory": "mbpp_0110",
+        "task_id": 110,
+        "title": "MBPP/110",
+        "Description": "Write a function to extract the ranges that are missing from the given array with the given start range and end range values."
+    },
+    {
+        "Sub Directory": "mbpp_0140",
+        "task_id": 140,
+        "title": "MBPP/140",
+        "Description": "Write a function to extract elements that occur singly in the given tuple array."
+    },
+    {
+        "Sub Directory": "mbpp_0225",
+        "task_id": 225,
+        "title": "MBPP/225",
+        "Description": "Write a javascript function to find the minimum element in a sorted and rotated array."
+    },
+    {
+        "Sub Directory": "mbpp_0255",
+        "task_id": 255,
+        "title": "MBPP/255",
+        "Description": "Write a function to choose specified number of colours from three different colours and generate all the combinations with repetitions."
+    },
+    {
+        "Sub Directory": "mbpp_0384",
+        "task_id": 384,
+        "title": "MBPP/384",
+        "Description": "Write a javascript function to find the frequency of the smallest value in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0487",
+        "task_id": 487,
+        "title": "MBPP/487",
+        "Description": "Write a function to sort array of tuples in increasing order by the last element in each tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0489",
+        "task_id": 489,
+        "title": "MBPP/489",
+        "Description": "Write a javascript function to find the frequency of the largest value in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0505",
+        "task_id": 505,
+        "title": "MBPP/505",
+        "Description": "Write a function to move all zeroes to the end of the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0546",
+        "task_id": 546,
+        "title": "MBPP/546",
+        "Description": "Write a function to find the last occurrence of a character in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0559",
+        "task_id": 559,
+        "title": "MBPP/559",
+        "Description": "Write a function to find the largest sum of contiguous subarray in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0589",
+        "task_id": 589,
+        "title": "MBPP/589",
+        "Description": "Write a function to find perfect squares between two given numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0605",
+        "task_id": 605,
+        "title": "MBPP/605",
+        "Description": "Write a function to check if the given integer is a prime number."
+    },
+    {
+        "Sub Directory": "mbpp_0627",
+        "task_id": 627,
+        "title": "MBPP/627",
+        "Description": "Write a javascript function to find the smallest missing number from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0650",
+        "task_id": 650,
+        "title": "MBPP/650",
+        "Description": "Write a javascript function to check whether the given two arrays are equal or not."
+    },
+    {
+        "Sub Directory": "mbpp_0681",
+        "task_id": 681,
+        "title": "MBPP/681",
+        "Description": "Write a javascript function to find the smallest prime divisor of a number."
+    },
+    {
+        "Sub Directory": "mbpp_0745",
+        "task_id": 745,
+        "title": "MBPP/745",
+        "Description": "Write a function to find numbers within a given range where every number is divisible by every digit it contains."
+    },
+    {
+        "Sub Directory": "mbpp_0829",
+        "task_id": 829,
+        "title": "MBPP/829",
+        "Description": "Write a function to find out the second most repeated (or frequent) string in the given sequence."
+    },
+    {
+        "Sub Directory": "mbpp_0874",
+        "task_id": 874,
+        "title": "MBPP/874",
+        "Description": "Write a javascript function to check if the string is a concatenation of another string."
+    },
+    {
+        "Sub Directory": "mbpp_0903",
+        "task_id": 903,
+        "title": "MBPP/903",
+        "Description": "Write a javascript function to count the total unset bits from 1 to n."
+    },
+    {
+        "Sub Directory": "mbpp_0952",
+        "task_id": 952,
+        "title": "MBPP/952",
+        "Description": "Write a function to compute the value of ncr mod p."
+    },
+    {
+        "Sub Directory": "mbpp_0974",
+        "task_id": 974,
+        "title": "MBPP/974",
+        "Description": "Write a function to find the minimum total path sum in the given triangle."
+    },
+    {
+        "Sub Directory": "mbpp_0125",
+        "task_id": 125,
+        "title": "MBPP/125",
+        "Description": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string."
+    },
+    {
+        "Sub Directory": "mbpp_0147",
+        "task_id": 147,
+        "title": "MBPP/147",
+        "Description": "Write a function to find the maximum total path sum in the given triangle."
+    },
+    {
+        "Sub Directory": "mbpp_0187",
+        "task_id": 187,
+        "title": "MBPP/187",
+        "Description": "Write a function to find the longest common subsequence for the given two sequences."
+    },
+    {
+        "Sub Directory": "mbpp_0385",
+        "task_id": 385,
+        "title": "MBPP/385",
+        "Description": "Write a function to find the n'th perrin number using recursion."
+    },
+    {
+        "Sub Directory": "mbpp_0414",
+        "task_id": 414,
+        "title": "MBPP/414",
+        "Description": "Write a javascript function to check whether the value exists in a sequence or not."
+    },
+    {
+        "Sub Directory": "mbpp_0706",
+        "task_id": 706,
+        "title": "MBPP/706",
+        "Description": "Write a function to find whether an array is subset of another array."
+    },
+    {
+        "Sub Directory": "mbpp_0757",
+        "task_id": 757,
+        "title": "MBPP/757",
+        "Description": "Write a function to count the pairs of reverse strings in the given string array."
+    },
+    {
+        "Sub Directory": "mbpp_0867",
+        "task_id": 867,
+        "title": "MBPP/867",
+        "Description": "Write a javascript function to add a minimum number such that the sum of array becomes even."
+    },
+    {
+        "Sub Directory": "mbpp_0943",
+        "task_id": 943,
+        "title": "MBPP/943",
+        "Description": "Write a function to combine two given sorted arrays using heapq module."
+    },
+    {
+        "Sub Directory": "mbpp_0961",
+        "task_id": 961,
+        "title": "MBPP/961",
+        "Description": "Write a function to convert a roman numeral to an integer."
+    },
+    {
+        "Sub Directory": "mbpp_0025",
+        "task_id": 25,
+        "title": "MBPP/25",
+        "Description": "Write a javascript function to find the product of non-repeated elements in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0026",
+        "task_id": 26,
+        "title": "MBPP/26",
+        "Description": "Write a function to check if the given tuple array has all k elements."
+    },
+    {
+        "Sub Directory": "mbpp_0078",
+        "task_id": 78,
+        "title": "MBPP/78",
+        "Description": "Write a javascript function to find number of integers with odd number of set bits."
+    },
+    {
+        "Sub Directory": "mbpp_0092",
+        "task_id": 92,
+        "title": "MBPP/92",
+        "Description": "Write a function to check whether the given number is undulating or not."
+    },
+    {
+        "Sub Directory": "mbpp_0093",
+        "task_id": 93,
+        "title": "MBPP/93",
+        "Description": "Write a function to calculate the value of 'a' to the power 'b'."
+    },
+    {
+        "Sub Directory": "mbpp_0127",
+        "task_id": 127,
+        "title": "MBPP/127",
+        "Description": "Write a function to multiply two integers without using the * operator in javascript."
+    },
+    {
+        "Sub Directory": "mbpp_0166",
+        "task_id": 166,
+        "title": "MBPP/166",
+        "Description": "Write a javascript function to count the pairs with xor as an even number."
+    },
+    {
+        "Sub Directory": "mbpp_0167",
+        "task_id": 167,
+        "title": "MBPP/167",
+        "Description": "Write a javascript function to find smallest power of 2 greater than or equal to n."
+    },
+    {
+        "Sub Directory": "mbpp_0183",
+        "task_id": 183,
+        "title": "MBPP/183",
+        "Description": "Write a function to count all the distinct pairs having a difference of k in any array."
+    },
+    {
+        "Sub Directory": "mbpp_0296",
+        "task_id": 296,
+        "title": "MBPP/296",
+        "Description": "Write a javascript function to count inversions in an array."
+    },
+    {
+        "Sub Directory": "mbpp_0343",
+        "task_id": 343,
+        "title": "MBPP/343",
+        "Description": "Write a function to calculate the number of digits and letters in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0350",
+        "task_id": 350,
+        "title": "MBPP/350",
+        "Description": "Write a javascript function to minimize the length of the string by removing occurrence of only one character."
+    },
+    {
+        "Sub Directory": "mbpp_0507",
+        "task_id": 507,
+        "title": "MBPP/507",
+        "Description": "Write a function to remove specific words from a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0527",
+        "task_id": 527,
+        "title": "MBPP/527",
+        "Description": "Write a function to find all pairs in an integer array whose sum is equal to a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0556",
+        "task_id": 556,
+        "title": "MBPP/556",
+        "Description": "Write a javascript function to count the pairs with xor as an odd number."
+    },
+    {
+        "Sub Directory": "mbpp_0564",
+        "task_id": 564,
+        "title": "MBPP/564",
+        "Description": "Write a javascript function to count unequal element pairs from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0754",
+        "task_id": 754,
+        "title": "MBPP/754",
+        "Description": "Write a function to find common index elements from three arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0767",
+        "task_id": 767,
+        "title": "MBPP/767",
+        "Description": "Write a javascript function to count the number of pairs whose sum is equal to ‘sum’."
+    },
+    {
+        "Sub Directory": "mbpp_0824",
+        "task_id": 824,
+        "title": "MBPP/824",
+        "Description": "Write a javascript function to remove even numbers from a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0831",
+        "task_id": 831,
+        "title": "MBPP/831",
+        "Description": "Write a javascript function to count equal element pairs from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0841",
+        "task_id": 841,
+        "title": "MBPP/841",
+        "Description": "Write a function to count the number of inversions in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0849",
+        "task_id": 849,
+        "title": "MBPP/849",
+        "Description": "Write a javascript function to find sum of all prime divisors of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0914",
+        "task_id": 914,
+        "title": "MBPP/914",
+        "Description": "Write a javascript function to check whether the given string is made up of two alternating characters or not."
+    },
+    {
+        "Sub Directory": "mbpp_0969",
+        "task_id": 969,
+        "title": "MBPP/969",
+        "Description": "Write a function to join the tuples if they have similar initial elements."
+    },
+    {
+        "Sub Directory": "mbpp_0101",
+        "task_id": 101,
+        "title": "MBPP/101",
+        "Description": "Write a function to find the kth element in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0142",
+        "task_id": 142,
+        "title": "MBPP/142",
+        "Description": "Write a function to count the same pair in three given arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0165",
+        "task_id": 165,
+        "title": "MBPP/165",
+        "Description": "Write a javascript function to count characters at same position in a given string (lower and uppercase characters) as in english alphabet."
+    },
+    {
+        "Sub Directory": "mbpp_0219",
+        "task_id": 219,
+        "title": "MBPP/219",
+        "Description": "Write a function to extract maximum and minimum k elements in the given tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0352",
+        "task_id": 352,
+        "title": "MBPP/352",
+        "Description": "Write a javascript function to check whether all the characters in a given string are unique."
+    },
+    {
+        "Sub Directory": "mbpp_0683",
+        "task_id": 683,
+        "title": "MBPP/683",
+        "Description": "Write a javascript function to check whether the given number can be represented by sum of two squares or not."
+    },
+    {
+        "Sub Directory": "mbpp_0803",
+        "task_id": 803,
+        "title": "MBPP/803",
+        "Description": "Write a javascript function to check whether the given number is a perfect square or not."
+    },
+    {
+        "Sub Directory": "mbpp_0902",
+        "task_id": 902,
+        "title": "MBPP/902",
+        "Description": "Write a function to combine two maps by adding values for common keys."
+    },
+    {
+        "Sub Directory": "mbpp_0028",
+        "task_id": 28,
+        "title": "MBPP/28",
+        "Description": "Write a javascript function to find binomial co-efficient."
+    },
+    {
+        "Sub Directory": "mbpp_0040",
+        "task_id": 40,
+        "title": "MBPP/40",
+        "Description": "Write a function to find frequency of the elements in a given array of arrays using collections module."
+    },
+    {
+        "Sub Directory": "mbpp_0103",
+        "task_id": 103,
+        "title": "MBPP/103",
+        "Description": "Write a function to find eulerian number a(n, m)."
+    },
+    {
+        "Sub Directory": "mbpp_0126",
+        "task_id": 126,
+        "title": "MBPP/126",
+        "Description": "Write a javascript function to find the sum of common divisors of two given numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0150",
+        "task_id": 150,
+        "title": "MBPP/150",
+        "Description": "Write a javascript function to find whether the given number is present in the infinite sequence or not."
+    },
+    {
+        "Sub Directory": "mbpp_0346",
+        "task_id": 346,
+        "title": "MBPP/346",
+        "Description": "Write a function to find entringer number e(n, k)."
+    },
+    {
+        "Sub Directory": "mbpp_0764",
+        "task_id": 764,
+        "title": "MBPP/764",
+        "Description": "Write a javascript function to count numeric values in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0818",
+        "task_id": 818,
+        "title": "MBPP/818",
+        "Description": "Write a javascript function to count lower case letters in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0148",
+        "task_id": 148,
+        "title": "MBPP/148",
+        "Description": "Write a function to divide a number into two parts such that the sum of digits is maximum."
+    },
+    {
+        "Sub Directory": "mbpp_0844",
+        "task_id": 844,
+        "title": "MBPP/844",
+        "Description": "Write a javascript function to find the kth element in an array containing odd elements first and then even elements."
+    },
+    {
+        "Sub Directory": "mbpp_0061",
+        "task_id": 61,
+        "title": "MBPP/61",
+        "Description": "Write a javascript function to count number of substrings with the sum of digits equal to their length."
+    },
+    {
+        "Sub Directory": "mbpp_0289",
+        "task_id": 289,
+        "title": "MBPP/289",
+        "Description": "Write a javascript function to calculate the number of odd days in a given year."
+    },
+    {
+        "Sub Directory": "mbpp_0598",
+        "task_id": 598,
+        "title": "MBPP/598",
+        "Description": "Write a function to check whether the given number is armstrong or not."
+    },
+    {
+        "Sub Directory": "mbpp_0348",
+        "task_id": 348,
+        "title": "MBPP/348",
+        "Description": "Write a function to count sequences of given length having non-negative prefix sums that can be generated by given values."
+    },
+    {
+        "Sub Directory": "mbpp_0540",
+        "task_id": 540,
+        "title": "MBPP/540",
+        "Description": "Write a javascript function to find the difference between highest and least frequencies in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0958",
+        "task_id": 958,
+        "title": "MBPP/958",
+        "Description": "Write a function to convert an integer into a roman numeral."
+    },
+    {
+        "Sub Directory": "mbpp_0164",
+        "task_id": 164,
+        "title": "MBPP/164",
+        "Description": "Write a javascript function to check whether the sum of divisors are same or not."
+    },
+    {
+        "Sub Directory": "mbpp_0630",
+        "task_id": 630,
+        "title": "MBPP/630",
+        "Description": "Write a function to extract all the adjacent coordinates of the given coordinate tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0707",
+        "task_id": 707,
+        "title": "MBPP/707",
+        "Description": "Write a javascript function to count the total set bits from 1 to n."
+    },
+    {
+        "Sub Directory": "mbpp_0895",
+        "task_id": 895,
+        "title": "MBPP/895",
+        "Description": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements."
+    },
+    {
+        "Sub Directory": "mbpp_0045",
+        "task_id": 45,
+        "title": "MBPP/45",
+        "Description": "Write a function to find the gcd of the given array elements."
+    },
+    {
+        "Sub Directory": "mbpp_0155",
+        "task_id": 155,
+        "title": "MBPP/155",
+        "Description": "Write a javascript function to toggle all even bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0169",
+        "task_id": 169,
+        "title": "MBPP/169",
+        "Description": "Write a function to calculate the nth pell number."
+    },
+    {
+        "Sub Directory": "mbpp_0218",
+        "task_id": 218,
+        "title": "MBPP/218",
+        "Description": "Write a javascript function to find the minimum operations required to make two numbers equal."
+    },
+    {
+        "Sub Directory": "mbpp_0235",
+        "task_id": 235,
+        "title": "MBPP/235",
+        "Description": "Write a javascript function to set all even bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0246",
+        "task_id": 246,
+        "title": "MBPP/246",
+        "Description": "Write a function for computing square roots using the babylonian method."
+    },
+    {
+        "Sub Directory": "mbpp_0383",
+        "task_id": 383,
+        "title": "MBPP/383",
+        "Description": "Write a javascript function to toggle all odd bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0509",
+        "task_id": 509,
+        "title": "MBPP/509",
+        "Description": "Write a javascript function to find the average of odd numbers till a given odd number."
+    },
+    {
+        "Sub Directory": "mbpp_0511",
+        "task_id": 511,
+        "title": "MBPP/511",
+        "Description": "Write a javascript function to find minimum sum of factors of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0526",
+        "task_id": 526,
+        "title": "MBPP/526",
+        "Description": "Write a javascript function to capitalize first and last letters of each word of a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0592",
+        "task_id": 592,
+        "title": "MBPP/592",
+        "Description": "Write a javascript function to find sum of product of binomial co-efficients."
+    },
+    {
+        "Sub Directory": "mbpp_0664",
+        "task_id": 664,
+        "title": "MBPP/664",
+        "Description": "Write a javascript function to find the average of even numbers till a given even number."
+    },
+    {
+        "Sub Directory": "mbpp_0671",
+        "task_id": 671,
+        "title": "MBPP/671",
+        "Description": "Write a javascript function to set the right most unset bit."
+    },
+    {
+        "Sub Directory": "mbpp_0022",
+        "task_id": 22,
+        "title": "MBPP/22",
+        "Description": "Write a function to find the first duplicate element in a given array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0083",
+        "task_id": 83,
+        "title": "MBPP/83",
+        "Description": "Write a javascript function to find the character made by adding all the characters of the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0097",
+        "task_id": 97,
+        "title": "MBPP/97",
+        "Description": "Write a function to find frequency count of array of arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0158",
+        "task_id": 158,
+        "title": "MBPP/158",
+        "Description": "Write a javascript function to find k number of operations required to make all elements equal."
+    },
+    {
+        "Sub Directory": "mbpp_0302",
+        "task_id": 302,
+        "title": "MBPP/302",
+        "Description": "Write a javascript function to find the most significant bit number which is also a set bit."
+    },
+    {
+        "Sub Directory": "mbpp_0362",
+        "task_id": 362,
+        "title": "MBPP/362",
+        "Description": "Write a javascript function to find the item with maximum occurrences in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0417",
+        "task_id": 417,
+        "title": "MBPP/417",
+        "Description": "Write a function to find common first element in given array of tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0619",
+        "task_id": 619,
+        "title": "MBPP/619",
+        "Description": "Write a function to move all the numbers in it to the given string."
+    },
+    {
+        "Sub Directory": "mbpp_0658",
+        "task_id": 658,
+        "title": "MBPP/658",
+        "Description": "Write a function to find the item with maximum occurrences in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0674",
+        "task_id": 674,
+        "title": "MBPP/674",
+        "Description": "Write a function to remove duplicate words from a given string using collections module."
+    },
+    {
+        "Sub Directory": "mbpp_0701",
+        "task_id": 701,
+        "title": "MBPP/701",
+        "Description": "Write a function to find the equilibrium index of the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0736",
+        "task_id": 736,
+        "title": "MBPP/736",
+        "Description": "Write a function to locate the left insertion point for a specified value in sorted order."
+    },
+    {
+        "Sub Directory": "mbpp_0786",
+        "task_id": 786,
+        "title": "MBPP/786",
+        "Description": "Write a function to locate the right insertion point for a specified value in sorted order."
+    },
+    {
+        "Sub Directory": "mbpp_0823",
+        "task_id": 823,
+        "title": "MBPP/823",
+        "Description": "Write a function to check if the given string starts with a substring using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0868",
+        "task_id": 868,
+        "title": "MBPP/868",
+        "Description": "Write a javascript function to find the length of the last word in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0009",
+        "task_id": 9,
+        "title": "MBPP/9",
+        "Description": "Write a javascript function to find the minimum number of rotations required to get the same string."
+    },
+    {
+        "Sub Directory": "mbpp_0011",
+        "task_id": 11,
+        "title": "MBPP/11",
+        "Description": "Write a javascript function to remove first and last occurrence of a given character from the string."
+    },
+    {
+        "Sub Directory": "mbpp_0023",
+        "task_id": 23,
+        "title": "MBPP/23",
+        "Description": "Write a javascript function to find the maximum sum of elements of array in array of arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0048",
+        "task_id": 48,
+        "title": "MBPP/48",
+        "Description": "Write a javascript function to set all odd bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0067",
+        "task_id": 67,
+        "title": "MBPP/67",
+        "Description": "Write a function to find the number of ways to partition a set of bell numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0217",
+        "task_id": 217,
+        "title": "MBPP/217",
+        "Description": "Write a javascript function to find the first repeated character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0321",
+        "task_id": 321,
+        "title": "MBPP/321",
+        "Description": "Write a function to find the demlo number for the given number."
+    },
+    {
+        "Sub Directory": "mbpp_0331",
+        "task_id": 331,
+        "title": "MBPP/331",
+        "Description": "Write a javascript function to count unset bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0332",
+        "task_id": 332,
+        "title": "MBPP/332",
+        "Description": "Write a function to count character frequency of a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0371",
+        "task_id": 371,
+        "title": "MBPP/371",
+        "Description": "Write a function to find the smallest missing element in a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0416",
+        "task_id": 416,
+        "title": "MBPP/416",
+        "Description": "Write a function to find the maximum sum we can make by dividing number in three parts recursively and summing them up together for the given number."
+    },
+    {
+        "Sub Directory": "mbpp_0462",
+        "task_id": 462,
+        "title": "MBPP/462",
+        "Description": "Write a function to find all possible combinations of the elements of a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0483",
+        "task_id": 483,
+        "title": "MBPP/483",
+        "Description": "Write a javascript function to find the first natural number whose factorial is divisible by x."
+    },
+    {
+        "Sub Directory": "mbpp_0552",
+        "task_id": 552,
+        "title": "MBPP/552",
+        "Description": "Write a javascript function to check whether a given sequence is linear or not."
+    },
+    {
+        "Sub Directory": "mbpp_0602",
+        "task_id": 602,
+        "title": "MBPP/602",
+        "Description": "Write a javascript function to find the first repeated character in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0608",
+        "task_id": 608,
+        "title": "MBPP/608",
+        "Description": "Write a javascript function to find nth bell number."
+    },
+    {
+        "Sub Directory": "mbpp_0687",
+        "task_id": 687,
+        "title": "MBPP/687",
+        "Description": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion."
+    },
+    {
+        "Sub Directory": "mbpp_0763",
+        "task_id": 763,
+        "title": "MBPP/763",
+        "Description": "Write a javascript function to find the minimum difference between any two elements in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0780",
+        "task_id": 780,
+        "title": "MBPP/780",
+        "Description": "Write a function to find the combinations of sums with tuples in the given tuple array."
+    },
+    {
+        "Sub Directory": "mbpp_0003",
+        "task_id": 3,
+        "title": "MBPP/3",
+        "Description": "Write a javascript function to identify non-prime numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0079",
+        "task_id": 79,
+        "title": "MBPP/79",
+        "Description": "Write a javascript function to check whether the length of the word is odd or not."
+    },
+    {
+        "Sub Directory": "mbpp_0128",
+        "task_id": 128,
+        "title": "MBPP/128",
+        "Description": "Write a function to shortlist words that are longer than n from a given array of words."
+    },
+    {
+        "Sub Directory": "mbpp_0137",
+        "task_id": 137,
+        "title": "MBPP/137",
+        "Description": "Write a function to find the ration of zeroes in an array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0186",
+        "task_id": 186,
+        "title": "MBPP/186",
+        "Description": "Write a function to search some literals strings in a string by using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0199",
+        "task_id": 199,
+        "title": "MBPP/199",
+        "Description": "Write a javascript function to find highest power of 2 less than or equal to given number."
+    },
+    {
+        "Sub Directory": "mbpp_0229",
+        "task_id": 229,
+        "title": "MBPP/229",
+        "Description": "Write a function to re-arrange the elements of the given array so that all negative elements appear before positive ones."
+    },
+    {
+        "Sub Directory": "mbpp_0303",
+        "task_id": 303,
+        "title": "MBPP/303",
+        "Description": "Write a javascript function to check whether the count of inversion of two types are same or not."
+    },
+    {
+        "Sub Directory": "mbpp_0318",
+        "task_id": 318,
+        "title": "MBPP/318",
+        "Description": "Write a javascript function to find the maximum volume of a cuboid with given sum of sides."
+    },
+    {
+        "Sub Directory": "mbpp_0325",
+        "task_id": 325,
+        "title": "MBPP/325",
+        "Description": "Write a javascript function to find the minimum number of squares whose sum is equal to a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0388",
+        "task_id": 388,
+        "title": "MBPP/388",
+        "Description": "Write a javascript function to find the highest power of 2 that is less than or equal to n."
+    },
+    {
+        "Sub Directory": "mbpp_0394",
+        "task_id": 394,
+        "title": "MBPP/394",
+        "Description": "Write a function to check if given tuple is distinct or not."
+    },
+    {
+        "Sub Directory": "mbpp_0402",
+        "task_id": 402,
+        "title": "MBPP/402",
+        "Description": "Write a function to compute the value of ncr%p."
+    },
+    {
+        "Sub Directory": "mbpp_0442",
+        "task_id": 442,
+        "title": "MBPP/442",
+        "Description": "Write a function to find the ration of positive numbers in an array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0530",
+        "task_id": 530,
+        "title": "MBPP/530",
+        "Description": "Write a function to find the ration of negative numbers in an array of integers."
+    },
+    {
+        "Sub Directory": "mbpp_0537",
+        "task_id": 537,
+        "title": "MBPP/537",
+        "Description": "Write a javascript function to find the first repeated word in a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0583",
+        "task_id": 583,
+        "title": "MBPP/583",
+        "Description": "Write a function for nth catalan number."
+    },
+    {
+        "Sub Directory": "mbpp_0692",
+        "task_id": 692,
+        "title": "MBPP/692",
+        "Description": "Write a javascript function to find the last two digits in factorial of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0777",
+        "task_id": 777,
+        "title": "MBPP/777",
+        "Description": "Write a javascript function to find the sum of non-repeated elements in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0808",
+        "task_id": 808,
+        "title": "MBPP/808",
+        "Description": "Write a function to check if the given tuples contain the k or not."
+    },
+    {
+        "Sub Directory": "mbpp_0810",
+        "task_id": 810,
+        "title": "MBPP/810",
+        "Description": "Write a function to iterate over elements repeating each as many times as its count."
+    },
+    {
+        "Sub Directory": "mbpp_0845",
+        "task_id": 845,
+        "title": "MBPP/845",
+        "Description": "Write a javascript function to count the number of digits in factorial of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0880",
+        "task_id": 880,
+        "title": "MBPP/880",
+        "Description": "Write a javascript function to find number of solutions in quadratic equation."
+    },
+    {
+        "Sub Directory": "mbpp_0942",
+        "task_id": 942,
+        "title": "MBPP/942",
+        "Description": "Write a function to check if any array element is present in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0964",
+        "task_id": 964,
+        "title": "MBPP/964",
+        "Description": "Write a javascript function to check whether the length of the word is even or not."
+    },
+    {
+        "Sub Directory": "mbpp_0066",
+        "task_id": 66,
+        "title": "MBPP/66",
+        "Description": "Write a javascript function to count positive numbers in array."
+    },
+    {
+        "Sub Directory": "mbpp_0090",
+        "task_id": 90,
+        "title": "MBPP/90",
+        "Description": "Write a javascript function to find the length of the longest word."
+    },
+    {
+        "Sub Directory": "mbpp_0109",
+        "task_id": 109,
+        "title": "MBPP/109",
+        "Description": "Write a javascript function to find the count of rotations of a binary string with odd value."
+    },
+    {
+        "Sub Directory": "mbpp_0168",
+        "task_id": 168,
+        "title": "MBPP/168",
+        "Description": "Write a javascript function to find the frequency of a number in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0178",
+        "task_id": 178,
+        "title": "MBPP/178",
+        "Description": "Write a function to search some literals strings in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0202",
+        "task_id": 202,
+        "title": "MBPP/202",
+        "Description": "Write a function to remove even characters in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0204",
+        "task_id": 204,
+        "title": "MBPP/204",
+        "Description": "Write a javascript function to count the occurrence of a given character in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0226",
+        "task_id": 226,
+        "title": "MBPP/226",
+        "Description": "Write a javascript function to remove the characters which have odd index values of a given string."
+    },
+    {
+        "Sub Directory": "mbpp_0250",
+        "task_id": 250,
+        "title": "MBPP/250",
+        "Description": "Write a javascript function to count the occcurences of an element in a tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0264",
+        "task_id": 264,
+        "title": "MBPP/264",
+        "Description": "Write a function to calculate a dog's age in dog's years."
+    },
+    {
+        "Sub Directory": "mbpp_0270",
+        "task_id": 270,
+        "title": "MBPP/270",
+        "Description": "Write a javascript function to find the sum of even numbers at even positions."
+    },
+    {
+        "Sub Directory": "mbpp_0277",
+        "task_id": 277,
+        "title": "MBPP/277",
+        "Description": "Write a function to filter map based on values."
+    },
+    {
+        "Sub Directory": "mbpp_0288",
+        "task_id": 288,
+        "title": "MBPP/288",
+        "Description": "Write a function to count array elements having modular inverse under given prime number p equal to itself."
+    },
+    {
+        "Sub Directory": "mbpp_0295",
+        "task_id": 295,
+        "title": "MBPP/295",
+        "Description": "Write a function to return the sum of all divisors of a number."
+    },
+    {
+        "Sub Directory": "mbpp_0329",
+        "task_id": 329,
+        "title": "MBPP/329",
+        "Description": "Write a javascript function to count negative numbers in array."
+    },
+    {
+        "Sub Directory": "mbpp_0437",
+        "task_id": 437,
+        "title": "MBPP/437",
+        "Description": "Write a function to remove odd characters in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0443",
+        "task_id": 443,
+        "title": "MBPP/443",
+        "Description": "Write a javascript function to find the largest negative number from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0517",
+        "task_id": 517,
+        "title": "MBPP/517",
+        "Description": "Write a javascript function to find the largest postive number from the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0554",
+        "task_id": 554,
+        "title": "MBPP/554",
+        "Description": "Write a javascript function to find odd numbers from a mixed array."
+    },
+    {
+        "Sub Directory": "mbpp_0629",
+        "task_id": 629,
+        "title": "MBPP/629",
+        "Description": "Write a javascript function to find even numbers from a mixed array."
+    },
+    {
+        "Sub Directory": "mbpp_0633",
+        "task_id": 633,
+        "title": "MBPP/633",
+        "Description": "Write a javascript function to find the sum of xor of all pairs of numbers in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0666",
+        "task_id": 666,
+        "title": "MBPP/666",
+        "Description": "Write a function to count occurrence of a character in a string."
+    },
+    {
+        "Sub Directory": "mbpp_0694",
+        "task_id": 694,
+        "title": "MBPP/694",
+        "Description": "Write a function to extract unique values from the given map values."
+    },
+    {
+        "Sub Directory": "mbpp_0741",
+        "task_id": 741,
+        "title": "MBPP/741",
+        "Description": "Write a javascript function to check whether all the characters are same or not."
+    },
+    {
+        "Sub Directory": "mbpp_0809",
+        "task_id": 809,
+        "title": "MBPP/809",
+        "Description": "Write a function to check if each element of second tuple is smaller than its corresponding index in first tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0897",
+        "task_id": 897,
+        "title": "MBPP/897",
+        "Description": "Write a javascript function to check whether the word is present in a given sentence or not."
+    },
+    {
+        "Sub Directory": "mbpp_0932",
+        "task_id": 932,
+        "title": "MBPP/932",
+        "Description": "Write a function to remove duplicate words from a given array of strings."
+    },
+    {
+        "Sub Directory": "mbpp_0947",
+        "task_id": 947,
+        "title": "MBPP/947",
+        "Description": "Write a javascript function to find the length of the shortest word."
+    },
+    {
+        "Sub Directory": "mbpp_0955",
+        "task_id": 955,
+        "title": "MBPP/955",
+        "Description": "Write a function to find out, if the given number is abundant."
+    },
+    {
+        "Sub Directory": "mbpp_0960",
+        "task_id": 960,
+        "title": "MBPP/960",
+        "Description": "Write a function to solve tiling problem."
+    },
+    {
+        "Sub Directory": "mbpp_0100",
+        "task_id": 100,
+        "title": "MBPP/100",
+        "Description": "Write a function to find the next smallest palindrome of a specified number."
+    },
+    {
+        "Sub Directory": "mbpp_0305",
+        "task_id": 305,
+        "title": "MBPP/305",
+        "Description": "Write a function to match two words from array of words starting with letter 'p'."
+    },
+    {
+        "Sub Directory": "mbpp_0412",
+        "task_id": 412,
+        "title": "MBPP/412",
+        "Description": "Write a javascript function to remove odd numbers from a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0675",
+        "task_id": 675,
+        "title": "MBPP/675",
+        "Description": "Write a function to add two integers. however, if the sum is between the given range it will return 20."
+    },
+    {
+        "Sub Directory": "mbpp_0802",
+        "task_id": 802,
+        "title": "MBPP/802",
+        "Description": "Write a javascript function to count the number of rotations required to generate a sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0804",
+        "task_id": 804,
+        "title": "MBPP/804",
+        "Description": "Write a javascript function to check whether the product of numbers is even or not."
+    },
+    {
+        "Sub Directory": "mbpp_0889",
+        "task_id": 889,
+        "title": "MBPP/889",
+        "Description": "Write a function to reverse each array in a given array of arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0890",
+        "task_id": 890,
+        "title": "MBPP/890",
+        "Description": "Write a javascript function to find the index of an extra element present in one sorted array."
+    },
+    {
+        "Sub Directory": "mbpp_0908",
+        "task_id": 908,
+        "title": "MBPP/908",
+        "Description": "Write a function to find the fixed point in the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0909",
+        "task_id": 909,
+        "title": "MBPP/909",
+        "Description": "Write a function to find the previous palindrome of a specified number."
+    },
+    {
+        "Sub Directory": "mbpp_0545",
+        "task_id": 545,
+        "title": "MBPP/545",
+        "Description": "Write a javascript function to toggle only first and last bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0735",
+        "task_id": 735,
+        "title": "MBPP/735",
+        "Description": "Write a javascript function to toggle bits of the number except the first and the last bit."
+    },
+    {
+        "Sub Directory": "mbpp_0005",
+        "task_id": 5,
+        "title": "MBPP/5",
+        "Description": "Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board."
+    },
+    {
+        "Sub Directory": "mbpp_0114",
+        "task_id": 114,
+        "title": "MBPP/114",
+        "Description": "Write a function to assign frequency to each tuple in the given tuple array."
+    },
+    {
+        "Sub Directory": "mbpp_0194",
+        "task_id": 194,
+        "title": "MBPP/194",
+        "Description": "Write a javascript function to convert octal number to decimal number."
+    },
+    {
+        "Sub Directory": "mbpp_0392",
+        "task_id": 392,
+        "title": "MBPP/392",
+        "Description": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n\\/2) + f(n\\/3) + f(n\\/4) + f(n\\/5)), n)."
+    },
+    {
+        "Sub Directory": "mbpp_0033",
+        "task_id": 33,
+        "title": "MBPP/33",
+        "Description": "Write a javascript function to convert a decimal number to binary number."
+    },
+    {
+        "Sub Directory": "mbpp_0324",
+        "task_id": 324,
+        "title": "MBPP/324",
+        "Description": "Write a function to extract the sum of alternate chains of tuples."
+    },
+    {
+        "Sub Directory": "mbpp_0467",
+        "task_id": 467,
+        "title": "MBPP/467",
+        "Description": "Write a javascript function to convert decimal number to octal number."
+    },
+    {
+        "Sub Directory": "mbpp_0734",
+        "task_id": 734,
+        "title": "MBPP/734",
+        "Description": "Write a javascript function to find sum of products of all possible subarrays."
+    },
+    {
+        "Sub Directory": "mbpp_0024",
+        "task_id": 24,
+        "title": "MBPP/24",
+        "Description": "Write a function to convert the given binary number to its decimal equivalent."
+    },
+    {
+        "Sub Directory": "mbpp_0056",
+        "task_id": 56,
+        "title": "MBPP/56",
+        "Description": "Write a javascript function to check if a given number is one less than twice its reverse."
+    },
+    {
+        "Sub Directory": "mbpp_0141",
+        "task_id": 141,
+        "title": "MBPP/141",
+        "Description": "Write a function to sort array of elements using pancake sort."
+    },
+    {
+        "Sub Directory": "mbpp_0645",
+        "task_id": 645,
+        "title": "MBPP/645",
+        "Description": "Write a function to find the product of it’s kth index in the given tuples."
+    },
+    {
+        "Sub Directory": "mbpp_0036",
+        "task_id": 36,
+        "title": "MBPP/36",
+        "Description": "Write a javascript function to find the nth digit in the proper fraction of two given numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0200",
+        "task_id": 200,
+        "title": "MBPP/200",
+        "Description": "Write a function to find all index positions of the maximum values in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0220",
+        "task_id": 220,
+        "title": "MBPP/220",
+        "Description": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon."
+    },
+    {
+        "Sub Directory": "mbpp_0291",
+        "task_id": 291,
+        "title": "MBPP/291",
+        "Description": "Write a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors."
+    },
+    {
+        "Sub Directory": "mbpp_0314",
+        "task_id": 314,
+        "title": "MBPP/314",
+        "Description": "Write a function to find out the maximum sum such that no two chosen numbers are adjacent for the given rectangular grid of dimension 2 x n."
+    },
+    {
+        "Sub Directory": "mbpp_0320",
+        "task_id": 320,
+        "title": "MBPP/320",
+        "Description": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0322",
+        "task_id": 322,
+        "title": "MBPP/322",
+        "Description": "Write a function to find all index positions of the minimum values in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0905",
+        "task_id": 905,
+        "title": "MBPP/905",
+        "Description": "Write a javascript function to find the sum of squares of binomial co-efficients."
+    },
+    {
+        "Sub Directory": "mbpp_0102",
+        "task_id": 102,
+        "title": "MBPP/102",
+        "Description": "Write a function to convert snake case string to camel case string."
+    },
+    {
+        "Sub Directory": "mbpp_0145",
+        "task_id": 145,
+        "title": "MBPP/145",
+        "Description": "Write a javascript function to find the maximum difference between any two elements in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0151",
+        "task_id": 151,
+        "title": "MBPP/151",
+        "Description": "Write a javascript function to check whether the given number is co-prime or not."
+    },
+    {
+        "Sub Directory": "mbpp_0203",
+        "task_id": 203,
+        "title": "MBPP/203",
+        "Description": "Write a javascript function to find the hamming distance between given two integers."
+    },
+    {
+        "Sub Directory": "mbpp_0236",
+        "task_id": 236,
+        "title": "MBPP/236",
+        "Description": "Write a javascript function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle."
+    },
+    {
+        "Sub Directory": "mbpp_0300",
+        "task_id": 300,
+        "title": "MBPP/300",
+        "Description": "Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits."
+    },
+    {
+        "Sub Directory": "mbpp_0508",
+        "task_id": 508,
+        "title": "MBPP/508",
+        "Description": "Write a function to check if the common elements between two given arrays are in the same order or not."
+    },
+    {
+        "Sub Directory": "mbpp_0529",
+        "task_id": 529,
+        "title": "MBPP/529",
+        "Description": "Write a function to find the nth jacobsthal-lucas number."
+    },
+    {
+        "Sub Directory": "mbpp_0543",
+        "task_id": 543,
+        "title": "MBPP/543",
+        "Description": "Write a function to add two numbers and print number of digits of sum."
+    },
+    {
+        "Sub Directory": "mbpp_0547",
+        "task_id": 547,
+        "title": "MBPP/547",
+        "Description": "Write a javascript function to find the sum of hamming distances of all consecutive numbers from o to n."
+    },
+    {
+        "Sub Directory": "mbpp_0549",
+        "task_id": 549,
+        "title": "MBPP/549",
+        "Description": "Write a javascript function to find the sum of fifth power of first n odd natural numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0563",
+        "task_id": 563,
+        "title": "MBPP/563",
+        "Description": "Write a function to extract values between quotation marks of a string."
+    },
+    {
+        "Sub Directory": "mbpp_0570",
+        "task_id": 570,
+        "title": "MBPP/570",
+        "Description": "Write a function to remove words from a given array of strings containing a character or string."
+    },
+    {
+        "Sub Directory": "mbpp_0656",
+        "task_id": 656,
+        "title": "MBPP/656",
+        "Description": "Write a javascript function to find the minimum sum of absolute differences of two arrays."
+    },
+    {
+        "Sub Directory": "mbpp_0740",
+        "task_id": 740,
+        "title": "MBPP/740",
+        "Description": "Write a function to convert the given tuple to a key-value map using adjacent elements."
+    },
+    {
+        "Sub Directory": "mbpp_0752",
+        "task_id": 752,
+        "title": "MBPP/752",
+        "Description": "Write a function to find the nth jacobsthal number."
+    },
+    {
+        "Sub Directory": "mbpp_0766",
+        "task_id": 766,
+        "title": "MBPP/766",
+        "Description": "Write a function to iterate over all pairs of consecutive items in a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0906",
+        "task_id": 906,
+        "title": "MBPP/906",
+        "Description": "Write a function to extract year, month and date from a url by using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0016",
+        "task_id": 16,
+        "title": "MBPP/16",
+        "Description": "Write a function to find sequences of lowercase letters joined with an underscore."
+    },
+    {
+        "Sub Directory": "mbpp_0043",
+        "task_id": 43,
+        "title": "MBPP/43",
+        "Description": "Write a function to find sequences of lowercase letters joined with an underscore using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0044",
+        "task_id": 44,
+        "title": "MBPP/44",
+        "Description": "Write a function that matches a word at the beginning of a string."
+    },
+    {
+        "Sub Directory": "mbpp_0057",
+        "task_id": 57,
+        "title": "MBPP/57",
+        "Description": "Write a javascript function to find the largest number that can be formed with the given digits."
+    },
+    {
+        "Sub Directory": "mbpp_0213",
+        "task_id": 213,
+        "title": "MBPP/213",
+        "Description": "Write a function to perform the concatenation of two string tuples."
+    },
+    {
+        "Sub Directory": "mbpp_0224",
+        "task_id": 224,
+        "title": "MBPP/224",
+        "Description": "Write a javascript function to count set bits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0228",
+        "task_id": 228,
+        "title": "MBPP/228",
+        "Description": "Write a javascript function to check whether all the bits are unset in the given range or not."
+    },
+    {
+        "Sub Directory": "mbpp_0261",
+        "task_id": 261,
+        "title": "MBPP/261",
+        "Description": "Write a function to perform mathematical division operation across the given tuples."
+    },
+    {
+        "Sub Directory": "mbpp_0271",
+        "task_id": 271,
+        "title": "MBPP/271",
+        "Description": "Write a javascript function to find the sum of fifth power of first n even natural numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0285",
+        "task_id": 285,
+        "title": "MBPP/285",
+        "Description": "Write a function that matches a string that has an a followed by two to three 'b'."
+    },
+    {
+        "Sub Directory": "mbpp_0365",
+        "task_id": 365,
+        "title": "MBPP/365",
+        "Description": "Write a javascript function to count the number of digits of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0387",
+        "task_id": 387,
+        "title": "MBPP/387",
+        "Description": "Write a javascript function to check whether the hexadecimal number is even or odd."
+    },
+    {
+        "Sub Directory": "mbpp_0391",
+        "task_id": 391,
+        "title": "MBPP/391",
+        "Description": "Write a function to convert more than one array to nested map."
+    },
+    {
+        "Sub Directory": "mbpp_0396",
+        "task_id": 396,
+        "title": "MBPP/396",
+        "Description": "Write a function to check whether the given string starts and ends with the same character or not using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0399",
+        "task_id": 399,
+        "title": "MBPP/399",
+        "Description": "Write a function to perform the mathematical bitwise xor operation across the given tuples."
+    },
+    {
+        "Sub Directory": "mbpp_0406",
+        "task_id": 406,
+        "title": "MBPP/406",
+        "Description": "Write a javascript function to find the parity of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0433",
+        "task_id": 433,
+        "title": "MBPP/433",
+        "Description": "Write a function to check whether the entered number is greater than the elements of the given array."
+    },
+    {
+        "Sub Directory": "mbpp_0434",
+        "task_id": 434,
+        "title": "MBPP/434",
+        "Description": "Write a function that matches a string that has an a followed by one or more b's."
+    },
+    {
+        "Sub Directory": "mbpp_0444",
+        "task_id": 444,
+        "title": "MBPP/444",
+        "Description": "Write a function to trim each tuple by k in the given tuple array."
+    },
+    {
+        "Sub Directory": "mbpp_0449",
+        "task_id": 449,
+        "title": "MBPP/449",
+        "Description": "Write a javascript function to check whether the triangle is valid or not if 3 points are given."
+    },
+    {
+        "Sub Directory": "mbpp_0452",
+        "task_id": 452,
+        "title": "MBPP/452",
+        "Description": "Write a function that gives loss amount if the given amount has loss else return none."
+    },
+    {
+        "Sub Directory": "mbpp_0454",
+        "task_id": 454,
+        "title": "MBPP/454",
+        "Description": "Write a function that matches a word containing 'z'."
+    },
+    {
+        "Sub Directory": "mbpp_0472",
+        "task_id": 472,
+        "title": "MBPP/472",
+        "Description": "Write a javascript function to check whether the given array contains consecutive numbers or not."
+    },
+    {
+        "Sub Directory": "mbpp_0482",
+        "task_id": 482,
+        "title": "MBPP/482",
+        "Description": "Write a function to find sequences of one upper case letter followed by lower case letters in the given string by using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0534",
+        "task_id": 534,
+        "title": "MBPP/534",
+        "Description": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs."
+    },
+    {
+        "Sub Directory": "mbpp_0573",
+        "task_id": 573,
+        "title": "MBPP/573",
+        "Description": "Write a javascript function to calculate the product of the unique numbers of a given array."
+    },
+    {
+        "Sub Directory": "mbpp_0634",
+        "task_id": 634,
+        "title": "MBPP/634",
+        "Description": "Write a javascript function to find the sum of fourth power of first n even natural numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0643",
+        "task_id": 643,
+        "title": "MBPP/643",
+        "Description": "Write a function that matches a word containing 'z', not at the start or end of the word."
+    },
+    {
+        "Sub Directory": "mbpp_0677",
+        "task_id": 677,
+        "title": "MBPP/677",
+        "Description": "Write a function to check if the triangle is valid or not."
+    },
+    {
+        "Sub Directory": "mbpp_0719",
+        "task_id": 719,
+        "title": "MBPP/719",
+        "Description": "Write a function that matches a string that has an a followed by zero or more b's."
+    },
+    {
+        "Sub Directory": "mbpp_0746",
+        "task_id": 746,
+        "title": "MBPP/746",
+        "Description": "Write a function to find area of a sector."
+    },
+    {
+        "Sub Directory": "mbpp_0756",
+        "task_id": 756,
+        "title": "MBPP/756",
+        "Description": "Write a function that matches a string that has an a followed by zero or one 'b'."
+    },
+    {
+        "Sub Directory": "mbpp_0761",
+        "task_id": 761,
+        "title": "MBPP/761",
+        "Description": "Write a function to caluclate arc length of an angle."
+    },
+    {
+        "Sub Directory": "mbpp_0768",
+        "task_id": 768,
+        "title": "MBPP/768",
+        "Description": "Write a javascript function to check for odd parity of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0770",
+        "task_id": 770,
+        "title": "MBPP/770",
+        "Description": "Write a javascript function to find the sum of fourth power of first n odd natural numbers."
+    },
+    {
+        "Sub Directory": "mbpp_0774",
+        "task_id": 774,
+        "title": "MBPP/774",
+        "Description": "Write a function to check if the string is a valid email address or not using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0782",
+        "task_id": 782,
+        "title": "MBPP/782",
+        "Description": "Write a javascript function to find the sum of all odd length subarrays."
+    },
+    {
+        "Sub Directory": "mbpp_0787",
+        "task_id": 787,
+        "title": "MBPP/787",
+        "Description": "Write a function that matches a string that has an a followed by three 'b'."
+    },
+    {
+        "Sub Directory": "mbpp_0794",
+        "task_id": 794,
+        "title": "MBPP/794",
+        "Description": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'."
+    },
+    {
+        "Sub Directory": "mbpp_0801",
+        "task_id": 801,
+        "title": "MBPP/801",
+        "Description": "Write a javascript function to count the number of equal numbers from three given integers."
+    },
+    {
+        "Sub Directory": "mbpp_0855",
+        "task_id": 855,
+        "title": "MBPP/855",
+        "Description": "Write a javascript function to check for even parity of a given number."
+    },
+    {
+        "Sub Directory": "mbpp_0879",
+        "task_id": 879,
+        "title": "MBPP/879",
+        "Description": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b' by using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0917",
+        "task_id": 917,
+        "title": "MBPP/917",
+        "Description": "Write a function to find the sequences of one upper case letter followed by lower case letters."
+    },
+    {
+        "Sub Directory": "mbpp_0925",
+        "task_id": 925,
+        "title": "MBPP/925",
+        "Description": "Write a javascript function to calculate the product of all the numbers of a given tuple."
+    },
+    {
+        "Sub Directory": "mbpp_0930",
+        "task_id": 930,
+        "title": "MBPP/930",
+        "Description": "Write a function that matches a string that has an a followed by zero or more b's by using regex."
+    },
+    {
+        "Sub Directory": "mbpp_0954",
+        "task_id": 954,
+        "title": "MBPP/954",
+        "Description": "Write a function that gives profit amount if the given amount has profit else return none."
+    }
+]

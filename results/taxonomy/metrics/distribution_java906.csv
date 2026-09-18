@@ -1,0 +1,11 @@
+failure_type,count,pct
+Correct (no failure),1967,40.8600
+Obfuscation Narrative,1107,22.9954
+Algorithm Confusion,941,19.5472
+Algorithm Misunderstanding,261,5.4217
+Semantic Drift,187,3.8845
+Structural Description Only,136,2.8251
+PARSE_FAIL,129,2.6797
+Hallucination,64,1.3295
+Minimal Code Understanding,16,0.3324
+Functional Inaccuracy,6,0.1246

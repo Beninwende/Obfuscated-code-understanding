@@ -1,43 +1,51 @@
-# Obfuscation & Code Comprehension
+# Obfuscated Code Understanding
 
-Experiments on **how code obfuscation affects LLM code comprehension**: we generate natural-language descriptions of Java snippets under several obfuscation variants, evaluate them (LLM-as-judge, semantic similarity), and analyze failure types.
+Replication package for the paper on LLM code comprehension under obfuscation.
 
-## What’s in the repo
+**Pipeline:** `data/` → `generation/` → `evaluation/` → `results/`
 
-| Part | Role |
-|------|------|
-| **`Data/`** | Input datasets: code variants (with/without comments, variable renaming, dead code, encryption) and reference descriptions. |
-| **`generation_code/`** | Scripts to call LLM APIs (OpenAI, DeepSeek, Gemini, etc.) to generate descriptions from code. |
-| **`Results/`** | Analysis scripts, tables, and figures. |
+## Layout
 
-## Main experiments
+```
+data/<corpus>/              code variants + references
+generation/outputs/<corpus>/  model descriptions
+evaluation/<corpus>/        item-level scores
+results/scores/             paper tables (means)
+results/human-annotation/   human validation (n=96) + taxonomy gold (n=165)
+results/taxonomy/           failure classifications
+results/combined/           stacked-obfuscation results
+scripts/                    regenerate scores
+```
 
-- **Taxonomy** (`Results/Taxonomy/`) — Failure categories (comment dependency, variable renaming, dead code, encryption) and granular subtypes; Sankey and final taxonomy CSVs.
-- **Semantic consistency** (`Results/Semantic_Consistency/`) — Pairwise similarity, model complementarity, heatmaps and stacked figures (e.g. by obfuscation type).
-- **Semantic stability** (`Results/Semantic_Stability/`) — Comprehension levels (semantic / structural / lexical), sensitivity to threshold τ.
-- **Encryption vs other variants** (`Results/code_charasteristics_analysis/Encryption_vs_DeadCode/`) — Why literals encryption hurts consensus more than dead code/variable renaming; LOC/CC and regression.
-- **Combined obfuscation** (`Results/Combined-Obfuscation/`) — Three models (DeepSeek, Gemini, O4) on comprehensively obfuscated code; error analysis and failure-subtype shift (single → comprehensive).
-- **Prompt complementarity** (`Results/prompt_complementarity/`) — Prompt–problem score matrices and top-prompt union coverage.
+Join key: `Sub Directory`.
 
-## Quick start
+## Corpora
 
-1. **Environment**  
-   Python 3.9+. Install deps from `Results/*/requirements.txt` or use: `matplotlib`, `seaborn`, `pandas`, `numpy`, `scipy`, `openai` (and provider-specific clients if you run generation).
+| Name | Size | Language |
+|------|------|----------|
+| `java250` | 250 | Java (CodeNet) |
+| `java656` | 656 | Java (MBPP) |
+| `javascript250` | 250 | JavaScript |
+| `javascript454` | 454 | JavaScript (MBPP) |
+| `combined` | — | stacked transforms (eval + results only) |
 
-2. **Data**  
-   Expects `Data/` with JSON datasets (e.g. `Dataset_Without_Comments.json`, `Dataset_Encryption.json`, …). Paths in scripts are relative to repo root.
+Pooled labels in tables: `java906` = java250+java656, `javascript704` = javascript250+javascript454.
 
-3. **Run analyses**  
-   Each subfolder under `Results/` has its own README and entry scripts (e.g. `compute_*.py`, `run_*.py`, `plot_*.py`). Run from repo root so `Data/` and `Results/` paths resolve.
+## Judges
 
-4. **Generation (optional)**  
-   Use scripts in `generation_code/` with the right API keys (e.g. `OPENAI_API_KEY`, `DEEPSEEK_API_KEY`). Configure input/output paths to match your `Data/` layout.
+Scores use three judges (majority, score > 0.5):
 
-## Outputs
+| Label | API | Model |
+|-------|-----|-------|
+| `judge_1` | OpenAI | GPT-5 |
+| `judge_2` | Anthropic | Claude-Sonnet-4.5 |
+| `judge_3` | OpenRouter | MiniMax-2.7 |
 
-- **Tables**: CSVs for taxonomy, comprehension levels, sensitivity, prompt–problem scores, failure categorizations.
-- **Figures**: PDFs/PNGs/HTML for heatmaps, boxplots, Sankey, stacked bars, failure-shift flows (see per-experiment READMEs).
+## Setup
 
-## Citation & license
-
-See your paper or project docs. No license file is included in this snapshot.
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env   # add API keys locally; do not commit .env
+```

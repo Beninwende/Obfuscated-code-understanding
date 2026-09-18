@@ -1,0 +1,3 @@
+condition,Obfuscation Narrative,Algorithm Misunderstanding,Algorithm Confusion,Functional Inaccuracy,Semantic Drift,Structural Description Only,Correct (no failure),PARSE_FAIL,Hallucination,Minimal Code Understanding,total
+ZS,478,182,164,158,96,81,39,27,22,1,1248
+OAP2,205,262,191,190,70,67,68,43,45,28,1169

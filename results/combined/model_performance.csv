@@ -1,0 +1,17 @@
+dataset,model_key,model,condition,n_items,llm_mean,llm_consensus_rate,eval_file
+combined,gemini,Gemini,zero_shot,242,0.329752,0.314050,evaluation/combined/Gemini_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,gemini,Gemini,oap2,242,0.374380,0.359504,evaluation/combined/Gemini_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,kimi_k25,Kimi-K2.7,zero_shot,242,0.568595,0.549587,evaluation/combined/KimiK25_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,kimi_k25,Kimi-K2.7,oap2,238,0.556723,0.542017,evaluation/combined/KimiK25_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,deepseek_r1,DeepSeek-R1,zero_shot,242,0.480579,0.475207,evaluation/combined/deepseek-r1_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,deepseek_r1,DeepSeek-R1,oap2,242,0.510744,0.512397,evaluation/combined/deepseek-r1_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,o4mini,O4-mini,zero_shot,241,0.469710,0.448133,evaluation/combined/O4-mini_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,o4mini,O4-mini,oap2,242,0.437603,0.413223,evaluation/combined/O4-mini_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,glm5,GLM-5,zero_shot,242,0.341736,0.330579,evaluation/combined/GLM5_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,glm5,GLM-5,oap2,242,0.364050,0.338843,evaluation/combined/GLM5_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,deepseek_v4_pro,DeepSeek-V4-Pro,zero_shot,242,0.318595,0.293388,evaluation/combined/DeepseekV4Pro_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,deepseek_v4_pro,DeepSeek-V4-Pro,oap2,242,0.436364,0.429752,evaluation/combined/DeepseekV4Pro_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,gpt4o,GPT-4o,zero_shot,242,0.281405,0.256198,evaluation/combined/GPT4o_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,gpt4o,GPT-4o,oap2,242,0.385950,0.367769,evaluation/combined/GPT4o_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv
+combined,gpt5,GPT-5.4-mini,zero_shot,242,0.202479,0.173554,evaluation/combined/GPT5_Results/combined_summary_Dataset_Combined_Obfuscation_ZS.csv
+combined,gpt5,GPT-5.4-mini,oap2,242,0.221074,0.198347,evaluation/combined/GPT5_Results/combined_summary_Dataset_Combined_Obfuscation_OAP2.csv

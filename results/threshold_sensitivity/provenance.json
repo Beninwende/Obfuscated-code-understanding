@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-04",
+  "thresholds": [
+    0.45,
+    0.5,
+    0.55
+  ],
+  "border_band": 0.05,
+  "measured_only": true,
+  "n_model_rows": 60,
+  "n_problem_rate_rows": 60
+}
