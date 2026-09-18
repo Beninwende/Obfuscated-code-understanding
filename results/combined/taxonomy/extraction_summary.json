@@ -1,0 +1,53 @@
+{
+  "tau": 0.5,
+  "definition": "score(combined) < tau; desc_ok=reference_gt; category in {ZS, OAP2}",
+  "n_pairs": 2417,
+  "by_category": {
+    "ZS": 1248,
+    "OAP2": 1169
+  },
+  "by_model": {
+    "deepseek_v4_pro": 309,
+    "glm5": 322,
+    "gpt4o": 333,
+    "gpt5": 394,
+    "gemini": 321,
+    "kimi_k25": 218,
+    "o4mini": 275,
+    "deepseek_r1": 245
+  },
+  "per_model_condition": {
+    "deepseek_v4_pro": {
+      "ZS": 171,
+      "OAP2": 138
+    },
+    "glm5": {
+      "ZS": 162,
+      "OAP2": 160
+    },
+    "gpt4o": {
+      "ZS": 180,
+      "OAP2": 153
+    },
+    "gpt5": {
+      "ZS": 200,
+      "OAP2": 194
+    },
+    "gemini": {
+      "ZS": 166,
+      "OAP2": 155
+    },
+    "kimi_k25": {
+      "ZS": 109,
+      "OAP2": 109
+    },
+    "o4mini": {
+      "ZS": 133,
+      "OAP2": 142
+    },
+    "deepseek_r1": {
+      "ZS": 127,
+      "OAP2": 118
+    }
+  }
+}

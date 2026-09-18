@@ -1,0 +1,5 @@
+category,Correct (no failure),Obfuscation Narrative,Algorithm Confusion,Semantic Drift,Algorithm Misunderstanding,PARSE_FAIL,Hallucination,Structural Description Only,Minimal Code Understanding,Functional Inaccuracy,total
+Comment_Dependency,316,0,29,6,2,5,11,0,1,0,370
+Identifier_Sensitivity,314,47,142,29,26,16,8,12,6,0,600
+Semantic_Frontier,204,585,274,65,30,21,10,11,1,0,1201
+Structural_Fragility,441,5,140,14,23,37,7,3,2,2,674

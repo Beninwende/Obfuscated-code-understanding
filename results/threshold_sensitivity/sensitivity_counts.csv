@@ -1,0 +1,17 @@
+dataset,tau,n_models,n_semantic,n_structural,n_lexical,pct_semantic,n_unstable_across_tau,n_near_threshold_band
+java250,0.45,15,11,4,0,73.3,,
+java250,0.50,15,11,3,1,73.3,,
+java250,0.55,15,11,3,1,73.3,,
+java250,meta,15,,,,,1,1
+java906,0.45,15,15,0,0,100.0,,
+java906,0.50,15,15,0,0,100.0,,
+java906,0.55,15,15,0,0,100.0,,
+java906,meta,15,,,,,0,0
+javascript250,0.45,15,12,2,1,80.0,,
+javascript250,0.50,15,12,0,3,80.0,,
+javascript250,0.55,15,10,2,3,66.7,,
+javascript250,meta,15,,,,,4,4
+javascript454,0.45,15,10,4,1,66.7,,
+javascript454,0.50,15,10,4,1,66.7,,
+javascript454,0.55,15,9,5,1,60.0,,
+javascript454,meta,15,,,,,1,1

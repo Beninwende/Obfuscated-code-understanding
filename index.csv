@@ -1,0 +1,6 @@
+corpus,data_dir,evaluation_dir,results_notes
+java250,data/java250,evaluation/java250,results/scores + results/taxonomy
+java656,data/java656,evaluation/java656,results/scores + results/taxonomy
+javascript250,data/javascript250,evaluation/javascript250,results/scores
+javascript454,data/javascript454,evaluation/javascript454,results/scores + results/taxonomy
+combined,,evaluation/combined,results/combined (no separate data/ tree)

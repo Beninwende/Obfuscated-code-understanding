@@ -1,0 +1,12 @@
+function romanToInt(s) {
+    const romVal = {I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000};
+    let intVal = 0;
+    for (let i = 0; i < s.length; i++) {
+        if (i > 0 && romVal[s[i]] > romVal[s[i - 1]]) {
+            intVal += romVal[s[i]] - 2 * romVal[s[i - 1]];
+        } else {
+            intVal += romVal[s[i]];
+        }
+    }
+    return intVal;
+}

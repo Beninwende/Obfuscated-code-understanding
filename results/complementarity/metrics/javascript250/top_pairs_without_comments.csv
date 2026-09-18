@@ -1,0 +1,14 @@
+rank,model1,model2,model1_key,model2_key,n_valid,union_pct,both_pct,only1_pct,only2_pct,single1_pct,single2_pct,both,only1,only2
+1,DeepSeek-R1,Kimi-K2.7,deepseek_r1,kimi_k25,250,97.6000,84.8000,5.2000,7.6000,90.0000,92.4000,212,13,19
+2,DeepSeek-R1,Qwen3.7,deepseek_r1,qwen37_plus,250,97.2000,82.8000,7.2000,7.2000,90.0000,90.0000,207,18,18
+3,DeepSeek-R1,GLM-5,deepseek_r1,glm5,250,96.4000,85.2000,4.8000,6.4000,90.0000,91.6000,213,12,16
+4,O4-mini,DeepSeek-R1,o4mini,deepseek_r1,250,96.0000,82.0000,6.0000,8.0000,88.0000,90.0000,205,15,20
+5,DeepSeek-V3.1,DeepSeek-R1,deepseek_v31,deepseek_r1,250,96.0000,78.0000,6.0000,12.0000,84.0000,90.0000,195,15,30
+6,DeepSeek-R1,Claude-5,deepseek_r1,claude_sonnet_5,250,96.0000,80.4000,9.6000,6.0000,90.0000,86.4000,201,24,15
+7,GLM-5,Kimi-K2.7,glm5,kimi_k25,250,96.0000,88.0000,3.6000,4.4000,91.6000,92.4000,220,9,11
+8,Mistral,DeepSeek-R1,mistral,deepseek_r1,250,95.6000,69.2000,5.6000,20.8000,74.8000,90.0000,173,14,52
+9,DeepSeek-R1,QwenCoder,deepseek_r1,qwencoder32b,250,95.6000,72.0000,18.0000,5.6000,90.0000,77.6000,180,45,14
+10,DeepSeek-R1,GPT-5,deepseek_r1,gpt5,250,95.6000,76.0000,14.0000,5.6000,90.0000,81.6000,190,35,14
+11,DeepSeek-V4-Pro,Qwen3.7,deepseek_v4_pro,qwen37_plus,250,95.6000,80.0000,5.6000,10.0000,85.6000,90.0000,200,14,25
+12,DeepSeek-R1,DeepSeek-V4-Pro,deepseek_r1,deepseek_v4_pro,250,95.2000,80.4000,9.6000,5.2000,90.0000,85.6000,201,24,13
+13,Qwen3.7,Claude-5,qwen37_plus,claude_sonnet_5,250,95.2000,81.2000,8.8000,5.2000,90.0000,86.4000,203,22,13

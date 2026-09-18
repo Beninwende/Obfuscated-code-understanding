@@ -1,0 +1,147 @@
+model,condition,failure_type,count,pct
+DeepSeek-R1,OAP2,Algorithm Confusion,26,22.0339
+DeepSeek-R1,OAP2,Algorithm Misunderstanding,24,20.3390
+DeepSeek-R1,OAP2,Functional Inaccuracy,23,19.4915
+DeepSeek-R1,OAP2,Obfuscation Narrative,11,9.3220
+DeepSeek-R1,OAP2,Correct (no failure),10,8.4746
+DeepSeek-R1,OAP2,PARSE_FAIL,8,6.7797
+DeepSeek-R1,OAP2,Semantic Drift,7,5.9322
+DeepSeek-R1,OAP2,Hallucination,5,4.2373
+DeepSeek-R1,OAP2,Structural Description Only,4,3.3898
+DeepSeek-R1,ZS,Obfuscation Narrative,45,35.4331
+DeepSeek-R1,ZS,Algorithm Confusion,21,16.5354
+DeepSeek-R1,ZS,Algorithm Misunderstanding,19,14.9606
+DeepSeek-R1,ZS,Functional Inaccuracy,14,11.0236
+DeepSeek-R1,ZS,Semantic Drift,12,9.4488
+DeepSeek-R1,ZS,Correct (no failure),7,5.5118
+DeepSeek-R1,ZS,Structural Description Only,4,3.1496
+DeepSeek-R1,ZS,PARSE_FAIL,4,3.1496
+DeepSeek-R1,ZS,Hallucination,1,0.7874
+DeepSeek-V4-Pro,OAP2,Algorithm Misunderstanding,37,26.8116
+DeepSeek-V4-Pro,OAP2,Functional Inaccuracy,28,20.2899
+DeepSeek-V4-Pro,OAP2,Algorithm Confusion,19,13.7681
+DeepSeek-V4-Pro,OAP2,Obfuscation Narrative,16,11.5942
+DeepSeek-V4-Pro,OAP2,Correct (no failure),13,9.4203
+DeepSeek-V4-Pro,OAP2,Semantic Drift,11,7.9710
+DeepSeek-V4-Pro,OAP2,Hallucination,5,3.6232
+DeepSeek-V4-Pro,OAP2,Structural Description Only,5,3.6232
+DeepSeek-V4-Pro,OAP2,PARSE_FAIL,4,2.8986
+DeepSeek-V4-Pro,ZS,Obfuscation Narrative,71,41.5205
+DeepSeek-V4-Pro,ZS,Algorithm Confusion,26,15.2047
+DeepSeek-V4-Pro,ZS,Functional Inaccuracy,22,12.8655
+DeepSeek-V4-Pro,ZS,Algorithm Misunderstanding,21,12.2807
+DeepSeek-V4-Pro,ZS,Semantic Drift,9,5.2632
+DeepSeek-V4-Pro,ZS,PARSE_FAIL,7,4.0936
+DeepSeek-V4-Pro,ZS,Correct (no failure),6,3.5088
+DeepSeek-V4-Pro,ZS,Hallucination,5,2.9240
+DeepSeek-V4-Pro,ZS,Structural Description Only,4,2.3392
+GLM-5,OAP2,Algorithm Misunderstanding,41,25.6250
+GLM-5,OAP2,Functional Inaccuracy,33,20.6250
+GLM-5,OAP2,Algorithm Confusion,31,19.3750
+GLM-5,OAP2,Hallucination,16,10.0000
+GLM-5,OAP2,Semantic Drift,15,9.3750
+GLM-5,OAP2,Obfuscation Narrative,15,9.3750
+GLM-5,OAP2,Correct (no failure),4,2.5000
+GLM-5,OAP2,Structural Description Only,3,1.8750
+GLM-5,OAP2,PARSE_FAIL,2,1.2500
+GLM-5,ZS,Obfuscation Narrative,59,36.4198
+GLM-5,ZS,Algorithm Misunderstanding,35,21.6049
+GLM-5,ZS,Functional Inaccuracy,29,17.9012
+GLM-5,ZS,Algorithm Confusion,20,12.3457
+GLM-5,ZS,Semantic Drift,9,5.5556
+GLM-5,ZS,Hallucination,4,2.4691
+GLM-5,ZS,PARSE_FAIL,3,1.8519
+GLM-5,ZS,Structural Description Only,2,1.2346
+GLM-5,ZS,Correct (no failure),1,0.6173
+GPT-4o,OAP2,Obfuscation Narrative,47,30.7190
+GPT-4o,OAP2,Algorithm Misunderstanding,38,24.8366
+GPT-4o,OAP2,Algorithm Confusion,30,19.6078
+GPT-4o,OAP2,Functional Inaccuracy,17,11.1111
+GPT-4o,OAP2,Structural Description Only,6,3.9216
+GPT-4o,OAP2,PARSE_FAIL,6,3.9216
+GPT-4o,OAP2,Hallucination,5,3.2680
+GPT-4o,OAP2,Semantic Drift,3,1.9608
+GPT-4o,OAP2,Correct (no failure),1,0.6536
+GPT-4o,ZS,Obfuscation Narrative,84,46.6667
+GPT-4o,ZS,Structural Description Only,31,17.2222
+GPT-4o,ZS,Functional Inaccuracy,17,9.4444
+GPT-4o,ZS,Algorithm Confusion,15,8.3333
+GPT-4o,ZS,Algorithm Misunderstanding,15,8.3333
+GPT-4o,ZS,Semantic Drift,9,5.0000
+GPT-4o,ZS,Hallucination,5,2.7778
+GPT-4o,ZS,PARSE_FAIL,2,1.1111
+GPT-4o,ZS,Correct (no failure),2,1.1111
+GPT-5-nano,OAP2,Algorithm Misunderstanding,64,32.9897
+GPT-5-nano,OAP2,Obfuscation Narrative,62,31.9588
+GPT-5-nano,OAP2,Functional Inaccuracy,34,17.5258
+GPT-5-nano,OAP2,Algorithm Confusion,14,7.2165
+GPT-5-nano,OAP2,Structural Description Only,11,5.6701
+GPT-5-nano,OAP2,PARSE_FAIL,4,2.0619
+GPT-5-nano,OAP2,Hallucination,2,1.0309
+GPT-5-nano,OAP2,Correct (no failure),2,1.0309
+GPT-5-nano,OAP2,Semantic Drift,1,0.5155
+GPT-5-nano,ZS,Obfuscation Narrative,113,56.5000
+GPT-5-nano,ZS,Algorithm Misunderstanding,28,14.0000
+GPT-5-nano,ZS,Algorithm Confusion,18,9.0000
+GPT-5-nano,ZS,Structural Description Only,16,8.0000
+GPT-5-nano,ZS,Functional Inaccuracy,14,7.0000
+GPT-5-nano,ZS,Semantic Drift,8,4.0000
+GPT-5-nano,ZS,Correct (no failure),1,0.5000
+GPT-5-nano,ZS,PARSE_FAIL,1,0.5000
+GPT-5-nano,ZS,Hallucination,1,0.5000
+Gemini-3-preview,OAP2,Obfuscation Narrative,37,23.8710
+Gemini-3-preview,OAP2,Structural Description Only,33,21.2903
+Gemini-3-preview,OAP2,Minimal Code Understanding,28,18.0645
+Gemini-3-preview,OAP2,Semantic Drift,13,8.3871
+Gemini-3-preview,OAP2,Functional Inaccuracy,13,8.3871
+Gemini-3-preview,OAP2,Algorithm Confusion,8,5.1613
+Gemini-3-preview,OAP2,Algorithm Misunderstanding,8,5.1613
+Gemini-3-preview,OAP2,Correct (no failure),6,3.8710
+Gemini-3-preview,OAP2,Hallucination,6,3.8710
+Gemini-3-preview,OAP2,PARSE_FAIL,3,1.9355
+Gemini-3-preview,ZS,Obfuscation Narrative,41,24.6988
+Gemini-3-preview,ZS,Algorithm Misunderstanding,38,22.8916
+Gemini-3-preview,ZS,Functional Inaccuracy,28,16.8675
+Gemini-3-preview,ZS,Algorithm Confusion,19,11.4458
+Gemini-3-preview,ZS,Semantic Drift,15,9.0361
+Gemini-3-preview,ZS,Structural Description Only,15,9.0361
+Gemini-3-preview,ZS,PARSE_FAIL,4,2.4096
+Gemini-3-preview,ZS,Hallucination,3,1.8072
+Gemini-3-preview,ZS,Correct (no failure),2,1.2048
+Gemini-3-preview,ZS,Minimal Code Understanding,1,0.6024
+Kimi-K2.7,OAP2,Algorithm Confusion,23,21.1009
+Kimi-K2.7,OAP2,Correct (no failure),21,19.2661
+Kimi-K2.7,OAP2,Functional Inaccuracy,17,15.5963
+Kimi-K2.7,OAP2,Algorithm Misunderstanding,15,13.7615
+Kimi-K2.7,OAP2,Semantic Drift,11,10.0917
+Kimi-K2.7,OAP2,Obfuscation Narrative,8,7.3394
+Kimi-K2.7,OAP2,PARSE_FAIL,8,7.3394
+Kimi-K2.7,OAP2,Structural Description Only,3,2.7523
+Kimi-K2.7,OAP2,Hallucination,3,2.7523
+Kimi-K2.7,ZS,Obfuscation Narrative,26,23.8532
+Kimi-K2.7,ZS,Algorithm Confusion,21,19.2661
+Kimi-K2.7,ZS,Functional Inaccuracy,17,15.5963
+Kimi-K2.7,ZS,Semantic Drift,15,13.7615
+Kimi-K2.7,ZS,Correct (no failure),13,11.9266
+Kimi-K2.7,ZS,Algorithm Misunderstanding,7,6.4220
+Kimi-K2.7,ZS,Structural Description Only,4,3.6697
+Kimi-K2.7,ZS,PARSE_FAIL,4,3.6697
+Kimi-K2.7,ZS,Hallucination,2,1.8349
+O4-mini,OAP2,Algorithm Confusion,40,28.1690
+O4-mini,OAP2,Algorithm Misunderstanding,35,24.6479
+O4-mini,OAP2,Functional Inaccuracy,25,17.6056
+O4-mini,OAP2,Correct (no failure),11,7.7465
+O4-mini,OAP2,Semantic Drift,9,6.3380
+O4-mini,OAP2,Obfuscation Narrative,9,6.3380
+O4-mini,OAP2,PARSE_FAIL,8,5.6338
+O4-mini,OAP2,Hallucination,3,2.1127
+O4-mini,OAP2,Structural Description Only,2,1.4085
+O4-mini,ZS,Obfuscation Narrative,39,29.3233
+O4-mini,ZS,Algorithm Confusion,24,18.0451
+O4-mini,ZS,Semantic Drift,19,14.2857
+O4-mini,ZS,Algorithm Misunderstanding,19,14.2857
+O4-mini,ZS,Functional Inaccuracy,17,12.7820
+O4-mini,ZS,Correct (no failure),7,5.2632
+O4-mini,ZS,Structural Description Only,5,3.7594
+O4-mini,ZS,PARSE_FAIL,2,1.5038
+O4-mini,ZS,Hallucination,1,0.7519

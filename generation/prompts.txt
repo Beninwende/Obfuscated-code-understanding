@@ -1,0 +1,163 @@
+   prompt_simple = f"""
+    ### Instruction: Analyze the code and tell me what it does. Explain clearly the goal of this code and its functions. Your response must contain a title, the main goal of the code.
+ 
+    Here is the Java code snippet:
+    <code>
+    ```{java_code}```
+    </code>
+ 
+    Analyzing carefully the <code>.
+ 
+    ### Important: Provide only your short summary description within :
+    
+    ### Response:\n
+    <Summary_description>
+    """
+ 
+    # Second prompt (detailed reasoning prompt)
+    prompt_reason = f"""
+     ### Instruction: Analyze the following Java code step by step to understand its purpose and functionality.
+ 
+    First, you will be presented with a code snippet:
+    <code>
+    ```{java_code}```
+    </code>
+ 
+    Next, you will be given instructions to follow:
+    1. **Examine Structure:** Identify key components (classes, methods, fields) and their relationships.
+    2. **Trace Execution Flow:** Determine how methods interact and the overall program flow.
+    3. **Analyze Key Operations:** Note critical algorithms, data manipulations, or external interactions.
+    4. **Infer Intent:** Deduce the problem this code solves based on your analysis.
+    
+    **Reasoning:**
+    [Your step-by-step analysis here]
+ 
+    Present only your short summary description within:
+    
+    ### Response:\n
+    <Summary_description>
+    """
+ 
+    # Third prompt (few-shot prompt)
+    example_code = """import java.util.Scanner;
+public class Main_3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        StringBuffer sb = new StringBuffer(str);
+        String rv = sb.reverse().toString();
+        System.out.println(rv);
+    }
+}"""
+    
+    example_problem = """Exercise: Reverse a String
+Problem Statement: This program that takes a string as input and reverses its characters. The program should then output the reversed string.
+ 
+Requirements
+The input string will have a maximum length of 20 characters.
+The program must read the string and output its reversed version on a single line.
+Ensure the program handles uppercase, lowercase, digits, and special characters correctly."""
+ 
+    prompt_fewshot = f"""
+    ###Instruction: Your task is to generate a short summary description for a given piece of code. Your description should focus on how the code addresses the problem it was designed to solve. Here is how to proceed:
+ 
+    First, you will be presented with a code snippet:
+    <code>
+    ```{java_code}```
+    </code>
+ 
+    Next, you will be given an example of code following to his associate problem statement:
+    <Example_code>
+    ```{example_code}```
+    </Example_code>
+ 
+    And <Example_problem>
+    {example_problem}
+    </Example_problem>
+ 
+    Analyze carefully the <code>, paying attention of it structure, functions and logic. Consider How each part of the code contributes to solving the given problem.
+ 
+    Present only your summary description within :
+    
+    ### Response:\n
+    
+    """
+ 
+
+ Obfuscation resilient prompts:
+
+ def get_prompts_for_file_type(filename):
+    """
+    Returns the appropriate prompts based on the file type.
+    """
+    if "Variable_Renaming" in filename:
+        return {
+            "vague": """Analyze the following Java code that has been obfuscated using variable renaming, class and method renaming, and control flow obfuscation techniques and provide a description of what this code does. Focus on understanding the program's functionality and logic flow using at most 512 words.
+
+```{java_code}```
+
+### Response:""",
+            "detailed": """Analyze the following Java code that has been obfuscated using variable renaming, class and method renaming, and control flow obfuscation techniques. The obfuscation includes:
+- Renaming of local variables and method parameters to meaningless names
+- Addition of fake local variables with incorrect types to confuse decompilers
+- Removal or modification of debug information and source file names
+
+Despite these obfuscations, the core program logic remains intact. Please provide a detailed description of what this code does, focusing on the actual functionality, algorythm rather than the obfuscated variable names.
+
+Analyze carefully the <code>:
+
+```{java_code}```
+
+### Important: Provide only your short summary description within using at most 512 words:
+### Response:
+<summary_description>"""
+
+        }
+    
+    elif "DeadCode" in filename:
+        return {
+            "vague": """Analyze this Java code that has been obfuscated using control flow obfuscation techniques like dead code injection and describe its functionality. Pay attention to the control flow and program behavior.
+
+```{java_code}```
+
+### Response:""",
+            "detailed": """Analyze the following Java code that has been obfuscated using control flow obfuscation techniques. The obfuscation includes:
+- Replacement of unconditional GOTO jumps with conditional jumps that always evaluate to true
+- Insertion of fake conditional statements using random integer comparisons (IF_ICMPNE, IF_ICMPEQ, etc.)
+- Addition of dead code blocks that are never executed but appear to be part of the logic
+- Insertion of meaningless string operations (like "".length()) before jumps
+- Replacement of simple comparisons with method calls that return boolean values
+- Breaking of string concatenations by replacing StringBuilder.toString() calls
+
+The obfuscation creates the appearance of complex conditional logic, but the actual program flow remains unchanged. Please provide a description of what this code actually does, ignoring the fake conditional branches and dead code.
+
+Analyze carefully the <code>:
+```{java_code}```
+### Important: Provide only your short summary description within using at most 512 words:
+
+### Response:
+<summary_description>"""
+        }
+    
+    elif "Encryption" in filename:
+        return {
+            "vague": """Analyze this Java code that has been obfuscated using string and integer encryption techniques and describe the program's behavior, particularly focusing on any string operations and data processing.
+
+Analyze carefully the <code>:
+```{java_code}```
+
+### Important: Provide only your short summary description within using at most 512 words:
+### Response:
+<summary_description>""",
+            "detailed": """Analyze the following Java bytecode that has been obfuscated using string encryption techniques. The obfuscation includes:
+- Replacement of string literals with encrypted versions stored in static arrays
+- Use of XOR encryption with Base64 encoding for string obfuscation
+- Dynamic decryption at runtime using generated decryption methods
+- Storage of encrypted strings in class static fields initialized during class loading
+- Optional hiding of strings in the source file attribute using special Unicode markers
+- Use of multiple encryption algorithms (XOR, DES, Blowfish, optionally AES)
+
+The original strings are encrypted using XOR with a random key, then Base64 encoded. At runtime, the strings are decrypted by calling generated static methods. Please provide a description of what this code does, focusing on the actual string content and program functionality rather than the encryption mechanism.
+
+Analyze carefully the <code>:
+```{java_code}```

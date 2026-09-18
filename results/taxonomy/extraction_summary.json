@@ -1,0 +1,55 @@
+{
+  "tau": 0.5,
+  "cascade": [
+    [
+      "with_comments",
+      "without_comments",
+      "Comment_Dependency"
+    ],
+    [
+      "without_comments",
+      "renaming",
+      "Identifier_Sensitivity"
+    ],
+    [
+      "renaming",
+      "dead_code",
+      "Structural_Fragility"
+    ],
+    [
+      "dead_code",
+      "encryption",
+      "Semantic_Frontier"
+    ]
+  ],
+  "datasets": {
+    "java906": {
+      "n_pairs": 5155,
+      "by_category": {
+        "Comment_Dependency": 765,
+        "Identifier_Sensitivity": 1175,
+        "Structural_Fragility": 1108,
+        "Semantic_Frontier": 2107
+      },
+      "by_model": {
+        "gpt4o": 369,
+        "gpt35": 465,
+        "o4mini": 327,
+        "gemini": 255,
+        "llama70b": 452,
+        "mistral": 479,
+        "deepseek_v31": 345,
+        "deepseek_r1": 290,
+        "deepseek_v4_pro": 341,
+        "qwencoder32b": 420,
+        "qwen37_plus": 299,
+        "claude_sonnet_5": 273,
+        "glm5": 227,
+        "kimi_k25": 267,
+        "gpt5": 346
+      },
+      "n_models": 15,
+      "n_problems": 744
+    }
+  }
+}
