@@ -25,7 +25,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0408/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0408/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -42,7 +42,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0031/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0031/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -59,7 +59,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0342/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0342/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -76,7 +76,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0635/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0635/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -93,7 +93,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0159/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0159/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -110,7 +110,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0771/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0771/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -127,7 +127,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0323/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0323/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -144,7 +144,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0843/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0843/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -161,7 +161,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0004/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0004/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -178,7 +178,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0039/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0039/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -195,7 +195,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0245/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0245/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -212,7 +212,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0189/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0189/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -229,7 +229,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0496/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0496/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -246,7 +246,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0822/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0822/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -263,7 +263,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0522/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0522/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -280,7 +280,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0069/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0069/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -297,7 +297,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0108/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0108/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -314,7 +314,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0372/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0372/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -331,7 +331,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0123/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0123/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -348,7 +348,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0209/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0209/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -365,7 +365,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0747/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0747/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -382,7 +382,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0223/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0223/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -399,7 +399,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0776/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0776/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -416,7 +416,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0515/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0515/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -433,7 +433,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0838/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0838/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -450,7 +450,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0423/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0423/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -467,7 +467,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0940/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0940/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -484,7 +484,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0315/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0315/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -501,7 +501,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0074/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0074/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -518,7 +518,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0834/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0834/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -535,7 +535,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0501/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0501/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -552,7 +552,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0938/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0938/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -569,7 +569,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0306/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0306/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -586,7 +586,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0524/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0524/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -603,7 +603,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0550/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0550/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -620,7 +620,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0901/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0901/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -637,7 +637,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0926/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0926/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -654,7 +654,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0811/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0811/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -671,7 +671,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0523/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0523/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -688,7 +688,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0850/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0850/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -705,7 +705,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0463/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0463/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -722,7 +722,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0453/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0453/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -739,7 +739,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0469/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0469/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -756,7 +756,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0247/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0247/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -773,7 +773,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0382/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0382/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -790,7 +790,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0854/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0854/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -807,7 +807,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0755/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0755/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -824,7 +824,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0060/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0060/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -841,7 +841,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0107/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0107/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -858,7 +858,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0149/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0149/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -875,7 +875,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0239/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0239/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -892,7 +892,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0689/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0689/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -909,7 +909,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0466/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0466/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -926,7 +926,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0826/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0826/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -943,7 +943,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0121/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0121/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -960,7 +960,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0349/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0349/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -977,7 +977,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0129/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0129/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -994,7 +994,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0485/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0485/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1011,7 +1011,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0597/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0597/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1028,7 +1028,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0628/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0628/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1045,7 +1045,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0397/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0397/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1062,7 +1062,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0863/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0863/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1079,7 +1079,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0152/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0152/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1096,7 +1096,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0054/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0054/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1113,7 +1113,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0648/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0648/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1130,7 +1130,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0971/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0971/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1147,7 +1147,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0685/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0685/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1164,7 +1164,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0885/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0885/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1181,7 +1181,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0548/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0548/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1198,7 +1198,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0256/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0256/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1215,7 +1215,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0468/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0468/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1232,7 +1232,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0918/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0918/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1249,7 +1249,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0531/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0531/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1266,7 +1266,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0751/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0751/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1283,7 +1283,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0622/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0622/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1300,7 +1300,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0702/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0702/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1317,7 +1317,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0448/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0448/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1334,7 +1334,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0714/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0714/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1351,7 +1351,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0717/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0717/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1368,7 +1368,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0181/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0181/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1385,7 +1385,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0516/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0516/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1402,7 +1402,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0846/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0846/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1419,7 +1419,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0853/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0853/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1436,7 +1436,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0386/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0386/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1453,7 +1453,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0020/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0020/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1470,7 +1470,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0032/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0032/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0122/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0122/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1504,7 +1504,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0395/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0395/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1521,7 +1521,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0492/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0492/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1538,7 +1538,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0684/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0684/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1555,7 +1555,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0856/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0856/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1572,7 +1572,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0001/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0001/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1589,7 +1589,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0071/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0071/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1606,7 +1606,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0231/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0231/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1623,7 +1623,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0283/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0283/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1640,7 +1640,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0351/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0351/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1657,7 +1657,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0374/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0374/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1674,7 +1674,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0415/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0415/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1691,7 +1691,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0428/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0428/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1708,7 +1708,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0506/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0506/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1725,7 +1725,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0576/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0576/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1742,7 +1742,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0721/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0721/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1759,7 +1759,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0769/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0769/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1776,7 +1776,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0922/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0922/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1793,7 +1793,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0034/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0034/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1810,7 +1810,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0130/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0130/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1827,7 +1827,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0377/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0377/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1844,7 +1844,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0898/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0898/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1861,7 +1861,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0937/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0937/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1878,7 +1878,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0029/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0029/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1895,7 +1895,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0207/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0207/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1912,7 +1912,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0304/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0304/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1929,7 +1929,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0438/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0438/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1946,7 +1946,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0620/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0620/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1963,7 +1963,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0661/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0661/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1980,7 +1980,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0781/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0781/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -1997,7 +1997,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0842/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0842/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2014,7 +2014,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0131/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0131/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2031,7 +2031,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0498/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0498/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2048,7 +2048,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0510/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0510/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2065,7 +2065,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0659/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0659/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2082,7 +2082,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0175/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0175/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2099,7 +2099,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0188/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0188/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2116,7 +2116,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0481/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0481/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2133,7 +2133,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0899/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0899/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2150,7 +2150,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0916/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0916/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2167,7 +2167,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0672/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0672/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2184,7 +2184,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0691/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0691/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2201,7 +2201,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0891/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0891/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2218,7 +2218,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0068/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0068/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2235,7 +2235,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0172/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0172/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2252,7 +2252,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0192/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0192/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2269,7 +2269,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0227/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0227/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2286,7 +2286,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0663/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0663/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2303,7 +2303,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0876/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0876/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2320,7 +2320,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0018/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0018/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2337,7 +2337,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0520/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0520/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2354,7 +2354,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0179/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0179/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2371,7 +2371,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0819/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0819/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2388,7 +2388,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0364/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0364/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2405,7 +2405,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0541/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0541/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2422,7 +2422,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0711/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0711/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2439,7 +2439,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0815/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0815/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2456,7 +2456,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0836/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0836/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2473,7 +2473,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0070/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0070/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2490,7 +2490,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0136/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0136/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2507,7 +2507,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0195/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0195/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2524,7 +2524,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0316/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0316/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2541,7 +2541,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0326/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0326/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2558,7 +2558,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0532/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0532/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2575,7 +2575,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0603/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0603/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2592,7 +2592,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0733/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0733/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2609,7 +2609,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0793/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0793/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2626,7 +2626,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0907/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0907/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2643,7 +2643,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0480/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0480/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2660,7 +2660,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0571/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0571/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0617/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0617/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2694,7 +2694,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0709/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0709/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2711,7 +2711,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0806/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0806/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2728,7 +2728,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0953/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0953/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2745,7 +2745,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0030/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0030/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2762,7 +2762,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0338/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0338/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2779,7 +2779,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0923/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0923/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2796,7 +2796,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0113/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0113/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2813,7 +2813,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0134/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0134/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2830,7 +2830,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0275/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0275/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2847,7 +2847,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0286/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0286/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2864,7 +2864,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0311/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0311/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2881,7 +2881,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0355/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0355/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2898,7 +2898,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0575/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0575/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2915,7 +2915,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0657/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0657/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2932,7 +2932,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0828/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0828/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2949,7 +2949,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0047/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0047/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2966,7 +2966,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0110/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0110/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -2983,7 +2983,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0140/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0140/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3000,7 +3000,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0225/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0225/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3017,7 +3017,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0255/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0255/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3034,7 +3034,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0384/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0384/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3051,7 +3051,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0487/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0487/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3068,7 +3068,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0489/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0489/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3085,7 +3085,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0505/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0505/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3102,7 +3102,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0546/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0546/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3119,7 +3119,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0559/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0559/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3136,7 +3136,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0589/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0589/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3153,7 +3153,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0605/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0605/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3170,7 +3170,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0627/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0627/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3187,7 +3187,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0650/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0650/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3204,7 +3204,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0681/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0681/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3221,7 +3221,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0745/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0745/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3238,7 +3238,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0829/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0829/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3255,7 +3255,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0874/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0874/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3272,7 +3272,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0903/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0903/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3289,7 +3289,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0952/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0952/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3306,7 +3306,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0974/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0974/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3323,7 +3323,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0125/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0125/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3340,7 +3340,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0147/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0147/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3357,7 +3357,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0187/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0187/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3374,7 +3374,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0385/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0385/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3391,7 +3391,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0414/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0414/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3408,7 +3408,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0706/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0706/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3425,7 +3425,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0757/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0757/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3442,7 +3442,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0867/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0867/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3459,7 +3459,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0943/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0943/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3476,7 +3476,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0961/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0961/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3493,7 +3493,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0025/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0025/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3510,7 +3510,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0026/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0026/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3527,7 +3527,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0078/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0078/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3544,7 +3544,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0092/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0092/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3561,7 +3561,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0093/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0093/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3578,7 +3578,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0127/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0127/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3595,7 +3595,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0166/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0166/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3612,7 +3612,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0167/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0167/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3629,7 +3629,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0183/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0183/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3646,7 +3646,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0296/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0296/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3663,7 +3663,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0343/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0343/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3680,7 +3680,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0350/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0350/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3697,7 +3697,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0507/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0507/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3714,7 +3714,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0527/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0527/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3731,7 +3731,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0556/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0556/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3748,7 +3748,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0564/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0564/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3765,7 +3765,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0754/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0754/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3782,7 +3782,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0767/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0767/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3799,7 +3799,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0824/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0824/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3816,7 +3816,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0831/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0831/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3833,7 +3833,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0841/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0841/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3850,7 +3850,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0849/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0849/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3867,7 +3867,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0914/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0914/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3884,7 +3884,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0969/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0969/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3901,7 +3901,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0101/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0101/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3918,7 +3918,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0142/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0142/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3935,7 +3935,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0165/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0165/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3952,7 +3952,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0219/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0219/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3969,7 +3969,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0352/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0352/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -3986,7 +3986,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0683/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0683/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4003,7 +4003,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0803/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0803/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4020,7 +4020,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0902/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0902/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4037,7 +4037,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0028/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0028/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4054,7 +4054,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0040/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0040/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4071,7 +4071,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0103/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0103/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4088,7 +4088,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0126/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0126/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4105,7 +4105,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0150/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0150/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4122,7 +4122,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0346/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0346/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4139,7 +4139,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0764/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0764/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4156,7 +4156,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0818/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0818/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4173,7 +4173,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0148/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0148/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4190,7 +4190,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0844/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0844/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4207,7 +4207,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0061/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0061/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4224,7 +4224,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0289/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0289/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4241,7 +4241,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0598/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0598/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4258,7 +4258,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0348/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0348/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4275,7 +4275,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0540/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0540/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4292,7 +4292,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0958/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0958/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4309,7 +4309,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0164/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0164/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4326,7 +4326,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0630/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0630/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4343,7 +4343,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0707/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0707/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4360,7 +4360,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0895/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0895/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4377,7 +4377,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0045/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0045/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4394,7 +4394,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0155/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0155/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4411,7 +4411,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0169/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0169/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4428,7 +4428,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0218/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0218/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4445,7 +4445,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0235/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0235/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4462,7 +4462,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0246/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0246/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4479,7 +4479,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0383/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0383/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4496,7 +4496,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0509/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0509/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4513,7 +4513,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0511/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0511/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4530,7 +4530,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0526/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0526/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4547,7 +4547,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0592/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0592/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4564,7 +4564,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0664/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0664/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4581,7 +4581,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0671/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0671/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4598,7 +4598,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0022/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0022/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4615,7 +4615,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0083/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0083/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4632,7 +4632,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0097/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0097/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4649,7 +4649,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0158/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0158/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4666,7 +4666,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0302/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0302/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4683,7 +4683,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0362/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0362/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4700,7 +4700,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0417/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0417/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4717,7 +4717,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0619/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0619/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4734,7 +4734,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0658/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0658/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4751,7 +4751,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0674/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0674/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4768,7 +4768,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0701/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0701/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4785,7 +4785,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0736/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0736/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4802,7 +4802,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0786/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0786/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4819,7 +4819,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0823/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0823/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4836,7 +4836,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0868/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0868/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4853,7 +4853,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0009/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0009/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4870,7 +4870,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0011/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0011/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4887,7 +4887,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0023/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0023/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4904,7 +4904,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0048/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0048/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4921,7 +4921,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0067/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0067/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4938,7 +4938,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0217/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0217/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4955,7 +4955,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0321/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0321/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4972,7 +4972,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0331/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0331/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -4989,7 +4989,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0332/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0332/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5006,7 +5006,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0371/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0371/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5023,7 +5023,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0416/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0416/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5040,7 +5040,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0462/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0462/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5057,7 +5057,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0483/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0483/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5074,7 +5074,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0552/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0552/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5091,7 +5091,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0602/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0602/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5108,7 +5108,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0608/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0608/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5125,7 +5125,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0687/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0687/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5142,7 +5142,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0763/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0763/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5159,7 +5159,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0780/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0780/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5176,7 +5176,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0003/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0003/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5193,7 +5193,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0079/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0079/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5210,7 +5210,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0128/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0128/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5227,7 +5227,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0137/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0137/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5244,7 +5244,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0186/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0186/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5261,7 +5261,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0199/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0199/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5278,7 +5278,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0229/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0229/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5295,7 +5295,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0303/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0303/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5312,7 +5312,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0318/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0318/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5329,7 +5329,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0325/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0325/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5346,7 +5346,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0388/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0388/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5363,7 +5363,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0394/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0394/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5380,7 +5380,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0402/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0402/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5397,7 +5397,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0442/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0442/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5414,7 +5414,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0530/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0530/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5431,7 +5431,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0537/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0537/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5448,7 +5448,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0583/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0583/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5465,7 +5465,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0692/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0692/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5482,7 +5482,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0777/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0777/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5499,7 +5499,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0808/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0808/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5516,7 +5516,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0810/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0810/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5533,7 +5533,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0845/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0845/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5550,7 +5550,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0880/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0880/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5567,7 +5567,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0942/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0942/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5584,7 +5584,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0964/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0964/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5601,7 +5601,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0066/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0066/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5618,7 +5618,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0090/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0090/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5635,7 +5635,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0109/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0109/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5652,7 +5652,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0168/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0168/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5669,7 +5669,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0178/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0178/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5686,7 +5686,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0202/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0202/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5703,7 +5703,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0204/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0204/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5720,7 +5720,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0226/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0226/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5737,7 +5737,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0250/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0250/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5754,7 +5754,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0264/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0264/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5771,7 +5771,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0270/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0270/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5788,7 +5788,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0277/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0277/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5805,7 +5805,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0288/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0288/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5822,7 +5822,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0295/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0295/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5839,7 +5839,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0329/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0329/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5856,7 +5856,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0437/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0437/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5873,7 +5873,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0443/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0443/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5890,7 +5890,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0517/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0517/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5907,7 +5907,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0554/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0554/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5924,7 +5924,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0629/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0629/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5941,7 +5941,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0633/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0633/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5958,7 +5958,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0666/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0666/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5975,7 +5975,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0694/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0694/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -5992,7 +5992,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0741/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0741/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6009,7 +6009,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0809/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0809/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6026,7 +6026,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0897/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0897/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6043,7 +6043,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0932/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0932/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6060,7 +6060,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0947/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0947/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6077,7 +6077,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0955/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0955/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6094,7 +6094,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0960/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0960/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6111,7 +6111,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0100/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0100/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6128,7 +6128,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0305/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0305/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6145,7 +6145,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0412/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0412/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6162,7 +6162,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0675/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0675/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6179,7 +6179,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0802/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0802/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6196,7 +6196,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0804/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0804/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6213,7 +6213,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0889/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0889/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6230,7 +6230,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0890/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0890/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6247,7 +6247,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0908/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0908/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6264,7 +6264,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0909/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0909/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6281,7 +6281,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0545/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0545/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6298,7 +6298,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0735/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0735/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6315,7 +6315,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0005/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0005/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6332,7 +6332,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0114/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0114/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6349,7 +6349,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0194/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0194/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6366,7 +6366,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0392/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0392/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6383,7 +6383,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0033/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0033/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6400,7 +6400,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0324/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0324/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6417,7 +6417,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0467/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0467/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6434,7 +6434,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0734/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0734/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6451,7 +6451,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0024/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0024/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6468,7 +6468,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0056/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0056/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6485,7 +6485,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0141/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0141/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6502,7 +6502,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0645/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0645/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6519,7 +6519,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0036/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0036/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6536,7 +6536,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0200/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0200/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6553,7 +6553,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0220/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0220/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6570,7 +6570,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0291/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0291/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6587,7 +6587,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0314/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0314/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6604,7 +6604,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0320/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0320/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6621,7 +6621,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0322/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0322/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6638,7 +6638,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0905/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0905/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6655,7 +6655,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0102/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0102/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6672,7 +6672,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0145/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0145/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6689,7 +6689,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0151/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0151/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6706,7 +6706,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0203/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0203/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6723,7 +6723,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0236/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0236/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6740,7 +6740,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0300/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0300/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6757,7 +6757,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0508/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0508/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6774,7 +6774,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0529/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0529/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6791,7 +6791,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0543/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0543/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6808,7 +6808,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0547/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0547/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6825,7 +6825,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0549/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0549/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6842,7 +6842,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0563/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0563/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6859,7 +6859,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0570/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0570/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6876,7 +6876,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0656/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0656/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6893,7 +6893,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0740/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0740/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6910,7 +6910,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0752/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0752/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6927,7 +6927,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0766/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0766/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6944,7 +6944,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0906/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0906/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6961,7 +6961,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0016/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0016/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6978,7 +6978,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0043/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0043/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -6995,7 +6995,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0044/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0044/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7012,7 +7012,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0057/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0057/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7029,7 +7029,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0213/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0213/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7046,7 +7046,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0224/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0224/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7063,7 +7063,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0228/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0228/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7080,7 +7080,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0261/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0261/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7097,7 +7097,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0271/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0271/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7114,7 +7114,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0285/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0285/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7131,7 +7131,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0365/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0365/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7148,7 +7148,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0387/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0387/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7165,7 +7165,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0391/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0391/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7182,7 +7182,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0396/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0396/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7199,7 +7199,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0399/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0399/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7216,7 +7216,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0406/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0406/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7233,7 +7233,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0433/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0433/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7250,7 +7250,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0434/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0434/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7267,7 +7267,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0444/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0444/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7284,7 +7284,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0449/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0449/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7301,7 +7301,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0452/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0452/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7318,7 +7318,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0454/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0454/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7335,7 +7335,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0472/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0472/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7352,7 +7352,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0482/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0482/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7369,7 +7369,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0534/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0534/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7386,7 +7386,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0573/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0573/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7403,7 +7403,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0634/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0634/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7420,7 +7420,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0643/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0643/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7437,7 +7437,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0677/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0677/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7454,7 +7454,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0719/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0719/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7471,7 +7471,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0746/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0746/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7488,7 +7488,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0756/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0756/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7505,7 +7505,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0761/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0761/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7522,7 +7522,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0768/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0768/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7539,7 +7539,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0770/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0770/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7556,7 +7556,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0774/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0774/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7573,7 +7573,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0782/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0782/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7590,7 +7590,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0787/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0787/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7607,7 +7607,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0794/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0794/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7624,7 +7624,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0801/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0801/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7641,7 +7641,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0855/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0855/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7658,7 +7658,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0879/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0879/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7675,7 +7675,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0917/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0917/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7692,7 +7692,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0925/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0925/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7709,7 +7709,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0930/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0930/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     },
     {
@@ -7726,7 +7726,7 @@
         "javascript_file": "javascript_programs/problems_javascript/mbpp_0954/Solution.js",
         "obfuscation_input": "obfuscation_input/Data_With_Comments.json",
         "harness": "harness/mbpp_0954/Runnable.js",
-        "ground_truth": "ground_truth/problem_descriptions.json"
+        "ground_truth": "problem_description.json"
       }
     }
   ]
